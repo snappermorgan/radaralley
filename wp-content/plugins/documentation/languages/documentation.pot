@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2014-05-04 14:43+0200\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: lib/views/class-documentation-walker-document.php:109
+#, php-format
+msgid   "#%d (no title)"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:386
+#, php-format
+msgid   "1 reply"
+msgid_plural    "%d replies"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#: lib/admin/class-documentation-settings.php:77 lib/admin/settings.php:25
+msgid   "Access denied."
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:59
+msgid   "Add New Category"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:74
+msgid   "Add New Document"
+msgstr  ""
+
+#: lib/admin/settings.php:86
+#, php-format
+msgid   "After changing this, please visit the <a href=\"%s\">Permalinks</a> "
+        "admin section to make sure that the permalink structure is updated."
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:54
+msgid   "All Categories"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:72
+msgid   "All Documents"
+msgstr  ""
+
+#: lib/admin/settings.php:63
+msgid   "Allow comments on documents"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:70
+#: lib/views/class-documentation-document-children-widget.php:79
+msgid   "Ascending"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:64
+#: lib/views/class-documentation-document-children-widget.php:73
+msgid   "Author"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:61
+msgid   "Categories"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:280
+msgid   "Category ID"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:287
+#, php-format
+msgid   "Category: <em>%s</em>"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:282
+msgid   "Children of ..."
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:237
+msgid   "Children of documents above"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:67
+msgid   "Comment Count"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:65
+#: lib/views/class-documentation-document-children-widget.php:74
+msgid   "Date"
+msgstr  ""
+
+#: lib/admin/settings.php:82
+msgid   "Depending on your Permalink settings, URLs of documents will contain "
+        "this in their path before the section that identifies the document."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:71
+#: lib/views/class-documentation-document-children-widget.php:80
+msgid   "Descending"
+msgstr  ""
+
+#: lib/admin/settings.php:68
+msgid   "Disable this option if you do not want to allow visitors to post "
+        "comments on documents."
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:71
+#: lib/ext/class-documentation-post-type.php:86
+msgid   "Document"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:51
+msgctxt "taxonomy general name"
+msgid   "Document Categories"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:52
+msgctxt "taxonomy singular name"
+msgid   "Document Category"
+msgstr  ""
+
+#: lib/admin/settings.php:78
+msgid   "Document slug"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:289
+#, php-format
+msgid   "Document: <em>%s</em>"
+msgstr  ""
+
+#: lib/admin/class-documentation-settings.php:63
+msgid   "Documentation Settings"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:70
+#: lib/views/class-documentation-renderer.php:243
+msgid   "Documents"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:221
+msgid   "Documents above"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:253
+msgid   "Documents below"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:75
+msgid   "Edit"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:57
+msgid   "Edit Category"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:76
+msgid   "Edit Document"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:286
+msgid   "Empty, document ID or {current}"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:284
+msgid   "Empty, document category ID or {current}"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:349
+msgid   "Exclude documents"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:71
+msgid   "ID"
+msgstr  ""
+
+#: lib/admin/settings.php:84
+msgid   "If left empty, the default <em>document</em> applies."
+msgstr  ""
+
+#: lib/admin/settings.php:72
+msgid   "If this option is disabled, comments on all documents are disabled."
+msgstr  ""
+
+#: lib/admin/settings.php:70
+msgid   "If this option is enabled, you may choose to allow comments on each "
+        "document individually."
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:341
+msgid   "Include documents"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:280
+msgid   "Leave empty to show all documents. To show child documents for a "
+        "specific document, indicate the document ID. To show child documents "
+        "for the current document, indicate: {current}."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:278
+msgid   "Leave empty to show documents in all document categories. To show "
+        "documents in a specific category, indicate the category ID. To show "
+        "documents in the current document category, indicate: {current} "
+        "(when not on a document page, documents for all categories are "
+        "displayed)."
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:348
+msgid   "List of documents to exclude, indicate document IDs separated by "
+        "comma."
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:340
+msgid   "List of documents to include, indicate document IDs separated by "
+        "comma."
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:60
+msgid   "New Category Name"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:73
+#: lib/ext/class-documentation-post-type.php:77
+msgid   "New Document"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:78
+msgid   "No Documents found"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:79
+msgid   "No Documents found in trash"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:233
+msgid   "Number of documents"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:72
+msgid   "Order"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:242
+#: lib/views/class-documentation-document-children-widget.php:319
+msgid   "Order by ..."
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:55
+msgid   "Parent Category"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:56
+msgid   "Parent Category:"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:80
+msgid   "Parent Document"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:205
+msgid   "Root depth"
+msgstr  ""
+
+#: lib/admin/settings.php:95
+msgid   "Save"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:53
+msgid   "Search Categories"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:81
+msgid   "Search Documents"
+msgstr  ""
+
+#: lib/admin/class-documentation-settings.php:64
+#: lib/admin/class-documentation-settings.php:81
+#: lib/admin/class-documentation-settings.php:97
+msgid   "Settings"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:296
+#: lib/views/class-documentation-document-children-widget.php:359
+msgid   "Show author"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:235
+msgid   "Show child documents of parent documents above the current one up to "
+        "how many levels deep?"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:251
+msgid   "Show child documents of the current one up to how many levels deep?"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:305
+#: lib/views/class-documentation-document-children-widget.php:368
+msgid   "Show date"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:203
+msgid   "Show documents within the hierarchy from root documents (those "
+        "without parents) to how many levels deep?"
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:296
+msgid   "Show documents within the hierarchy to how many levels deep?"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:314
+msgid   "Show number of replies"
+msgstr  ""
+
+#: lib/views/class-documentation-document-hierarchy-widget.php:219
+msgid   "Show parent documents above the current one up to how many levels?"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:256
+#: lib/views/class-documentation-document-children-widget.php:328
+msgid   "Sort order"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:255
+#: lib/views/class-documentation-document-children-widget.php:327
+msgid   "Sort order."
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:318
+msgid   "Sorting criteria, one or more options separated by comma. Possible "
+        "choices are post_title, menu_order, post_date, post_modified, ID, "
+        "post_author and post_name."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:241
+msgid   "Sorting criteria."
+msgstr  ""
+
+#: lib/views/class-documentation-document-children-widget.php:297
+msgid   "Sublevel depth"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:232
+msgid   "The number of documents to show."
+msgstr  ""
+
+#: lib/admin/settings.php:41
+msgid   "The settings have been saved."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:223
+#: lib/views/class-documentation-document-children-widget.php:262
+#: lib/views/class-documentation-document-hierarchy-widget.php:193
+msgid   "The widget title."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:392
+msgid   "There are no documents."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:66
+#: lib/views/class-documentation-documents-widget.php:224
+#: lib/views/class-documentation-document-children-widget.php:75
+#: lib/views/class-documentation-document-children-widget.php:263
+#: lib/views/class-documentation-document-hierarchy-widget.php:194
+msgid   "Title"
+msgstr  ""
+
+#: lib/ext/class-documentation-taxonomy.php:58
+msgid   "Update Category"
+msgstr  ""
+
+#: lib/ext/class-documentation-post-type.php:82
+#: lib/ext/class-documentation-post-type.php:83
+msgid   "View Document"
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:294
+#: lib/views/class-documentation-document-children-widget.php:357
+msgid   "Whether to show the author of each document."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:312
+msgid   "Whether to show the comment count for each document."
+msgstr  ""
+
+#: lib/views/class-documentation-documents-widget.php:303
+#: lib/views/class-documentation-document-children-widget.php:366
+msgid   "Whether to show the date of each document."
+msgstr  ""

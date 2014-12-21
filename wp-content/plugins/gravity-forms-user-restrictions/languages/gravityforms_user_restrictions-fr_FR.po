@@ -1,0 +1,67 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gravity-forms-user-"
+"restrictions\n"
+"POT-Creation-Date: 2013-07-16 18:11:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-07-16 20:14+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: index.php:73
+msgid "IP"
+msgstr "IP"
+
+#: index.php:74
+msgid "User ID"
+msgstr "ID Utilisateur"
+
+#: index.php:75
+msgid "Embed URL"
+msgstr "URL d'intégration"
+
+#: index.php:81
+msgid "total entries"
+msgstr "Nombre total de soumissions"
+
+#: index.php:82
+msgid "per day"
+msgstr "par jour"
+
+#: index.php:83
+msgid "per week"
+msgstr "par semaine"
+
+#: index.php:84
+msgid "per month"
+msgstr "par mois"
+
+#: index.php:85
+msgid "per year"
+msgstr "par an"
+
+#: index.php:175
+msgid "Limit number of entries per user"
+msgstr "Limiter le nombre de soumission par utilisateur"
+
+#: index.php:184
+msgid "Enable user entry limit"
+msgstr "Activer la limite de soumission par utilisateur"
+
+#: index.php:200
+msgid "Limit by"
+msgstr "Limiter par"
+
+#: index.php:219
+msgid "Number of Entries"
+msgstr "Nombre de soumissions"
+
+#: index.php:241
+msgid "Number of entries reached Message"
+msgstr "Message en cas de dépassement du nombre de soumissions"

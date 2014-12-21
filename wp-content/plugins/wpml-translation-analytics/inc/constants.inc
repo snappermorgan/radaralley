@@ -1,0 +1,9 @@
+<?php
+define('WPML_TRANSLATION_ANALYTICS_FOLDER', basename(WPML_TRANSLATION_ANALYTICS_PATH));
+
+
+if((defined('FORCE_SSL_ADMIN') && FORCE_SSL_ADMIN) || is_ssl()){
+    define('WPML_TRANSLATION_ANALYTICS_URL', rtrim(str_replace('http://','https://', WP_PLUGIN_URL), '/') . '/' . WPML_TRANSLATION_ANALYTICS_FOLDER );
+}else{
+    define('WPML_TRANSLATION_ANALYTICS_URL', WP_PLUGIN_URL . '/' . WPML_TRANSLATION_ANALYTICS_FOLDER );
+}

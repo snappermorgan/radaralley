@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: translate Bluet KW\n"
+"POT-Creation-Date: 2014-11-07 20:58+0100\n"
+"PO-Revision-Date: 2014-11-07 21:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: leBleut\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\mon_site\\wp-content\\plugins\\bluet-"
+"keywords-tooltip-generator\n"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:6
+msgid "KeyWords Tooltip Generator Importer"
+msgstr "KeyWords Tooltip Generator - المستورد -"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:7
+msgid "KTTG Importer"
+msgstr "مستورد KTTG"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:17
+msgid "Begin importing my keywords"
+msgstr "بدء استيراد المصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:31
+msgid "Import from"
+msgstr "استيراد من"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:84
+msgid "keywords imported"
+msgstr "الكلمات المستوردة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:88
+msgid "These posts were not imported (Duplicated)"
+msgstr "لم يمكن اعادة استيراد العناصر التالية"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:94
+msgid ""
+"if you want to re-import them, you have to delete them from My Keywords."
+msgstr "إذا كنت ترغب في اعادة استيرادها عليك أولا إزالتها من قائمة المصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:104
+msgid "No posts found"
+msgstr "المصطلحات غير موجودة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:59
+msgid "KeyWords"
+msgstr "مصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:60
+msgid "KeyWord"
+msgstr "مصطلح"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:61
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:62
+msgid "My KeyWords"
+msgstr "مصطلحاتي"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:63
+msgid "All my KeyWords"
+msgstr "كل مصطلحاتي"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:64
+msgid "Add new one"
+msgstr "اضافة مصطلح جديد"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:65
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:67
+msgid "New KeyWord"
+msgstr "مصطلح جديد"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:66
+msgid "Edit KeyWord"
+msgstr "تغير المصطلح"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:68
+msgid "View KeyWord"
+msgstr "عرض المصطلح"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:69
+msgid "Search for KeyWords"
+msgstr "البحث عن مصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:70
+msgid "KeyWords not found"
+msgstr "مصطلح غير موجود"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:71
+msgid "KeyWords not found in trash"
+msgstr "لا يوجد مصطلحات في سلة المحذوفات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:72
+msgid "Parent KeyWords colon"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:101
+msgid "Posts related"
+msgstr "مقال ذو صلة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:102
+msgid "Picture"
+msgstr "صورة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:18
+msgid "Synonyms"
+msgstr "مرادفات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:27
+msgid "Posts in concern"
+msgstr "المقالات ذات الصلة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:37
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:46
+msgid "Keywords related"
+msgstr "المصطلحات ذات الصلة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:63
+msgid "Type here the keyword's Synonyms separated with '|'"
+msgstr "قم بكتابة المرادفات و قم بتفرقتها بـ' | '"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:72
+msgid "Exclude this post from being matched"
+msgstr "استبعاد هذا المقال من المصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:73
+msgid "Exclude this post"
+msgstr "استبعاد هذا المقال"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:87
+msgid "Specify keywords to match"
+msgstr "قم بتعين الصطلحات المراد معالجتها"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:101
+msgid "Notice : if you leave them all unchecked they will be ALL matched"
+msgstr ""
+"ملاحظة : في حالة عدم تعين اي من الصطلحات التالية فسوف يتم معالجتها كلها آليا"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:104
+msgid "No KeyWords found for this post"
+msgstr "لم يتم ايجاد مصطلحات في هذا المقال"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:108
+msgid "Manage KeyWords"
+msgstr "ادارة المصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:51
+msgid "Post Types in concern :"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:59
+msgid "Customise the tooltip style :"
+msgstr "اختر هيأة التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:70
+msgid "Posts / Pages"
+msgstr "مقالات / صفحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:79
+msgid "Match once or all occurrences"
+msgstr "معالجة المصطلح حيث وجد في النص"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:87
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:219
+msgid "Match excerpts"
+msgstr "طبق على المقتطفات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:95
+msgid "Keyword style"
+msgstr "هيأة المصطلح"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:103
+msgid "Description tooltip style"
+msgstr "هيأة التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:111
+msgid "Description tooltip Font size"
+msgstr "حجم الخط في التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:119
+msgid "Activate tooltips for images ?"
+msgstr "تفعيل التولتب للصور"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:144
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:227
+msgid "KeyWords Settings"
+msgstr "اعدادات المصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:145
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:231
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:163
+msgid "alt property of the images will be displayed as a tooltip"
+msgstr "سوف يتم عرض معطى 'alt' للصور في التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:176
+msgid "Description Background Colour"
+msgstr "لون خلفية التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:178
+msgid "Description font Colour"
+msgstr "لون الخط في التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:187
+msgid "Background Colour"
+msgstr "لون الخلفية"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:188
+msgid "Font Colour"
+msgstr "لون النص"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:194
+msgid "Choose either Posts or/and Pages in concern"
+msgstr "اختر ان كنت تريد التطبيق على المقالات و/أو الصفحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:197
+msgid "Make your own style."
+msgstr "اختر الهيأة التي تناسب الموقع"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:202
+msgid "Posts"
+msgstr "مقالات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:203
+msgid "Pages"
+msgstr "صفحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:211
+msgid "Match all occurrences"
+msgstr "طبق على الكل"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:232
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:263
+msgid "Excluded posts"
+msgstr "المقالات التي تم استبعادها"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:233
+msgid "Help ?"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:234
+msgid "Donate"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:251
+msgid "Preview"
+msgstr "مثال"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:252
+msgid "Pass your mouse over the word"
+msgstr "قم بتمرير مأشر الفأرة فوق المصطلح"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:252
+msgid ""
+"this plugin allows you easely create tooltips for your technical keywords in "
+"order to explain them for your site visitors making surfing more comfortable."
+msgstr ""
+"هذا البرنامج \"البلوغن\" يمكنك بسهولة من خلق نوافذ مساعدة \"أو تولتب\" على "
+"الكلمات الفنية ذات من أجل توضيح معنى الكلمة أو المصطلح للزائر في موقع الويب "
+"الخاص بك."
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:253
+msgid "Click"
+msgstr "أنقر"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:253
+msgid "Here"
+msgstr "-- هنا --"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:253
+msgid "to rate our plugin if you appreciate it"
+msgstr "لتقيم البرنامج اذا حاز علا اعجابك"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:253
+msgid "to test the tooltip layout."
+msgstr "لاختبال مظهر التولتب"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:264
+msgid "Posts which are excluded from being matched"
+msgstr "المقالات أو الصفحات المستبعدة من المعالجة بالمصطلحات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:270
+msgid "No posts or pages are excluded"
+msgstr "لم يتم استبعاد أي مقال أو صفحة"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:289
+msgid "Save Settings"
+msgstr "حفض الاعدادات"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/widget.php:78
+msgid "no terms found for this post"
+msgstr "لم يتم ايجاد مصطلحات في هذا المقال"
+
+#~ msgid "Keywords Related"
+#~ msgstr "Mots clés en relation"

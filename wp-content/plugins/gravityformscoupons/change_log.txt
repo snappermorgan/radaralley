@@ -1,0 +1,26 @@
+---------------------------------------------------------------------
+Version 1.1
+	- Updated plugin updated method so that it takes advantage of proxy manager to get around the blacklisted IP issue.
+	- Updated several instances of domain used for translations from gravityformscoupon to the correct domain of gravityformscoupons.
+	- Updated javascript in DisableApplyButton function since the button remained disabled for some users.
+	- Fixed issue with product info cache not including coupon on certain situations.
+	- Fixed issue with text domain of some strings.
+    - Fixed another issue with duplicate coupon codes being allowed to be created.
+    - Fixed issue with duplicate coupon codes being allowed to be created.
+    - Fixed fatal error when plugin is activated without Gravity Forms active.
+	- Fixed issue where existing coupon code was not saved when editing an entry.
+    - Fixed issue with start and expiration date not taking the configured WP timezone into account.
+    - Fixed issue where translations were not being applied on the front end.
+    - Fixed issue with coupon not being applied when form failed validation.
+    - Fixed issue with coupon being marked as "undefined" after a submission when clicking the back browser button.
+
+---------------------------------------------------------------------
+Version 1.0
+	- Fixed issue with applying fixed amount coupon code with currencies other than US dollar
+    - Fixed issue where changing an existing coupon from being form specific to 'any form' resulted in an 'Invalid coupon.' message on any form other than the original.
+
+---------------------------------------------------------------------
+Version 1.0.beta1.1
+	- Added POT file
+
+---------------------------------------------------------------------

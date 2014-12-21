@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: translate Bluet KW\n"
+"POT-Creation-Date: 2014-09-24 03:28+0100\n"
+"PO-Revision-Date: 2014-09-24 03:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: leBleut\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\mon_site\\wp-content\\plugins\\bluet-"
+"keywords-tooltip-generator\n"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:6
+msgid "KeyWords Tooltip Generator Importer"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:7
+msgid "KTTG Importer"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:17
+msgid "Begin importing my keywords"
+msgstr "Commancer à importer mes mots clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:31
+msgid "Import from"
+msgstr "Importer de "
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:84
+msgid "keywords imported"
+msgstr "Mots clés importés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:88
+msgid "These posts were not imported (Duplicated)"
+msgstr "Les articles suivants n'ont pas été importés (existent déjà)"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:94
+msgid ""
+"if you want to re-import them, you have to delete them from My Keywords."
+msgstr ""
+"Si vous voulez les reimporter, vous devez les supprimer à partir de Mes Mots "
+"Clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/importer.php:104
+msgid "No posts found"
+msgstr "Mots Clés introuvable"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:59
+msgid "KeyWords"
+msgstr "Mots Clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:60
+msgid "KeyWord"
+msgstr "Mot clé"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:61
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:62
+msgid "My KeyWords"
+msgstr "Mes Mots clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:63
+msgid "All my KeyWords"
+msgstr "Tous mes Mots Clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:64
+msgid "Add new one"
+msgstr "Ajouter un autre"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:65
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:67
+msgid "New KeyWord"
+msgstr "Nouveau Mot clé"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:66
+msgid "Edit KeyWord"
+msgstr "Modifier Mot Clé"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:68
+msgid "View KeyWord"
+msgstr "Afficher le Mot Clé"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:69
+msgid "Search for KeyWords"
+msgstr "Chercher des Mots Clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:70
+msgid "KeyWords not found"
+msgstr "Mots Clés introuvable"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:71
+msgid "KeyWords not found in trash"
+msgstr "Mots Clés introuvable dans la corbeille"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:72
+msgid "Parent KeyWords colon"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:101
+msgid "Posts related"
+msgstr "Articles liés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:102
+msgid "Picture"
+msgstr "Image"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:18
+msgid "Synonyms"
+msgstr "Synonymes"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:27
+msgid "Posts in concern"
+msgstr "Articles en sujet"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:37
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:46
+msgid "Keywords related"
+msgstr "Mots clés en relation"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:63
+msgid "Type here the keyword's Synonyms separated with '|'"
+msgstr "Tapez ici les synonymes en les séparant par des '|'"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:72
+msgid "Exclude this post from being matched"
+msgstr "Exclure cet article d'etre traité par les mots clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:73
+msgid "Exclude this post"
+msgstr "Exclure cet article"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:87
+msgid "Specifie keywords to match"
+msgstr "Specifie les mots clés à traiter"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:101
+msgid "Notice : if you leave them all unchecked they will be ALL matched"
+msgstr "NB : si vous ne cochez aucune case ils serons tous traités"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:104
+msgid "No KeyWords found for this post"
+msgstr "Mots Clés introuvable pour cet article"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:108
+msgid "Manage KeyWords"
+msgstr "Gérer les Mots clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:48
+msgid "Post Types in concern :"
+msgstr "Types d'articles en sujet"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:56
+msgid "Customise the tooltip style :"
+msgstr "Personnaliser le style de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:67
+msgid "Posts / Pages"
+msgstr "Articles / Pages"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:76
+msgid "Match once or all occurrences"
+msgstr "Appliquer sur un/tous les mots clés dans l'article"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:84
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:203
+msgid "Match excerpts"
+msgstr "Appliquer sur les extraits"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:92
+msgid "Keyword style"
+msgstr "Style du Mot Clé"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:100
+msgid "Description tooltip style"
+msgstr "Style de la description de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:108
+msgid "Description tooltip Font size"
+msgstr "Taille de police de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:134
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:211
+msgid "KeyWords Settings"
+msgstr "Réglages des Mots Clés"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:135
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:215
+msgid "Settings"
+msgstr "Réglages"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:160
+msgid "Description Background Colour"
+msgstr "Couleur de l'arrière-plan de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:162
+msgid "Description font Colour"
+msgstr "Couleur du texte de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:171
+msgid "Background Colour"
+msgstr "Couleur de l'arrière-plan"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:172
+msgid "Font Colour"
+msgstr "Couleur du texte"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:178
+msgid "Choose either Posts or/and Pages in concern"
+msgstr "Choisir Articles et/ou Pages en sujet"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:181
+msgid "Make your own style."
+msgstr "Faites votre propre style."
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:186
+msgid "Posts"
+msgstr "Articles"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:187
+msgid "Pages"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:195
+msgid "Match all occurrences"
+msgstr "Appliquer sur tous les occurences"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:216
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:245
+msgid "Excluded posts"
+msgstr "Articles exclues"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:217
+msgid "Help !"
+msgstr ""
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:233
+msgid "Preview"
+msgstr "Aperçu"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:234
+msgid "Pass your mouse over the word"
+msgstr "Faite passer le pointeur sur le mot"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:234
+msgid ""
+"this plugin allows you easely create tooltips for your technical keywords in "
+"order to explain them for your site visitors making surfing more comfortable."
+msgstr ""
+"ce plugin vous permet très simplement de créer des infobulles pour vos Mots "
+"Clés techniques dans le but de les expliquer davantage pour les visiteur de "
+"votre site."
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:235
+msgid "Click"
+msgstr "Cliquez"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:235
+msgid "Here"
+msgstr "-- ICI --"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:235
+msgid "to rate our plugin if you appreciate it"
+msgstr "pour donner une note à notre plugin si vous l'appreciez"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:235
+msgid "to test the tooltip layout."
+msgstr "pour tester l'apparence de l'infobulle"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:246
+msgid "Posts which are excluded from being matched"
+msgstr "Articles ou pages exclues d'être traités"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:252
+msgid "No posts or pages are excluded"
+msgstr "Aucun article ou page sont exclues"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/settings-page.php:270
+msgid "Save Settings"
+msgstr "Sauvegarder les réglages"
+
+#: C:\wamp\www\mon_site\wp-content\plugins\bluet-keywords-tooltip-generator/widget.php:78
+msgid "no terms found for this post"
+msgstr "Pas de mot clés trouvé pour cet article"
+
+#~ msgid "Keywords Related"
+#~ msgstr "Mots clés en relation"

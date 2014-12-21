@@ -1,0 +1,1151 @@
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+.optin-monster #icon-options-general.icon32 {
+    width: 36px;
+    height: 32px;
+    background: url(images/mascot.png) no-repeat scroll 0 0;
+    margin-top: 11px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.padding-top {
+	padding-top: 15px !important;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.green,
+.success {
+	color: #97c23d;
+}
+
+.optin-monster .blue {
+	color: #3b94d1;
+}
+
+.orange {
+	color: #f26122;
+}
+
+.optin-monster .red {
+	color: #b62726;
+}
+
+.optin-monster,
+.optin-monster p {
+    font-size: 14px;
+    color: #4d4c4c;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+.optin-monster .button {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.optin-monster .error {
+	color: #cb1a1a;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.optin-monster .button-large {
+    font-size: 14px;
+}
+
+.optin-monster .nav-tab-wrapper {
+    padding-top: 20px;
+}
+
+.optin-monster label {
+    font-weight: 600;
+    display: block;
+}
+
+.optin-monster .description {
+    font-style: normal;
+}
+
+.optin-monster .alert {
+    margin-top: -20px;
+}
+
+.optin-monster .form-table th,
+.optin-monster .form-table td {
+    padding-left: 0;
+    padding-right: 0;
+    vertical-align: middle;
+}
+
+.optin-monster .form-table th {
+    width: 100px;
+}
+
+.optin-monster .submit .button {
+    vertical-align: middle;
+}
+
+.optin-monster .wp-list-table {
+    margin-top: 15px;
+}
+
+.optin-monster .wp-list-table td {
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.optin-monster .om-green {
+    color: #5cb85c;
+}
+
+.optin-monster .om-orange {
+    color: #f0ad4e;
+}
+
+.optin-monster .nav-tab-wrapper {
+    margin-bottom: 40px;
+}
+
+.center {
+	text-align: center;
+}
+
+.clear,
+.clearfix,
+.om-clear,
+.om-clearfix {
+	clear: both;
+}
+
+.clear:after,
+.clearfix:after,
+.om-clear:after,
+.om-clearfix:after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	overflow: auto;
+	visibility: hidden;
+	zoom: 1;
+}
+
+.button.disabled,
+button.disabled,
+input[type="submit"].disabled {
+	opacity: .45;
+	pointer-events: none;
+	cursor: progress;
+}
+
+.optin-monster h1,
+.optin-monster h2,
+.optin-monster h3,
+.optin-monster h4,
+.optin-monster h5,
+.optin-monster h6 {
+    font-weight: normal;
+    font-family: 'Bree Serif', Georgia, serif;
+    color: #2d2c2c;
+}
+
+.optin-monster h3 {
+    font-size: 24px;
+}
+
+.optin-monster h4 {
+    font-size: 22px;
+}
+
+.optin-monster h5 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.optin-monster #om-email-accounts p,
+.optin-monster #om-email-creds p {
+    margin: 0;
+    padding: 0 0 15px;
+}
+
+.optin-monster label.selectit {
+    font-weight: normal !important;
+}
+
+.optin-monster .om-slug-name {
+    text-align: left;
+    margin: 20px 0 0;
+    font-size: 12px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+/* ==========================================================================
+   Edit Styles
+   ========================================================================== */
+
+.optin-monster #content {
+	margin-top: 50px;
+}
+
+.account-verify #content {
+	margin-top: 0;
+}
+
+.mascot-shoutout {
+	float: right;
+}
+
+.shoutout {
+	background: #227ab5;
+	padding: 8px 20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	color: #fff;
+	margin-right: 180px;
+	position: relative;
+}
+
+.shoutout .shoutout-arrow {
+	background: url(images/blue-arrow.png) no-repeat scroll 0 0;
+	width: 11px;
+	height: 20px;
+	right: -10px;
+	top: 8px;
+	position: absolute;
+}
+
+.shoutout p {
+	color: #fff;
+}
+
+.mascot {
+	width: 164px;
+	height: 125px;
+	background: url(images/mascot.png) no-repeat scroll 0 0;
+	position: absolute;
+	right: 0;
+	top: -20px;
+}
+
+.account-dashboard .left {
+	width: 15%;
+	margin-right: 5%;
+}
+
+.account-dashboard .left .button {
+    display: block;
+    text-align: center;
+}
+
+.account-dashboard .right {
+	width: 80%;
+}
+
+.account-dashboard .optin-settings-box {
+	position: relative;
+}
+
+.account-dashboard .optin-settings {
+	background: #f2f2f2 url(images/gear.png) no-repeat scroll 50% 50%;
+	width: 18px;
+	height: 17px;
+	padding: 8px 12px;
+	border: 1px solid #e2e2e2;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	display: block;
+	color: #4d4c4c;
+	margin: 0 auto;
+}
+
+.account-dashboard .optin-action-links {
+	background: #f2f2f2;
+	border: 1px solid #e2e2e2;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	list-style: none;
+	position: absolute;
+	top: 37px;
+	z-index: 20;
+	left: -72px;
+	padding: 15px;
+	width: 125px;
+}
+
+.account-dashboard .optin-action-links li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.account-dashboard .optin-action-links li a {
+	color: #4d4c4c;
+	padding: 8px 0 0;
+	display: block;
+	text-align: left;
+}
+
+.account-dashboard .optin-action-links li a.first {
+	padding-top: 0;
+}
+
+.account-dashboard .optin-action-links li a:hover {
+	color: #f26122;
+	text-decoration: none;
+}
+
+.optin-code-popup {
+	display: none;
+	padding: 20px 30px;
+	background: #fff;
+	position: relative;
+	width: 800px;
+}
+
+.optin-code-popup .optin-close {
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	right: -13px;
+	top: -13px;
+	z-index: 1000;
+	text-decoration: none;
+	text-align: center;
+	padding: 0;
+	background: #f26122;
+	color: #fff;
+	-moz-border-radius: 57px;
+	-webkit-border-radius: 57px;
+	border-radius: 57px;
+	font-size: 18px;
+	line-height: 14px;
+	padding: 7px;
+}
+
+.optin-code-popup .optin-close:hover {
+	text-decoration: none;
+}
+
+.optin-monster .embed-code-holder {
+	color: #2d2d2c;
+	height: 137px;
+	overflow: auto;
+	width: 100%;
+}
+
+.optin-monster .menu-button {
+	float: right;
+}
+
+.optin-monster .optin-table {
+	border-spacing: 0;
+	border: 1px solid #e4e4e4;
+	border-collapse: separate;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.optin-monster .optin-table th,
+.optin-monster .optin-table td {
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 10px;
+	text-align: left;
+}
+
+.optin-monster .optin-table th.last,
+.optin-monster .optin-table td.last {
+	border-right: 0;
+}
+
+.optin-monster .optin-table td,
+.optin-monster .optin-table th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.optin-monster .optin-table td.first,
+.optin-monster .optin-table th.first {
+	text-align: left;
+}
+
+.optin-monster .optin-table tbody tr:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.optin-monster .optin-option label {
+	display: inline;
+	margin-right: 10px;
+}
+
+.optin-monster .left-toolbar {
+	float: left;
+	width: 240px;
+}
+
+.optin-monster #om-optin-create {
+	background: url(images/dot.png) repeat-y scroll 240px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.optin-monster #om-optin-create h4 {
+	margin-bottom: 30px;
+}
+
+.optin-monster .right-content {
+	float: right;
+	width: 705px;
+}
+
+.optin-monster #om-optin-create:after,
+.optin-monster .optin-row:after,
+.optin-monster .top-optin-items:after,
+.optin-monster .create-optin-content:after,
+.optin-monster .create-optin-toolbar:after,
+.optin-monster #content:after,
+.optin-monster .entry-content:after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	overflow: auto;
+	visibility: hidden;
+	zoom: 1;
+}
+
+.optin-monster .create-optin-wrap {
+	border: 1px solid #dcdcdd;
+}
+
+.optin-monster .create-optin-nav {
+	background: #f2f2f2;
+	border-bottom: 1px solid #dcdcdd;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.optin-monster .create-optin-nav li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.optin-monster .create-optin-nav li a {
+    background: #fff;
+    display: block;
+	padding: 18px 35px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none !important;
+	border-right: 1px solid #dcdcdd;
+}
+
+.optin-monster .create-optin-nav li a.disabled {
+    color: #bbb;
+    background: #f2f2f2;
+	pointer-events: none;
+}
+
+.optin-monster .create-optin-nav li a.active {
+	color: #fff;
+	background: #8b8b8b;
+}
+
+.optin-monster .create-optin-area {
+	padding: 35px 25px;
+}
+
+.optin-monster .optin-select-wrap {
+	margin-bottom: 40px;
+}
+
+.optin-monster .create-optin-area h2 {
+	color: #8b8b8b;
+	font-size: 22px;
+	border-bottom: 1px solid #dcdcdd;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+	padding-bottom: 15px;
+	margin-bottom: 40px;
+}
+
+.optin-monster .create-optin-area h4 {
+	font-size: 18px;
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+	margin-bottom: 10px;
+}
+
+.optin-monster .create-optin-area .optin-item {
+	cursor: pointer;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+
+#om-optin-design .optin-item.first {
+    clear: left;
+}
+
+#om-optin-design .optin-item.left {
+    clear: right;
+}
+
+.optin-monster .create-optin-area .optin-item.selected,
+.optin-monster .create-optin-area .optin-item.selected h4 {
+	background: #f26122;
+	color: #fff;
+}
+
+.optin-monster .create-optin-area .optin-item img {
+    background: #f4f4f4;
+    border: 1px solid #e4e4e4;
+}
+
+.optin-monster .create-optin-area .optin-item.selected img {
+    background: #fff;
+    border: 0 none;
+}
+
+.optin-monster .create-optin-toolbar {
+	border-top: 1px solid #dcdcdd;
+	padding: 20px;
+}
+
+.optin-monster .create-optin-toolbar a {
+	width: 200px;
+	text-align: center;
+}
+
+.optin-monster .create-optin-toolbar .previous-step {
+	float: left;
+}
+
+.optin-monster .create-optin-toolbar .next-step {
+	float: right;
+}
+
+.optin-monster .optin-config-box {
+	margin-bottom: 25px;
+}
+
+.alert {
+	padding: 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+.alert-success {
+    background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	color: #c09853;
+}
+
+.alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid #eed3d7;
+}
+
+.alert p {
+	margin: 0;
+}
+
+.optin-monster .om-account-tabs {
+	border: 1px solid #dcdcdd;
+}
+
+.optin-monster #tabs-nav {
+	background: #f2f2f2;
+	border-bottom: 1px solid #dcdcdd;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.optin-monster #tabs-nav li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.optin-monster #tabs-nav li a {
+	display: block;
+	padding: 18px 35px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #bbb;
+	text-decoration: none !important;
+	border-right: 1px solid #dcdcdd;
+	outline: none;
+}
+
+.optin-monster #tabs-nav li a.active,
+.optin-monster #tabs-nav li.ui-state-active a {
+	color: #fff;
+	background: #8b8b8b;
+}
+
+.optin-monster .om-tab-area {
+	padding: 35px 25px;
+}
+
+.optin-monster .om-account-tabs h2 {
+	color: #8b8b8b;
+	font-size: 22px;
+	border-bottom: 1px solid #dcdcdd;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+	padding-bottom: 15px;
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.optin-monster .om-account-tabs h4 {
+	font-size: 24px;
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+	margin-bottom: 10px;
+}
+
+.optin-monster .om-account-tabs .left {
+	float: left;
+	width: 48%;
+}
+
+.optin-monster .om-account-tabs .right {
+	float: right;
+	width: 48%;
+}
+
+.optin-monster .om-account-tabs input {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.optin-monster .om-account-tabs input[type="checkbox"] {
+	width: auto;
+	margin-right: 7px;
+}
+
+.optin-monster .om-account-toolbar {
+	border-top: 1px solid #dcdcdd;
+	padding: 20px;
+}
+
+.optin-monster .om-account-toolbar a {
+	width: 200px;
+}
+
+.optin-monster .optin-item h4 {
+	font-size: 18px;
+	font-family: 'Open Sans', Arial, Helvetica, Tahoma, sans-serif;
+	margin-bottom: 10px;
+}
+
+.optin-monster .optin-config-box h4 {
+	margin-bottom: 0;
+}
+
+.optin-monster .create-optin-area input[type="text"],
+.optin-monster .create-optin-area input[type="password"] {
+    padding: 8px 12px;
+    width: 400px;
+}
+
+.optin-monster .create-optin-area input[type="checkbox"],
+.optin-monster .create-optin-area label {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.optin-monster .optin-config-box .description {
+	font-size: 13px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.optin-monster #plupload-container {
+
+}
+
+.optin-monster .design-customizer {
+	width: 300px;
+}
+
+.optin-monster .design-customizer-ui {
+	background: #e5e5e5;
+	z-index: 500000;
+	position: fixed;
+	overflow: visible;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	min-width: 0;
+	cursor: default;
+	margin-left: 300px;
+	display: none;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	z-index: 10;
+	overflow: auto;
+	background: #f4f4f4;
+	border-right: 1px solid #cbcbca;
+	padding: 15px 0;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .controls-area {
+	padding: 0 15px 15px;
+	border-bottom: 1px solid #dededd;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .button {
+    text-align: center;
+	width: 120px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .title-area {
+	padding: 15px;
+	border-bottom: 1px solid #dededd;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .accordion-area h3 {
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar h3.ui-accordion-header {
+	border-bottom: 1px solid #dededd;
+	color: #686868;
+	padding: 15px;
+	cursor: pointer;
+	outline: none !important;
+	margin: 0;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar h3.ui-accordion-header.ui-state-active,
+.optin-monster .design-customizer-ui .design-sidebar h3.ui-accordion-header:hover {
+	color: #2d2d2c;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar h3.ui-accordion-header a {
+	outline: none !important;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .ui-accordion-content {
+	padding: 15px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar input,
+.optin-monster .design-customizer-ui .design-sidebar textarea,
+.optin-monster .design-customizer-ui .design-sidebar select {
+	width: 100%;
+	background: #fff;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .input-controls {
+	display: block;
+	margin-top: 3px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    font:11px/normal sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -moz-background-clip: padding; /* for Firefox 3.6 */
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+    -moz-transition: none;
+	-webkit-transition: none;
+	transition: none;
+	margin-right: 3px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler.last,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button.last {
+	margin-right: 0;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler:hover,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button:hover,
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler:focus,
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler:active,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button:active,
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler.active {
+    border-color: #3072b3;
+    border-bottom-color: #2a65a0;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    background-color: #3c8dde;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+    background-image: -moz-linear-gradient(#599bdc, #3072b3);
+    background-image: -o-linear-gradient(#599bdc, #3072b3);
+    background-image: linear-gradient(#599bdc, #3072b3);
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler:active,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button:active,
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler.active {
+    border-color: #2a65a0;
+    border-bottom-color: #3884cd;
+    background-color: #3072b3;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+    background-image: -moz-linear-gradient(#3072b3, #599bdc);
+    background-image: -ms-linear-gradient(#3072b3, #599bdc);
+    background-image: -o-linear-gradient(#3072b3, #599bdc);
+    background-image: linear-gradient(#3072b3, #599bdc);
+}
+
+/* overrides extra padding on button elements in Firefox */
+.optin-monster .design-customizer-ui .design-sidebar .input-control-handler::-moz-focus-inner,
+.optin-monster .design-customizer-ui .design-sidebar .bullet-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .wp-picker-container {
+	position: relative;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .wp-picker-default {
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .wp-picker-container a {
+	text-decoration: none !important;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .optin-input-meta {
+	border-bottom: 3px dashed #ddd;
+	margin-bottom: 10px;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar .optin-input-meta.last {
+	border-bottom: 0 none;
+	margin-bottom: 0;
+}
+
+.optin-monster .design-customizer-ui .design-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+}
+
+.optin-monster .account-provider-box {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.optin-monster .has-clone td {
+    border-bottom: 0 none;
+}
+
+.optin-monster .is-clone {
+    background-color: #e7f3fb !important;
+}
+
+.optin-monster .is-clone td.first {
+    padding-left: 30px;
+}
+
+.optin-monster .entry-title {
+    width: 425px;
+}
+
+.optin-monster .report-stats,
+.optin-monster #om-graphs-filter {
+    float: left;
+    width: 420px;
+}
+
+.optin-monster .report-download,
+.optin-monster #om-report-switcher {
+    float: right;
+    width: 420px;
+}
+
+.optin-monster .receipts-output ul,
+.optin-monster .receipts-output li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.optin-monster .receipts-output li {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.optin-monster #om-email-creds input {
+    width: 300px;
+}
+
+.optin-monster #om-email-creds input[type=checkbox] {
+    width: auto;
+}
+
+.optin-monster .one-fourth {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.optin-monster #om-edit-optin ul,
+.optin-monster #om-edit-optin li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.optin-monster #om-edit-optin .children {
+    margin-left: 10px;
+}
+
+.optin-monster .popular-category label {
+    font-weight: normal;
+    display: inline;
+}
+
+.optin-settings {
+    outline: none !important;
+}
+
+.optin-action-links a {
+    text-decoration: none;
+}
+
+.optin-integration-wrap {
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.optin-integration {
+    width: 300px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.optin-integration .logo {
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.optin-integration.mailchimp .logo {
+    background: url(images/mailchimp.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.aweber .logo {
+    background: url(images/aweber.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.constant-contact .logo {
+    background: url(images/constant-contact.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.madmimi .logo {
+    background: url(images/madmimi.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.campaign-monitor .logo {
+    background: url(images/campaign-monitor.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.infusionsoft .logo {
+    background: url(images/infusionsoft.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.getresponse .logo {
+    background: url(images/getresponse.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.icontact .logo {
+    background: url(images/icontact.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.mailpoet .logo {
+    background: url(images/mailpoet.png) no-repeat scroll 0 0;
+}
+
+.optin-integration.pardot .logo {
+    background: url(images/pardot.png) no-repeat scroll 0 0;
+}
+
+.optin-integration ul {
+    border-top: 1px solid #ddd;
+}
+
+.optin-integration ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+    font-size: 13px;
+    margin: 0;
+}
+
+.optin-integration ul li .button,
+.optin-integration ul li span {
+    vertical-align: middle;
+}
+
+.optin-integration ul li .button {
+    float: right;
+}
+
+.optin-integration ul li span {
+    font-weight: bold;
+}
+
+.optin-monster-rewards {
+    border-top: 1px solid #ededed;
+}
+
+.accordion-panel {
+    padding: 10px 0 15px;
+    border-bottom: 1px solid #ededed;
+    cursor: pointer;
+}
+
+.accordion-panel h3 {
+    margin: 0;
+}
+
+.accordion-panel .panel-logo {
+    width: 190px;
+    margin-right: 20px;
+    height: 50px;
+    float: left;
+}
+
+.accordion-panel.soliloquy .panel-logo {
+    background: url(images/soliloquy.png) no-repeat scroll 0 5px;
+}
+
+.accordion-panel.viewbix .panel-logo {
+    background: url(images/viewbix.png) no-repeat scroll 0 3px;
+}
+
+.accordion-panel .panel-desc {
+    font-size: 13px;
+    margin: 0;
+}
+
+.panel-content {
+    width: 600px;
+}
+
+.optin-monster .om-misc-settings th {
+    width: 200px;
+}
+
+#om-custom-html-optin-code {
+    width: 100%;
+    height: 150px;
+    padding: 8px 12px;
+}
+
+.optin-monster .accordion-area,
+.optin-monster .custom-css-area {
+    position: relative;
+    z-index: 1;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar textarea.om-custom-css {
+    position: relative;
+    z-index: 734626274343;
+    height: 150px;
+    width: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transitions: all .3s;
+    -o-transition: all .3s;
+    background: #fff;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    overflow: auto;
+}
+
+.optin-monster .design-customizer-ui .design-sidebar textarea.om-custom-css:focus {
+    height: 350px;
+    width: 960px;
+    z-index: 734626274343;
+    position: fixed;
+}

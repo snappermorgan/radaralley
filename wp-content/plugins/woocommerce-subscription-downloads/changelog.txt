@@ -1,0 +1,4 @@
+*** WooCommerce Subscription Downloads ***
+
+2014.06.03 - version 1.0.0
+ * First Release.

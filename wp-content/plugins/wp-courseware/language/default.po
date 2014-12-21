@@ -1,0 +1,4734 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Courseware 3.0\n"
+"POT-Creation-Date: 2014-10-01 15:28-0700\n"
+"PO-Revision-Date: 2014-10-01 15:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: Fly Plugins\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class_custom_feedback.inc.php:113
+msgid "Message Description"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:114
+msgid ""
+"(Required) A quick summary for this message. This will not be displayed to "
+"students."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:123
+msgid "e.g. Low score on MyTag section"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:127
+msgid "Please specify a quick summary for this message."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:144
+#: classes/class_custom_feedback.inc.php:189
+msgid "Select Question Tag"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:145
+#: classes/class_custom_feedback.inc.php:190
+msgid "(Required) Select the tag for which you want to provide feedback."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:152
+msgid "-- Please choose a tag ---"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:155
+msgid "Please select a tag for this message."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:195
+msgid "Display this message to students who score:"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:203
+msgid "above"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:209
+msgid "at or below"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:215
+msgid "across all questions for the tag selected above"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:218
+msgid "Please select a trigger score for this message."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:230
+msgid "Custom Feedback Message"
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:231
+msgid ""
+"(Required) Enter the message to display to students when conditions above "
+"are met."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:244
+msgid "Please enter a helpful feedback message for the trainee."
+msgstr ""
+
+#: classes/class_custom_feedback.inc.php:256
+msgid "Are you sure you wish to delete this custom feedback message?"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:478
+msgid "Correct Answers for: "
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:500 classes/class_quiz_base.inc.php:395
+#: classes/class_quiz_multi.inc.php:64
+#: classes/class_quiz_open_entry.inc.php:62
+#: classes/class_quiz_truefalse.inc.php:62
+#: classes/class_quiz_upload.inc.php:62 lib/admin_only.inc.php:1309
+#: lib/admin_only.inc.php:1340 pages/page_user_progress.inc.php:408
+msgid "Question"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:527
+#: classes/class_frontend_unit.inc.php:538
+msgid "Your Grade"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:528
+#: pages/page_user_progress.inc.php:134 pages/page_user_progress.inc.php:169
+msgid "Pending"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:551
+msgid "Correct "
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:556
+msgid "Incorrect "
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:586
+#: pages/page_user_progress.inc.php:435
+msgid "Open"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:588
+#: pages/page_user_progress.inc.php:437
+msgid "File"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:609
+#: classes/class_frontend_unit.inc.php:624
+msgid "Your Answer"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:625
+msgid "We don't have your answer for this question"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:635
+#: pages/page_user_progress.inc.php:471
+msgid "Correct Answer"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:652 classes/class_quiz_base.inc.php:257
+msgid "Explanation"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:702
+msgid "Download Certificate"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:841
+#, php-format
+msgid "Your grade for this quiz is <b>%d%%</b>."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:849
+#, php-format
+msgid "You got %d out of %d questions <b>(%d%%)</b> correct!"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:866
+#, php-format
+msgid "The pass grade for this quiz is <b>(%d%%)</b>"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:871
+msgid "Congratulations, you have <b>passed</b> this quiz!"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:877
+msgid "Unfortunately, this means you have <b>failed</b> this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:882
+msgid "However, the instructor is allowing you to continue anyway."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:885
+msgid "To progress to the next unit, you need to pass this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:891
+msgid "You have had <b>1 previous attempt</b> at this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:892
+#, php-format
+msgid "You have had <b>%d previous attempts</b> at this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:912
+msgid "Completion Time"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:915
+msgid "allowed"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:961
+msgid "Download Results"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1068
+msgid "The course instructor has required that you retake this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1088
+msgid ""
+"The course instructor has allowed you to retake the quiz. To re-attempt the "
+"quiz, just click on the button below."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1097
+msgid ""
+"Unfortunately you have reached the maximum limit of attempts you are "
+"permitted for this quiz."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1115
+msgid "Retake Quiz"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1159
+msgid "Mark as Completed"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1207
+msgid "This question cannot be rendered. This is an error."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1212 lib/common.inc.php:218
+msgid "Unexpected question type, aborting."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1280
+msgid "You can now review your answers before submitting them."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1307
+#, php-format
+msgid ""
+"You'll need to correctly answer at least <b>%d of the %d</b> questions below "
+"(<b>at least %d%%</b>) to progress to the next unit."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1340
+#, php-format
+msgid "You have <b>%s</b> to complete this quiz..."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1343
+msgid "Begin Quiz..."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1386
+#, php-format
+msgid "Question %d of %d"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1398
+msgid "Answer Later..."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1408
+msgid "Save &amp; Next Question &raquo;"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1416
+msgid "Save &amp; Review Answers &raquo;"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1420
+#: classes/class_frontend_unit.inc.php:1476
+msgid "Submit Answers"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1429
+msgid "&laquo; Previous Question"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1508
+msgid "Previous Unit"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1521
+msgid "Next Unit"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1556 lib/common.inc.php:1510
+#, php-format
+msgid "Your grade is %d%%"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1564 lib/common.inc.php:1518
+#, php-format
+msgid "%d out of %d correct (%d%%)"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:1743
+msgid ""
+"An error occured, so your unit progress was not updated. Please refresh the "
+"page and try again."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:2294 wp-courseware.php:773
+msgid "Please provide an answer for all of the questions on this page."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:2426
+msgid "Thank you for your responses. This unit is now complete."
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:2596
+#: classes/class_quiz_truefalse.inc.php:93
+#: classes/class_quiz_truefalse.inc.php:121
+msgid "True"
+msgstr ""
+
+#: classes/class_frontend_unit.inc.php:2598
+#: classes/class_quiz_truefalse.inc.php:98
+#: classes/class_quiz_truefalse.inc.php:122
+msgid "False"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:129
+msgid "Are you sure you wish to delete this question?"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:130 lib/admin_only.inc.php:1406
+#: pages/page_quiz_modify.inc.php:563 pages/page_quiz_summary.inc.php:297
+msgid "Delete"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:131
+msgid "Move"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:152 pages/page_user_progress.inc.php:451
+msgid "Type"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:210
+msgid "Question Tags"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:211
+msgid ""
+"(Optional) Add tags to this question to add it to your pool of questions to "
+"reuse in other quizzes."
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:229
+msgid "Add"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:258
+msgid ""
+"(Optional) Displayed after the quiz is submitted to offer information on the "
+"correct answer."
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:288
+msgid "Hint"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:317
+msgid "Question Image URL"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:318
+msgid "(Optional) An image to show with the question."
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:330
+msgid "Choose an image for your question..."
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:331 classes/class_quiz_multi.inc.php:164
+msgid "Select Image..."
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:333 classes/class_quiz_base.inc.php:334
+#: classes/class_quiz_multi.inc.php:166 classes/class_quiz_multi.inc.php:167
+#: pages/page_settings_certificates.inc.php:65
+#: pages/page_settings_certificates.inc.php:66
+#: pages/page_settings_certificates.inc.php:95
+#: pages/page_settings_certificates.inc.php:96
+#: pages/page_settings_certificates.inc.php:125
+#: pages/page_settings_certificates.inc.php:126
+msgid "Select Image"
+msgstr ""
+
+#: classes/class_quiz_base.inc.php:398
+msgid "Incorrect"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:18 classes/class_quiz_truefalse.inc.php:18
+msgid ""
+"(Optional) Use this to guide the user that they should make a selection."
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:79
+msgid "Correct<br/>Answer?"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:121
+msgid "Answer"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:136
+msgid "Add a new answer..."
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:137
+msgid "Remove this answer..."
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:146
+msgid "Answer Image URL"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:147
+msgid "(Optional) "
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:163
+msgid "Choose an image for this answer..."
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:412
+msgid "Randomize Answers?"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:413
+msgid "(Optional)"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:422
+msgid "Yes, randomize the order of these answers."
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:435
+msgid "Number of answers to display:"
+msgstr ""
+
+#: classes/class_quiz_multi.inc.php:438
+msgid "The correct answer will always appear in the selection of answers."
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:18
+msgid ""
+"(Optional) Use this to guide the user on the expected answer or length of "
+"answer. This is shown when the question is shown."
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:85
+msgid "Size of box for user to type answer?"
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:170
+msgid "<b>Single Line</b> of Text"
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:171
+msgid "<b>Small</b> Text Box - about 4 Lines of Text"
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:172
+msgid "<b>Medium</b> Text Box - about 8 Lines of Text"
+msgstr ""
+
+#: classes/class_quiz_open_entry.inc.php:173
+msgid "<b>Large</b> Text Box - about 15 Lines of Text"
+msgstr ""
+
+#: classes/class_quiz_random_selection.inc.php:51
+#: classes/class_quiz_random_selection.inc.php:70
+msgid "Show"
+msgstr ""
+
+#: classes/class_quiz_random_selection.inc.php:53
+#: classes/class_quiz_random_selection.inc.php:71
+#: pages/page_quiz_modify.inc.php:554
+msgid "questions from"
+msgstr ""
+
+#: classes/class_quiz_random_selection.inc.php:55
+#, php-format
+msgid "%d questions available"
+msgstr ""
+
+#: classes/class_quiz_random_selection.inc.php:126 wp-courseware.php:714
+msgid "Entire Question Pool"
+msgstr ""
+
+#: classes/class_quiz_truefalse.inc.php:87
+msgid "Correct Answer?"
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:18
+msgid "(Optional) Use this to guide the user what they should upload."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:87
+msgid "Permitted file extensions?"
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:93
+msgid "Just list the permitted extensions without the dot."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:94
+msgid "e.g. \"pdf, xls, mp3\""
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:126
+msgid "You have uploaded a"
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:129
+msgid "file"
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:131
+msgid "for this answer."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:141
+msgid "Click here to upload a different file..."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:142
+msgid "Cancel uploading a different file"
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:163
+msgid "Allowed file types: "
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:237
+msgid "Error. An unknown file upload error occurred."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:243
+#, php-format
+msgid "Error. The uploaded file exceeds the maximum file upload size (%s)."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:247
+msgid "Error. The uploaded file was only partially uploaded."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:251
+msgid "Error. No file was uploaded."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:255
+msgid "Error. The temporary upload directory does not exist."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:259
+msgid "Error. Could not write the uploaded file to disk."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:263
+msgid "Error. An extension stopped the file upload."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:280
+#, php-format
+msgid "Error. Extension of file does not match allowed file types of %s."
+msgstr ""
+
+#: classes/class_quiz_upload.inc.php:295
+msgid "Error. Could not move file to your training directory."
+msgstr ""
+
+#: lib/admin_only.inc.php:578
+msgid "Need help?"
+msgstr ""
+
+#: lib/admin_only.inc.php:580
+msgid ""
+"If you need assistance with WP Courseware, please visit the <a href='admin."
+"php?page=WPCW_showPage_Documentation'>documentation section</a> first. If "
+"you would like to submit a support request, please login to the <a "
+"href='http://flyplugins.com/member-portal'>Member Portal</a> and click on "
+"the support tab."
+msgstr ""
+
+#: lib/admin_only.inc.php:592
+msgid "Want to become an affiliate?"
+msgstr ""
+
+#: lib/admin_only.inc.php:594
+msgid ""
+"If you're interested in making money by promoting WP Courseware, please "
+"login to the <a href='http://flyplugins.com/member-portal'>Member Portal</a> "
+"and click on the affiliates tab."
+msgstr ""
+
+#: lib/admin_only.inc.php:606
+msgid "Latest news from FlyPlugins.com"
+msgstr ""
+
+#: lib/admin_only.inc.php:617
+msgid "No news items, feed might be broken..."
+msgstr ""
+
+#: lib/admin_only.inc.php:630
+msgid "Like Fly Plugins on Facebook"
+msgstr ""
+
+#: lib/admin_only.inc.php:631
+msgid "Follow Fly Plugins on Twitter"
+msgstr ""
+
+#: lib/admin_only.inc.php:632
+msgid "Watch Fly Plugins on YouTube"
+msgstr ""
+
+#: lib/admin_only.inc.php:633
+msgid "Circle Fly Plugins on Google+"
+msgstr ""
+
+#: lib/admin_only.inc.php:634
+msgid "Subscribe with RSS"
+msgstr ""
+
+#: lib/admin_only.inc.php:635
+msgid "Subscribe by email"
+msgstr ""
+
+#: lib/admin_only.inc.php:660
+#, php-format
+msgid "Please fill in the required '%s' field."
+msgstr ""
+
+#: lib/admin_only.inc.php:661
+#, php-format
+msgid "There's a problem with value for '%s'."
+msgstr ""
+
+#: lib/admin_only.inc.php:662
+msgid "required"
+msgstr ""
+
+#: lib/admin_only.inc.php:743 pages/page_settings.inc.php:118
+#: pages/page_settings_certificates.inc.php:164
+msgid "Save ALL Settings"
+msgstr ""
+
+#: lib/admin_only.inc.php:1034
+msgid "Filter By:"
+msgstr ""
+
+#: lib/admin_only.inc.php:1035
+msgid "-- View All Tags --"
+msgstr ""
+
+#: lib/admin_only.inc.php:1038
+msgid "Filter"
+msgstr ""
+
+#: lib/admin_only.inc.php:1092 pages/page_quiz_summary.inc.php:198
+msgid "Questions"
+msgstr ""
+
+#: lib/admin_only.inc.php:1198 lib/admin_only.inc.php:1200
+msgid "Search Questions"
+msgstr ""
+
+#: lib/admin_only.inc.php:1247 pages/page_quiz_summary.inc.php:122
+msgid "Search results for"
+msgstr ""
+
+#: lib/admin_only.inc.php:1252 pages/page_quiz_summary.inc.php:127
+msgid "reset"
+msgstr ""
+
+#: lib/admin_only.inc.php:1296 lib/admin_only.inc.php:1336
+#: pages/page_course_dashboard.inc.php:75 pages/page_quiz_summary.inc.php:157
+msgid "ID"
+msgstr ""
+
+#: lib/admin_only.inc.php:1322 lib/admin_only.inc.php:1344
+msgid "Question Type"
+msgstr ""
+
+#: lib/admin_only.inc.php:1352
+msgid "Associated Quizzes"
+msgstr ""
+
+#: lib/admin_only.inc.php:1357
+msgid "Tags"
+msgstr ""
+
+#: lib/admin_only.inc.php:1362 lib/admin_only.inc.php:1496
+#: lib/class_members.inc.php:236 pages/page_course_dashboard.inc.php:113
+#: pages/page_quiz_summary.inc.php:202 pages/page_user_progress.inc.php:63
+msgid "Actions"
+msgstr ""
+
+#: lib/admin_only.inc.php:1402 pages/page_quiz_summary.inc.php:292
+msgid "Edit"
+msgstr ""
+
+#: lib/admin_only.inc.php:1405
+msgid "Are you sure you wish to delete this question? This cannot be undone."
+msgstr ""
+
+#: lib/admin_only.inc.php:1415
+msgid "Added"
+msgstr ""
+
+#: lib/admin_only.inc.php:1420
+msgid "Add To Quiz"
+msgstr ""
+
+#: lib/admin_only.inc.php:1441
+msgid "There are currently no questions to show."
+msgstr ""
+
+#: lib/admin_only.inc.php:1492
+msgid "Details"
+msgstr ""
+
+#: lib/admin_only.inc.php:1495
+msgid "Training Course Progress"
+msgstr ""
+
+#: lib/admin_only.inc.php:1550
+msgid "No associated courses"
+msgstr ""
+
+#: lib/admin_only.inc.php:1560
+msgid "View Detailed Progress"
+msgstr ""
+
+#: lib/admin_only.inc.php:1567
+msgid "Update Course Access Permissions"
+msgstr ""
+
+#: lib/admin_only.inc.php:1596
+msgid "No associated courses."
+msgstr ""
+
+#: lib/admin_only.inc.php:1597
+msgid "Reset this user to beginning of..."
+msgstr ""
+
+#: lib/admin_only.inc.php:1623
+msgid "No courses yet."
+msgstr ""
+
+#: lib/admin_only.inc.php:1624
+msgid "Reset User Progress to beginning of..."
+msgstr ""
+
+#: lib/admin_only.inc.php:1643
+msgid "User progess has been reset."
+msgstr ""
+
+#: lib/admin_only.inc.php:2049 lib/admin_only.inc.php:2385
+#: lib/common.inc.php:763 lib/common.inc.php:796 lib/common.inc.php:1484
+#: lib/export_data.inc.php:149 lib/export_data.inc.php:417
+#: pages/page_gradebook.inc.php:608
+msgid "n/a"
+msgstr ""
+
+#: lib/admin_only.inc.php:2055 lib/admin_only.inc.php:2253
+#: lib/shortcodes.inc.php:288 pages/page_course_dashboard.inc.php:172
+#: pages/page_course_ordering.inc.php:139 pages/page_user_progress.inc.php:76
+msgid "Module"
+msgstr ""
+
+#: lib/admin_only.inc.php:2058 lib/shortcodes.inc.php:506
+#: pages/page_quiz_summary.inc.php:258
+msgid "Course"
+msgstr ""
+
+#: lib/admin_only.inc.php:2121
+msgid "Associated Module &amp; Course"
+msgstr ""
+
+#: lib/admin_only.inc.php:2122
+msgid "Associated Quiz"
+msgstr ""
+
+#: lib/admin_only.inc.php:2146
+msgid "Duplicate Unit"
+msgstr ""
+
+#: lib/admin_only.inc.php:2164
+msgid "Convert Post to Course Unit"
+msgstr ""
+
+#: lib/admin_only.inc.php:2174
+msgid "Convert Page to Course Unit"
+msgstr ""
+
+#: lib/admin_only.inc.php:2184
+msgid "Course Unit Template"
+msgstr ""
+
+#: lib/admin_only.inc.php:2202
+#, php-format
+msgid "Click to <a href=\"%s\">convert this <b>%s</b> to a Course Unit</a>."
+msgstr ""
+
+#: lib/admin_only.inc.php:2261 lib/shortcodes.inc.php:352
+#: lib/shortcodes.inc.php:365 lib/shortcodes.inc.php:382
+#: pages/page_module_modify.inc.php:156 pages/page_quiz_summary.inc.php:237
+#: pages/page_user_progress.inc.php:59 pages/page_user_progress.inc.php:97
+msgid "Unit"
+msgstr ""
+
+#: lib/admin_only.inc.php:2389
+msgid "True/False"
+msgstr ""
+
+#: lib/admin_only.inc.php:2393
+msgid "Multiple Choice"
+msgstr ""
+
+#: lib/admin_only.inc.php:2397
+msgid "File Upload"
+msgstr ""
+
+#: lib/admin_only.inc.php:2401
+msgid "Open Ended"
+msgstr ""
+
+#: lib/admin_only.inc.php:2405
+msgid "Random Selection"
+msgstr ""
+
+#: lib/ajax_admin.inc.php:41 pages/page_question_modify.inc.php:73
+#: pages/page_quiz_modify.inc.php:658
+msgid "Unknown quiz type: "
+msgstr ""
+
+#: lib/ajax_admin.inc.php:98
+msgid "Unfortunately there was a problem adding the tag."
+msgstr ""
+
+#: lib/ajax_admin.inc.php:131
+msgid ""
+"Unfortunately that question could not be found, so the tag could not be "
+"added."
+msgstr ""
+
+#: lib/ajax_admin.inc.php:195 lib/ajax_admin.inc.php:270
+#: lib/ajax_frontend.inc.php:20 lib/ajax_frontend.inc.php:74
+#: lib/ajax_frontend.inc.php:130 lib/ajax_frontend.inc.php:228
+#: lib/ajax_frontend.inc.php:296
+msgid "Security check failed!"
+msgstr ""
+
+#: lib/ajax_admin.inc.php:212
+msgid "Copy"
+msgstr ""
+
+#: lib/ajax_admin.inc.php:252
+msgid "Post could not be found."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:30 lib/ajax_frontend.inc.php:39
+#: lib/ajax_frontend.inc.php:52
+msgid "Error - could not request a retake for the quiz."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:30 lib/ajax_frontend.inc.php:90
+#: lib/ajax_frontend.inc.php:150 lib/ajax_frontend.inc.php:250
+#: lib/ajax_frontend.inc.php:306 pdf_create_results.php:19
+msgid "Could not find training unit."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:39 lib/ajax_frontend.inc.php:99
+#: lib/ajax_frontend.inc.php:160 lib/ajax_frontend.inc.php:260
+#: lib/ajax_frontend.inc.php:315 pdf_create_results.php:27
+msgid "Could not find course details for unit."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:52 lib/ajax_frontend.inc.php:328
+msgid "You are not permitted to retake this quiz."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:90 lib/ajax_frontend.inc.php:99
+msgid "Error - could not save your progress."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:150 lib/ajax_frontend.inc.php:160
+#: lib/ajax_frontend.inc.php:172
+msgid "Error - could not save your quiz results."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:172 lib/ajax_frontend.inc.php:272
+msgid "Quiz data does not match quiz for this unit."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:236
+msgid "Error - could not load the previous question."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:242
+msgid "Error - could not load the next question."
+msgstr ""
+
+#: lib/ajax_frontend.inc.php:306 lib/ajax_frontend.inc.php:315
+#: lib/ajax_frontend.inc.php:328
+msgid "Error - could not start the timer for the quiz."
+msgstr ""
+
+#: lib/class_members.inc.php:74
+msgid "&amp; Automatic Course Access Settings"
+msgstr ""
+
+#: lib/class_members.inc.php:97
+msgid "That membership level does not appear to exist."
+msgstr ""
+
+#: lib/class_members.inc.php:124
+#, php-format
+msgid "Editing permissions for <b>%s</b> level with <b>%s</b>:"
+msgstr ""
+
+#: lib/class_members.inc.php:140 pages/page_user_courseaccess.inc.php:128
+msgid "Save Changes"
+msgstr ""
+
+#: lib/class_members.inc.php:143
+msgid "Courses user can access at this level"
+msgstr ""
+
+#: lib/class_members.inc.php:181
+msgid "Level and course permissions successfully updated."
+msgstr ""
+
+#: lib/class_members.inc.php:182
+#, php-format
+msgid ""
+"Want to return to the <a href=\"%s\">Course Access Settings summary</a>?"
+msgstr ""
+
+#: lib/class_members.inc.php:200
+msgid "&laquo; Return to Course Access Settings summary"
+msgstr ""
+
+#: lib/class_members.inc.php:227
+msgid "Level ID"
+msgstr ""
+
+#: lib/class_members.inc.php:230
+msgid "Level Name"
+msgstr ""
+
+#: lib/class_members.inc.php:233
+msgid "Users at this level can access:"
+msgstr ""
+
+#: lib/class_members.inc.php:274
+msgid "There are no courses yet."
+msgstr ""
+
+#: lib/class_members.inc.php:281
+msgid "Edit Course Access Settings"
+msgstr ""
+
+#: lib/class_members.inc.php:293
+#, php-format
+msgid "No membership levels were found for %s."
+msgstr ""
+
+#: lib/class_members.inc.php:386
+msgid "extension"
+msgstr ""
+
+#: lib/class_members.inc.php:387
+#, php-format
+msgid "The %s plugin has not been detected. Is it installed and activated?"
+msgstr ""
+
+#: lib/class_members.inc.php:405 lib/frontend_only.inc.php:81
+#: wp-courseware.php:666
+msgid "WP Courseware"
+msgstr ""
+
+#: lib/class_members.inc.php:405
+msgid "has not been detected. Is it installed and activated?"
+msgstr ""
+
+#: lib/class_members.inc.php:423
+msgid "New users given access based on"
+msgstr ""
+
+#: lib/class_members.inc.php:426
+msgid "level"
+msgstr ""
+
+#: lib/common.inc.php:427
+msgid "Survey"
+msgstr ""
+
+#: lib/common.inc.php:431
+msgid "Quiz - Blocking"
+msgstr ""
+
+#: lib/common.inc.php:435
+msgid "Quiz - Non-Blocking"
+msgstr ""
+
+#: lib/common.inc.php:1125
+msgid "Module Complete Notification - {USER_NAME} - Module {MODULE_NUMBER}"
+msgstr ""
+
+#: lib/common.inc.php:1126
+msgid ""
+"Hi Trainer! \n"
+"\t\t\t\t\t\t\t\n"
+"Just to let you know, {USER_NAME} has just completed 'Module {MODULE_NUMBER} "
+"- {MODULE_TITLE}'.\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}\n"
+msgstr ""
+
+#: lib/common.inc.php:1179
+msgid "Course Complete Notification - {USER_NAME} - '{COURSE_TITLE}'"
+msgstr ""
+
+#: lib/common.inc.php:1180
+msgid ""
+"Hi Trainer! \n"
+"\t\t\t\t\t\t\t\n"
+"Just to let you know, {USER_NAME} has just completed the '{COURSE_TITLE}' "
+"course.\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}\n"
+msgstr ""
+
+#: lib/common.inc.php:1289
+msgid "Quiz Needs Grading Notification - {USER_NAME} - '{COURSE_TITLE}'"
+msgstr ""
+
+#: lib/common.inc.php:1290
+msgid ""
+"Hi Trainer! \n"
+"\t\t\t\t\t\t\t\n"
+"Just to let you know, {USER_NAME} has just completed a quiz ({QUIZ_TITLE}), "
+"which requires grading. You can grade the question here:\n"
+"{QUIZ_GRADE_URL}\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}\n"
+msgstr ""
+
+#: lib/common.inc.php:1339
+msgid "User Needs Unblocking Notification - {USER_NAME} - '{COURSE_TITLE}'"
+msgstr ""
+
+#: lib/common.inc.php:1340
+msgid ""
+"Hi Trainer! \n"
+"\t\t\t\t\t\t\t\n"
+"Just to let you know, {USER_NAME} has just completed a quiz ({QUIZ_TITLE}), "
+"but they have failed and run out of attempts. You can unblock their progress "
+"here:\n"
+"{QUIZ_GRADE_URL}\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}\n"
+msgstr ""
+
+#: lib/common.inc.php:1975
+msgid "MB"
+msgstr ""
+
+#: lib/common.inc.php:2041
+msgid "Not found."
+msgstr ""
+
+#: lib/common.inc.php:2195 wp-courseware.php:777
+msgid "mins"
+msgstr ""
+
+#: lib/common.inc.php:2196 wp-courseware.php:778
+msgid "secs"
+msgstr ""
+
+#: lib/common.inc.php:2201 wp-courseware.php:776
+msgid "hrs"
+msgstr ""
+
+#: lib/data_class_export.inc.php:531
+msgid "Error exporting question in quiz."
+msgstr ""
+
+#: lib/data_class_export.inc.php:823
+msgid "Missing"
+msgstr ""
+
+#: lib/data_class_import.inc.php:32
+#, php-format
+msgid "Line %d, Column %d, Error: %s"
+msgstr ""
+
+#: lib/data_class_import.inc.php:113
+msgid "Sorry, you're not allowed to import courses into WordPress."
+msgstr ""
+
+#: lib/data_class_import.inc.php:123
+msgid "There was no course data to import."
+msgstr ""
+
+#: lib/data_class_import.inc.php:140
+msgid "Could not create course in database."
+msgstr ""
+
+#: lib/data_class_import.inc.php:170
+msgid "There was a problem inserting the module into the database."
+msgstr ""
+
+#: lib/data_class_import.inc.php:225
+#, php-format
+msgid "Could not create course unit \"%s\". So this was skipped."
+msgstr ""
+
+#: lib/data_class_import.inc.php:248
+msgid "There was a problem adding unit meta data into the database."
+msgstr ""
+
+#: lib/data_class_import.inc.php:313
+msgid " (Imported)"
+msgstr ""
+
+#: lib/data_class_import.inc.php:672
+msgid "There was a problem adding the quiz into the database."
+msgstr ""
+
+#: lib/data_class_import.inc.php:1035
+msgid "There was a problem adding the question into the database."
+msgstr ""
+
+#: lib/email_defaults.inc.php:6
+msgid "Module {MODULE_TITLE} - Complete."
+msgstr ""
+
+#: lib/email_defaults.inc.php:7
+msgid ""
+"Hi {USER_NAME}\n"
+"\n"
+"Great work for completing the \"{MODULE_TITLE}\" module!\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}"
+msgstr ""
+
+#: lib/email_defaults.inc.php:18
+msgid "Course {COURSE_TITLE} - Complete"
+msgstr ""
+
+#: lib/email_defaults.inc.php:19
+msgid ""
+"Hi {USER_NAME}\n"
+"\n"
+"Great work for completing the \"{COURSE_TITLE}\" training course! "
+"Fantastic!\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}"
+msgstr ""
+
+#: lib/email_defaults.inc.php:30
+msgid "{COURSE_TITLE} - Your Quiz Grade - For \"{QUIZ_TITLE}\""
+msgstr ""
+
+#: lib/email_defaults.inc.php:31
+msgid ""
+"Hi {USER_NAME}\n"
+"\n"
+"Your grade for the \"{QUIZ_TITLE}\" quiz is: \n"
+"{QUIZ_GRADE} \n"
+"\n"
+"This was for the quiz at the end of this unit:\n"
+"{UNIT_URL}\n"
+"\n"
+"{QUIZ_RESULT_DETAIL}\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}"
+msgstr ""
+
+#: lib/email_defaults.inc.php:48
+msgid "Your final grade summary for \"{COURSE_TITLE}\""
+msgstr ""
+
+#: lib/email_defaults.inc.php:49
+msgid ""
+"Hi {USER_NAME}\n"
+"\n"
+"Congratulations on completing the \"{COURSE_TITLE}\" training course! "
+"Fantastic!\n"
+"\n"
+"Your final grade is: {CUMULATIVE_GRADE} \n"
+"\n"
+"Here is a summary of your quiz results:\n"
+"{QUIZ_SUMMARY}\n"
+"\n"
+"You can download your certificate here:\n"
+"{CERTIFICATE_LINK}\n"
+"\n"
+"I hope you enjoyed the course!\n"
+"\n"
+"{SITE_NAME}\n"
+"{SITE_URL}"
+msgstr ""
+
+#: lib/export_data.inc.php:71
+msgid "Sorry, could not find that survey to export the response data."
+msgstr ""
+
+#: lib/export_data.inc.php:77
+msgid "Sorry, but the selected item is not a survey, it's a quiz."
+msgstr ""
+
+#: lib/export_data.inc.php:97
+msgid "Trainee WP ID"
+msgstr ""
+
+#: lib/export_data.inc.php:98
+msgid "Trainee Name"
+msgstr ""
+
+#: lib/export_data.inc.php:99
+msgid "Trainee Email Address"
+msgstr ""
+
+#: lib/export_data.inc.php:148
+msgid "User no longer on system."
+msgstr ""
+
+#: lib/export_data.inc.php:166
+msgid "No answer for this question."
+msgstr ""
+
+#: lib/export_data.inc.php:225 lib/export_data.inc.php:226
+msgid "Test Course"
+msgstr ""
+
+#: lib/export_data.inc.php:275 pages/page_course_modify.inc.php:29
+#: pages/page_course_ordering.inc.php:31 pages/page_gradebook.inc.php:31
+msgid "Sorry, but that course could not be found."
+msgstr ""
+
+#: lib/export_data.inc.php:285 pages/page_gradebook.inc.php:48
+msgid ""
+"There are no quizzes for this course, therefore no grade information to show."
+msgstr ""
+
+#: lib/export_data.inc.php:310
+msgid "Name"
+msgstr ""
+
+#: lib/export_data.inc.php:311
+msgid "Username"
+msgstr ""
+
+#: lib/export_data.inc.php:312
+msgid "Email Address"
+msgstr ""
+
+#: lib/export_data.inc.php:313
+msgid "Course Progress"
+msgstr ""
+
+#: lib/export_data.inc.php:314 pages/page_gradebook.inc.php:238
+msgid "Cumulative Grade"
+msgstr ""
+
+#: lib/export_data.inc.php:315
+msgid "Has Grade Been Sent?"
+msgstr ""
+
+#: lib/export_data.inc.php:321
+msgid "Is Certificate Available?"
+msgstr ""
+
+#: lib/export_data.inc.php:374 pages/page_gradebook.inc.php:347
+msgid "Manual Grade Required"
+msgstr ""
+
+#: lib/export_data.inc.php:380 pages/page_gradebook.inc.php:353
+msgid "Quiz Retakes Exhausted"
+msgstr ""
+
+#: lib/export_data.inc.php:386 pages/page_gradebook.inc.php:359
+msgid "In Progress"
+msgstr ""
+
+#: lib/export_data.inc.php:404 pages/page_gradebook.inc.php:377
+msgid "Not Taken"
+msgstr ""
+
+#: lib/export_data.inc.php:418 lib/export_data.inc.php:426
+#: pages/page_gradebook.inc.php:394 pages/page_gradebook.inc.php:403
+#: pages/page_import_export.inc.php:533 pages/page_settings.inc.php:73
+#: pages/page_settings.inc.php:89 pages/page_settings_certificates.inc.php:76
+#: pages/page_user_progress.inc.php:478
+msgid "Yes"
+msgstr ""
+
+#: lib/export_data.inc.php:418 lib/export_data.inc.php:423
+#: pages/page_settings.inc.php:74 pages/page_settings.inc.php:90
+#: pages/page_settings_certificates.inc.php:77
+#: pages/page_user_progress.inc.php:478
+msgid "No"
+msgstr ""
+
+#: lib/frontend_only.inc.php:79
+msgid "Powered By"
+msgstr ""
+
+#: lib/shortcodes.inc.php:86
+msgid "Unrecognised course ID."
+msgstr ""
+
+#: lib/shortcodes.inc.php:102
+msgid "Could not find module."
+msgstr ""
+
+#: lib/shortcodes.inc.php:114
+msgid "There are no modules in this training course."
+msgstr ""
+
+#: lib/shortcodes.inc.php:314
+msgid "There are no units in this module."
+msgstr ""
+
+#: lib/shortcodes.inc.php:429
+msgid "You need to be logged in to see your course progress."
+msgstr ""
+
+#: lib/shortcodes.inc.php:487
+msgid "You are not currently enrolled on any courses."
+msgstr ""
+
+#: lib/shortcodes.inc.php:489
+msgid "You are not currently enrolled on any of these courses."
+msgstr ""
+
+#: lib/shortcodes.inc.php:511
+msgid "Your Progress"
+msgstr ""
+
+#: lib/shortcodes.inc.php:517
+msgid "Your Overall Grade"
+msgstr ""
+
+#: lib/templates_backend.inc.php:13
+msgid "Here you can choose which template to use for this unit."
+msgstr ""
+
+#: lib/templates_backend.inc.php:25
+msgid "Use default template"
+msgstr ""
+
+#: lib/widget_progress.inc.php:15
+msgid ""
+"A widget that shows the current progress of the user through the selected "
+"training course."
+msgstr ""
+
+#: lib/widget_progress.inc.php:26
+msgid "WPCW Course Progress"
+msgstr ""
+
+#: lib/widget_progress.inc.php:112
+msgid "Current User Progress"
+msgstr ""
+
+#: lib/widget_progress.inc.php:130
+msgid "All previous modules"
+msgstr ""
+
+#: lib/widget_progress.inc.php:131 lib/widget_progress.inc.php:139
+msgid "None"
+msgstr ""
+
+#: lib/widget_progress.inc.php:138
+msgid "All subsequent modules"
+msgstr ""
+
+#: lib/widget_progress.inc.php:148
+msgid "Title:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:150
+msgid "(Optional) Leave blank for no title."
+msgstr ""
+
+#: lib/widget_progress.inc.php:154
+msgid "Course To Show:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:157 pages/page_module_modify.inc.php:73
+msgid "-- Select a Training Course --"
+msgstr ""
+
+#: lib/widget_progress.inc.php:158
+msgid "Show User's Current Course"
+msgstr ""
+
+#: lib/widget_progress.inc.php:169
+msgid ""
+"(Required) Choose whether to display a specific course to the user or to "
+"display the course associated with the unit that the user is currently "
+"viewing."
+msgstr ""
+
+#: lib/widget_progress.inc.php:173
+msgid "Show/Hide Modules:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:174
+msgid ""
+"Here you can control how many modules to show before and after the current "
+"module to save space."
+msgstr ""
+
+#: lib/widget_progress.inc.php:179
+msgid "Previous modules to display:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:180
+msgid "Subsequent modules to display:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:199
+msgid "Expand/Contract Modules:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:203
+msgid "Expand all modules"
+msgstr ""
+
+#: lib/widget_progress.inc.php:204
+msgid "Contract all except current module"
+msgstr ""
+
+#: lib/widget_progress.inc.php:205
+msgid "Contract all modules"
+msgstr ""
+
+#: lib/widget_progress.inc.php:209
+msgid ""
+"You can save sidebar space by contracting  modules in the widget to just "
+"show the module title."
+msgstr ""
+
+#: lib/widget_progress.inc.php:223
+msgid "More Options:"
+msgstr ""
+
+#: lib/widget_progress.inc.php:224
+msgid "Show Course Title"
+msgstr ""
+
+#: lib/widget_progress.inc.php:225
+msgid "Show Course Description"
+msgstr ""
+
+#: lib/widget_progress.inc.php:226
+msgid "Show Module Descriptions"
+msgstr ""
+
+#: lib/widget_progress.inc.php:228
+msgid "Only display this widget when showing a course unit"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:15
+msgid "My Training Courses"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:88 pages/page_course_modify.inc.php:125
+#: pages/page_user_courseaccess.inc.php:87
+msgid "Course Title"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:97
+#: pages/page_user_courseaccess.inc.php:91
+msgid "Description"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:101 wp-courseware.php:627
+msgid "Settings"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:105
+msgid "Total Units"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:109
+msgid "Modules"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:138 pages/page_module_modify.inc.php:43
+#: wp-courseware.php:545
+msgid "Add Module"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:139
+msgid "Edit Course Settings"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:140
+msgid "Modules, Units &amp; Quiz Ordering"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:141
+msgid "Access Grade Book"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:149
+msgid "Give new users access by default"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:154
+msgid "Require unit completion before showing next"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:158
+msgid "Generate certificates on course completion"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:178 pages/page_module_modify.inc.php:29
+#: pages/page_module_modify.inc.php:37
+msgid "Edit Module"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:187
+#: pages/page_course_ordering.inc.php:186
+msgid "No modules yet."
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:251
+#: pages/page_course_dashboard.inc.php:263
+msgid "This course has "
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:253
+msgid " manual grading."
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:265
+msgid " blocked due to too many failed attempts."
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:294
+#: pages/page_user_courseaccess.inc.php:134
+#: pages/page_user_progress.inc.php:209
+msgid "There are currently no courses to show. Why not create one?"
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:326
+#, php-format
+msgid "Successfully deleted module \"<em>%s</em>\"."
+msgstr ""
+
+#: pages/page_course_dashboard.inc.php:345
+#, php-format
+msgid "Successfully deleted training course \"<em>%s</em>\"."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:28 pages/page_course_modify.inc.php:37
+msgid "Edit Course"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:43
+msgid "You are currently not permitted to edit this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:53 wp-courseware.php:533
+msgid "Add Course"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:59
+msgid "You are currently not permitted to add a new course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:96
+msgid "User progress for this course has been reset."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:108
+msgid "&laquo; Go back to editing the course settings"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:129
+msgid "The title of your course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:135
+msgid ""
+"Please specify a name for your course, up to a maximum of 150 characters, "
+"just no angled brackets (&lt; or &gt;). Your trainees will be able to see "
+"this course title."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:140
+msgid "Course Description"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:144
+msgid ""
+"The description of this course. Your trainees will be able to see this "
+"course description."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:149
+msgid "Please limit the description of your course to 5000 characters."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:163
+msgid "When do users see the next unit on the course?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:166
+msgid ""
+"Can a user see all possible course units? Or must they complete previous "
+"units before seeing the next unit?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:168
+msgid ""
+"<b>All Units Visible</b> - All units are visible regardless of completion "
+"progress."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:169
+msgid ""
+"<b>Only Completed/Next Units Visible</b> - Only show units that have been "
+"completed, plus the next unit that the user can start."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:180
+msgid "Granting users access to this course"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:183
+msgid ""
+"This setting allows you to set how users can access this course. They can "
+"either be given access automatically as soon as the user is created, or you "
+"can manually give them access. You can always manually remove access if you "
+"wish."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:185
+msgid ""
+"<b>Automatic</b> - All newly created users will be given access this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:186
+msgid "<b>Manual</b> - Users can only access course if you grant them access."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:198
+msgid "Message - Unit Complete"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:202
+msgid ""
+"The message shown to a trainee once they've <b>completed a unit</b>, which "
+"is displayed at the bottom of the unit page. HTML is OK."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:208 pages/page_course_modify.inc.php:223
+#: pages/page_course_modify.inc.php:238 pages/page_course_modify.inc.php:253
+#: pages/page_course_modify.inc.php:268 pages/page_course_modify.inc.php:283
+#: pages/page_course_modify.inc.php:298 pages/page_course_modify.inc.php:313
+msgid "Please limit message to 500 characters."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:213
+msgid "Message - Course Complete"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:217
+msgid ""
+"The message shown to a trainee once they've <b>completed the whole course</"
+"b>, which is displayed at the bottom of the unit page. HTML is OK."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:228
+msgid "Message - Unit Pending"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:232
+msgid ""
+"The message shown to a trainee when they've <b>yet to complete a unit</b>. "
+"This message is displayed at the bottom of the unit page, along with a "
+"button that says \"<b>Mark as completed</b>\". HTML is OK."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:243
+msgid "Message - Access Denied"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:247
+msgid ""
+"The message shown to a trainee they are <b>not allowed to access a unit</b>, "
+"because they are not allowed to <b>access the whole course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:258
+msgid "Message - Not Yet Available"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:262
+msgid ""
+"The message shown to a trainee they are <b>not allowed to access a unit yet</"
+"b>, because they need to complete a previous unit."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:273
+msgid "Message - Not Logged In"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:277
+msgid ""
+"The message shown to a trainee they are <b>not logged in</b>, and therefore "
+"cannot access the unit."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:288
+msgid "Message - Open-Question Submitted - Blocking Mode"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:292
+msgid ""
+"The message shown to a trainee they have submitted an answer to an <b>open-"
+"ended or upload question</b>, and you need to grade their answer <b>before "
+"they continue</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:303
+msgid "Message - Open-Question Submitted - Non-Blocking Mode"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:307
+msgid ""
+"The message shown to a trainee they have submitted an answer to an <b>open-"
+"ended or upload question</b>, and you need to grade their answer, but they "
+"can <b>continue anyway</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:326
+msgid "Email From Address"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:330
+msgid ""
+"The email address that the email notifications should be from.<br/>Depending "
+"on your server's spam-protection set up, this may not appear in the outgoing "
+"emails."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:335 pages/page_course_modify.inc.php:364
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:340
+msgid "Email From Name"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:344
+msgid ""
+"The name used on the email notifications, which are sent to you and your "
+"trainees. <br/>Depending on your server's spam-protection set up, this may "
+"not appear in the outgoing emails."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:350
+msgid ""
+"Please specify a from name, up to a maximum of 150 characters, just no "
+"angled brackets (&lt; or &gt;)."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:355
+msgid "Admin Notify Email Address"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:359
+msgid "The email address to send admin notifications to."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:375
+msgid "Module Complete - Notify You?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:380
+msgid ""
+"<b>Send me an email</b> - when one of your trainees has completed a module."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:381
+msgid ""
+"<b>Don't send me an email</b> - when one of your trainees has completed a "
+"module."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:386
+msgid "Module Complete - Notify User?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:391
+msgid "<b>Send Email</b> - to user when module has been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:392
+msgid "<b>Don't Send Email</b> - to user when module has been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:397
+msgid "Module Complete - Email Subject"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:402
+msgid ""
+"The <b>subject line</b> for the email sent to a user when they complete a "
+"<b>module</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:407 pages/page_course_modify.inc.php:464
+#: pages/page_course_modify.inc.php:510 pages/page_course_modify.inc.php:546
+msgid "Please limit the email subject to 300 characters."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:412
+msgid "Module Complete - Email Body"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:416
+msgid ""
+"The <b>template body</b> for the email sent to a user when they complete a "
+"<b>module</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:421 pages/page_course_modify.inc.php:478
+#: pages/page_course_modify.inc.php:525 pages/page_course_modify.inc.php:561
+msgid "Please limit the email body to 5000 characters."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:432
+msgid "Course Complete - Notify You?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:437
+msgid ""
+"<b>Send me an email</b> - when one of your trainees has completed the whole "
+"course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:438
+msgid ""
+"<b>Don't send me an email</b> - when one of your trainees has completed the "
+"whole course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:443
+msgid "Course Complete - Notify User?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:448
+msgid "<b>Send Email</b> - to user when the whole course has been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:449
+msgid ""
+"<b>Don't Send Email</b> - to user when the whole course has been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:454
+msgid "Course Complete - Email Subject"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:459
+msgid ""
+"The <b>subject line</b> for the email sent to a user when they complete "
+"<b>the whole course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:469
+msgid "Course Complete - Email Body"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:473
+msgid ""
+"The <b>template body</b> for the email sent to a user when they complete "
+"<b>the whole course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:489
+msgid "Quiz Grade - Notify User?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:494
+msgid ""
+"<b>Send Email</b> - to user after a quiz is graded (automatically or by the "
+"instructor)."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:495
+msgid "<b>Don't Send Email</b> - to user when a quiz is graded."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:500
+msgid "Quiz Graded - Email Subject"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:505
+msgid ""
+"The <b>subject line</b> for the email sent to a user when they receive a "
+"<b>grade for a quiz</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:515
+msgid "Quiz Graded - Email Body"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:519
+msgid ""
+"The <b>template body</b> for the email sent to a user when they receive a "
+"<b>grade for a quiz</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:536
+msgid "Final Summary - Email Subject"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:541
+msgid ""
+"The <b>subject line</b> for the email sent to a user when they receive their "
+"<b>grade summary at the end of the course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:551
+msgid "Final Summary - Email Body"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:556
+msgid ""
+"The <b>template body</b> for the email sent to a user when they receive "
+"their <b>grade summary at the end of the course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:573
+msgid "Enable certificates?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:577
+msgid ""
+"<b>Yes</b> - generate a PDF certificate when user completes this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:578
+msgid ""
+"<b>No</b> - don't generate a PDF certificate when user completes this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:589
+msgid "Reset User Progess for this Course?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:593
+msgid "Reset All Users on this Course to the start"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:594
+msgid ""
+"This button will reset all users who can access this course back to the "
+"beginning of the course. This deletes all grade data too."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:599
+msgid "Bulk-grant access to this course?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:605
+msgid "All Existing Users (including Administrators)"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:608
+msgid "Only All Existing Administrators"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:610
+msgid ""
+"You can use the buttons above to grant all users access to this course. "
+"Depending on how many users you have, this may be a slow process."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:619
+msgid "General Course Details"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:620
+msgid "User Access"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:621
+msgid "User Messages"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:622
+msgid "Email Address Details"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:623
+msgid "Email Notifications - Module"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:624
+msgid "Email Notifications - Course"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:625
+msgid "Email Notifications - Quiz Grades"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:626
+msgid "Email Notifications - Final Summary"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:627 wp-courseware.php:634
+msgid "Certificates"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:628
+msgid "Course Access Tools"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:651 pages/page_settings.inc.php:123
+msgid ""
+"Sorry, but unfortunately there were some errors saving the course details. "
+"Please fix the errors and try again."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:691
+msgid "You need to complete the previous unit first."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:692
+msgid "Have you completed this unit? Then mark this unit as completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:693
+msgid "You have now completed this unit."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:694 wp-courseware.php:974
+msgid "You have now completed the whole course. Congratulations!"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:695
+msgid "Sorry, but you're not allowed to access this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:696
+msgid "You cannot view this unit as you're not logged in yet."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:699 wp-courseware.php:985
+msgid ""
+"Your quiz has been submitted for grading by the course instructor. Once your "
+"grade has been entered, you will be able access the next unit."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:700 wp-courseware.php:993
+msgid ""
+"Your quiz has been submitted for grading by the course instructor. You have "
+"now completed this unit."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:705 pages/page_module_modify.inc.php:102
+#, php-format
+msgid "Do you want to return to the <a href=\"%s\">course summary page</a>?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:710
+msgid "Course details successfully created. "
+msgstr ""
+
+#: pages/page_course_modify.inc.php:711
+msgid "Course details successfully updated. "
+msgstr ""
+
+#: pages/page_course_modify.inc.php:715 pages/page_module_modify.inc.php:111
+msgid "Save ALL Details"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:732
+#, php-format
+msgid ""
+"Currently <b>%d of your quizzes</b> are blocking process based on a "
+"percentage score <b>in this course</b>."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:734
+msgid "You do not currently have any blocking quizzes for this course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:740
+msgid "Important Note"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:741
+msgid ""
+"You have selected <b>All Units Visible</b>. If you create a quiz blocking "
+"progress based on a percentage score, students will have access to the "
+"entire course regardless of quiz score."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:763
+msgid "Delete Course?"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:769
+msgid "Email Template Tags"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:771
+msgid "All Email Notifications"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:774
+msgid "The display name of the user."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:776
+msgid "The name of the website."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:777
+msgid "The URL of the website."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:779
+msgid "The title of the course for the unit that's just been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:780
+msgid "The title of the module for the unit that's just been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:781
+msgid "The number of the module for the unit that's just been completed."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:783
+msgid ""
+"If the course has PDF certificates enabled, this is the link of the PDF "
+"certficate. (If there is no certificate or certificates are not enabled, "
+"this is simply blank)"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:787
+msgid "Quiz Email Notifications Only"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:789
+msgid "The title of the quiz that has been graded."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:790
+msgid "The overall percentage grade for a quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:791
+msgid "Includes a breakdown of scores by tag if available."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:792
+msgid "If the quiz was timed, displays the time used to complete the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:793
+msgid "Indicates the number of attempts for the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:794
+msgid ""
+"Includes any custom feedback messages that have been triggered based on the "
+"user's specific results in the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:795
+msgid ""
+"Any optional information relating to the result of the quiz, e.g. "
+"information about retaking the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:796
+msgid "The title of the unit that is associated with the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:797
+msgid "The URL of the unit that is associated with the quiz."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:800
+msgid "Final Summary Notifications Only"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:802
+msgid ""
+"The overall cumulative grade that the user has scored from completing all "
+"quizzes on the course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:803
+msgid "The summary of each quiz, and what the user scored on each."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:825
+msgid "Course and module settings only"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:826
+msgid ""
+"Units and quizzes will not be deleted, but simply disassociated from the "
+"course."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:830
+msgid "Delete everything"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:831
+msgid ""
+"This option will delete the course, the modules, all units and all quizzes."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:837
+msgid "Delete this Course"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:838
+msgid ""
+"Are you sure you want to delete the this course?\n"
+"\n"
+"This CANNOT be undone!"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:867
+msgid "admin"
+msgstr ""
+
+#: pages/page_course_modify.inc.php:871
+msgid "Unknown access change was requested."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:877
+#, php-format
+msgid ""
+"Requesting a list of <b>all %s users</b> to update... (this make take a "
+"while)..."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:884
+#, php-format
+msgid "Found %d user(s), so now starting to add them to this course..."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:893
+#, php-format
+msgid "Processing <b>%s</b>... "
+msgstr ""
+
+#: pages/page_course_modify.inc.php:906
+msgid "User can already access this course. Skipping."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:918
+msgid "Added."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:922
+#, php-format
+msgid "Done. %.1f%% complete."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:927
+msgid "No users found. Nothing to do."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:930 pages/page_gradebook.inc.php:637
+msgid "All done."
+msgstr ""
+
+#: pages/page_course_modify.inc.php:961
+msgid "---- No Page Selected ----"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:16
+msgid "Order Course Modules &amp; Units"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:42
+msgid "Editing Course:"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:53
+msgid "Unassigned Units"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:73
+#: pages/page_course_ordering.inc.php:111
+#: pages/page_course_ordering.inc.php:164
+msgid "Edit this quiz..."
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:84
+#: pages/page_course_ordering.inc.php:175
+msgid "Edit this unit..."
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:95
+msgid "Unassigned Quizzes"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:138
+msgid "Edit this module..."
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:192
+msgid "Save Changes to Ordering"
+msgstr ""
+
+#: pages/page_course_ordering.inc.php:193
+msgid "Ordering has changed. Ready to save changes?"
+msgstr ""
+
+#: pages/page_documentation.inc.php:51
+msgid "Shortcodes"
+msgstr ""
+
+#: pages/page_documentation.inc.php:57
+msgid "How-To Videos"
+msgstr ""
+
+#: pages/page_documentation.inc.php:133
+msgid "Course Progress Shortcode"
+msgstr ""
+
+#: pages/page_documentation.inc.php:135
+msgid ""
+"To show the course progress, you can use the <code>[wpcourse]</code> "
+"shortcode. Here's a summary of the shortcode parameters for "
+"<code>[wpcourse]</code>:"
+msgstr ""
+
+#: pages/page_documentation.inc.php:137 pages/page_documentation.inc.php:179
+msgid "Parameters:"
+msgstr ""
+
+#: pages/page_documentation.inc.php:139
+msgid "course"
+msgstr ""
+
+#: pages/page_documentation.inc.php:140
+msgid "<em>(Required)</em> The ID of the course to show."
+msgstr ""
+
+#: pages/page_documentation.inc.php:142
+msgid "show_title"
+msgstr ""
+
+#: pages/page_documentation.inc.php:143
+msgid ""
+"<em>(Optional)</em> If true, show the course title. (It can be <b>true</b> "
+"or <b>false</b>. By default, it's <b>false</b>)."
+msgstr ""
+
+#: pages/page_documentation.inc.php:145
+msgid "show_desc"
+msgstr ""
+
+#: pages/page_documentation.inc.php:146
+msgid ""
+"<em>(Optional)</em> If true, show the course description. (It can be "
+"<b>true</b> or <b>false</b>. By default, it's <b>false</b>)."
+msgstr ""
+
+#: pages/page_documentation.inc.php:148
+msgid "module"
+msgstr ""
+
+#: pages/page_documentation.inc.php:149
+msgid ""
+"<em>(Optional)</em> The number of the module to show from the specified "
+"course."
+msgstr ""
+
+#: pages/page_documentation.inc.php:151
+msgid "module_desc"
+msgstr ""
+
+#: pages/page_documentation.inc.php:152
+msgid ""
+"<em>(Optional)</em> If true, show the module descriptions. (It can be "
+"<b>true</b> or <b>false</b>. By default, it's <b>false</b>)."
+msgstr ""
+
+#: pages/page_documentation.inc.php:156
+msgid "Here are some examples of how <code>[wpcourse]</code> shortcode works:"
+msgstr ""
+
+#: pages/page_documentation.inc.php:158
+msgid ""
+"Example 1: <code>[wpcourse course=\"2\" module_desc=\"false\" show_title="
+"\"false\" show_desc=\"false\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:159
+msgid ""
+"Shows course 2, just with module and unit titles. Do not show course title, "
+"course description or module descriptions."
+msgstr ""
+
+#: pages/page_documentation.inc.php:161
+msgid "Example 2: <code>[wpcourse course=\"2\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:162
+msgid "Exactly the same output as example 1."
+msgstr ""
+
+#: pages/page_documentation.inc.php:164
+msgid ""
+"Example 3: <code>[wpcourse course=\"1\" module=\"4\" module_desc=\"true"
+"\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:165
+msgid ""
+"Shows module 4 from course 1, with module titles and descriptions, and unit "
+"titles."
+msgstr ""
+
+#: pages/page_documentation.inc.php:167
+msgid ""
+"Example 4: <code>[wpcourse course=\"1\" module_desc=\"true\" show_title="
+"\"true\" show_desc=\"true\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:168
+msgid ""
+"Shows course 1, with course title, course description, module title, module "
+"description and unit titles."
+msgstr ""
+
+#: pages/page_documentation.inc.php:173
+msgid "Overall Course Progress Shortcode"
+msgstr ""
+
+#: pages/page_documentation.inc.php:175
+msgid ""
+"The <code>[wpcourse_progress]</code> shortcode creates a summary table of "
+"all courses that a user is signed up to, along with their progress for each "
+"course, and their grade so far."
+msgstr ""
+
+#: pages/page_documentation.inc.php:176
+msgid ""
+"To be able to see their progress, a user needs to be logged in. If the user "
+"is not logged in, then a message saying that the user needs to be logged in "
+"will be shown."
+msgstr ""
+
+#: pages/page_documentation.inc.php:177
+msgid ""
+"Here's a summary of the shortcode parameters for <code>[wpcourse_progress]</"
+"code>:"
+msgstr ""
+
+#: pages/page_documentation.inc.php:181
+msgid "courses"
+msgstr ""
+
+#: pages/page_documentation.inc.php:182
+msgid ""
+"<em>(Optional)</em> A comma-separated list of course IDs to show in the "
+"progress. If this is not specified, then all courses that the user is signed "
+"up to will be shown."
+msgstr ""
+
+#: pages/page_documentation.inc.php:184
+msgid "user_progress"
+msgstr ""
+
+#: pages/page_documentation.inc.php:185
+msgid ""
+"<em>(Optional)</em> If true, then show a progress bar of the user's current "
+"progress for each course they are signed up to. (It can be <b>true</b> or "
+"<b>false</b>. By default, it's <b>true</b>)."
+msgstr ""
+
+#: pages/page_documentation.inc.php:187
+msgid "user_grade"
+msgstr ""
+
+#: pages/page_documentation.inc.php:188
+msgid ""
+"<em>(Optional)</em> If true, then show the user's average grade so far for "
+"each course they are signed up to. (It can be <b>true</b> or <b>false</b>. "
+"By default, it's <b>true</b>)."
+msgstr ""
+
+#: pages/page_documentation.inc.php:192
+msgid ""
+"Here are some examples of how <code>[wpcourse_progress]</code> shortcode "
+"works:"
+msgstr ""
+
+#: pages/page_documentation.inc.php:194
+msgid ""
+"Example 1: <code>[wpcourse_progress user_progress=\"true\" user_grade=\"true"
+"\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:195
+msgid ""
+"Shows all courses a user is signed up to, along with their progress and "
+"cumulative grade so far for each course."
+msgstr ""
+
+#: pages/page_documentation.inc.php:197
+msgid "Example 2: <code>[wpcourse_progress /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:198
+msgid "Does exactly the same as example 1, using the default parameter values."
+msgstr ""
+
+#: pages/page_documentation.inc.php:200
+msgid ""
+"Example 3: <code>[wpcourse_progress user_progress=\"false\" user_grade=\"true"
+"\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:201
+msgid ""
+"Shows all courses a user is signed up to and their cumulative grade so far "
+"for each course, but the progress bar for each course is hidden."
+msgstr ""
+
+#: pages/page_documentation.inc.php:203
+msgid ""
+"Example 4: <code>[wpcourse_progress user_progress=\"false\" user_grade="
+"\"false\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:204
+msgid ""
+"Shows all courses a user is signed up to, but their progress and cumulative "
+"grades for each course are hidden."
+msgstr ""
+
+#: pages/page_documentation.inc.php:206
+msgid ""
+"Example 5: <code>[wpcourse_progress courses=\"1,2\" user_progress=\"true\" "
+"user_grade=\"true\" /]</code>"
+msgstr ""
+
+#: pages/page_documentation.inc.php:207
+msgid ""
+"Only shows courses with IDs of 1 and 2 if the user is signed to them. If the "
+"user is not signed up to any of those courses, then that course is not "
+"shown. Their progress and cumulative grade so far for each course is also "
+"shown."
+msgstr ""
+
+#: pages/page_documentation.inc.php:222
+msgid "How to create a new course"
+msgstr ""
+
+#: pages/page_documentation.inc.php:226
+msgid "How to create a new module"
+msgstr ""
+
+#: pages/page_documentation.inc.php:230
+msgid "How to create a new unit and assign it to a module"
+msgstr ""
+
+#: pages/page_documentation.inc.php:234
+msgid "How to edit and convert a post into a unit"
+msgstr ""
+
+#: pages/page_documentation.inc.php:238
+msgid "How to add a course outline page"
+msgstr ""
+
+#: pages/page_documentation.inc.php:242
+msgid "How to create a survey"
+msgstr ""
+
+#: pages/page_documentation.inc.php:246
+msgid "How to a create a blocking quiz"
+msgstr ""
+
+#: pages/page_documentation.inc.php:250
+msgid "How to create a non-blocking quiz"
+msgstr ""
+
+#: pages/page_documentation.inc.php:254
+msgid "How to enroll students and track their progress"
+msgstr ""
+
+#: pages/page_documentation.inc.php:258
+msgid "How to reset student progress"
+msgstr ""
+
+#: pages/page_documentation.inc.php:262
+msgid "How to enroll all users as students into a course"
+msgstr ""
+
+#: pages/page_documentation.inc.php:266
+msgid "How to enroll students in bulk via CSV"
+msgstr ""
+
+#: pages/page_documentation.inc.php:270
+msgid "How to create a course progress page"
+msgstr ""
+
+#: pages/page_documentation.inc.php:274
+msgid "How to use the grade book"
+msgstr ""
+
+#: pages/page_documentation.inc.php:278
+msgid "How to add a course menu widget to the sidebar"
+msgstr ""
+
+#: pages/page_documentation.inc.php:282
+msgid "How to import and export a course"
+msgstr ""
+
+#: pages/page_documentation.inc.php:286
+msgid "How to Generate a PDF Certificate of Completion for Your Course"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:30 pages/page_gradebook.inc.php:37
+msgid "GradeBook"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:223
+msgid "Learner Details"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:231
+msgid "Overall Progress"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:244
+msgid "Grade Sent?"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:252
+msgid "Certificate Available?"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:278
+msgid "There are currently no quizzes that need a manual grade."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:282 pages/page_gradebook.inc.php:499
+msgid ""
+"There are currently no users that are eligible to receive their final grade."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:286
+msgid "There are currently no users that have completed the course."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:290
+msgid "There are currently no learners allocated to this course."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:402
+msgid "Download the certificate for this user."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:422
+msgid "Export Gradebook (CSV)"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:427
+msgid "Email Final Grades"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:435
+#, php-format
+msgid ""
+"Grades will only be emailed to students who have <b>completed the course</b> "
+"and who have <b>not yet received</b> their final grade. \n"
+"\t\t\t   You can see the students who are <a href=\"%s\">eligible to receive "
+"the final grade email</a> here."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:447
+#, php-format
+msgid "All (%d)"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:448
+#, php-format
+msgid "Completed (%d)"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:449
+#, php-format
+msgid "Eligible for Final Grade Email (%d)"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:450
+#, php-format
+msgid "Just Quizzes that Need Marking (%d)"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:500
+msgid "No emails have been sent."
+msgstr ""
+
+#: pages/page_gradebook.inc.php:522
+msgid "Sending final grade emails to"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:549
+msgid "complete"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:597
+msgid "Quiz"
+msgstr ""
+
+#: pages/page_gradebook.inc.php:599
+msgid "Grade"
+msgstr ""
+
+#: pages/page_import_export.inc.php:42 pages/page_import_export.inc.php:50
+#: pages/page_import_export.inc.php:58 pages/page_import_export.inc.php:81
+msgid "Export Course"
+msgstr ""
+
+#: pages/page_import_export.inc.php:44 pages/page_import_export.inc.php:52
+#: pages/page_import_export.inc.php:60 pages/page_import_export.inc.php:149
+msgid "Import Course"
+msgstr ""
+
+#: pages/page_import_export.inc.php:46 pages/page_import_export.inc.php:54
+#: pages/page_import_export.inc.php:62 pages/page_import_export.inc.php:205
+msgid "Import Users"
+msgstr ""
+
+#: pages/page_import_export.inc.php:77
+msgid "Export Training Course"
+msgstr ""
+
+#: pages/page_import_export.inc.php:84
+msgid "Course to Export"
+msgstr ""
+
+#: pages/page_import_export.inc.php:85
+msgid "--- Select a course to export ---"
+msgstr ""
+
+#: pages/page_import_export.inc.php:89
+msgid "What to Export"
+msgstr ""
+
+#: pages/page_import_export.inc.php:91
+msgid "<b>All</b> - The whole course - including modules, units and quizzes."
+msgstr ""
+
+#: pages/page_import_export.inc.php:92
+msgid ""
+"<b>Just the Course</b> - Just the course title, description and settings (no "
+"modules, units or quizzes)."
+msgstr ""
+
+#: pages/page_import_export.inc.php:93
+msgid ""
+"<b>Course and Modules</b> - Just the course settings and module settings (no "
+"units or quizzes)."
+msgstr ""
+
+#: pages/page_import_export.inc.php:94
+msgid ""
+"<b>Course, Modules and Units</b> - The course settings and module settings "
+"and units (no quizzes)."
+msgstr ""
+
+#: pages/page_import_export.inc.php:114
+msgid ""
+"Sorry, but unfortunately there were some errors. Please fix the errors and "
+"try again."
+msgstr ""
+
+#: pages/page_import_export.inc.php:123
+msgid ""
+"When you export a course, you'll get an <b>XML file</b>, which you can then "
+"<b>import into another WordPress website</b> that's running <b>WP "
+"Courseware</b>.<br/> \n"
+"\t    When you export the course units with a course, just the <b>HTML to "
+"render images and video</b> will be copied, but the <b>actual images and "
+"video files will not be exported</b>."
+msgstr ""
+
+#: pages/page_import_export.inc.php:139
+msgid "Import Training Course"
+msgstr ""
+
+#: pages/page_import_export.inc.php:152
+msgid "Course Import XML File"
+msgstr ""
+
+#: pages/page_import_export.inc.php:168
+msgid "Unfortunately, there were some errors trying to import the CSV file."
+msgstr ""
+
+#: pages/page_import_export.inc.php:179
+msgid ""
+"You can import any export file created by <b>WP Courseware</b> using the "
+"form below."
+msgstr ""
+
+#: pages/page_import_export.inc.php:179 pages/page_import_export.inc.php:235
+#, php-format
+msgid "The <b>maximum upload file size</b> for your server is <b>%d MB</b>."
+msgstr ""
+
+#: pages/page_import_export.inc.php:196
+msgid "Import Users from CSV File"
+msgstr ""
+
+#: pages/page_import_export.inc.php:208
+msgid "User Import CSV File"
+msgstr ""
+
+#: pages/page_import_export.inc.php:224 pages/page_import_export.inc.php:289
+msgid "Unfortunately, there were some errors trying to import the XML file."
+msgstr ""
+
+#: pages/page_import_export.inc.php:235
+msgid "You can import a CSV file of users using the form below."
+msgstr ""
+
+#: pages/page_import_export.inc.php:242
+msgid "Some tips for importing users via a CSV file:"
+msgstr ""
+
+#: pages/page_import_export.inc.php:244
+msgid ""
+"If a user email address already exists, then just the courses are updated "
+"for that user."
+msgstr ""
+
+#: pages/page_import_export.inc.php:245
+msgid ""
+"User names are generated from the first and last name information. If a user "
+"name already exists, then a unique username is generated."
+msgstr ""
+
+#: pages/page_import_export.inc.php:246
+msgid ""
+"To add a user to many courses, just separate those course IDs with a comma "
+"in the <code>courses_to_add_to</code> column."
+msgstr ""
+
+#: pages/page_import_export.inc.php:247
+msgid ""
+"If a user is created, any courses set to be automatically assigned will be "
+"done first, and then the courses added in the <code>courses_to_add_to</code> "
+"column."
+msgstr ""
+
+#: pages/page_import_export.inc.php:248
+#, php-format
+msgid "You can download an <a href=\"%s\">example CSV file here</a>."
+msgstr ""
+
+#: pages/page_import_export.inc.php:249
+#, php-format
+msgid ""
+"The IDs for the training courses can be found on the <a href=\"%s\">course "
+"summary page</a>."
+msgstr ""
+
+#: pages/page_import_export.inc.php:273 pages/page_import_export.inc.php:326
+msgid "Unfortunately, you tried to upload a file that isn't XML."
+msgstr ""
+
+#: pages/page_import_export.inc.php:295
+msgid "The course was successfully imported."
+msgstr ""
+
+#: pages/page_import_export.inc.php:296
+#, php-format
+msgid ""
+"You can now <a href=\"%s\">edit the Course Settings</a> or <a href=\"%s"
+"\">edit the Unit &amp; Module Ordering</a>."
+msgstr ""
+
+#: pages/page_import_export.inc.php:312 pages/page_import_export.inc.php:561
+msgid "Unfortunately the file you've uploaded is too large for the system."
+msgstr ""
+
+#: pages/page_import_export.inc.php:317 pages/page_import_export.inc.php:566
+msgid ""
+"For some reason, the file you've uploaded didn't transfer correctly to the "
+"server. Please try again."
+msgstr ""
+
+#: pages/page_import_export.inc.php:322 pages/page_import_export.inc.php:571
+msgid ""
+"There appears to be an issue with your server, as the import file could not "
+"be stored in the temporary directory."
+msgstr ""
+
+#: pages/page_import_export.inc.php:341
+msgid "Import started..."
+msgstr ""
+
+#: pages/page_import_export.inc.php:362 pages/page_import_export.inc.php:575
+msgid "Unfortunately, you tried to upload a file that isn't a CSV file."
+msgstr ""
+
+#: pages/page_import_export.inc.php:396
+msgid "No data was found in the CSV file, so there is nothing to do."
+msgstr ""
+
+#: pages/page_import_export.inc.php:425
+msgid "Cannot create a user with no name."
+msgstr ""
+
+#: pages/page_import_export.inc.php:439
+msgid "Email address already exists."
+msgstr ""
+
+#: pages/page_import_export.inc.php:505
+msgid "Import complete!"
+msgstr ""
+
+#: pages/page_import_export.inc.php:505
+#, php-format
+msgid ""
+"%d users were registered, %d users were updated, and %d user entries could "
+"not be processed."
+msgstr ""
+
+#: pages/page_import_export.inc.php:514
+#, php-format
+msgid "The following %d users were not imported:"
+msgstr ""
+
+#: pages/page_import_export.inc.php:519
+msgid "Line #"
+msgstr ""
+
+#: pages/page_import_export.inc.php:520
+msgid "User Email Address"
+msgstr ""
+
+#: pages/page_import_export.inc.php:521
+msgid "Reason why not imported"
+msgstr ""
+
+#: pages/page_import_export.inc.php:522
+msgid "Updated Anyway?"
+msgstr ""
+
+#: pages/page_import_export.inc.php:533
+msgid "No, Aborted"
+msgstr ""
+
+#: pages/page_import_export.inc.php:549
+msgid ""
+"Unfortunately, the temporary CSV file could not be opened for processing."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:30
+msgid "Sorry, but that module could not be found."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:53
+msgid "Module Title"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:57
+msgid ""
+"The title of your module. You <b>do not need to number the modules</b> - "
+"this is done automatically based on the order that they are arranged."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:63
+msgid ""
+"Please specify a name for your module, up to a maximum of 150 characters, "
+"just no angled brackets (&lt; or &gt;). Your trainees will be able to see "
+"this module title."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:68
+msgid "Associated Course"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:72
+msgid "The associated training course that this module belongs to."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:77
+msgid "Module Description"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:81
+msgid ""
+"The description of this module. Your trainees will be able to see this "
+"module description."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:86
+msgid "Please limit the description of your module to 5000 characters."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:98
+msgid ""
+"Sorry, but unfortunately there were some errors saving the module details. "
+"Please fix the errors and try again."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:107
+msgid "Module details successfully created."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:108
+msgid "Module details successfully updated."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:132
+msgid "Delete Module?"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:137
+msgid ""
+"Are you sure you want to delete the this module?\n"
+"\n"
+"This CANNOT be undone!"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:138
+msgid "Delete this Module"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:141
+msgid ""
+"Units will <b>not</b> be deleted, they will <b>just be disassociated</b> "
+"from this module."
+msgstr ""
+
+#: pages/page_module_modify.inc.php:147
+msgid "Units in this Module"
+msgstr ""
+
+#: pages/page_module_modify.inc.php:165
+msgid "There are currently no units in this module."
+msgstr ""
+
+#: pages/page_question_modify.inc.php:15
+msgid "Edit Single Question"
+msgstr ""
+
+#: pages/page_question_modify.inc.php:33
+msgid "Sorry, but that question could not be found."
+msgstr ""
+
+#: pages/page_question_modify.inc.php:44
+msgid "Question successfully updated."
+msgstr ""
+
+#: pages/page_question_modify.inc.php:101
+msgid "&laquo; Return to Question Pool"
+msgstr ""
+
+#: pages/page_question_modify.inc.php:102
+msgid "Save Question Details"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:28 pages/page_quiz_summary.inc.php:27
+msgid "Page"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:32 wp-courseware.php:567
+msgid "Question Pool"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:79
+#, php-format
+msgid "The question '%s' was successfully deleted."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:96
+msgid "Please select <b>at least 1 question</b> before continuing..."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:97
+msgid "Please select the <b>first tag</b> before continuing..."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:98
+msgid "Please select the <b>second tag</b> before continuing..."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:101
+msgid "Action for selected questions?"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:105
+msgid "--- Select action ---"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:106
+msgid "Add tag to selected questions"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:107
+msgid "Remove tag from selected questions"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:108
+msgid "Replace all instances of tag"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:112
+msgid "Add Tag"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:113
+msgid "Remove Tag"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:114
+msgid "Replace Tag"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:117 pages/page_question_pool.inc.php:127
+msgid "Select a tag"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:124
+msgid "With"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:134
+msgid "Update Questions"
+msgstr ""
+
+#: pages/page_question_pool.inc.php:169
+msgid "Error. Please select some questions to update."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:185
+msgid ""
+"Error. Those questions no longer exist. Please select some more questions to "
+"update."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:199
+msgid "Error. Did not recognise action to apply to selected questions."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:213
+msgid "Error. The first tag does not exist. Please select another tag."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:222
+msgid "Error. The second tag does not exist. Please select another tag."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:228
+msgid "Error. The first and second tag should be different."
+msgstr ""
+
+#: pages/page_question_pool.inc.php:278
+msgid "Questions successfully updated."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:42 pages/page_quiz_modify.inc.php:54
+msgid "Edit Quiz/Survey"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:43
+msgid "Sorry, but that quiz/survey could not be found."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:64 wp-courseware.php:555
+msgid "Add Quiz/Survey"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:71
+msgid "General Settings"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:72
+msgid "Quiz Behaviour Settings"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:73
+msgid "Result Settings"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:74
+msgid "Custom Feedback"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:75
+msgid "Manage Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:87 pages/page_quiz_summary.inc.php:171
+#: pages/page_user_progress.inc.php:334
+msgid "Quiz Title"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:91
+msgid ""
+"The title of your quiz or survey. Your trainees will be able to see this "
+"quiz title."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:97
+msgid ""
+"Please specify a name for your quiz or survey, up to a maximum of 150 "
+"characters, just no angled brackets (&lt; or &gt;)."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:102
+msgid "Quiz/Survey Description"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:107
+msgid ""
+"(Optional) The description of this quiz. Your trainees won't see this "
+"description. It's just for your reference."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:112
+msgid "Please limit the description of your quiz to 5000 characters."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:117 pages/page_quiz_summary.inc.php:185
+#: pages/page_user_progress.inc.php:336
+msgid "Quiz Type"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:122
+msgid "<b>Survey Mode</b> - No correct answers, just collect information."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:123
+msgid ""
+"<b>Quiz Mode - Blocking</b> - require trainee to correctly answer questions "
+"before proceeding. Trainee must achieve <b>minimum pass mark</b> to progress "
+"to the next unit."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:124
+msgid ""
+"<b>Quiz Mode - Non-blocking</b> - require trainee to answer a number of "
+"questions before proceeding, but allow them to progress to the next unit "
+"<b>regardless of their pass mark</b>."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:134 pages/page_user_progress.inc.php:351
+msgid "Pass Mark"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:138
+msgid "-- Select a pass mark --"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:139
+msgid ""
+"The minimum pass mark that your trainees need to achieve to progress on to "
+"the next unit."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:143
+msgid "Number of Attempts Allowed?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:148
+msgid ""
+"The maximum number of attempts that a trainee is given to complete a quiz "
+"for blocking quizzes."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:152
+msgid "Show Survey Responses?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:157
+msgid "<b>Show Responses</b> - Show the trainee their survey responses."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:158
+msgid "<b>No Responses</b> - Don't show the trainee their survey responses."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:160
+msgid ""
+"This setting allows you to choose whether or not you want students to be "
+"able to review their past survey responses when they return to units."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:166
+msgid "Paginate Questions?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:171
+msgid ""
+"<b>Use Paging</b> - This setting will display quiz questions one at a time "
+"allowing students to progress through questions individually within a frame "
+"in your unit page."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:172
+msgid ""
+"<b>No Paging</b> - Don't use any paging. Show all quiz questions at once on "
+"the unit page."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:186
+msgid "Allow Review Before Final Submission"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:186
+msgid ""
+"If selected, students will be presented with an opportunity to review an "
+"editable list of all answers before final submission."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:187
+msgid "Allow Students to Answer Later"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:187
+msgid ""
+"If selected, the student will be able to click the \"Answer Later\" button "
+"and progress to the next question without answering. The question will be "
+"presented again at the end of the quiz."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:188
+msgid "Allow Navigation to Previous Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:188
+msgid ""
+"If selected, a \"Previous Question\" button will be displayed, allowing "
+"students to freely navigate backwards and forwards through questions."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:196
+msgid "Set Time Limit for Quiz?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:201
+msgid ""
+"<b>Specify a Quiz Time Limit</b> - Give the trainee a fixed amount of time "
+"to complete the quiz."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:202
+msgid ""
+"<b>No Time Limit</b> - the trainee can take as long as they wish to complete "
+"the quiz."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:207
+msgid "Time Limit (in minutes)"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:211
+msgid "Minutes"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:226
+msgid "Show Answers?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:231
+msgid ""
+"<b>Show Answers</b> - Show the trainee the correct answers before they "
+"progress."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:232
+msgid ""
+"<b>No Answers</b> - Don't show the trainee any answers before they progress."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:234
+msgid ""
+"If this option is selected, students will not be able to view correct or "
+"incorrect answers."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:246
+msgid "Please choose at least one option when showing correct answers."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:248
+msgid "Show correct answer"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:248
+msgid "Show the trainee the correct answers before they progress."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:249
+msgid "Show user's answer"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:249
+msgid "Show the trainee the answer they submitted before they progress."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:250
+msgid "Show explanation"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:250
+msgid ""
+"Show the trainee an explanation for the correct answer (if there is one)."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:251
+msgid "Mark Answers"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:251
+msgid ""
+"This option will show correct answers with a green check mark, and incorrect "
+"answers with a red \"X\"."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:252
+msgid "Leave quiz results available for later viewing?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:252
+msgid ""
+"This setting allows you to choose whether or not you want students to be "
+"able to review their past quiz answers when they return to units."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:254
+msgid ""
+"To make use of this showing answers setting, at least one of the above "
+"settings should be ticked. Otherwise, no answers are actually shown."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:273
+msgid "Show Results by Tag?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:276
+msgid ""
+"<b>Display results by question tag</b> - In addition to the overall score, "
+"indicate a breakdown of the results for each question tag."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:280
+msgid "Show Completion Time?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:284
+msgid ""
+"<b>Display completion time for timed quiz</b> - If the quiz has been timed, "
+"this option will display the student's total time used for completing the "
+"quiz."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:298
+msgid ""
+"Sorry, but unfortunately there were some errors saving the quiz details. "
+"Please fix the errors and try again."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:302
+#, php-format
+msgid "Do you want to return to the <a href=\"%s\">quiz summary page</a>?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:307
+msgid "Quiz details successfully created."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:308
+msgid "Quiz details successfully updated."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:311
+msgid "Save All Quiz Settings &amp; Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:389
+msgid ""
+"Unfortunately, there are a few missing details that need to be added before "
+"this quiz can be saved. Please resolve them and try again."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:475
+msgid "Randomly Select from Entire Quiz Pool"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:477
+msgid ""
+"If this option is selected, then number of questions you choose wil be "
+"randomly chosen from the entire quiz pool, regardless of question tag."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:484
+msgid "Show a total of "
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:486
+msgid "questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:490
+msgid "There are a total of "
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:492
+msgid "questions available in the question pool."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:507
+msgid "Randomly Select using Question Tags"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:509
+msgid ""
+"If this option is selected, then number of questions you choose for each tag "
+"will be randomly displayed."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:522
+msgid "+ Add Another"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:531
+msgid "Insert Random Question Selection"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:548
+msgid "Select  "
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:557
+msgid "--- Select Tag ---"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:561
+msgid "Are you sure you wish to delete this selection?"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:568
+msgid "Please select a tag"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:604
+#, php-format
+msgid ""
+"The trainee will be required to correctly answer at least <b>%d of the %d</"
+"b> following questions (<b>at least %d%%</b>) to progress."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:617
+msgid ""
+"This quiz contains questions that need <b>manual grading</b>, and you've "
+"selected '<b>Show Answers</b>' when the user completes this quiz. "
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:618
+msgid ""
+"Since answers cannot be shown to the user because they are not known at that "
+"stage, <b>answers cannot be shown</b>. To hide this message, select '<b>No "
+"Answers</b>' above."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:679
+#, php-format
+msgid ""
+"%d of the questions below have errors. Please make corrections and then save "
+"the changes."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:754
+msgid "Question Tools"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:756
+msgid "Add Multiple Choice"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:757
+msgid "Add True/False"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:758
+msgid "Add Open Ended Question"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:759
+msgid "Add File Upload Question"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:763
+msgid "Insert question from Question Pool"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:763
+msgid "Add Questions from Pool"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:764
+msgid "Insert Random Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:764
+msgid "Add Random Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:769
+msgid "Use this to compact the questions so that they are easier to organise."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:769
+msgid "Compact Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:770
+msgid "Use this to expand the questions for editing."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:770
+msgid "Expand Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:781
+msgid "Save Quiz &amp; Questions"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:802
+msgid "Custom Feedback Messages"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:804
+msgid "Optional"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:805
+msgid ""
+"If you are using question tags within you quiz, you can create custom "
+"messages to display upon submission of the quiz based on a student's results "
+"for a particular tag."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:809
+msgid ""
+"Please note: The custom feedback messages do not display any grade "
+"information. Use the settings under <b>Result Settings</b> tab, then <b>Show "
+"Answers</b> - to customise the display of results."
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:813
+msgid "Add New Feedback Message"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:995
+msgid "Unlimited Attempts"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:996
+msgid "1 Attempt"
+msgstr ""
+
+#: pages/page_quiz_modify.inc.php:1000
+#, php-format
+msgid "%d Attempts"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:31
+msgid "Quiz &amp; Survey Summary"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:90 pages/page_quiz_summary.inc.php:92
+msgid "Search Quizzes"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:181
+msgid "Associated Unit"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:189
+msgid "Show Answers"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:193
+msgid "Paging"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:239
+msgid "View "
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:260
+msgid "Edit "
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:282
+#, php-format
+msgid "Min. Pass Mark of %d%%"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:296
+msgid "Are you sure you wish to delete this quiz?"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:302
+msgid "Export Responses"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:319
+msgid "There are currently no quizzes to show. Why not create one?"
+msgstr ""
+
+#: pages/page_quiz_summary.inc.php:363
+#, php-format
+msgid "The quiz '%s' was successfully deleted."
+msgstr ""
+
+#: pages/page_settings.inc.php:15
+msgid "Training Courses - Settings"
+msgstr ""
+
+#: pages/page_settings.inc.php:20
+msgid "Upgrading WP Courseware Tables..."
+msgstr ""
+
+#: pages/page_settings.inc.php:26
+#, php-format
+msgid "%s tables have successfully been upgraded."
+msgstr ""
+
+#: pages/page_settings.inc.php:34 pages/page_settings.inc.php:187
+msgid "Licence Key Settings"
+msgstr ""
+
+#: pages/page_settings.inc.php:38 pages/page_settings.inc.php:191
+msgid "Licence Key"
+msgstr ""
+
+#: pages/page_settings.inc.php:40 pages/page_settings.inc.php:193
+msgid "Your licence key for the WP Courseware plugin."
+msgstr ""
+
+#: pages/page_settings.inc.php:46 pages/page_settings.inc.php:199
+msgid ""
+"Please enter your 32 character licence key, which contains only letters and "
+"numbers."
+msgstr ""
+
+#: pages/page_settings.inc.php:51
+msgid "License Activation"
+msgstr ""
+
+#: pages/page_settings.inc.php:55
+msgid "Activate"
+msgstr ""
+
+#: pages/page_settings.inc.php:56
+msgid "Deactivate"
+msgstr ""
+
+#: pages/page_settings.inc.php:58
+msgid ""
+"If you want to receive updates to this plugin, select \"Yes\". Otherwise, "
+"select \"No\" to deactivate license. Selecting \"No\" will disable any "
+"future updates. Deactivating your license allows you to move your plugin to "
+"another site."
+msgstr ""
+
+#: pages/page_settings.inc.php:64
+msgid "Style &amp; Design Settings"
+msgstr ""
+
+#: pages/page_settings.inc.php:69
+msgid "Use Default CSS?"
+msgstr ""
+
+#: pages/page_settings.inc.php:73
+msgid "Use default stylesheet for the frontend of the website."
+msgstr ""
+
+#: pages/page_settings.inc.php:74
+msgid ""
+"Don't use the default stylesheet for the frontend of the website (you'll "
+"write your own CSS)"
+msgstr ""
+
+#: pages/page_settings.inc.php:76
+msgid ""
+"If you want to style your training course material yourself, you can disable "
+"the default stylesheet. If in doubt, select <b>Yes</b>."
+msgstr ""
+
+#: pages/page_settings.inc.php:81
+msgid "Powered By Link"
+msgstr ""
+
+#: pages/page_settings.inc.php:85
+msgid "Show Powered By Link?"
+msgstr ""
+
+#: pages/page_settings.inc.php:89
+msgid "Show the <em>'Powered By WP Courseware'</em> link."
+msgstr ""
+
+#: pages/page_settings.inc.php:90
+msgid "Don't show any powered-by links."
+msgstr ""
+
+#: pages/page_settings.inc.php:92
+msgid ""
+"Do you want to show a 'Powered By WP Courseware' link at the bottom of "
+"course outlines?"
+msgstr ""
+
+#: pages/page_settings.inc.php:96
+msgid "Your Affiliate ID"
+msgstr ""
+
+#: pages/page_settings.inc.php:98
+msgid ""
+"(Optional) Earn some money by providing your Affiliate ID, which will turn "
+"the <b>Powered By WP Courseware</b> into an affiliate link that earns you a "
+"percentage of every sale! If you are not an affiliate, login to the member "
+"portal to register and get your ID."
+msgstr ""
+
+#: pages/page_settings.inc.php:104
+msgid "Please enter your Affiliate ID, which is only a number.."
+msgstr ""
+
+#: pages/page_settings.inc.php:121
+#: pages/page_settings_certificates.inc.php:166
+#: wplib/utils_settings.inc.php:60
+msgid "Settings successfully saved."
+msgstr ""
+
+#: pages/page_settings.inc.php:122
+#: pages/page_settings_certificates.inc.php:167
+#: wplib/utils_settings.inc.php:61
+msgid "There was a problem saving the settings."
+msgstr ""
+
+#: pages/page_settings.inc.php:134
+msgid "Upgrade Tables"
+msgstr ""
+
+#: pages/page_settings.inc.php:136
+msgid ""
+"If you're getting any errors with WP Courseware relating to database tables "
+"when you've updated, you can force an upgrade of the database tables using "
+"the button below."
+msgstr ""
+
+#: pages/page_settings.inc.php:140
+msgid "Force Table Upgrade"
+msgstr ""
+
+#: pages/page_settings.inc.php:181 wp-courseware.php:626
+msgid "WP Courseware - Settings"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:17
+msgid "Training Courses - Certificate Settings"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:23
+msgid "Certificate Settings"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:27
+msgid "Signature Type"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:32
+msgid "Text"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:32
+msgid "Just use text for the signature."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:33
+msgid "Image File"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:33
+msgid "Use an image for the signature."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:38
+msgid "Name to use for signature"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:41
+msgid "The name to use for the signature area."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:47
+msgid "Please enter the name to use for the signature area."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:52
+msgid "Your Signature Image"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:55
+msgid ""
+"The URL of your signature image. Using a transparent image is recommended."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:56
+#, php-format
+msgid ""
+"The image must be <b>%d pixels wide, and %d pixels high</b> to render "
+"correctly. "
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:61
+msgid "Please enter the URL of your signature image."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:64
+msgid "Choose an image to use for the signature image..."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:71
+msgid "Show your logo?"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:76
+msgid "Use your logo on the certificate."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:77
+msgid "Don't show a logo on the certificate."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:82
+msgid "Your Logo Image"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:85
+msgid "The URL of your logo image. Using a transparent image is recommended."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:86
+#, php-format
+msgid ""
+"The image must be <b>%d pixels wide, and %d pixels</b> high to render "
+"correctly. "
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:91
+msgid "Please enter the URL of your logo image."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:94
+msgid "Choose an image to use for your logo on the certificate..."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:101
+msgid "Certificate Background"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:106
+msgid "Built-in"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:106
+msgid "Use the built-in certificate background."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:107
+msgid "Custom"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:107
+msgid "Use your own certificate background."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:112
+msgid "Custom Background Image"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:115
+msgid "The URL of your background image."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:116
+#, php-format
+msgid ""
+"The background image must be <b>%d pixels wide, and %d pixels</b> high at "
+"<b>72 dpi</b> to render correctly. "
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:121
+msgid "Please enter the URL of your certificate background image."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:124
+msgid "Choose an image to use for the certificate background..."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:133
+msgid "Language and Encoding Settings"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:137
+msgid "Certificate Encoding"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:140
+msgid ""
+"Choose a codepage encoding that matches your language to ensure certificates "
+"render correctly. You may need an encoding other than <code>ISO-8859-1</"
+"code> if you are using a non-English language."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:142
+msgid ""
+"ISO-8859-1 - Latin alphabet - North America, Western Europe, Latin America, "
+"etc. (Default)"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:143
+msgid "ISO-8859-2 - Latin alphabet 2 - Eastern Europe."
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:144
+msgid "ISO-8859-3 - Latin alphabet 3 - SE Europe, Esperanto"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:145
+msgid "ISO-8859-4 - Latin alphabet 4 - Scandinavia/Baltics"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:146
+msgid ""
+"ISO-8859-5 - Latin/Cyrillic - Bulgarian, Belarusian, Russian and Macedonian"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:147
+msgid "ISO-8859-6 - Latin/Arabic - Arabic languages"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:148
+msgid "ISO-8859-7 - Latin/Greek - modern Greek language"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:149
+msgid "ISO-8859-8 - Latin/Hebrew - Hebrew languages"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:150
+msgid "ISO-8859-9 - Latin 5 part 9 - Turkish languages"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:151
+msgid "ISO-8859-10 - Latin 6 Lappish, Nordic, Eskimo - The Nordic languages"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:152
+msgid "ISO-8859-15 - Latin 9 (aka Latin 0) - Similar to ISO 8859-1"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:178
+#: pages/page_settings_certificates.inc.php:180
+msgid "Preview Certificate"
+msgstr ""
+
+#: pages/page_settings_certificates.inc.php:179
+msgid ""
+"After saving the settings, you can preview the certificate using the button "
+"below. The preview opens in a new window."
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:15
+msgid "Convert Page/Post to Course Unit"
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:19
+msgid "Sorry, but you are not allowed to edit this page/post."
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:28
+msgid "Sorry, but the specified page/post does not appear to exist."
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:40
+#, php-format
+msgid "Are you sure you wish to convert the <em>%s</em> to a course unit?"
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:47
+msgid "Yes, convert it"
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:54
+msgid "No, don't convert it"
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:81
+msgid "Conversion to a course unit cancelled."
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:93
+#, php-format
+msgid ""
+"The page/post was successfully converted to a course unit. You can <a href="
+"\"%s\">now edit the course unit</a>."
+msgstr ""
+
+#: pages/page_unit_convertpage.inc.php:99
+msgid ""
+"Unfortunately, there was an error trying to convert the page/post to a "
+"course unit. Perhaps you could try again?"
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:18
+msgid "Update User Course Access Permissions"
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:26 pages/page_user_progress.inc.php:27
+msgid "Sorry, but that user could not be found."
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:31
+#, php-format
+msgid ""
+"<p>Here you can change which courses the user <b>%s</b> (Username: <b>%s</"
+"b>) can access.</p>"
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:42
+msgid "Sorry, but that user could not be found. The changes were not saved."
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:62
+#, php-format
+msgid "The courses for user <em>%s</em> have now been updated."
+msgstr ""
+
+#: pages/page_user_courseaccess.inc.php:83
+msgid "Allowed Access"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:19
+msgid "Detailed User Progress Report"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:32
+#, php-format
+msgid ""
+"<p>Here you can see how well <b>%s</b> (Username: <b>%s</b>) is doing with "
+"your training courses.</p>"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:60 pages/page_user_progress.inc.php:103
+#: pages/page_user_progress.inc.php:121
+msgid "Completed"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:61
+msgid "Quiz Name"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:62
+msgid "Quiz Status"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:128
+msgid "View Survey Details"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:148 pages/page_user_progress.inc.php:357
+msgid "Awaiting Final Grading"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:161
+msgid "View Quiz Details"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:203
+#, php-format
+msgid "User <b>%s</b> is not currently allowed to access any training courses."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:226
+msgid "Detailed User Quiz/Survey Results"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:240
+msgid "&laquo; Return to User Summary"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:249
+#, php-format
+msgid "&laquo; Return to <b>%s's</b> Progress Report"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:264
+msgid "Sorry, but no results could be found."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:276
+msgid "&laquo; Return to Gradebook"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:310
+msgid "The user has been sent an email with their grade for this course."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:317
+msgid "Quiz/Survey Overview"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:335
+msgid "Quiz Description"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:337
+msgid "No. of Questions"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:339
+msgid "Completed Date"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:340
+msgid "About"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:340
+msgid "ago"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:343
+msgid "Number of Quiz Attempts"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:344
+msgid "Permitted Quiz Attempts"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:344
+msgid "Unlimited"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:356
+msgid "No. of Questions to Grade"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:357 pages/page_user_progress.inc.php:373
+msgid "Overall Grade"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:361
+msgid "No. of Question to Grade"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:367
+msgid "Passed"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:370
+msgid "Failed"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:456
+msgid "Their Answer"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:481
+msgid "Did they get it right?"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:502
+msgid "Click to edit"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:509
+msgid "-- Select a grade --"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:516
+msgid "Their Grade"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:546
+msgid "Save Changes to Grades"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:547
+msgid "Grades have been changed. Ready to save changes?"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:603
+msgid "Grades have been successfully updated for this user."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:623
+msgid "You have passed the quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:626
+msgid ""
+"The user has <b>PASSED</b> this quiz, and the associated unit has been "
+"marked as complete."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:654
+msgid "This quiz has questions that need grading."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:672
+msgid ""
+"You have allowed the user to <b>progress anyway</b>, despite failing the "
+"quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:679
+msgid "You have requested that the user <b>re-takes the quiz</b>."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:686
+msgid ""
+"The user has requested a retake, but they have not yet completed the quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:692
+msgid "The user has <b>exhausted all of their retakes</b>."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:707
+msgid ""
+"Since this is a <b>blocking quiz</b>, and the user has <b>failed</b>, what "
+"would you like to do?"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:726
+msgid "Allow the user to continue anyway."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:727
+msgid " (User is emailed saying they can continue)"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:728
+msgid "Require the user to re-take the quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:729
+msgid " (User is emailed saying they need to re-take the quiz)"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:730
+msgid "Custom Message:"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:731
+msgid ""
+"Custom message for the user that's sent to the user when asking them to "
+"retake the quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:732
+msgid "Save Preference"
+msgstr ""
+
+#: pages/page_user_progress.inc.php:807
+msgid ""
+"Since you didn't pass the quiz, the instructor has asked that you re-take "
+"this quiz."
+msgstr ""
+
+#: pages/page_user_progress.inc.php:815
+msgid ""
+"Although you didn't pass the quiz, the instructor is allowing you to "
+"continue on to the next unit."
+msgstr ""
+
+#: pdf/pdf_certificates.inc.php:161
+msgid "This is to certify that"
+msgstr ""
+
+#: pdf/pdf_certificates.inc.php:170
+msgid "has successfully completed"
+msgstr ""
+
+#: pdf/pdf_certificates.inc.php:189
+msgid "Date"
+msgstr ""
+
+#: pdf/pdf_certificates.inc.php:193
+msgid "Instructor"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:290
+msgid "Course Name:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:291
+msgid "Quiz Title:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:292
+msgid "Candidate Name:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:383
+msgid "Results breakdown:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:430
+msgid "Your answer details:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:457
+msgid "Instructor Feedback:"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:510
+msgid "Your Quiz Results"
+msgstr ""
+
+#: pdf/pdf_quizresults.inc.php:524
+#, php-format
+msgid "Page %s of %s"
+msgstr ""
+
+#: pdf_create_certificate.php:35
+msgid "This is an example course..."
+msgstr ""
+
+#: pdf_create_certificate.php:76
+msgid "No certificate was found."
+msgstr ""
+
+#: pdf_create_results.php:68
+#, php-format
+msgid "Could not export your results. %s"
+msgstr ""
+
+#: wp-courseware.php:122
+msgid ""
+"You have exceeded your license limit. Please login to the member portal to "
+"<a href=\"http://flyplugins.com/member-portal\">upgrade your license</a> or "
+"deactivate one of your current licenses."
+msgstr ""
+
+#: wp-courseware.php:127
+msgid ""
+"<a href=\"admin.php?page=WPCW_showPage_Settings\">Register</a> your copy of "
+"WP Courseware by entering your license key and activating it. Need a "
+"license? <a href=\"http://wpcourseware.com\">Purchase one now.</a>"
+msgstr ""
+
+#: wp-courseware.php:130
+msgid ""
+"Your licence key has expired. Please <a href=\"http://wpcourseware.com"
+"\">renew your license.</a>"
+msgstr ""
+
+#: wp-courseware.php:133
+msgid "Your license key is disabled."
+msgstr ""
+
+#: wp-courseware.php:136
+msgid "Your license has not been activated on this site."
+msgstr ""
+
+#: wp-courseware.php:527
+msgid "Training Courses"
+msgstr ""
+
+#: wp-courseware.php:532
+msgid "WP Courseware - New Course"
+msgstr ""
+
+#: wp-courseware.php:538
+msgid "WP Courseware - Gradebook"
+msgstr ""
+
+#: wp-courseware.php:539
+msgid "Gradebook"
+msgstr ""
+
+#: wp-courseware.php:544
+msgid "WP Courseware - Modify Module"
+msgstr ""
+
+#: wp-courseware.php:554
+msgid "WP Courseware - Modify Quiz"
+msgstr ""
+
+#: wp-courseware.php:560
+msgid "WP Courseware - Quiz Summary"
+msgstr ""
+
+#: wp-courseware.php:561
+msgid "Quiz Summary"
+msgstr ""
+
+#: wp-courseware.php:566
+msgid "WP Courseware - Question Pool"
+msgstr ""
+
+#: wp-courseware.php:572
+msgid "WP Courseware - Modify Question"
+msgstr ""
+
+#: wp-courseware.php:573
+msgid "Edit Question"
+msgstr ""
+
+#: wp-courseware.php:578
+msgid "WP Courseware - Module &amp; Unit Ordering"
+msgstr ""
+
+#: wp-courseware.php:579
+msgid "Module &amp; Unit Ordering"
+msgstr ""
+
+#: wp-courseware.php:595
+msgid "WP Courseware - "
+msgstr ""
+
+#: wp-courseware.php:610
+msgid "WP Courseware - Import/Export Course"
+msgstr ""
+
+#: wp-courseware.php:611
+msgid "Import/Export"
+msgstr ""
+
+#: wp-courseware.php:620
+msgid "WP Courseware - Convert Page/Post to Course Unit"
+msgstr ""
+
+#: wp-courseware.php:621
+msgid "Convert Page/Post"
+msgstr ""
+
+#: wp-courseware.php:633
+msgid "WP Courseware - Certificates"
+msgstr ""
+
+#: wp-courseware.php:640
+msgid "WP Courseware - Documentation"
+msgstr ""
+
+#: wp-courseware.php:641
+msgid "Documentation"
+msgstr ""
+
+#: wp-courseware.php:645
+msgid "WP Courseware - Update User Course Access Permissions"
+msgstr ""
+
+#: wp-courseware.php:646
+msgid "Update Course Access"
+msgstr ""
+
+#: wp-courseware.php:650
+msgid "WP Courseware - View User Progress"
+msgstr ""
+
+#: wp-courseware.php:651
+msgid "View User Progress"
+msgstr ""
+
+#: wp-courseware.php:655
+msgid "WP Courseware - View Quiz/Survey Results"
+msgstr ""
+
+#: wp-courseware.php:656
+msgid "View Quiz Results"
+msgstr ""
+
+#: wp-courseware.php:707
+msgid ""
+"Are you sure you wish to reset the progress of the selected users? This "
+"CANNOT be undone."
+msgstr ""
+
+#: wp-courseware.php:708
+msgid ""
+"Are you sure you wish to reset the progress of this user? This CANNOT be "
+"undone."
+msgstr ""
+
+#: wp-courseware.php:709
+msgid ""
+"Are you sure you wish to reset the progress of all users on this course? "
+"This CANNOT be undone."
+msgstr ""
+
+#: wp-courseware.php:710
+msgid "Are you sure you wish to add access for this course for all users?"
+msgstr ""
+
+#: wp-courseware.php:711
+msgid "Are you sure you wish to add access for this course for all admins?"
+msgstr ""
+
+#: wp-courseware.php:712
+msgid "That question already exists in this quiz, so cannot be added again."
+msgstr ""
+
+#: wp-courseware.php:713
+msgid "Copying..."
+msgstr ""
+
+#: wp-courseware.php:715
+msgid "Edit Random Question Selection"
+msgstr ""
+
+#: wp-courseware.php:772
+msgid "Uploading:"
+msgstr ""
+
+#: wp-courseware.php:839 wp-courseware.php:850
+msgid "Course Units"
+msgstr ""
+
+#: wp-courseware.php:840
+msgid "Course Unit"
+msgstr ""
+
+#: wp-courseware.php:841
+msgid "Add New"
+msgstr ""
+
+#: wp-courseware.php:842
+msgid "Add New Course Unit"
+msgstr ""
+
+#: wp-courseware.php:843
+msgid "Edit Course Unit"
+msgstr ""
+
+#: wp-courseware.php:844
+msgid "New Course Unit"
+msgstr ""
+
+#: wp-courseware.php:845
+msgid "View Course Unit"
+msgstr ""
+
+#: wp-courseware.php:846
+msgid "Search Course Units"
+msgstr ""
+
+#: wp-courseware.php:847
+msgid "No course units found"
+msgstr ""
+
+#: wp-courseware.php:848
+msgid "No course units found in Trash"
+msgstr ""
+
+#: wp-courseware.php:849
+msgid "Parent Course Unit:"
+msgstr ""
+
+#: wp-courseware.php:1491
+msgid ""
+"For <b>WP Courseware</b> unit URLs to work correctly, please ensure your "
+"<b>permalinks</b> use just <code>/%postname%/</code>."
+msgstr ""
+
+#: wp-courseware.php:1492
+msgid ""
+"You can update the permalink settings to use just <b>Post Name</b> on the"
+msgstr ""
+
+#: wp-courseware.php:1494
+msgid "Permalink Settings page"
+msgstr ""
+
+#: wp-courseware.php:1508
+msgid ""
+"<b>WP Courseware</b> is not currently supported on WordPress Multisite. "
+"<b>Yet</b>."
+msgstr ""
+
+#: wplib/utils_easyform.inc.php:133
+msgid "Save"
+msgstr ""
+
+#: wplib/utils_settings.inc.php:54
+msgid "Save Settings"
+msgstr ""

@@ -1,0 +1,1726 @@
+/* General */
+a.wpcw_delete_item {
+	color: #FF0000;
+	text-decoration: underline;
+	padding: 2px;
+}
+
+a.wpcw_delete_item:hover {
+	color: #FFf;
+	background: #FF0000;
+	text-decoration: none;
+}
+
+.wpcw_inner_hint {
+	font-weight: normal;
+	display: block;
+	margin-top: 5px;
+	line-height: 1.1em;
+	font-size: 11px;
+}
+
+.wpcw_none_found td {
+	padding: 30px 10px;
+}
+
+.wpcw_action_status {
+	background: green;
+	padding: 2px 5px;
+	color: #FFF;
+	font-size: 9px;
+	border-radius: 10px;
+	display: none;
+	margin-left: 10px;
+}
+
+.wpcw_spinner {
+	width: 80px;
+	text-align: center;
+}
+
+.wpcw_tick {
+	background: transparent url('../img/icon_tick.png') no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+/* Paging */
+.wpbs_paging .displaying-num {
+	margin-right: 10px;
+}
+
+.wpbs_paging.tablenav-pages a.page-numbers {
+	padding-top: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Messages */
+.wpcw_msg {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	color: #c09853;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	line-height: 1.2em;
+}
+
+.wpcw_msg_info {
+	color: #3A87AD;
+	background-color: #EAEDF6;
+	border-color: #3A87AD;
+}
+
+.wpcw_msg_error {
+	color: #CC0000;
+	background-color: #FFEBE8;
+	border-color: #CC0000;
+}
+
+.wpcw_msg_success {
+	color: green;
+	background: #BAF5BA;
+	border-color: #26C510;
+}
+
+.wpcw_msg_in_form {
+	margin: 5px 0;
+}
+
+/* Icons/Status */
+.wpcw_status_info {
+	color: #3A87AD;
+	font-weight: bold;
+}
+
+.wpcw_icon_pending {
+	padding-left: 22px;
+	background: url('../img/icon_clock.png') no-repeat;
+	line-height: 16px;
+	display: block;
+}
+
+/* General Tables */
+.wpcw_tbl .course_title {
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.wpcw_tbl .actions {
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+}
+
+.wpcw_tbl .actions_right {
+	text-align: right;
+}
+
+.wpcw_tbl .actions li {
+	font-weight: normal;
+}
+
+.wpcw_tbl .actions .wpcw_action_link_list li.wpcw_action_item_newline {
+	display: block;
+}
+
+.wpcw_tbl .wpcw_tbl_label {
+	text-align: right;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.wpcw_tbl .actions ul {
+	margin: 0;
+	padding: 0;
+}
+
+.wpcw_tbl .actions ul li {
+	padding: 0;
+	margin: 0 0 6px;
+}
+
+.wpcw_tbl .wpcw_center {
+	text-align: center;
+}
+
+.wpcw_tbl .wpcw_statistic {
+	font-size: 115%;
+}
+
+.wpcw_tbl .actions .wpcw_action_link_list li {
+	margin-right: 8px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wpcw_action_link_delete {
+	font-weight: normal;
+}
+
+.wpcw_tbl_row_status_pre td {
+	border-bottom: 0;
+}
+
+.wpcw_tbl_row_status td {
+	border-top: 0;
+}
+
+.wpcw_no_users td {
+	padding: 30px;
+}
+
+/* Table - Paging */
+.wpcw_tbl_paging {
+	float: right;
+}
+
+/* Table - Filters */
+.wpcw_table_filter {
+	margin-top: 15px;
+	float: left;
+}
+
+.wpcw_table_filter a {
+	border-right: 1px solid #ccc;
+	line-height: 1em;
+	padding: 0 10px;
+}
+
+.wpcw_table_filter a:last-child {
+	border-right: 0;
+}
+
+a.wpcw_table_filter_active,a.wpcw_table_filter_active:hover {
+	font-weight: bold;
+	color: #464646;
+}
+
+/* Course Edit */
+
+/* Course Summary */
+#wpcw_tbl_course_summary {
+	margin: 10px 0;
+}
+
+#wpcw_tbl_course_summary #course_id {
+	width: 50px;
+}
+
+#wpcw_tbl_course_summary .course_title {
+	width: 150px;
+	padding-right: 15px;
+}
+
+#wpcw_tbl_course_summary .course_desc {
+	width: 200px;
+}
+
+#wpcw_tbl_course_summary .course_settings {
+	width: 20%;
+}
+
+#wpcw_tbl_course_summary .total_units {
+	width: 100px;
+}
+
+#wpcw_tbl_course_summary  .course_modules {
+	width: 250px;
+}
+
+#wpcw_tbl_course_summary  .actions {
+	width: 220px;
+}
+
+#wpcw_tbl_course_summary .wpcw_tbl_row_status span {
+	color: red;
+	font-size: 110%;
+	font-weight: bold;
+	display: block;
+	background: url('../img/icon_warning.png') no-repeat left bottom;
+	line-height: 22px;
+	height: 22px;
+	padding: 10px 10px 0 28px;
+	margin-left: 10px;
+}
+
+/* Course Access */
+#wpcw_tbl_course_access_summary .allowed_access,#wpcw_tbl_course_access_summary #allowed_access
+	{
+	width: 10%;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+#wpcw_tbl_course_access_summary  .allowed_access input {
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+
+#wpcw_tbl_course_access_summary {
+	width: auto;
+	margin: 10px 0;
+}
+
+/* Tick Lists */
+.wpcw_tickitems {
+	margin: 0;
+}
+
+.wpcw_tickitems li {
+	background: transparent url('../img/icon_tick.png') no-repeat;
+	padding-left: 22px;
+	line-height: 17px;
+}
+
+.wpcw_tickitems li.wpcw_enabled {
+	color: green;
+}
+
+.wpcw_tickitems li.wpcw_disabled {
+	background-image: url('../img/icon_cross_grey.png');
+	color: #777;
+}
+
+.wpcw_tickitems li.wpcw_bullet {
+	background-image: url('../img/icon_bullet.png');
+	color: #777;
+}
+
+/* Gradebook - Summary */
+#wpcw_tbl_gradebook_summary {
+	margin: 10px 0;
+}
+
+#wpcw_tbl_gradebook_summary td {
+	vertical-align: middle;
+}
+
+#wpcw_gradebook_email_progress {
+	margin: 20px 0;
+	background: #efefef;
+	padding: 5px 20px;
+	border: 1px solid #dfdfdf;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#wpcw_gradebook_email_progress p {
+	margin: 0 0 .5em;
+	background: url('../img/icon_tick.png') no-repeat;
+	padding-left: 22px;
+}
+
+/* Gradebook - Specific */
+.wpcw_learner_details span {
+	display: block;
+	margin: 0 0 2px 58px;
+}
+
+.wpcw_learner_details .avatar {
+	float: left;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+.wpcw_grade_not_taken {
+	font-size: 8pt;
+	color: #bbb;
+}
+
+#wpcw_tbl_quiz_gradebook {
+	width: auto;
+}
+
+#wpcw_tbl_quiz_gradebook .wpcw_grade_needs_grading {
+	font-size: 8pt;
+	line-height: 1.2em !important;
+	display: block;
+}
+
+#wpcw_tbl_quiz_gradebook .wpcw_grade_needs_grading a {
+	color: red;
+}
+
+#wpcw_tbl_quiz_gradebook .wpcw_grade_needs_grading a:hover {
+	text-decoration: underline;
+}
+
+.wpcw_quiz_grade {
+	width: 100px;
+}
+
+.wpcw_grade_summary {
+	width: 120px;
+}
+
+.wpcw_grade_course_progress .wpcw_progress_bar {
+	width: 75px;
+}
+
+.wpcw_grade_valid {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+/* Quiz Detail */
+#wpcw_tbl_progress_quiz_info tr.wpcw_grade_needs_grading td {
+	background: #EAEDF6;
+}
+
+.wpcw_grade_already_graded .wpcw_tbl_progress_quiz_answers_grade {
+	display: none;
+}
+
+.wpcw_tbl_progress_quiz_overall {
+	font-weight: bold;
+}
+
+/* Course Ordering */
+#wpcw_dragable_wrapper {
+	width: 940px;
+}
+
+#wpcw_dragable_wrapper .ui-sortable a {
+	text-decoration: none;
+	color: #444;
+}
+
+#wpcw_dragable_wrapper .ui-sortable a:hover {
+	color: #0074A2;
+	text-decoration: underline;
+}
+
+.wpcw_dragable_module_item,.wpcw_unassigned {
+	margin: 20px 0;
+	width: 400px;
+}
+
+.wpcw_dragable_modules ol,.wpcw_unassigned ol {
+	margin: 10px 0;
+	min-height: 50px;
+}
+
+.wpcw_dragable_module_item {
+	border: 1px solid #99ff99;
+	background: #ccffcc;
+	background-image: -webkit-linear-gradient(top, #ccffcc, #ddffdd);
+	background-image: linear-gradient(top, #ccffcc, #ddffdd);
+}
+
+.wpcw_dragable_modules li,.wpcw_unassigned li {
+	line-height: 1.2em;
+	display: block;
+	padding: 10px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.wpcw_dragable_unit_item {
+	border: 1px solid #9999ff;
+	background: #ccccff;
+	width: 350px;
+	margin: 10px auto;
+	background-image: -webkit-linear-gradient(top, #ccccff, #ddddff);
+	background-image: linear-gradient(top, #ccccff, #ddddff);
+}
+
+.wpcw_dragable_quiz_item {
+	border: 1px solid #DE8E93;
+	background: #F79EA4;
+	margin: 10px;
+	background-image: -webkit-linear-gradient(top, #F79EA4, #F5BCC0);
+	background-image: linear-gradient(top, #F79EA4, #F5BCC0);
+}
+
+.wpcw_dragable_modules_placeholder {
+	border: 2px dashed #99ff99;
+	width: 400px;
+}
+
+.wpcw_dragable_units_placeholder {
+	border: 2px dashed #9999ff;
+}
+
+.wpcw_dragable_quizzes_placeholder {
+	border: 2px dashed #DE8E93;
+}
+
+.wpcw_dragable_quiz_holder ol {
+	min-height: 10px;
+}
+
+.wpcw_unassigned {
+	padding: 10px;
+	margin: 0 10px 20px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #ECECEC;
+	border: 1px solid #D2D2D2;
+	background-image: -webkit-linear-gradient(top, #F9F9F9, #ECECEC);
+	background-image: linear-gradient(top, #F9F9F9, #ECECEC);
+	max-height: 350px;
+	overflow: auto;
+}
+
+.wpcw_unassigned_title {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.wpcw_quiz_des {
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+/* Membership Extensions */
+#wpcw_members_tbl {
+	margin: 10px 0;
+}
+
+/* General Editing */
+#wpcw_page_course_title {
+	font-size: 11pt;
+	margin: 10px 0 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+
+#wpcw_page_course_title span {
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Sticky Bar */
+#wpcw_sticky_bar {
+	position: fixed;
+	color: #000;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 20px 200px;
+	background: #FFCCCC;
+	z-index: 10000;
+	border-top: 2px solid #FF6666;
+	text-align: right;
+}
+
+#wpcw_sticky_bar.done {
+	background-color: #CCFFCC;
+	border-color: #66FF66;
+}
+
+#wpcw_sticky_bar_status {
+	font-size: 14pt;
+	float: left;
+}
+
+#wpcw_sticky_bar_inner {
+	width: 940px;
+}
+
+/* Form Breaks */
+.wpcw_form_break {
+	border: 1px solid #DFDFDF;
+	margin: 15px 0 20px 0;
+	background-color: #F1F1F1;
+	background-image: -moz-linear-gradient(center top, #F9F9F9, #ECECEC);
+	background-image: -webkit-linear-gradient(top, #F9F9F9, #ECECEC);
+	background-image: linear-gradient(top, #F9F9F9, #ECECEC);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.wpcw_form_break h3 {
+	margin: 8px 10px;
+	float: left;
+}
+
+.wpcw_form_break .button-primary {
+	float: right;
+	margin: 12px 10px 0;
+}
+
+.wpcw_cleared {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 1px;
+}
+
+/* Form Breaks - Tabs */
+.wpcw_tab_wrapper .form-table {
+	border: 1px solid #dfdfdf;
+	margin: 0;
+	display: none;
+	background: #F5F5F5;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5),
+		to(#F9F9F9) );
+	background-image: -webkit-linear-gradient(bottom, #F5F5F5, #F9F9F9);
+	background-image: -moz-linear-gradient(bottom, #F5F5F5, #F9F9F9);
+	background-image: -o-linear-gradient(bottom, #F5F5F5, #F9F9F9);
+	background-image: linear-gradient(to top, #F5F5F5, #F9F9F9);
+}
+
+.wpcw_tab_wrapper .wpcw_tab_content_active {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.wpcw_tab_content_active .wpcw_msg {
+	margin: 1em 1em 2em;
+}
+
+a.wpcw_tab {
+	border: 1px solid #DFDFDF;
+	color: #AAA;
+	text-shadow: #FFF 0 1px 0;
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+	padding: 4px 14px 6px;
+	text-decoration: none;
+	margin: 0 6px 8px 0;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+a.wpcw_tab:hover {
+	border-color: #CCC;
+	color: #D54E21;
+}
+
+.wpcw_tab_wrapper a.wpcw_tab_active {
+	background: #F1F1F1;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#ECECEC),
+		to(#F9F9F9) );
+	background-image: -webkit-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -moz-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -o-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: linear-gradient(to top, #ECECEC, #F9F9F9);
+	-webkit-box-shadow: inset 0 1px 0 #FFF;
+	box-shadow: inset 0 1px 0 #FFF;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-color: #ccc;
+	color: #222;
+}
+
+.wpcw_tab_content_active tr:first-child td,.wpcw_tab_content_active tr:first-child th
+	{
+	padding-top: 15px;
+}
+
+.wpcw_tab_content_active.form-table th {
+	padding-left: 15px;
+}
+
+a.wpcw_tab.wpcw_tab_has_error {
+	background: #FFEBE8;
+	color: red;
+	font-weight: bold;
+}
+
+.wpcw_section_error_within_tabs {
+	display: none;
+}
+
+/* Forms - Errors */
+.row-has-errors td,.row-has-errors th {
+	background: #FFEBE8;
+	color: #CC0000;
+	border: 1px solid #CC0000;
+}
+
+.row-has-errors th {
+	border-right: 0;
+}
+
+.row-has-errors td {
+	border-left: 0;
+}
+
+/* Email Tags */
+dl.wpcw_email_tags {
+	margin: 10px 0;
+}
+
+dl.wpcw_email_tags dt {
+	font-weight: bold;
+	margin: 5px 0 2px;
+}
+
+dl.wpcw_email_tags dd {
+	margin: 0 0 10px 20px;
+}
+
+/* Import/Export Course */
+#wpcw_menu_import_export {
+	margin: 15px 0 25px;
+	padding: 10px 10px 10px 5px;
+	font-size: 110%;
+	border: 1px solid #DFDFDF;
+	background: #f6f6f6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#wpcw_menu_import_export span {
+	padding: 0 10px;
+}
+
+/* Documentation */
+.wpcw_doc_quick {
+	margin: 0 0 25px 5px;
+}
+
+.wpcw_docs_wrapper ul,.wpcw_docs_wrapper ol {
+	margin-left: 30px;
+}
+
+.wpcw_docs_wrapper ul li {
+	list-style-type: disc;
+}
+
+.wpcw_docs_wrapper code {
+	background: #fff;
+	font-weight: normal;
+	border: 1px dashed #cfcfcf;
+}
+
+.wpcw_docs_wrapper dt {
+	font-weight: bold;
+}
+
+.wpcw_docs_wrapper dd {
+	margin: 3px 0 10px 20px;
+}
+
+h4.wpcw_docs_side_mini_hdr {
+	background: #ddd;
+	padding: 5px 10px;
+	border: 1px solid #cfcfcf;
+	text-shadow: #FFF 0 1px 0;
+	-webkit-box-shadow: 0 1px 0 #FFF;
+	box-shadow: 0 1px 0 #FFF;
+	background: #F1F1F1;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#ECECEC),
+		to(#F9F9F9) );
+	background-image: -webkit-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -moz-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -o-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: linear-gradient(to top, #ECECEC, #F9F9F9);
+}
+
+.wpcw_code {
+	border: 2px solid #ccc;
+	padding: 5px 10px;
+	margin: 10px 30px;
+	background: #f1f1f1;
+}
+
+h2.wpcw_doc_header {
+	margin-top: 50px;
+	background: #ddd;
+	padding: 5px 10px;
+	border: 1px solid #cfcfcf;
+	text-shadow: #FFF 0 1px 0;
+	-webkit-box-shadow: 0 1px 0 #FFF;
+	box-shadow: 0 1px 0 #FFF;
+	background: #F1F1F1;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#ECECEC),
+		to(#F9F9F9) );
+	background-image: -webkit-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -moz-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: -o-linear-gradient(bottom, #ECECEC, #F9F9F9);
+	background-image: linear-gradient(to top, #ECECEC, #F9F9F9);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+h2.wpcw_doc_header.first_heading {
+	margin-top: 10px;
+}
+
+dl.wpcw_doc_params,dl.wpcw_doc_examples {
+	margin-left: 20px;
+	margin-right: 30px;
+}
+
+dl.wpcw_doc_params dt {
+	font-weight: bold;
+}
+
+.wpcw_docs_rhs_content {
+	float: right;
+}
+
+/* Support Info */
+.wpcw_fly_support_news ul {
+	margin-left: 20px;
+}
+
+.wpcw_fly_support_news ul li {
+	list-style: square;
+	line-height: 16px;
+	margin: 0 0 0 10px;
+}
+
+.wpcw_fly_support_news a,.wpcw_fly_support_news a.rsswidget {
+	text-decoration: none;
+}
+
+.wpcw_fly_support_news a:hover,.wpcw_fly_support_news a.rsswidget:hover
+	{
+	text-decoration: underline;
+}
+
+.wpcw_fly_support_news li.rss {
+	background-image: url(../img/icon_rss.png);
+}
+
+.wpcw_fly_support_news li.twitter {
+	background-image: url(../img/icon_twitter.png);
+}
+
+.wpcw_fly_support_news li.facebook {
+	background-image: url(../img/icon_facebook.png);
+}
+
+.wpcw_fly_support_news li.youtube {
+	background-image: url(../img/icon_youtube.png);
+}
+
+.wpcw_fly_support_news li.googleplus {
+	background-image: url(../img/icon_googleplus.png);
+}
+
+.wpcw_fly_support_news li.email {
+	background-image: url(../img/icon_email.png);
+}
+
+.wpcw_fly_support_news .wpcw_connect {
+	margin: 20px 10px 20px;
+}
+
+.wpcw_fly_support_news .wpcw_connect li {
+	margin: 6px 0;
+	padding-left: 23px;
+	list-style-type: none;
+	background-repeat: no-repeat;
+}
+
+.wpcw_vids {
+	margin: 40px 0;
+	text-align: center;
+}
+
+/* Modify Quiz */
+.wpcw_tab_content_active#wpcw_section_break_quiz_questions {
+	padding: 10px 10px 10px;
+}
+
+.wpcw_dragable_question_holder {
+	list-style-type: none;
+	margin: 0;
+}
+
+.wpcw_dragable_questions_placeholder {
+	border: 2px dashed #aaa;
+	background: #fff;
+	width: 90%;
+}
+
+.wpcw_question_actions a {
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	background: url('../img/icon_move.png') no-repeat 0 0;
+	padding-left: 28px;
+}
+
+.wpcw_question_actions .wpcw_move_icon {
+	cursor: move;
+	float: right;
+}
+
+.wpcw_question_actions .wpcw_delete_icon {
+	background-image: url('../img/icon_delete.png');
+	float: left;
+}
+
+#wpcw_quiz_details_modify .subelement_wrapper_all {
+	padding: 2px 20px 15px;
+}
+
+.subelement_wrapper_item_has_errors {
+	background-color: #FFEBE8;
+	border: 1px solid #C00;
+	padding: 20px;
+}
+
+#wpcw_quiz_details_modify .subelement_wrapper_all input[type=checkbox] {
+	width: auto;
+}
+
+#wpcw_quiz_details_modify .subelement_wrapper_all .form-checklist-col {
+	float: none !important;
+}
+
+ul.wpcw_quiz_row_question_info {
+	margin: 0 0 0 1.5em;
+}
+
+ul.wpcw_quiz_row_question_info li {
+	list-style-type: disc;
+	margin: 0 0 .2em;
+	padding: 0;
+}
+
+textarea.wpcw_quiz_row_question_list {
+	display: none;
+}
+
+.wpcw_quiz_row_question_info_edit {
+	font-size: 9pt;
+	margin-top: .5em;
+	text-align: right;
+	display: block;
+}
+
+#wpcw_quiz_details_modify .quiz_paginate_questions-use_paging .form-checklist-item
+	{
+	padding: 0 0 10px;
+	display: inline-block;
+}
+
+#wpcw_quiz_details_modify .quiz_paginate_questions-use_paging .subelement_wrapper_all
+	{
+	padding: 10px 20px 10px;
+}
+
+.wpcw_quiz_details_questions_wrap .wpcw_quiz_details_count_doc {
+	display: block;
+	font-size: 85%;
+	margin: 8px 0 0;
+}
+
+.wpcw_quiz_details_count_wrap input[type="text"].wpcw_quiz_details_count
+	{
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#wpcw_quizzes_tabs .wpcw_quiz_details_modify_quiz_timer_mode_limit_tr {
+	display: none;
+}
+
+#wpcw_quizzes_tabs .wpcw_quiz_timer_mode_limit {
+	margin-right: 5px;
+	width: 50px;
+}
+
+.wpcw_quiz_details_not_saved_tags {
+	text-align: center;
+	font-size: 9pt;
+	color: #ccc;
+}
+
+/* Modify Quiz - Custom Messages */
+#wpcw_section_break_quiz_custom_feedback {
+	padding: 15px 20px;
+}
+
+#wpcw_section_break_quiz_custom_feedback h3 {
+	padding: 0;
+	margin: 0 0 1em;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single {
+	border: 1px solid #BBB;
+	margin: 0 10px 10px;
+	background: #FFF;
+	min-width: 400px;
+	width: 80%;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single td,.wpcw_quiz_custom_feedback_wrap_single th
+	{
+	border-top: 1px solid #DFDFDF;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single td {
+	padding: 7px 5px;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single th {
+	padding: 10px 5px 10px 0;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single .wpcw_quiz_custom_feedback_hdr td,.wpcw_quiz_custom_feedback_wrap_single .wpcw_quiz_custom_feedback_hdr th
+	{
+	color: #FFF;
+	background: #0074A2;
+	line-height: 1em;
+	border: 0;
+	vertical-align: top;
+}
+
+.wpcw_quiz_custom_feedback_wrap_single input[type="text"],.wpcw_quiz_custom_feedback_wrap_single textarea
+	{
+	width: 95%;
+}
+
+.wpcw_quiz_custom_feedback_score_label_first span {
+	display: block;
+}
+
+.wpcw_quiz_custom_feedback_score_radio_wrap {
+	margin: .5em 0;
+	display: block;
+}
+
+.wpcw_quiz_custom_feedback_score_radio_wrap label {
+	margin-right: 2em;
+}
+
+.wpcw_quiz_custom_feedback_score_label_second {
+	display: block;
+	margin-top: .5em;
+}
+
+#wpcw_qcfm_sgl_wrapper_new_message,#wpcw_quiz_custom_feedback_add_new_count
+	{
+	display: none;
+}
+
+span.wpcw_quiz_custom_feedback_question_count {
+	display: block;
+	font-size: .9em;
+	margin: .3em .3em 0;
+}
+
+/* Modify Quiz - Custom Messages - Errors */
+.wpcw_quiz_custom_feedback_error {
+	font-size: 10pt;
+	color: red;
+	font-weight: bold;
+	display: none;
+	line-height: 22px;
+	height: 22px;
+	margin-top: .8em;
+}
+
+tr.wpcw_quiz_custom_feedback_row_error td,tr.wpcw_quiz_custom_feedback_row_error th
+	{
+	background-color: #FFEBE8;
+	color: red;
+}
+
+tr.wpcw_quiz_custom_feedback_hdr.wpcw_quiz_custom_feedback_row_error td,tr.wpcw_quiz_custom_feedback_hdr.wpcw_quiz_custom_feedback_row_error th
+	{
+	background-color: #FFEBE8 !important;
+	color: red !important;
+}
+
+tr.wpcw_quiz_custom_feedback_row_error .wpcw_quiz_custom_feedback_error
+	{
+	display: block;
+}
+
+/* Quiz Summary */
+#wpcw_tbl_quiz_summary {
+	margin: 10px 0;
+}
+
+#wpcw_tbl_quiz_summary td {
+	line-height: 1.2em;
+}
+
+#wpcw_tbl_quiz_summary #quiz_id {
+	width: 50px;
+}
+
+.wpcw_quiz_details_tick_correct {
+	padding-left: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.wpcw_quiz_details_questions_wrap {
+	border: 1px solid #bbb;
+	margin: 0 10px 10px;
+	background: #fff;
+	min-width: 350px;
+}
+
+.wpcw_quiz_details_questions_wrap td,.wpcw_quiz_details_questions_wrap th
+	{
+	border-top: 1px solid #dfdfdf;
+}
+
+.wpcw_quiz_details_questions_wrap th {
+	padding: 9px 10px;
+	text-align: right;
+	width: 170px;
+}
+
+.wpcw_quiz_details_answer_file_type_selection span {
+	display: block;
+	font-size: 90%;
+	margin-top: 2px;
+}
+
+.wpcw_quiz_details_questions_wrap .wpcw_quiz_row_answer_image td,.wpcw_quiz_details_questions_wrap .wpcw_quiz_row_answer_image th
+	{
+	border-top: 0;
+	padding-top: 0
+}
+
+.wpcw_quiz_details_questions_wrap td {
+	padding: 9px 10px;
+}
+
+.wpcw_quiz_row_question textarea {
+	width: 100%;
+	height: 3.5em;
+}
+
+.wpcw_quiz_details_question_hint textarea,.wpcw_quiz_details_question_explanation textarea
+	{
+	width: 100%;
+	height: 80px;
+}
+
+.wpcw_quiz_details_questions_wrap input[type="text"] {
+	width: 300px;
+}
+
+.wpcw_quiz_row_header td {
+	text-align: center;
+	color: #fff;
+	background: #0074A2;
+	border: 1px solid #0074A2;
+	line-height: 1em;
+}
+
+.wpcw_quiz_row_header td b {
+	font-size: 110%;
+}
+
+.wpcw_quiz_row_header_usage_count {
+	display: block;
+	margin-top: 4px;
+	font-size: 85%;
+}
+
+.wpcw_quiz_row_question td,.wpcw_quiz_row_question th {
+	background: #f4f4f4;
+}
+
+.wpcw_quiz_row_footer .wpcw_question_actions {
+	background: #f1f1f1;
+	padding: 4px 15px;
+}
+
+.wpcw_quiz_details_truefalse_selection label {
+	padding: 2px 20px 5px 5px;
+}
+
+.wpcw_quiz_missing,.wpcw_quiz_missing td,.wpcw_quiz_missing th {
+	color: red;
+	font-weight: bold;
+	background: #FFEBE8;
+}
+
+.wpcw_tbl .quiz_title b {
+	font-size: 105%;
+}
+
+.wpcw_tbl .wpcw_quiz_desc {
+	display: block;
+	margin-top: .6em;
+	font-size: .9em;
+	color: #777;
+}
+
+.wpcw_tbl .associated_unit span {
+	display: block;
+	font-size: .9em;
+}
+
+.wpcw_tbl .associated_unit span.associated_unit_course {
+	margin-top: .4em;
+}
+
+.wpcw_tbl #quiz_show_answers,.wpcw_tbl #total_questions {
+	text-align: center;
+}
+
+#wpcw_quiz_details_modify .quiz_show_answers-show_answers .form-checklist-item
+	{
+	padding: 0 0 5px;
+	display: inline-block;
+}
+
+#wpcw_quiz_details_modify .quiz_show_answers-show_answers .subelement_wrapper_all
+	{
+	padding: 10px 20px 5px;
+}
+
+.wpcw_quiz_pass_info {
+	font-size: 90%;
+	display: block;
+	margin-top: .6em;
+	color: #777;
+}
+
+.wpcw_search_count {
+	font-size: 110%;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.wpcw_insert_image_wrap {
+	display: block;
+	margin-top: 3px;
+}
+
+.button.wpcw_insert_image {
+	padding-left: .4em;
+}
+
+.wpcw_insert_image .wpcw_insert_image_img {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-top;
+	margin: 0 2px;
+	background: url('../img/media-button.png') no-repeat top left;
+}
+
+/* Questions - Compressed */
+.wpcw_quiz_details_questions_wrap_compact tr,.wpcw_quiz_details_questions_wrap_compact .wpcw_quiz_row_header_usage_count
+	{
+	display: none;
+}
+
+.wpcw_quiz_details_questions_wrap_compact th {
+	width: auto;
+}
+
+.wpcw_quiz_details_questions_wrap_compact tr.wpcw_quiz_row_header,.wpcw_quiz_details_questions_wrap_compact tr.wpcw_quiz_row_question,.wpcw_quiz_details_questions_wrap_compact tr.wpcw_quiz_row_footer
+	{
+	display: table-row;
+}
+
+/* Questions - Tags */
+.wpcw_tag_list_wrapper {
+	display: block;
+}
+
+.wpcw_question_add_tag_input {
+	width: 200px;
+	margin-right: 5px;
+}
+
+/* Floating Menu */
+.wpcw_floating_menu {
+	width: 250px;
+	z-index: 99;
+	padding-bottom: 20px;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	margin-left: 20px;
+}
+
+#wpcw_unassigned_wrapper {
+	width: 445px;
+	top: 100px;
+}
+
+#wpcw_add_quiz_menu {
+	top: 70px;
+}
+
+.wpcw_add_quiz_title {
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #D2D2D2;
+	background-color: #ECECEC;
+	background-image: -webkit-linear-gradient(top, #F9F9F9, #ECECEC);
+	background-image: linear-gradient(top, #F9F9F9, #ECECEC);
+}
+
+.wpcw_add_quiz_options {
+	background-color: #F8F8F8;
+	padding: 10px 15px;
+	border: 1px solid #D2D2D2;
+	border-top: 0;
+	text-align: center;
+}
+
+.wpcw_add_quiz_options ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.wpcw_add_quiz_options ul li {
+	margin: 0;
+}
+
+.wpcw_add_quiz_options ul li.wpcw_add_quiz_spacer {
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.wpcw_add_quiz_save {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.wpcw_question_template {
+	display: none;
+}
+
+.wpcw_quiz_add_rem {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.wpcw_quiz_add_rem img {
+	width: 20px;
+	height: 20px;
+}
+
+.wpcw_add_quiz_options .button-secondary {
+	margin-bottom: 5px;
+}
+
+.wpcw_quiz_tool_compact .wpcw_quiz_tool_compact_expand {
+	display: none;
+}
+
+/* User Progress */
+.wpcw_tbl_progress {
+	margin: 0 0 30px;
+	width: auto;
+	min-width: 600px;
+}
+
+.wpcw_tbl_progress td {
+	padding: 5px 20px;
+}
+
+.wpcw_tbl_progress_module {
+	background: #fff;
+	font-weight: bold;
+}
+
+.wpcw_tbl .wpcw_tbl_progress_completed {
+	font-weight: bold;
+	color: green;
+	text-align: center;
+}
+
+.wpcw_tbl_progress_unit td.wpcw_tbl_progress_unit_name {
+	padding-left: 30px;
+}
+
+.wpcw_tbl_progress_quiz_name {
+	width: 200px;
+}
+
+/* Settings */
+.wpcw_upgrade_tables {
+	margin-top: 100px;
+}
+
+/* Button Groups */
+.wpcw_button_group {
+	margin: 10px 0;
+}
+
+.wpcw_btn_centre {
+	text-align: center;
+}
+
+#wpcw_button_group_info_gradebook {
+	display: inline-block;
+	width: 50%;
+	min-width: 200px;
+	vertical-align: top;
+	margin-left: 10px;
+	background: #efefef;
+	padding: 5px 10px;
+	border: 1px solid #dfdfdf;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* User Quiz Summary */
+#wpcw_tbl_progress_quiz_info {
+	margin: 0 20px 30px;
+	width: auto;
+	border-bottom: 0;
+}
+
+#wpcw_tbl_progress_quiz_info td {
+	vertical-align: middle;
+}
+
+#wpcw_tbl_progress_quiz_info td {
+	background: #fff;
+	padding: 3px 15px;
+	font-size: 105%;
+}
+
+#wpcw_tbl_progress_quiz_info tfoot {
+	display: none;
+}
+
+/* User Quiz Answers */
+.wpcw_tbl_progress_quiz_answers {
+	width: auto;
+	margin: 0 20px 40px;
+	border-bottom: 0;
+}
+
+#wpcw_tbl_progress_quiz_info .wpcw_tbl_label {
+	width: 200px;
+}
+
+#wpcw_tbl_progress_quiz_answers .quiz_question,#wpcw_tbl_progress_quiz_answers #title
+	{
+	text-align: left;
+}
+
+#wpcw_tbl_progress_quiz_answers .quiz_question {
+	font-weight: bold;
+}
+
+.wpcw_question_yesno_status {
+	line-height: 16px;
+	display: block;
+	padding-left: 20px;
+}
+
+.wpcw_question_yes {
+	font-weight: bold;
+	color: green;
+	background: url('../img/icon_tick.png') no-repeat;
+}
+
+.wpcw_question_no {
+	color: red;
+	background: url('../img/icon_cross.png') no-repeat;
+}
+
+.wpcw_q_answer_open_wrap {
+	display: block;
+	text-align: left;
+}
+
+.wpcw_q_answer_open_wrap textarea {
+	width: 600px;
+	height: 300px;
+	background: #efefef;
+}
+
+#wpcw_tbl_progress_quiz_answers td.their_answer {
+	width: 45%;
+}
+
+/* Access based on Member Level Editing */
+#wpcw_member_level_name_title {
+	font-size: 120%;
+	margin: 10px 0;
+	font-style: italic;
+}
+
+#wpcw_members_tbl .wpcw_enabled {
+	color: green;
+}
+
+#wpcw_members_tbl .wpcw_tickitems li.wpcw_disabled {
+	background-image: url('../img/icon_cross_grey.png');
+	color: #777;
+}
+
+/* Certificate Settings */
+.form-field .wpcw_image_upload {
+	width: 120px;
+	margin-bottom: 5px;
+}
+
+.form-table .wpcw_image_upload_field {
+	width: 350px;
+}
+
+/* Skipped User Import */
+#wpcw_user_import_skipped {
+	margin: 25px 0 25px 5px;
+}
+
+#wpcw_user_import_skipped table {
+	margin: 15px 10px;
+	width: auto;
+}
+
+#wpcw_user_import_skipped table th {
+	padding: 8px 10px;
+}
+
+#wpcw_user_import_skipped table td {
+	padding: 3px 10px;
+}
+
+#wpcw_user_import_skipped .wpcw_error td {
+	color: red;
+}
+
+/* User Failed on Blocking Quiz */
+.wpcw_user_progress_failed {
+	margin: 10px 0;
+	border: 1px solid #cfcfcf;
+	background: #f5f5f5;
+	padding: 10px;
+	max-width: 800px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.wpcw_user_progress_failed_reason {
+	margin-left: 10px;
+}
+
+.wpcw_user_progress_failed_reason textarea {
+	margin: 5px 0 0;
+	width: 90%;
+	height: 70px;
+}
+
+.wpcw_user_progress_failed .wpcw_user_progress_failed_next_action {
+	margin: 10px 0;
+}
+
+.wpcw_user_progress_failed .wpcw_user_progress_failed_next_action label
+	{
+	margin-left: 10px;
+}
+
+.wpcw_user_progress_failed .wpcw_user_progress_failed_next_action span {
+	padding-left: 5px;
+}
+
+.wpcw_user_progress_failed_btns {
+	text-align: right;
+}
+
+/* Status Messages */
+.wpcw_msg_progress {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	background: #efefef;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin: 5px 0;
+}
+
+.wpcw_msg_progress_indent_1 {
+	margin: 5px 20px;
+}
+
+.wpcw_msg_progress_indent_2 {
+	margin: 5px 40px;
+}
+
+.wpcw_msg_progress_indent_3 {
+	margin: 5px 60px;
+}
+
+/* Course Deletion */
+.wpcw_form_delete_options label {
+	display: block;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+.wpcw_form_delete_options .wpcw_form_delete_options_desc {
+	font-size: 90%;
+	font-weight: normal;
+	margin-top: .5em;
+	line-height: 1.3em;
+}
+
+/* Question Pool */
+#wpcw_tbl_question_pool .question_id {
+	width: 5%;
+}
+
+#wpcw_tbl_question_pool .question_question {
+	width: 40%;
+}
+
+#wpcw_tbl_question_pool .question_tags {
+	width: 15%;
+	position: relative;
+}
+
+.wpcw_questions_tag_filter_wrap {
+	float: left;
+	margin: 10px 0;
+}
+
+.wpcw_questions_tag_filter_wrap label {
+	font-size: 90%;
+	font-style: italic;
+	margin-right: .8em;
+}
+
+#wpcw_tbl_question_pool .associated_quizzes {
+	width: 120px;
+}
+
+#wpcw_tbl_question_pool .question_type {
+	width: 120px;
+}
+
+.wpcw_questions_tag_filter_wrap select {
+	margin-right: .5em;
+}
+
+.wpcw_tbl td.wpcw_select_cb,th.wpcw_select_cb {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.wpcw_tbl .wpcw_select_cb input {
+	padding: 0;
+	margin: 0;
+}
+
+/* Question Pool - Actions */
+#wpcw_tbl_question_pool_bulk_actions {
+	clear: both;
+	padding: .8em 1em;
+	border: 1px solid #E1E1E1;
+	background: #fff;
+	vertical-align: middle;
+	margin: 10px 0;
+}
+
+#wpcw_tbl_question_pool_bulk_actions label {
+	font-weight: bold;
+	margin: 0 0 0 1em;
+}
+
+#wpcw_tbl_question_pool_bulk_actions select {
+	margin: 0 .5em;
+	vertical-align: middle;
+}
+
+.wpcw_bulk_action_label,.wpcw_bulk_action_select_tag {
+	display: none;
+}
+
+#wpcw_tbl_question_pool_bulk_actions .wpcw_msg_error {
+	padding: 10px;
+	border: 1px solid red;
+	margin: 0 0 10px;
+	display: none;
+}
+
+/* Question Pool - Thickbox */
+#wpcw_tb_question_pool_inner {
+	padding-top: 10px;
+}
+
+#wpcw_tb_question_pool_inner .wpcw_loader {
+	margin: 10px 20px 10px 0;
+	float: left;
+}
+
+/* Random Questions */
+#wpcw_tb_random_question_inner {
+	padding: 20px;
+}
+
+#wpcw_tb_random_question_inner .wpcw_tb_option_wrap {
+	margin-bottom: 20px;
+	padding: 15px 15px 0px;
+	border-radius: 5px;
+	border: 2px solid #efefef;
+}
+
+#wpcw_tb_random_question_inner .wpcw_tb_option_wrap.wpcw_tb_option_wrap_active
+	{
+	border-color: #0074A2;
+}
+
+#wpcw_tb_random_question_inner label.wpcw_bold {
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.wpcw_tb_option_selection {
+	background: #efefef;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
+#wpcw_tb_option_wrap_whole_pool .wpcw_tb_random_question_count {
+	margin-top: 10px;
+}
+
+.wpcw_tb_option_wrap .wpcw_delete_icon {
+	margin-left: 10px;
+	background: url('../img/icon_delete.png') no-repeat 0 0;
+	padding-left: 24px;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.wpcw_tb_option_wrap_question_tags_row.wpcw_quiz_missing {
+	padding: 5px 10px;
+}
+
+.wpcw_tb_option_wrap_question_tags_row .wpcw_missing_tag {
+	display: none;
+	background: url('../img/icon_cross.png') no-repeat;
+	padding-left: 20px;
+	margin-left: 20px;
+	line-height: 16px;
+}
+
+.wpcw_tb_option_wrap_question_tags_row.wpcw_quiz_missing .wpcw_missing_tag
+	{
+	display: inline-block;
+}
+
+.wpcw_quiz_row_question_info_blank {
+	display: none;
+}

@@ -1,0 +1,129 @@
+/* Custom addons styles
+------------------------------------------------------------ */
+
+#optinmonster-addon-area .addon-intro {
+	text-align: left;
+}
+
+#optinmonster-addon-area .addon-intro input[type=submit] {
+    vertical-align: middle;
+}
+
+.om-addons-wrap {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.om-addons-wrap,
+.om-addons-wrap * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-boxs-sizing: border-box;
+}
+
+.optinmonster-addon {
+    display: inline-block;
+	background: #fafafa;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	margin: 0 2% 2% 0;
+	padding: 20px;
+	text-align: center;
+	width: 32%;
+}
+
+.optinmonster-addon.last {
+	margin-right: 0;
+}
+
+.optinmonster-addon .optinmonster-addon-thumb {
+	border-radius: 3px;
+	box-shadow: 0 0 3px rgba( 0, 0, 0, .35 );
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	width: auto;
+	display: block;
+}
+
+.optinmonster-addon h3 {
+    margin: .5em 0 .6em;
+    font-size: 20px;
+}
+
+.optinmonster-addon .optinmonster-addon-message,
+.optinmonster-addon .optinmonster-addon-error {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px;
+	text-align: left;
+}
+
+.optinmonster-addon .optinmonster-addon-message span {
+	font-weight: bold;
+}
+
+.optinmonster-addon .optinmonster-addon-active {
+	background: #cbeca0;
+	border: 1px solid #97b48a;
+}
+
+.optinmonster-addon .optinmonster-addon-inactive {
+	background: #ffffe0;
+	border: 1px solid #e6db55;
+}
+
+.optinmonster-addon .optinmonster-addon-not-installed {
+	background: #eaeaea;
+	border: 1px solid #dadada;
+}
+
+.optinmonster-addon .optinmonster-addon-action {
+	display: inline;
+	float: right;
+}
+
+.optinmonster-addon .optinmonster-addon-action .button-secondary {
+	margin-top: -4px;
+}
+
+.optinmonster-addon .optinmonster-addon-error {
+	background: #ffebe8;
+	border: 1px solid #c00;
+	margin-top: 10px;
+}
+
+.optinmonster-addon .optinmonster-addon-error .wrap {
+	margin: 0;
+}
+
+.optinmonster-addon .optinmonster-addon-error .icon32 {
+	display: none;
+}
+
+.optinmonster-addon .optinmonster-addon-error h2 {
+	padding: 0;
+}
+
+.optinmonster-addon .optinmonster-addon-error .form-table th {
+	padding: 10px 0;
+	width: 30%;
+}
+
+.optinmonster-addon .optinmonster-addon-error .form-table input[type="text"],
+.optinmonster-addon .optinmonster-addon-error .form-table input[type="password"] {
+	width: 100%;
+}
+
+.optinmonster-addon .optinmonster-addon-error p.submit {
+	padding: 0;
+}
+
+.optinmonster-addon p {
+	color: #2f2f2f;
+	font-size: 13px;
+	margin: 10px 0 0;
+	text-shadow: 0 1px #fff;
+}

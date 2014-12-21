@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: translate Bluet KW\n"
+"POT-Creation-Date: 2014-11-15 10:22+0100\n"
+"PO-Revision-Date: 2014-11-15 10:45+0100\n"
+"Last-Translator: Kees Hessels <kees.hessels@outlook.com>\n"
+"Language-Team: Kees Hessels <kees.hessels@outlook.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: f:\\Project Slot Schaesberg\\www.slotschaesberg.nl"
+"\\plugins\\bluet-keywords-tooltip-generator\n"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:6
+msgid "KeyWords Tooltip Generator Importer"
+msgstr "Trefwoorden Tooltip Generator Importeur (Engels KTTGI)"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:7
+msgid "KTTG Importer"
+msgstr "TTGI (Engels KTTG) Importeur"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:17
+msgid "Begin importing my keywords"
+msgstr "Begin importeren van Mijn trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:31
+msgid "Import from"
+msgstr "Importeren van"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:84
+msgid "keywords imported"
+msgstr "Trefwoorden geïmporteerd"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:88
+msgid "These posts were not imported (Duplicated)"
+msgstr "Deze berichten zijn niet geïmporteerd (Dubbelen)"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:94
+msgid ""
+"if you want to re-import them, you have to delete them from My Keywords."
+msgstr ""
+"Indien u ze opnieuw wilt importeren, dient u ze eerst uit Mijn Trefwoorden "
+"te verwijderen."
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/importer.php:104
+msgid "No posts found"
+msgstr "Geen berichten gevonden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:59
+msgid "KeyWords"
+msgstr "Trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:60
+msgid "KeyWord"
+msgstr "Trefwoord"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:61
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:62
+msgid "My KeyWords"
+msgstr "Mijn trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:63
+msgid "All my KeyWords"
+msgstr "Al mijn trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:64
+msgid "Add new one"
+msgstr "Voeg een nieuw trefwoord toe"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:65
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:67
+msgid "New KeyWord"
+msgstr "Nieuw trefwoord"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:66
+msgid "Edit KeyWord"
+msgstr "Wijzig trefwoord"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:68
+msgid "View KeyWord"
+msgstr "Bekijk trefwoord"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:69
+msgid "Search for KeyWords"
+msgstr "Zoek naar trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:70
+msgid "KeyWords not found"
+msgstr "Trefwoorden niet gevonden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:71
+msgid "KeyWords not found in trash"
+msgstr "Trefwoorden niet gevonden in de prullenbak"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:72
+msgid "Parent KeyWords colon"
+msgstr "Hoofd-trefwoorden kolom"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:101
+msgid "Posts related"
+msgstr "Aantal gerelateerde berichten/pagina's"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/keyword-posttype.php:102
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:18
+msgid "Synonyms"
+msgstr "Synoniemen"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:27
+msgid "Posts in concern"
+msgstr "Aantal berichten/pagina's met dit trefwoord"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:37
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:46
+msgid "Keywords related"
+msgstr "Gerelateerde trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:63
+msgid "Type here the keyword's Synonyms separated with '|'"
+msgstr ""
+"Geef hier de synoniemen van het trefwoord in, van elkaar gescheiden door "
+"'|' (zonder spaties)"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:72
+msgid "Exclude this post from being matched"
+msgstr "Sluit dit bericht / deze pagina uit bij het weergeven van trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:73
+msgid "Exclude this post"
+msgstr "Sluit dit bericht / deze pagina uit"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:87
+msgid "Specify keywords to match"
+msgstr "Geef de trefwoorden aan die moeten worden weergegeven"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:101
+msgid "Notice : if you leave them all unchecked they will be ALL matched"
+msgstr ""
+"Opgelet : indien u geen enkel trefwoord aanvinkt, worden ALLE trefwoorden "
+"weergegeven"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:104
+msgid "No KeyWords found for this post"
+msgstr "Geen trefwoorden gevonden in dit bericht / deze pagina"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/meta-boxes.php:108
+msgid "Manage KeyWords"
+msgstr "Beheer trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:51
+msgid "Post Types in concern :"
+msgstr "Betreffende berichten :"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:59
+msgid "Customise the tooltip style :"
+msgstr "Pas de tooltip-stijl aan :"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:70
+msgid "Posts / Pages"
+msgstr "Berichten / Pagina's"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:79
+msgid "Match once or all occurrences"
+msgstr "Alleen de eerste of alle voorkomens van de trefwoorden weergeven"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:87
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:219
+msgid "Match excerpts"
+msgstr "Toepassen op samenvattingen"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:95
+msgid "Keyword style"
+msgstr "Trefwoord-stijl"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:103
+msgid "Description tooltip style"
+msgstr "Stijl van de tooltip-omschrijving"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:111
+msgid "Description tooltip Font size"
+msgstr "Lettergrootte voor tooltip-omschrijving"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:119
+msgid "Activate tooltips for images ?"
+msgstr "Tooltips voor afbeeldingen activeren?"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:144
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:227
+msgid "KeyWords Settings"
+msgstr "Trefwoorden-instellingen"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:145
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:231
+msgid "Settings"
+msgstr "Instellingen"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:163
+msgid "alt property of the images will be displayed as a tooltip"
+msgstr ""
+"De ALT-eigenschap van een afbeelding zal als een tooltip worden weergegeven"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:176
+msgid "Description Background Colour"
+msgstr "Achtergrond-kleur van de omschrijving"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:178
+msgid "Description font Colour"
+msgstr "Lettertype-kleur van de omschrijving"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:187
+msgid "Background Colour"
+msgstr "Archtergrond-kleur"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:188
+msgid "Font Colour"
+msgstr "Lettertype-kleur"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:194
+msgid "Choose either Posts or/and Pages in concern"
+msgstr "Waar moeten de tooltips weergegeven worden?"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:197
+msgid "Make your own style."
+msgstr "Maak uw eigen stijl."
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:202
+msgid "Posts"
+msgstr "Berichten"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:203
+msgid "Pages"
+msgstr "Pagina's"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:211
+msgid "Match all occurrences"
+msgstr "Geef alle voorkomens van de trefwoorden weer"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:232
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:273
+msgid "Excluded posts"
+msgstr "Uitgesloten berichten/pagina's"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:233
+msgid "Help ?"
+msgstr "Help ?"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:234
+msgid "Donate"
+msgstr "Donatie"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:251
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:252
+msgid "Pass your mouse over the word"
+msgstr "Beweeg uw muis over de volgende woorden "
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:258
+msgid ""
+"this plugin allows you easely create tooltips for your technical keywords in "
+"order to explain them for your site visitors making surfing more comfortable."
+msgstr ""
+"Deze plugin maakt het mogelijk om op een makkelijke manier tooltips aan te "
+"maken. Hierdoor zijn (technische) trefwoorden eenvoudiger uit te leggen aan "
+"de bezoekers van uw site. Hiermee maakt u het surfen voor uw bezoekers "
+"prettiger."
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:260
+msgid "Click"
+msgstr "Klik"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:260
+msgid "Here"
+msgstr "- Hier -"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:260
+msgid "to rate our plugin if you appreciate it"
+msgstr "om onze plugin te waarderen als u deze op prijs stelt"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:263
+msgid "to test the tooltip layout."
+msgstr "om de tooltip-layout te testen."
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:274
+msgid "Posts which are excluded from being matched"
+msgstr ""
+"Berichten of pagina's die worden uitgesloten voor het weergeven van "
+"trefwoorden"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:280
+msgid "No posts or pages are excluded"
+msgstr "Er zijn geen berichten of pagina's uitgesloten"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/settings-page.php:299
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: f:\Project Slot
+#: Schaesberg\www.slotschaesberg.nl\plugins\bluet-keywords-tooltip-generator/widget.php:86
+msgid "no terms found for this post"
+msgstr "Geen trefwoord in dit bericht / deze pagina gevonden"
+
+#~ msgid "Keywords Related"
+#~ msgstr "Mots clés en relation"

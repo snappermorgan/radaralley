@@ -1,0 +1,133 @@
+body { 
+  
+}
+
+#wpcontent * {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#wpfooter { 
+  display: none;
+}
+
+#wpwrap { 
+}
+
+#filter-options {
+  margin: 0;
+}
+
+#filter-options li {
+  margin-right: 0.4em;
+}
+
+#wpad-dashboard .tablenav {
+  margin-top: 1em;
+}
+
+#wpad-dashboard .tablenav .actions {
+  margin-right: 1.5em;
+  vertical-align: middle;
+}
+
+#ftp-wrap {
+  display:none; 
+  padding: 2em;
+  background-color: #ffffe0;
+  border: 2px solid lightgray;
+}
+
+#ftp-wrap .icon32 {
+  display: none;
+}
+
+#actions_progressbar {
+  display: none;
+}
+
+#products_grid {
+    padding: 1.5em 0.5em;
+    clear: both;
+    text-align: justify;
+}
+
+#products_grid:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+#products_grid .mix, #products_grid .gap {
+  display: none;
+  opacity: 0;
+  vertical-align: top;
+  
+  text-align: left;
+  background: #FFFFFF;
+  border: 1px solid #e6e6e6;
+  padding: 1.25em;
+  margin: 1em;
+  width: 20%;
+  min-width: 200px;
+  height: 180px;
+}
+
+.product-card {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.15);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.15);
+}
+
+.product-card:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  position: relative;
+  z-index: 5;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+#products_grid .gap{
+  display: inline-block;
+}
+
+.product-card h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 1.25em;    
+}
+.product-card .summary {
+    overflow: hidden;
+}
+
+.product-card .status-action {
+    font-weight: bold;
+    vertical-align: top;
+    text-align: right;
+    margin-top: -0.5em;
+}
+
+.product-card .status-action input[type="checkbox"] {
+    vertical-align: top;
+}
+
+.product-card .status-action .us_new, .product-card .status-action .us_updated {
+  color: #FFF;
+  -moz-border-radius: 1em; 
+  -webkit-border-radius: 1em; 
+  border-radius: 1em;
+  padding: 0.1em 1em;
+}
+
+.product-card .status-action .us_new {
+  background-color: #41046F;
+}
+.product-card .status-action .us_updated {
+  background-color: #00733C;
+}
+.product-card .status-action .us_latest, .product-card .status-action .us_server_outdated {
+  color: #03426A;
+}
+.product-card .status-action .as_inactive {
+  color: gray;
+}

@@ -1,0 +1,269 @@
+0.0.2 - 2011-01-18 - Dustin Bolton
+	Preparing for initial beta release.
+0.4.0 - 2011-05-19 - Ronald Huereca
+	Initial beta release.
+0.4.1 - 2011-05-23 - Ronald Huereca
+	Fixing post meta issues and random bugs
+0.4.2 - 2011-05-31 - Ronald Huereca
+	Added search form to Layout Editor
+0.5.0 - 2011-06-10 - Ronald Huereca
+	Numerous bug fixes
+	Added support for attachment pages
+	Revised the post/page query editor
+	Added tooltips to query editor
+0.5.2 - 2011-06-30 - Ronald Huereca
+	Adding Builder 3.0 Loop Standard Support
+	Added content filter for Loop Above/Loop Below support
+	Added theme support for the loop standard with a warning if the theme doesn't support it
+0.7.0 - 2011-07-08 - Ronald Huereca
+	Added hooks for adding custom Layout Tags
+	Various bug fixes regarding paging and queries
+	Fixed an author bug in the Query editor
+0.8.0 - 2011-07-14 - Ronald Huereca
+	Layouts and Queries can now be loaded independently
+0.9.0 - 2011-07-15 - Ronald Huereca
+	Modified the Loop Layout to render title items correctly
+1.0.0 - 2011-07-19 - Ronald Huereca
+	Releasing first stable version
+1.0.1 - 2011-07-28 - Ronald Huereca
+	Fixed query when someone select "No Paging" and the loop still tries to page
+	Fixed category bug when selecting a category in the query editor
+	Fixed a missing image on the settings page
+	Fixed a wrong link in the settings page to the layout editor
+	Fixed a bug where LoopBuddy's meta box for custom post types wasn't showing
+	Updated the updater system
+1.0.2 - 2011-07-28 - Ronald Huereca
+	Fixing a critical bug when viewing/saving LoopBuddy settings
+1.0.3 - 2011-07-29 - Ronald Huereca
+	Added contextual help videos for LoopBuddy
+1.0.4 - 2011-07-29 - Ronald Huereca
+	Updated the videos to include audio
+1.1.0 - 2011-08-05 - Ronald Huereca
+	Added WP PageNavi support for pagination
+	Added default layouts/queries upon activation and stripped the existing default layout to just three elements (title, content, edit link)
+	You can now query more than one post type and post status 
+	Post thumbnails can now have a custom link
+	Offsets can now be set (please note that paging does not work properly with offsets)
+	Loop layouts can now have a custom wrapper class name
+	Fixed before/after text on various elements
+	Resolved hidden custom field items from showing and change the output format for serialized data
+	Added taxonomy template field when displaying all taxonomies
+	Resolved a post date issue where the date was showing the last modified instead
+	Added a custom search box option in the layout editor
+	Fixed a time zone issue with the current date tag
+	Added German language file
+	Added Respond layout tag for comments
+1.1.1 - 2011-08-12 - Ronald Huereca
+	Fixed a bug where multiple post types of the same type were being displayed in the LoopBuddy Settings
+	Added Sticky Posts to the Query Editor
+	Added Post Permalinks as an option for the Post Thumbnail
+	Fixed a bug where Post Status wasn't being displayed properly in the Assist area for posts
+1.2.0 - 2011-09-09 - Ronald Huereca
+	Added advanced WordPress 3.1+ taxonomy queries.  Users now have the power to query posts from multiple taxonomies.
+	Added advanced WordPress 3.1+ meta queries.  Users now have the power to query posts based on multiple custom field values.
+	Fixed a bug where LoopBuddy was not being recognized on a post tag archive
+	Fixed a bug where LoopBuddy was not working on dynamically created Custom Post Type archives
+	Fixed a bug in the LoopBuddy Query/Layout import process
+	Fixed a bug in Query Editor where Post Type and Post Status weren't being set properly via Assist.
+1.2.1 - 2011-09-15 - Ronald Huereca
+	Fixing an issue with automatic upgrades
+1.2.2 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.2.3 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.2.4 - 2011-11-07 - Dustin Bolton
+	Layout editor: Fixed jQuery issue where adding new slot items failed. Slot items previous copied the ID of the dragged slot item.  IDs must be unique so now using REL tag for the new items until a unique ID is generated and placed in the ID tag.
+1.2.5 - 2011-11-14 - Daniel Harzheim
+	Changed duplicate naming scheme to use numerics instead of random three
+	character string.
+1.2.6 - 2011-12-12 - Daniel Harzheim
+	added new admin panel icon
+1.2.7 - 2011-12-16 - Josh Benham
+	Updated updater
+1.2.8 - 2012-07-09 - Daniel Harzheim
+	Fixed duplicates on activation
+1.2.9 - 2012-07-19 - Daniel Harzheim
+	Changes dealing with: Blank Archive Pages & pagination in widget areas
+	Widget area pagination, instead of using the built in pagination, we created our own function that creates a 2nd pagination variable, this way we can keep track of what page we're on for each loop iteration.
+	Archive pages, when we merge the queries, we're now unsetting the 'pagename' so that the core isn't trying to use that page name instead of our loop for pulling post data.
+1.2.11 - 2012-07-22 - Ronald van Weerd
+	[PBLB-118] Removed inserted line breaks
+1.2.12 - 2012-07-23 - Ronald van Weerd
+	[PBLB-118] Removed additional line breaks
+1.2.13 - 2012-09-11 - Chris Jean
+	Added support for setting the $wpdb_query->in_the_loop variable before rendering The Loop and unsetting it afterwards. This only applies to Loops that replace ones found in theme templates and does not affect widgets or shortcodes.
+	Removed errant "hello" output.
+	Removed errant "\n" output.
+1.2.14 - 2012-09-20 - Chris Jean
+	Fixed a bug that prevented date and time query arguments from being respected.
+	Updated the Getting Started page to point to iThemes rather than PluginBuddy.
+	Removed commented debug code.
+	Fixed some code sections that generate warnings and other errors.
+	Made various code cleanup updates.
+	Fixed permissions on numerous files (removing the execute bit for non-directory files).
+1.2.15 - 2012-09-25 - Chris Jean
+	Fixed issue with code version not being incremented in the code.
+1.3.0 - 2012-12-01 - Chris Jean
+	Added titles to the LoopBuddy widget.
+	Added standadized widget output with a legacy format fallback.
+	Improved layout and query editor listing interfaces to conform better to
+		WordPress standards.
+	Improved error message output for many editors.
+	Updated link reference for date & time formatting to point to WordPress
+		Codex article.
+	Improved code formatting to increase efficiency and reduce buggy code.
+	
+	Added:
+		functions.php
+	Modified:
+		classes/
+		loopbuddy.php
+1.3.1 - 2012-12-10 - Chris Jean
+	Fixed compatibility issue with WordPress 3.5 that caused the drag-and-drop
+		interface in the Layout editor to break.
+	Fixed widget output failing for Query and Layout ID's of 0.
+	Fixed a broken label tag in the Layout editor.
+	Fixed missing background image due to WordPress 3.5 update.
+	Cleaned up code to improve efficiency.
+	
+	Added:
+		images/gray-grad.png
+	Modified:
+		classes/
+		loopbuddy.php
+1.3.2 - 2012-12-10 - Chris Jean
+	Revert back to 1.3.0 code.
+1.3.3 - 2012-12-12 - Chris Jean
+	Fixed version for updater not being updated.
+	
+	Modified:
+		loopbuddy.php
+1.3.4 - 2012-12-12 - Chris Jean
+	Fixed bug that prevented the boxes in the Query editor from
+		opening/closing.
+	
+	Modified:
+		loopbuddy.php
+		classes/
+1.3.5 - 2012-12-12 - Chris Jean
+	Reapplied a lost fix for the drag-and-drop Layout editor on WordPress 3.5.
+	
+	Modified:
+		classes/
+1.3.6 - 2012-12-27 - Glenn Ansley
+	Fixed bug preventing comment box from appearing on custom layout for
+		single posts.
+	Moved post content to contentslot rather than metaslot for singlepage
+		layout.
+
+	Modified:
+		loopbuddy.php
+		lib/import/loopbuddy_layouts.txt
+1.3.7 - 2012-12-28 - Glenn Ansley
+	Fix shortcode functionality in Before Loop and Shortcode Tags
+	Add before and after wraps to Image Attachment Tags
+	Enable Preview of Posts with custom LoopBuddy Query applied
+
+	Modified:
+		loopbuddy.php
+		classes/render_slotitems.php
+1.3.8 - 2013-01-02 - Glenn Ansley
+	Fixing duplicated pre-loop content
+1.3.9 - 2012-01-03 - Glenn Ansley
+	Fixed bug preventing shortcodes from working inside the No-Results Content box for layout editor.
+	Fixed bug to make content_more option in Content tags of Layout editor work correctly.
+	Fixed pagination for queries that have an offset
+
+	Modified:
+		loopbuddy.php
+		classes/render_slotitems.php
+1.3.10 - 2013-01-18 - Chris Jean
+	Added translation support for some untranslatable strings.
+	
+	Modified:
+		classes/ajax_slotitems.php
+1.4.0 - 2013-03-18 - Chris Jean
+	Added custom post type archive options to the LoopBuddy > Settings page.
+	Added shortcode processing to the output of the Custom Field Layout option.
+	Fixed the reversed "Older posts"/"Newer posts" labels on widget links.
+	
+	Modified:
+		classes/
+		lib/
+		loopbuddy.php
+1.4.1 - 2013-05-01 - Chris Jean
+	Added new Multi-page Links slot item that runs the wp_link_pages function.
+	Fixed warning output on main pages.
+	Fixed warning created by updater code.
+	
+	Modified:
+		classes/
+		lib/
+		loopbuddy.php
+1.4.2 - 2013-06-28 - Josh Benham
+	Fixed warning created php php 5.5.0 that shows up on all admin pages.
+	Resyncing versions.
+	
+	Modified:
+		loopbuddy.php
+1.4.3 - 2013-08-05 - Packaging Bot
+	Updated lib/classes to version 2.3.4
+1.4.4 - 2013-08-06 - Chris Jean
+	Fixed is_single and is_page reporting wrong values when inside the loop for a page using a custom query with "use current" enabled.
+	Added new licensing and updater system.
+	
+	Modified:
+		classes/
+		lib/updater/
+		loopbuddy.php
+1.4.5 - 2013-08-19 - Packaging Bot
+	Updated lib/classes to version 2.3.5
+1.4.6 - 2013-09-20 - Packaging Bot
+	Updated lib/updater to version 1.0.3
+1.4.7 - 2013-10-02 - Packaging Bot (lib/updater)
+	Big rewrite to the updater in order to make the code more flexible. This improves compatibility with plugins that allow for remote updating of plugins and themes.
+	The updater now supports providing changelog details for plugins and themes that have updates available. These details can be viewed by clicking the "View version **** details" link for the appropriate plugin or theme.
+1.4.8 - 2013-10-04 - Packaging Bot (lib/updater)
+	Enhancement: When releases with four version digits are released (such as 2.1.0.3), by default, the updater will not offer to update if just this last digit is updated. For instance, it will not automatically offer to update 2.1.0.1 to 2.1.0.3; rather, an automatic upgrade will become available when version 2.1.1 or greater is released. If you wish to force an update to these versions, you can add ithemes-updater-force-minor-update=1 to an admin page request (such as http://domain.com/wp-admin/index.php?ithemes-updater-force-minor-update=1) in order to force the updater make these releases available for an hour. If the update is not performed within the hour, the updater reverts back to default behavior.
+	Bug Fix: Corrected source of the following error when updating: Download failed. SSL certificate problem, verify that the CA cert is OK. Details: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+	Bug Fix: Corrected source of the following warning: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+1.4.9 - 2013-10-07 - Packaging Bot (lib/updater)
+	Bug Fix: Corrected another source of the following warning which occur immediate after updating the plugin or theme: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+1.4.10 - 2013-10-28 - Packaging Bot (lib/updater)
+	Enhancement: Added a "Quick Release Updates" setting to the bottom of the licensing page. Enabling this option allows the site to receive automatic update notices for product quick releases (releases that do not have automatic update support by default).
+	Enhancement: Changed how the licensing page works on Multisite. Now it will appear at Settings > iThemes Licensing in the network admin Dashboard and at Settings > iThemes Licensing on sites when the current user is a network admin. This prevents exposing the licensing page to users that don't are not super users and thus should not be performing updates. As this update makes the functionality of the "Licensing Page Access" setting obsolete, the setting has been removed.
+	Enhancement: Using the ithemes-updater-force-minor-update query string variable will now force a data flush, allowing any available quick release updates to appear instantly.
+	Enhancement: Added "License" links to the Plugins and Themes pages for the Network Admin Dashboard of multisite installs.
+1.4.11 - 2013-10-28 - Chris Jean
+	Bug Fix: Certain Query settings would result in the Order By option being ignored. This issue is now fixed.
+1.4.12 - 2013-11-15 - Chris Jean
+	Bug Fix: Fixed the in_the_loop WordPress query variable being set to false when a custom query is used.
+1.4.13 - 2013-11-25 - Packaging Bot (lib/classes)
+	Enhancement: Improved output of ITUtility::print_r() in WordPress 3.8.
+	Enhancement: ITUtility::print_r() now indicates the number of array elements in collapsed arrays and identifies boolean values explicitly.
+	Enhancement: Added the ability for ITForm::add_drop_down() to show divided lists.
+	Bug Fix: Fixed depth cutoff of ITUtility::backtrace().
+	Bug Fix: Fixed broken javascript in error message output. This bug prevented the error message from being collapsed by default, causing the screen to show the message at all times.
+1.4.14 - 2013-11-27 - Chris Jean
+	Bug Fix: Fixed primary page content that renders after a loopbuddy shortcode not rendering properly.
+1.4.15 - 2013-12-02 - Packaging Bot (lib/classes)
+	Enhancement: Added ITUtility::screen_icon() to allow for easily preparing code for the WordPress 3.8 release. It only runs the screen_icon() function when WordPress is older than 3.8, thus avoiding the deprecation notice.
+	Bug Fix: Removed Javascript notices created by the tooltips.
+	Bug Fix: Removed Javascript notices created by ITDialog thickboxes.
+1.4.16 - 2013-12-13 - Packaging Bot (lib/updater)
+	Enhancement: Recently updated plugins and themes no longer report that an update is available.
+	Enhancement: Added alternate line styling to the listings on the licensing page.
+	Enhancement: Products with iThemes in the name will now properly capitalize the name.
+	Enhancement: The updater and licensing system now handle iThemes server outages without causing long page delays or by reporting confusing error messages.
+1.4.17 - 2013-12-18 - Packaging Bot (lib/updater)
+	Bug Fix: Removed unneeded check on package-info.ithemes.com which was causing performance issues on some sites.
+1.4.18 - 2013-12-19 - Packaging Bot (lib/updater)
+	Bug Fix: Licensing will now be universal across all sites of a multisite network. This means that you will only need to license on one site to have the license apply across the entire network.
+1.4.19 - 2014-01-23 - Packaging Bot (lib/classes)
+	Bug Fix: Prior versions would fix non-https URL's for local content when the site was accessed via SSL so that the URL would become an https URL; however, it would not reverse the process and change https URL's to http when accessed without SSL. This caused problems on sites that use self-signed certificates and would sometimes have local content URL's that referred to the https location. This update makes the https URL's convert to http when the site is accessed via SSL.
+1.4.20 - 2014-02-03 - Packaging Bot (lib/updater)
+	Bug Fix: Licensing on SSL-enabled sites now works properly.
+1.4.21 - 2014-03-06 - Chris Jean
+	Bug Fix: Fixed pagination not appearing on pages with a custom layout without a custom query.
+1.4.22 - 2014-08-05 - Josh Benham
+	Added filter to change capability parameter in add_menu_page and add_submenu_page.

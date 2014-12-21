@@ -1,0 +1,137 @@
+/*overlay*/
+.upb_bg_overlay{
+	color: inherit;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/*Common*/
+.vc-row-translate {
+	overflow:hidden;
+}
+.wpb_row,
+.wpb_column,
+.upb_video_class {
+	position: relative;	
+}
+.upb_video_class {
+	overflow: hidden;
+}
+.upb_row_bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+}
+.upb_bg_img {
+	display: none !important;
+}
+/*Default Background*/
+.vcpb-default {	
+	background-attachment: initial;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+/*Fix Background*/
+.vcpb-fix {
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;		
+}
+/*jQuery Vertical Parallax*/
+.vertical_layer_parallax{
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	background-position: 50% 0;
+}
+.vcpb-vz-jquery {
+	background-repeat: no-repeat;	
+	background-position: 50% 0;
+	background-attachment: fixed;
+}
+/*jQuery Horizontal Parallax*/
+.vcpb-hz-jquery {
+	background-repeat: no-repeat;	
+	background-position: 0 50%;
+}
+/*jQuery Mouse Parallax*/
+.vcpb-fs-jquery {
+	overflow: hidden;
+}
+/*Video Background*/
+.upb_video-wrapper {
+	display: block;
+	max-width: 100%;
+	height: 100%;
+}
+.upb_video-text {
+	position: relative;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.upb-background-text-wrapper, .upb_video-text-wrapper {
+	position:relative;
+}
+.video-browser-size .upb_video-text, .full-browser-size .upb-background-text {
+	position: absolute;
+	bottom: auto;
+	top: 50%;
+	right: 0;
+	left: 0;
+	height:auto;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.upb_video-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+}
+/*Embedded Video*/
+.upb_video-src {
+	max-width: none;
+	max-height: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/*YouTube & Vimeo Video*/
+.upb_utube_iframe,
+.upb_vimeo_iframe {
+	max-width: none;
+	max-height: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.mbYTP_wrapper iframe {
+	margin-left:0 !important;
+	margin-top:-50px !important;
+}
+.video-controls {
+	position:absolute;
+	bottom: 0;
+	right: 0.5%;
+	cursor:pointer;
+	width:auto !important;
+	min-width: 15px !important;
+	height:auto !important;
+}
+.video-controls i {
+	font-size: 25px;
+}

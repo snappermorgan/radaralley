@@ -1,0 +1,25 @@
+*** Changelog ***
+
+2013.11.25 - version 2.3.2
+* Better support for uploading plugins
+
+2013.09.19 - version 2.3.1
+* Prevent caching download URLs
+* Product cards now grow on hover
+
+2013.09.13 - version 2.3
+* FTP/SSH support added
+* Automatic update check improvements
+
+2013.09.05 - version 2.2
+* Automatic update check fixed
+* Added "badge" for available updates
+
+2013.08.29 - version 2.1
+* Compatibility updates and Multisite support
+* Checks for WooCommerce and automatic installation
+* Added "Support" tab
+* Shows Changelog instead of description when updates available.
+
+2013.08.27 - version 2.0
+* Initial public release

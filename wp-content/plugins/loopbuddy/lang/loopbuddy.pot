@@ -1,0 +1,2279 @@
+# Copyright (C) 2014 LoopBuddy
+# This file is distributed under the same license as the LoopBuddy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: LoopBuddy 1.4.22\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/forum/\n"
+"POT-Creation-Date: 2014-08-05 23:33:22+00:00\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/admin.php:151 classes/queryitems.php:1077
+msgid "Settings saved..."
+msgstr ""
+
+#: classes/admin.php:207
+msgid "Temporarily unable to load feed..."
+msgstr ""
+
+#: classes/admin.php:245 classes/admin.php:246 classes/admin.php:258
+#: classes/admin.php:260
+msgid "Getting Started"
+msgstr ""
+
+#: classes/admin.php:261
+msgid "Query Editor"
+msgstr ""
+
+#: classes/admin.php:262 classes/view_layouts-edit.php:109
+msgid "Layout Editor"
+msgstr ""
+
+#: classes/admin.php:263 classes/view_layouts-edit.php:93
+#: classes/view_layouts-edit.php:375 classes/view_layouts-edit.php:422
+#: classes/view_layouts-edit.php:426 classes/view_settings.php:38
+#: lib/updater/settings-page.php:324
+msgid "Settings"
+msgstr ""
+
+#: classes/ajax_slotitems.php:31
+msgid "Attachment Image"
+msgstr ""
+
+#: classes/ajax_slotitems.php:43
+msgid "Edit Post Link"
+msgstr ""
+
+#: classes/ajax_slotitems.php:53
+msgid "Multi-page Links"
+msgstr ""
+
+#: classes/ajax_slotitems.php:61
+msgid "Attachment Link"
+msgstr ""
+
+#: classes/ajax_slotitems.php:72 classes/queryitems.php:1006
+msgid "Author"
+msgstr ""
+
+#: classes/ajax_slotitems.php:77
+msgid "By: "
+msgstr ""
+
+#: classes/ajax_slotitems.php:82
+msgid "Author Info."
+msgstr ""
+
+#: classes/ajax_slotitems.php:93
+msgid "Category"
+msgstr ""
+
+#: classes/ajax_slotitems.php:96
+msgid "Posted in: "
+msgstr ""
+
+#: classes/ajax_slotitems.php:102
+msgid "Search Form"
+msgstr ""
+
+#: classes/ajax_slotitems.php:107 loopbuddy.php:739 loopbuddy.php:997
+msgid "Submit"
+msgstr ""
+
+#: classes/ajax_slotitems.php:108
+msgid "Search for:"
+msgstr ""
+
+#: classes/ajax_slotitems.php:109 lib/internal-linking.php:94
+#: loopbuddy.php:655
+msgid "Search"
+msgstr ""
+
+#: classes/ajax_slotitems.php:112
+msgid "Comment #"
+msgstr ""
+
+#: classes/ajax_slotitems.php:118
+msgid "Reply"
+msgstr ""
+
+#: classes/ajax_slotitems.php:119
+msgid "1"
+msgstr ""
+
+#: classes/ajax_slotitems.php:120
+msgid "%"
+msgstr ""
+
+#: classes/ajax_slotitems.php:124
+msgid "Content"
+msgstr ""
+
+#: classes/ajax_slotitems.php:131
+msgid "Custom Field"
+msgstr ""
+
+#: classes/ajax_slotitems.php:140
+msgid "Date/Time"
+msgstr ""
+
+#: classes/ajax_slotitems.php:145
+msgid "Posted on: "
+msgstr ""
+
+#: classes/ajax_slotitems.php:150
+msgid "Excerpt"
+msgstr ""
+
+#: classes/ajax_slotitems.php:164
+msgid "Custom Field List"
+msgstr ""
+
+#: classes/ajax_slotitems.php:172 classes/ajax_slotitems.php:617
+msgid "Permalink"
+msgstr ""
+
+#: classes/ajax_slotitems.php:182 classes/ajax_slotitems.php:581
+msgid "Post Thumbnail"
+msgstr ""
+
+#: classes/ajax_slotitems.php:195
+msgid "Search Query"
+msgstr ""
+
+#: classes/ajax_slotitems.php:203
+msgid "Shortlink"
+msgstr ""
+
+#: classes/ajax_slotitems.php:214
+msgid "Tags"
+msgstr ""
+
+#: classes/ajax_slotitems.php:218
+msgid "Tags:"
+msgstr ""
+
+#: classes/ajax_slotitems.php:223 classes/view_settings.php:56
+msgid "Taxonomies"
+msgstr ""
+
+#: classes/ajax_slotitems.php:235 classes/queryitems.php:1007
+#: lib/internal-linking.php:83
+msgid "Title"
+msgstr ""
+
+#: classes/ajax_slotitems.php:245
+msgid "Post Type Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:255 classes/ajax_slotitems.php:486
+msgid "Site Information"
+msgstr ""
+
+#: classes/ajax_slotitems.php:264
+msgid "Current Date/Time"
+msgstr ""
+
+#: classes/ajax_slotitems.php:273 classes/ajax_slotitems.php:369
+msgid "Shortcode"
+msgstr ""
+
+#: classes/ajax_slotitems.php:280
+msgid "Text"
+msgstr ""
+
+#: classes/ajax_slotitems.php:287
+msgid "Start Wrapper"
+msgstr ""
+
+#: classes/ajax_slotitems.php:293
+msgid "End Wrapper"
+msgstr ""
+
+#: classes/ajax_slotitems.php:306
+msgid "Link Text"
+msgstr ""
+
+#: classes/ajax_slotitems.php:307
+msgid "Optional text for link.  Leave blank to use link as the text."
+msgstr ""
+
+#: classes/ajax_slotitems.php:313
+msgid "Custom URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:314
+msgid "Enter a web location where you would like the item to point to."
+msgstr ""
+
+#: classes/ajax_slotitems.php:320
+msgid "Custom Class Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:321
+msgid ""
+"Custom CSS class name to apply to the wrapper. This allows custom CSS "
+"styling to target this specifically."
+msgstr ""
+
+#: classes/ajax_slotitems.php:327
+msgid "Link Title"
+msgstr ""
+
+#: classes/ajax_slotitems.php:328
+msgid "Optional text for a link's title attribute."
+msgstr ""
+
+#: classes/ajax_slotitems.php:334
+msgid "Before Item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:335
+msgid "Text to go before the item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:341
+msgid "After Item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:342
+msgid "Text to go after the item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:348 classes/queryitems.php:841
+msgid "Meta Key"
+msgstr ""
+
+#: classes/ajax_slotitems.php:349
+msgid "Text name of the meta key you want the value to be displayed from"
+msgstr ""
+
+#: classes/ajax_slotitems.php:355
+msgid "Max Width"
+msgstr ""
+
+#: classes/ajax_slotitems.php:356
+msgid "Choose the maximum width of an item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:362
+msgid "Max Height"
+msgstr ""
+
+#: classes/ajax_slotitems.php:363
+msgid "Choose the maximum height of an item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:370
+msgid "Shortcode as you would type it in content."
+msgstr ""
+
+#: classes/ajax_slotitems.php:376
+msgid "HTML Wrapper"
+msgstr ""
+
+#: classes/ajax_slotitems.php:377
+msgid "Choose which HTML element to wrap around the item"
+msgstr ""
+
+#: classes/ajax_slotitems.php:386
+msgid "Link Destination"
+msgstr ""
+
+#: classes/ajax_slotitems.php:387 classes/ajax_slotitems.php:397
+msgid "Bit of author information to show"
+msgstr ""
+
+#: classes/ajax_slotitems.php:396
+msgid "Parameter"
+msgstr ""
+
+#: classes/ajax_slotitems.php:406
+msgid "Add Permalink?"
+msgstr ""
+
+#: classes/ajax_slotitems.php:407 classes/ajax_slotitems.php:417
+msgid "Decide whether to show a permalink or use a custom URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:416
+msgid "Link Display"
+msgstr ""
+
+#: classes/ajax_slotitems.php:426
+msgid "Item Separation Character"
+msgstr ""
+
+#: classes/ajax_slotitems.php:427
+msgid "Text or character to display between each tag link, such as a comma (,)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:433
+msgid "Insert Text or HTML"
+msgstr ""
+
+#: classes/ajax_slotitems.php:434
+msgid "Plain text or HTML will be inserted for this object"
+msgstr ""
+
+#: classes/ajax_slotitems.php:440
+msgid "Date Format"
+msgstr ""
+
+#: classes/ajax_slotitems.php:441
+msgid "PHP style date format. Leave blank to use WordPress format"
+msgstr ""
+
+#: classes/ajax_slotitems.php:447
+msgid "Zero Comments"
+msgstr ""
+
+#: classes/ajax_slotitems.php:448
+msgid "Text to display when there are zero comments"
+msgstr ""
+
+#: classes/ajax_slotitems.php:454
+msgid "One Comment"
+msgstr ""
+
+#: classes/ajax_slotitems.php:455
+msgid "Text to display when there is only one comment"
+msgstr ""
+
+#: classes/ajax_slotitems.php:461
+msgid "Multiple Comments"
+msgstr ""
+
+#: classes/ajax_slotitems.php:462
+msgid "Text to display when there is more than one comment"
+msgstr ""
+
+#: classes/ajax_slotitems.php:468
+msgid "Add Link to Response Section?"
+msgstr ""
+
+#: classes/ajax_slotitems.php:469
+msgid "Decide whether to show a permalink or not"
+msgstr ""
+
+#: classes/ajax_slotitems.php:478
+msgid "Date"
+msgstr ""
+
+#: classes/ajax_slotitems.php:479
+msgid "Determines whether to show the posted date or the modified date"
+msgstr ""
+
+#: classes/ajax_slotitems.php:487
+msgid "Select the site information you would like to display"
+msgstr ""
+
+#: classes/ajax_slotitems.php:494
+msgid "Custom Search"
+msgstr ""
+
+#: classes/ajax_slotitems.php:495
+msgid "Use the standard theme search or a custom version?"
+msgstr ""
+
+#: classes/ajax_slotitems.php:502
+msgid "Button Text (if custom)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:503
+msgid "The text to use for the search button"
+msgstr ""
+
+#: classes/ajax_slotitems.php:509
+msgid "Label Text (if custom)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:510
+msgid "The label to use for the search form"
+msgstr ""
+
+#: classes/ajax_slotitems.php:516
+msgid "Taxonomy template (for all taxonomies)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:517
+msgid "The template to use for the taxonomies"
+msgstr ""
+
+#: classes/ajax_slotitems.php:523
+msgid "Placeholder Text (if custom)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:524
+msgid "The placeholder text to use for the search form"
+msgstr ""
+
+#: classes/ajax_slotitems.php:530
+msgid "More Text"
+msgstr ""
+
+#: classes/ajax_slotitems.php:531
+msgid ""
+"The link text to display for the \"more\" link.  Leave blank to show the "
+"full content."
+msgstr ""
+
+#: classes/ajax_slotitems.php:537
+msgid "URL Display"
+msgstr ""
+
+#: classes/ajax_slotitems.php:538
+msgid "Select how the URL should be displayed (i.e., as a link or as text)"
+msgstr ""
+
+#: classes/ajax_slotitems.php:565
+msgid "Built-in Search Form"
+msgstr ""
+
+#: classes/ajax_slotitems.php:566
+msgid "Custom Search Form"
+msgstr ""
+
+#: classes/ajax_slotitems.php:567
+msgid "As a link"
+msgstr ""
+
+#: classes/ajax_slotitems.php:568
+msgid "As text"
+msgstr ""
+
+#: classes/ajax_slotitems.php:569
+msgid "Admin Email Address"
+msgstr ""
+
+#: classes/ajax_slotitems.php:570
+msgid "Atom URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:571
+msgid "Site Description"
+msgstr ""
+
+#: classes/ajax_slotitems.php:572
+msgid "Site Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:573
+msgid "Comments Atom URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:574
+msgid "Comments RSS URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:575
+msgid "Pingback URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:576
+msgid "RSS URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:577
+msgid "Site URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:578
+msgid "WordPress URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:579
+msgid "Date Posted"
+msgstr ""
+
+#: classes/ajax_slotitems.php:580 classes/queryitems.php:1009
+msgid "Date Modified"
+msgstr ""
+
+#: classes/ajax_slotitems.php:582
+msgctxt "image size"
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/ajax_slotitems.php:583
+msgctxt "image size"
+msgid "Medium"
+msgstr ""
+
+#: classes/ajax_slotitems.php:584
+msgctxt "image size"
+msgid "Large"
+msgstr ""
+
+#: classes/ajax_slotitems.php:585
+msgctxt "image size"
+msgid "Full"
+msgstr ""
+
+#: classes/ajax_slotitems.php:586
+msgid "Custom"
+msgstr ""
+
+#: classes/ajax_slotitems.php:587 classes/queryitems.php:1004
+msgid "None"
+msgstr ""
+
+#: classes/ajax_slotitems.php:597
+msgid "Author Profile"
+msgstr ""
+
+#: classes/ajax_slotitems.php:598
+msgid "Author Posts"
+msgstr ""
+
+#: classes/ajax_slotitems.php:599
+msgid "Display Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:600
+msgid "Login"
+msgstr ""
+
+#: classes/ajax_slotitems.php:601
+msgid "Nice Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:602
+msgid "Email"
+msgstr ""
+
+#: classes/ajax_slotitems.php:603 lib/internal-linking.php:80
+msgid "URL"
+msgstr ""
+
+#: classes/ajax_slotitems.php:604
+msgid "Registration Date"
+msgstr ""
+
+#: classes/ajax_slotitems.php:605
+msgid "Status"
+msgstr ""
+
+#: classes/ajax_slotitems.php:606
+msgid "Nickname"
+msgstr ""
+
+#: classes/ajax_slotitems.php:607
+msgid "First Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:608
+msgid "Last Name"
+msgstr ""
+
+#: classes/ajax_slotitems.php:612
+msgid "Description"
+msgstr ""
+
+#: classes/ajax_slotitems.php:614
+msgid "Number of Posts Authored"
+msgstr ""
+
+#: classes/ajax_slotitems.php:615 classes/queryitems.php:1213
+#: loopbuddy.php:734
+msgid "Yes"
+msgstr ""
+
+#: classes/ajax_slotitems.php:616 classes/queryitems.php:1214
+msgid "No"
+msgstr ""
+
+#: classes/ajax_slotitems.php:618
+msgid "Image"
+msgstr ""
+
+#: classes/ajax_slotitems.php:619
+msgid "Post Permalink"
+msgstr ""
+
+#: classes/ajax_slotitems.php:620
+msgid "Attachment Permalink"
+msgstr ""
+
+#: classes/ajax_slotitems.php:633 classes/ajax_slotitems.php:647
+msgid "Unknown_Tag:"
+msgstr ""
+
+#: classes/ajax_slotitems.php:705 classes/view_layouts-edit.php:404
+#: classes/view_settings.php:137 lib/updater/settings-page.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: classes/ajax_slotitems.php:705 classes/view_layouts-edit.php:356
+msgid "Saving..."
+msgstr ""
+
+#: classes/ajax_slotitems.php:712
+msgid "Special search allows you to search a custom query"
+msgstr ""
+
+#: classes/ajax_slotitems.php:719
+msgid "Choose a starting wrapper HTML tag."
+msgstr ""
+
+#: classes/ajax_slotitems.php:723
+msgid "Choose an ending wrapper HTML tag."
+msgstr ""
+
+#: classes/ajax_slotitems.php:785
+msgid "Visit %s on the WordPress Codex for help formatting date/time."
+msgstr ""
+
+#: classes/ajax_slotitems.php:785
+msgid "Formatting Date and Time"
+msgstr ""
+
+#: classes/ajax_slotitems.php:796
+msgid "There aren't any taxonomies to display"
+msgstr ""
+
+#: classes/ajax_slotitems.php:804
+msgid "Select a taxonomy"
+msgstr ""
+
+#: classes/ajax_slotitems.php:804
+msgid "Taxonomies are like labels, categories, and tags"
+msgstr ""
+
+#: classes/ajax_slotitems.php:807
+msgid "All"
+msgstr ""
+
+#: classes/ajax_slotitems.php:832
+msgid ""
+"The shortlink will only display properly if you have defined a custom "
+"permalink structure"
+msgstr ""
+
+#: classes/ajax_slotitems.php:875
+msgid "Visit %s for help formatting date/time."
+msgstr ""
+
+#: classes/ajax_slotitems.php:881
+msgid ""
+"If you are displaying search results, this will output what the user has "
+"searched for."
+msgstr ""
+
+#: classes/ajax_slotitems.php:894
+msgid "Could not retrieve HTML because $settings isn't an array"
+msgstr ""
+
+#: classes/ajax_slotitems.php:895
+msgid "Could not retrieve HTML because $keys isn't an array"
+msgstr ""
+
+#: classes/ajax_slotitems.php:934 classes/ajax_slotitems.php:951
+#: classes/ajax_slotitems.php:969
+msgid "The %s key doesn't exist in the settings"
+msgstr ""
+
+#: classes/queryitems.php:32
+msgid "Post Author"
+msgstr ""
+
+#: classes/queryitems.php:33
+msgid "Choose which items to display based on the Post Author's ID"
+msgstr ""
+
+#: classes/queryitems.php:39
+msgid "Look up Author"
+msgstr ""
+
+#: classes/queryitems.php:45
+msgid "Order By"
+msgstr ""
+
+#: classes/queryitems.php:46
+msgid "Choose which Post Type parameter to sort by"
+msgstr ""
+
+#: classes/queryitems.php:52
+msgid "Order"
+msgstr ""
+
+#: classes/queryitems.php:53
+msgid "Order by high to low (DESC) or low to high (ASC)"
+msgstr ""
+
+#: classes/queryitems.php:59
+msgid "Post Type"
+msgstr ""
+
+#: classes/queryitems.php:60
+msgid "Select which Post Types to use"
+msgstr ""
+
+#: classes/queryitems.php:66
+msgid "Post Status"
+msgstr ""
+
+#: classes/queryitems.php:67
+msgid "Select the Post Status (e.g., Published Posts only)"
+msgstr ""
+
+#: classes/queryitems.php:73
+msgid "Number of Posts to Display"
+msgstr ""
+
+#: classes/queryitems.php:74
+msgid "Type in how many posts to display.  Use -1 for unlimited"
+msgstr ""
+
+#: classes/queryitems.php:81
+msgid "Offset - The number of posts to pass over"
+msgstr ""
+
+#: classes/queryitems.php:82
+msgid "The number of posts to offset, or pass over"
+msgstr ""
+
+#: classes/queryitems.php:89
+msgid "Enable Paging?"
+msgstr ""
+
+#: classes/queryitems.php:90
+msgid "Do you want to allow pagination (e.g., next/prev buttons)?"
+msgstr ""
+
+#: classes/queryitems.php:95
+msgid "Enable Comments?"
+msgstr ""
+
+#: classes/queryitems.php:96
+msgid "Enable comments?  Posts must have comments enabled as well."
+msgstr ""
+
+#: classes/queryitems.php:101
+msgid "Merge the default query with this one (ideal for archive pages)"
+msgstr ""
+
+#: classes/queryitems.php:102
+msgid ""
+"Merging queries allows you to keep the default query values and selectively "
+"overwrite other values.  This is ideal if you are going to use this query on "
+"an archive page."
+msgstr ""
+
+#: classes/queryitems.php:112
+msgid "Use Current Post or Page ID"
+msgstr ""
+
+#: classes/queryitems.php:113
+msgid ""
+"For single posts or pages, you may want to use the current page's ID so you "
+"can overwrite the loop for the actual post"
+msgstr ""
+
+#: classes/queryitems.php:119
+msgid "Post IDs"
+msgstr ""
+
+#: classes/queryitems.php:120
+msgid "Select which posts to include or exclude"
+msgstr ""
+
+#: classes/queryitems.php:126
+msgid "Look up Post"
+msgstr ""
+
+#: classes/queryitems.php:132
+msgid "Include or Exclude the Post IDs"
+msgstr ""
+
+#: classes/queryitems.php:133
+msgid "Choose whether to include or exclude the Post IDs you have selected"
+msgstr ""
+
+#: classes/queryitems.php:143
+msgid "Ignore Sticky Post Priority?"
+msgstr ""
+
+#: classes/queryitems.php:144
+msgid ""
+"Choose whether to ignore the sticky status of posts in the query (posts are "
+"sorted by regular order)"
+msgstr ""
+
+#: classes/queryitems.php:150
+msgid "Exclude all sticky posts?"
+msgstr ""
+
+#: classes/queryitems.php:151
+msgid "If a post is sticky, do not show it."
+msgstr ""
+
+#: classes/queryitems.php:158
+msgid ""
+"WordPress, by default, will not permit a custom number of Sticky Posts AND "
+"regular posts at the same time. If you place a number greater than zero in "
+"this field, only sticky posts will display."
+msgstr ""
+
+#: classes/queryitems.php:161
+msgid "Number of Sticky Posts to Display"
+msgstr ""
+
+#: classes/queryitems.php:162
+msgid ""
+"By default, WordPress will show all available sticky posts.  You can choose "
+"to limit this amount.  Leave at zero for no limit."
+msgstr ""
+
+#: classes/queryitems.php:171 classes/queryitems.php:178
+msgid "Posts that have these categories"
+msgstr ""
+
+#: classes/queryitems.php:172 classes/queryitems.php:185
+msgid "Choose which posts to display based on these categories"
+msgstr ""
+
+#: classes/queryitems.php:184
+msgid "Category Slug"
+msgstr ""
+
+#: classes/queryitems.php:191
+msgid "Look up Category Slug"
+msgstr ""
+
+#: classes/queryitems.php:197 classes/queryitems.php:204
+msgid "All posts that match these categories"
+msgstr ""
+
+#: classes/queryitems.php:198
+msgid "Show only posts that match all the categories selected"
+msgstr ""
+
+#: classes/queryitems.php:210
+msgid "Include Posts with these categories"
+msgstr ""
+
+#: classes/queryitems.php:211
+msgid "Show posts that only have these categories"
+msgstr ""
+
+#: classes/queryitems.php:217
+msgid "Look up Page Slug"
+msgstr ""
+
+#: classes/queryitems.php:223 classes/queryitems.php:224
+msgid "Exclude posts with these categories"
+msgstr ""
+
+#: classes/queryitems.php:230
+msgid "Look up Page"
+msgstr ""
+
+#: classes/queryitems.php:239
+msgid "Tag ID"
+msgstr ""
+
+#: classes/queryitems.php:240
+msgid "Only display posts that have this tag"
+msgstr ""
+
+#: classes/queryitems.php:246
+msgid "Look up Tag ID"
+msgstr ""
+
+#: classes/queryitems.php:252 classes/queryitems.php:259
+msgid "All posts that match these tags"
+msgstr ""
+
+#: classes/queryitems.php:253
+msgid "Show all the posts that match these tags"
+msgstr ""
+
+#: classes/queryitems.php:265 classes/queryitems.php:272
+msgid "Include Posts with these tags"
+msgstr ""
+
+#: classes/queryitems.php:266
+msgid "Only include posts that have these tags"
+msgstr ""
+
+#: classes/queryitems.php:278 classes/queryitems.php:285
+msgid "Exclude posts with these tags"
+msgstr ""
+
+#: classes/queryitems.php:279
+msgid "Exclude posts that have these tags"
+msgstr ""
+
+#: classes/queryitems.php:306
+msgid "Second (0 - 60)"
+msgstr ""
+
+#: classes/queryitems.php:307
+msgid ""
+"Posts that were published on this second value (leave as default if there is "
+"no preference)"
+msgstr ""
+
+#: classes/queryitems.php:313
+msgid "Minute (0 - 60)"
+msgstr ""
+
+#: classes/queryitems.php:314
+msgid ""
+"Posts that were published on this minute value (leave as default if there is "
+"no preference)"
+msgstr ""
+
+#: classes/queryitems.php:320
+msgid "Minute (0 - 23)"
+msgstr ""
+
+#: classes/queryitems.php:321
+msgid ""
+"Posts that were published on this hour value (leave as default if there is "
+"no preference)"
+msgstr ""
+
+#: classes/queryitems.php:327
+msgid "Day (1 - 31)"
+msgstr ""
+
+#: classes/queryitems.php:328
+msgid ""
+"Posts that were published on this day (leave as default if there is no "
+"preference)"
+msgstr ""
+
+#: classes/queryitems.php:334
+msgid "Month Number (1 - 12)"
+msgstr ""
+
+#: classes/queryitems.php:335
+msgid ""
+"Posts that were published on this month (leave as default if there is no "
+"preference)"
+msgstr ""
+
+#: classes/queryitems.php:341
+msgid "Year"
+msgstr ""
+
+#: classes/queryitems.php:342
+msgid ""
+"Posts that were published on this year (leave as default if there is no "
+"preference)"
+msgstr ""
+
+#: classes/queryitems.php:348
+msgid "Week (0 - 53)"
+msgstr ""
+
+#: classes/queryitems.php:349
+msgid ""
+"Posts that were published on this week (leave as default if there is no "
+"preference)"
+msgstr ""
+
+#: classes/queryitems.php:386
+msgid "This is not a valid query"
+msgstr ""
+
+#: classes/queryitems.php:734
+msgid "Taxonomy Name"
+msgstr ""
+
+#: classes/queryitems.php:734
+msgid "The name of the Taxonomy to display"
+msgstr ""
+
+#: classes/queryitems.php:751 classes/queryitems.php:1209
+msgid "Assist"
+msgstr ""
+
+#: classes/queryitems.php:751 classes/queryitems.php:1209
+msgid "Clear Item"
+msgstr ""
+
+#: classes/queryitems.php:751
+msgid "Clear Taxonomy"
+msgstr ""
+
+#: classes/queryitems.php:759
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: classes/queryitems.php:759
+msgid "The terms within the taxonomy to match"
+msgstr ""
+
+#: classes/queryitems.php:767
+msgid "Taxonomy Operator"
+msgstr ""
+
+#: classes/queryitems.php:767
+msgid "Determine the relationship between the taxonomy terms."
+msgstr ""
+
+#: classes/queryitems.php:777
+msgid "Remove Taxonomy"
+msgstr ""
+
+#: classes/queryitems.php:787
+msgid "Add Taxonomy"
+msgstr ""
+
+#: classes/queryitems.php:814 classes/queryitems.php:915
+msgid "Relation"
+msgstr ""
+
+#: classes/queryitems.php:814
+msgid "The conditional relationship between the other taxonomies."
+msgstr ""
+
+#: classes/queryitems.php:841
+msgid "Choose which meta key to search for"
+msgstr ""
+
+#: classes/queryitems.php:850 classes/queryitems.php:1014
+msgid "Meta Value"
+msgstr ""
+
+#: classes/queryitems.php:850
+msgid "Choose the meta value that the meta key must be compared to"
+msgstr ""
+
+#: classes/queryitems.php:859
+msgid "Meta Compare"
+msgstr ""
+
+#: classes/queryitems.php:859
+msgid "Choose how the meta value should be compared."
+msgstr ""
+
+#: classes/queryitems.php:869
+msgid "Meta Type"
+msgstr ""
+
+#: classes/queryitems.php:869
+msgid "Choose the meta value data type"
+msgstr ""
+
+#: classes/queryitems.php:879
+msgid "Remove Meta"
+msgstr ""
+
+#: classes/queryitems.php:888
+msgid "Add Meta"
+msgstr ""
+
+#: classes/queryitems.php:915
+msgid "The conditional relationship between the other meta items."
+msgstr ""
+
+#: classes/queryitems.php:934
+msgid "Select an Option"
+msgstr ""
+
+#: classes/queryitems.php:964
+msgid "Published"
+msgstr ""
+
+#: classes/queryitems.php:965
+msgid "Pending Review"
+msgstr ""
+
+#: classes/queryitems.php:966
+msgid "Draft Posts"
+msgstr ""
+
+#: classes/queryitems.php:967
+msgid "A draft post with no content"
+msgstr ""
+
+#: classes/queryitems.php:968
+msgid "Posts scheduled in the future"
+msgstr ""
+
+#: classes/queryitems.php:969
+msgid "Private Posts"
+msgstr ""
+
+#: classes/queryitems.php:970
+msgid "Revisions or Attachments"
+msgstr ""
+
+#: classes/queryitems.php:971
+msgid "Trashed Posts"
+msgstr ""
+
+#: classes/queryitems.php:972
+msgid "Any Status"
+msgstr ""
+
+#: classes/queryitems.php:992
+msgid "Low to High (e.g., A-Z)"
+msgstr ""
+
+#: classes/queryitems.php:993
+msgid "High to Low (e.g., Z-A)"
+msgstr ""
+
+#: classes/queryitems.php:1005
+msgid "Post or Page ID"
+msgstr ""
+
+#: classes/queryitems.php:1008
+msgid "Date Published"
+msgstr ""
+
+#: classes/queryitems.php:1010
+msgid "Post/Page Parent"
+msgstr ""
+
+#: classes/queryitems.php:1011
+msgid "Random Order"
+msgstr ""
+
+#: classes/queryitems.php:1012
+msgid "Number of Comments"
+msgstr ""
+
+#: classes/queryitems.php:1013
+msgid "Menu Order"
+msgstr ""
+
+#: classes/queryitems.php:1015
+msgid "Numeric Meta Value"
+msgstr ""
+
+#: classes/queryitems.php:1216
+msgid "Include"
+msgstr ""
+
+#: classes/queryitems.php:1217
+msgid "Exclude"
+msgstr ""
+
+#: classes/queryitems.php:1241
+msgid "Save Query"
+msgstr ""
+
+#: classes/view_gettingstarted.php:16
+msgid "Plugin settings have been reset to defaults."
+msgstr ""
+
+#: classes/view_gettingstarted.php:26
+msgid "Getting Started with %s v%s"
+msgstr ""
+
+#: classes/view_gettingstarted.php:31
+msgid ""
+"Hover over question marks %s for textual help or click the play icons %s for "
+"popup video tutorials"
+msgstr ""
+
+#: classes/view_gettingstarted.php:31
+msgid ""
+"Question mark icons are your friends! They will help give you tips and "
+"detailed explanations."
+msgstr ""
+
+#: classes/view_gettingstarted.php:31
+msgid "Helpful Question Marks"
+msgstr ""
+
+#: classes/view_gettingstarted.php:31
+msgid ""
+"Click this icon to pop up a video tutorial without having to leave the page."
+msgstr ""
+
+#: classes/view_gettingstarted.php:36
+msgid "Create your loop by configuring its two parts:"
+msgstr ""
+
+#: classes/view_gettingstarted.php:38
+msgid "Use the <a href=\"%s\">Layout Editor</a> to set up how your loop looks."
+msgstr ""
+
+#: classes/view_gettingstarted.php:38
+msgid "Introduction to the Layout Editor"
+msgstr ""
+
+#: classes/view_gettingstarted.php:39
+msgid ""
+"Use the <a href=\"%s\">Query Editor</a> to determine what posts are "
+"displayed."
+msgstr ""
+
+#: classes/view_gettingstarted.php:39
+msgid "Introduction to the Query Editor"
+msgstr ""
+
+#: classes/view_gettingstarted.php:41
+msgid "Display your new loop using one or more of four methods:\n"
+msgstr ""
+
+#: classes/view_gettingstarted.php:43
+msgid ""
+"Override the default loop for every post and/or page of the site in the <a "
+"href=\"%s\">Settings</a>."
+msgstr ""
+
+#: classes/view_gettingstarted.php:43
+msgid "Introduction to the Settings Page"
+msgstr ""
+
+#: classes/view_gettingstarted.php:44
+msgid ""
+"Override the default loop for an individual post/page by selecting the loop "
+"in the post/page editor %s."
+msgstr ""
+
+#: classes/view_gettingstarted.php:44
+msgid "Override the default loop for a post/page"
+msgstr ""
+
+#: classes/view_gettingstarted.php:45
+msgid "Display in a sidebar with a <a href=\"%s\">widget</a> %s."
+msgstr ""
+
+#: classes/view_gettingstarted.php:45
+msgid "How to use a Widget"
+msgstr ""
+
+#: classes/view_gettingstarted.php:46
+msgid "Display in a post with a shortcode %s."
+msgstr ""
+
+#: classes/view_gettingstarted.php:46
+msgid "How to use a Shortcode"
+msgstr ""
+
+#: classes/view_gettingstarted.php:56
+msgid "Version History"
+msgstr ""
+
+#: classes/view_gettingstarted.php:67 classes/view_gettingstarted.php:69
+msgid "Debugging Information"
+msgstr ""
+
+#: classes/view_gettingstarted.php:83
+msgid "Reset Plugin Settings & Defaults"
+msgstr ""
+
+#: classes/view_gettingstarted.php:83
+msgid ""
+"WARNING: This will reset all settings associated with this plugin to their "
+"defaults. Are you sure you want to do this?"
+msgstr ""
+
+#: classes/view_gettingstarted.php:95 classes/view_gettingstarted.php:126
+msgid "Click to toggle"
+msgstr ""
+
+#: classes/view_gettingstarted.php:96
+msgid "Things to do..."
+msgstr ""
+
+#: classes/view_gettingstarted.php:99
+msgid "Share on Twitter"
+msgstr ""
+
+#: classes/view_gettingstarted.php:99
+msgid "Tweet about this plugin."
+msgstr ""
+
+#: classes/view_gettingstarted.php:100
+msgid "Check out our plugins."
+msgstr ""
+
+#: classes/view_gettingstarted.php:101
+msgid "Check out our themes."
+msgstr ""
+
+#: classes/view_gettingstarted.php:102
+msgid "Get HostGator web hosting."
+msgstr ""
+
+#: classes/view_gettingstarted.php:103
+msgid "Backup your site with BackupBuddy."
+msgstr ""
+
+#: classes/view_gettingstarted.php:110
+msgid "Latest news from iThemes"
+msgstr ""
+
+#: classes/view_gettingstarted.php:112
+msgid "iThemes.com"
+msgstr ""
+
+#: classes/view_gettingstarted.php:114
+msgid "Twitter @ithemes"
+msgstr ""
+
+#: classes/view_gettingstarted.php:117
+msgid "Follow @ithemes on Twitter."
+msgstr ""
+
+#: classes/view_gettingstarted.php:118
+msgid "Subscribe to RSS news feed."
+msgstr ""
+
+#: classes/view_gettingstarted.php:119
+msgid "Subscribe to Email Newsletter."
+msgstr ""
+
+#: classes/view_gettingstarted.php:127
+msgid "Need support?"
+msgstr ""
+
+#: classes/view_gettingstarted.php:129
+msgid ""
+"See our <a href=\"%s\">tutorials</a> or visit our <a href=\"%s\">support "
+"forum</a> for additional information and help."
+msgstr ""
+
+#: classes/view_layouts-edit.php:93 classes/view_layouts-edit.php:426
+#: classes/view_layouts.php:131 classes/view_layouts.php:176
+#: classes/view_layouts.php:190 classes/view_queries.php:133
+#: classes/view_queries.php:181 classes/view_queries.php:197
+msgid "Delete"
+msgstr ""
+
+#: classes/view_layouts-edit.php:109
+msgid "Layouts List"
+msgstr ""
+
+#: classes/view_layouts-edit.php:352
+msgid "Editing"
+msgstr ""
+
+#: classes/view_layouts-edit.php:352
+msgid ""
+"Drag and drop items from the right menu into the `slots` below. You can then "
+"click on the gear icon for each item for additional configuration options."
+msgstr ""
+
+#: classes/view_layouts-edit.php:366
+msgid "Drag & drop changes automatically saved."
+msgstr ""
+
+#: classes/view_layouts-edit.php:382
+msgid "Group Title"
+msgstr ""
+
+#: classes/view_layouts-edit.php:382
+msgid "Title of the layout. This is for your reference only."
+msgstr ""
+
+#: classes/view_layouts-edit.php:387
+msgid "Group CSS Class"
+msgstr ""
+
+#: classes/view_layouts-edit.php:387
+msgid "Give your Loop a custom CSS class to make styling easier."
+msgstr ""
+
+#: classes/view_layouts-edit.php:391
+msgid "Pre-Loop Text / HTML"
+msgstr ""
+
+#: classes/view_layouts-edit.php:391 classes/view_layouts-edit.php:395
+msgid ""
+"Arbitrary text or HTML to insert before the start of this loop. This will "
+"NOT be displayed if there are no results for the loop."
+msgstr ""
+
+#: classes/view_layouts-edit.php:395
+msgid "Post-Loop Text / HTML"
+msgstr ""
+
+#: classes/view_layouts-edit.php:399
+msgid "No Results Text / HTML"
+msgstr ""
+
+#: classes/view_layouts-edit.php:399
+msgid ""
+"Arbitrary text or HTML to insert if no results/content was found to be "
+"displayed. This will be displayed instead of your loop."
+msgstr ""
+
+#: classes/view_layouts.php:42
+msgid "You must provide a Layout Name."
+msgstr ""
+
+#: classes/view_layouts.php:48
+msgid "This Layout Name already exists. Please choose another name."
+msgstr ""
+
+#: classes/view_layouts.php:61
+msgid "Layout &quot;%s&quot; has been added."
+msgstr ""
+
+#: classes/view_layouts.php:75
+msgid "Deleted layout %s."
+msgid_plural "Deleted layouts %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_layouts.php:78
+msgid "No layouts were selected for deletion."
+msgstr ""
+
+#: classes/view_layouts.php:86 classes/view_layouts.php:98
+#: classes/view_queries.php:89 classes/view_queries.php:101
+msgid "You must supply a file to import."
+msgstr ""
+
+#: classes/view_layouts.php:94
+msgid "%1$s layout has been imported"
+msgid_plural "%1$s layouts have been imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_layouts.php:111
+msgid "Layout duplicated."
+msgid_plural "%1$s layouts duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_layouts.php:114
+msgid "No layouts were selected for duplication."
+msgstr ""
+
+#: classes/view_layouts.php:124
+msgid "Layouts"
+msgstr ""
+
+#: classes/view_layouts.php:130 classes/view_layouts.php:189
+#: classes/view_queries.php:132 classes/view_queries.php:196
+msgid "Bulk Actions"
+msgstr ""
+
+#: classes/view_layouts.php:132 classes/view_layouts.php:173
+#: classes/view_layouts.php:191 classes/view_queries.php:134
+#: classes/view_queries.php:178 classes/view_queries.php:198
+msgid "Duplicate"
+msgstr ""
+
+#: classes/view_layouts.php:133 classes/view_layouts.php:192
+#: classes/view_queries.php:135 classes/view_queries.php:199
+msgid "Export"
+msgstr ""
+
+#: classes/view_layouts.php:135 classes/view_layouts.php:194
+#: classes/view_queries.php:137 classes/view_queries.php:201
+msgid "Apply"
+msgstr ""
+
+#: classes/view_layouts.php:143 classes/view_layouts.php:149
+#: classes/view_layouts.php:206
+msgid "Layout Name"
+msgstr ""
+
+#: classes/view_layouts.php:154 classes/view_queries.php:157
+msgid "Please add a new %s group below to get started."
+msgstr ""
+
+#: classes/view_layouts.php:170 classes/view_queries.php:175
+msgid "Edit"
+msgstr ""
+
+#: classes/view_layouts.php:202
+msgid "Add New %s Layout"
+msgstr ""
+
+#: classes/view_layouts.php:206
+msgid ""
+"Name of the new group to create. This is for your convenience and not "
+"publicly displayed."
+msgstr ""
+
+#: classes/view_layouts.php:210
+msgid "+ Add Group"
+msgstr ""
+
+#: classes/view_layouts.php:214
+msgid "Import Layouts"
+msgstr ""
+
+#: classes/view_layouts.php:221 classes/view_queries.php:226
+msgid "Import"
+msgstr ""
+
+#: classes/view_queries.php:43
+msgid "You must provide a Query Name."
+msgstr ""
+
+#: classes/view_queries.php:50
+msgid "This Query Name already exists. Please choose another name."
+msgstr ""
+
+#: classes/view_queries.php:64
+msgid "Query &quot;%s&quot; has been added."
+msgstr ""
+
+#: classes/view_queries.php:78
+msgid "Deleted query %s."
+msgid_plural "Deleted queries %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_queries.php:81
+msgid "No queries were selected for deletion."
+msgstr ""
+
+#: classes/view_queries.php:97
+msgid "$1$s query has been imported"
+msgid_plural "%1$s queries have been imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_queries.php:114
+msgid "Query duplicated."
+msgid_plural "%1$s queries duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view_queries.php:117
+msgid "No queries were selected for duplication."
+msgstr ""
+
+#: classes/view_queries.php:126
+msgid "Queries"
+msgstr ""
+
+#: classes/view_queries.php:144 classes/view_queries.php:150
+#: classes/view_queries.php:212
+msgid "Query Name"
+msgstr ""
+
+#: classes/view_queries.php:183
+msgid "Preview"
+msgstr ""
+
+#: classes/view_queries.php:208
+msgid "Add New %s Query"
+msgstr ""
+
+#: classes/view_queries.php:212
+msgid ""
+"Name of the new group to create. This is for your convenience and is not "
+"publicly displayed."
+msgstr ""
+
+#: classes/view_queries.php:216
+msgid "+ Add Query"
+msgstr ""
+
+#: classes/view_queries.php:219
+msgid "Import Queries"
+msgstr ""
+
+#: classes/view_settings.php:34
+msgid ""
+"Your theme <a href=\"%2$s\">doesn't support %1$s</a>, so these settings will "
+"not have any effect.  You can still use %1$s with Widgets."
+msgstr ""
+
+#: classes/view_settings.php:50
+msgid "General"
+msgstr ""
+
+#: classes/view_settings.php:53
+msgid "Post Types"
+msgstr ""
+
+#: classes/view_settings.php:59
+msgid "Archives"
+msgstr ""
+
+#: classes/view_settings.php:75
+msgid "Default %s query"
+msgstr ""
+
+#: classes/view_settings.php:78 classes/view_settings.php:95
+msgid "WordPress Default"
+msgstr ""
+
+#: classes/view_settings.php:92
+msgid "Default %s layout"
+msgstr ""
+
+#: classes/view_settings.php:121
+msgid "Advanced"
+msgstr ""
+
+#: classes/view_settings.php:125
+msgid "Debug Mode"
+msgstr ""
+
+#: classes/view_settings.php:125
+msgid ""
+"Show the query variables above the LoopBuddy output - Only Administrators "
+"will see this"
+msgstr ""
+
+#: lib/classes/it-core-class.php:212
+msgid "Screen Info"
+msgstr ""
+
+#: lib/classes/it-core-class.php:246
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: lib/classes/it-dialog.php:45
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
+msgstr ""
+
+#: lib/classes/it-dialog.php:47
+msgid "Close"
+msgstr ""
+
+#: lib/classes/it-image-utility.php:64
+msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
+msgstr ""
+
+#: lib/classes/it-image-utility.php:67
+msgid "The GD image library is not installed."
+msgstr ""
+
+#: lib/classes/it-image-utility.php:74
+msgid "File &#8220;%s&#8221; is not an image."
+msgstr ""
+
+#: lib/classes/it-image-utility.php:151 lib/classes/it-image-utility.php:155
+#: lib/classes/it-image-utility.php:161
+msgid "Resize path invalid"
+msgstr ""
+
+#: lib/classes/it-post-type.php:476
+msgctxt "post"
+msgid "Add New"
+msgstr ""
+
+#: lib/classes/it-post-type.php:477
+msgctxt "post"
+msgid "Add New %s"
+msgstr ""
+
+#: lib/classes/it-post-type.php:478
+msgctxt "post"
+msgid "Edit %s"
+msgstr ""
+
+#: lib/classes/it-post-type.php:479
+msgctxt "post"
+msgid "New %s"
+msgstr ""
+
+#: lib/classes/it-post-type.php:480
+msgctxt "post"
+msgid "View %s"
+msgstr ""
+
+#: lib/classes/it-post-type.php:481
+msgctxt "post"
+msgid "Search %s"
+msgstr ""
+
+#: lib/classes/it-post-type.php:482
+msgctxt "post"
+msgid "No %s found"
+msgstr ""
+
+#: lib/classes/it-post-type.php:483
+msgctxt "post"
+msgid "No %s found in trash"
+msgstr ""
+
+#: lib/classes/it-post-type.php:484
+msgctxt "post"
+msgid "Parent %s:"
+msgstr ""
+
+#: lib/classes/it-post-type.php:485
+msgctxt "post"
+msgid "All %s"
+msgstr ""
+
+#: lib/internal-linking.php:53
+msgid "Y/m/d"
+msgstr ""
+
+#: lib/internal-linking.php:78
+msgid "Enter the destination URL"
+msgstr ""
+
+#: lib/internal-linking.php:86
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/internal-linking.php:90
+msgid "Or link to existing content"
+msgstr ""
+
+#: lib/internal-linking.php:106
+msgid "No search term specified. Showing recent items."
+msgstr ""
+
+#: lib/internal-linking.php:116
+msgid "Cancel"
+msgstr ""
+
+#: lib/internal-linking.php:119
+msgid "Update"
+msgstr ""
+
+#: lib/updater/admin.php:131
+msgid ""
+"To receive automatic updates for %l, use the <a href=\"%s\">iThemes "
+"Licensing</a> page found in the Settings menu."
+msgstr ""
+
+#: lib/updater/admin.php:138 lib/updater/admin.php:144
+#: lib/updater/settings-page.php:302
+msgid "iThemes Licensing"
+msgstr ""
+
+#: lib/updater/admin.php:170
+msgid "Manage iThemes product licenses to receive automatic upgrade support"
+msgstr ""
+
+#: lib/updater/admin.php:170
+msgid "License"
+msgstr ""
+
+#: lib/updater/api.php:41 lib/updater/api.php:56
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error <code>%1$s</code>: "
+"%2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:44
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from <code>wp_remote_get</code>.</p>"
+msgstr ""
+
+#: lib/updater/api.php:47
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error code <code>%1$s</"
+"code>: %2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:58
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from iThemes API server.</p>"
+msgstr ""
+
+#: lib/updater/server.php:74
+msgid ""
+"The server could not be contacted. Requests are delayed for %d minute to "
+"allow the server to recover."
+msgid_plural ""
+"The server could not be contacted. Requests are delayed for %d minutes to "
+"allow the server to recover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/server.php:145
+msgid "The server was unable to be contacted."
+msgstr ""
+
+#: lib/updater/server.php:155
+msgid ""
+"An error occurred when communicating with the iThemes update server: %s (%s)"
+msgstr ""
+
+#: lib/updater/settings-page.php:77
+msgid ""
+"Incorrect password. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:81
+msgid ""
+"Invalid username. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:84
+msgid ""
+"The licensing server reports that the %1$s (%2$s) product is unknown. Please "
+"contact support for assistance."
+msgstr ""
+
+#: lib/updater/settings-page.php:87
+msgid ""
+"%1$s could not be licensed since the membership account is out of available "
+"licenses for this product. You can unlicense the product on other sites or "
+"upgrade your membership to one with a higher number of licenses in order to "
+"increase the amount of available licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:90
+msgid ""
+"%s could not be licensed due to an internal error. Please try to license %s "
+"again at a later time. If this problem continues, please contact iThemes "
+"support."
+msgstr ""
+
+#: lib/updater/settings-page.php:96
+msgid ""
+"An unknown error relating to the %1$s product occurred. Please contact "
+"iThemes support. Error details: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:98
+msgid ""
+"An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:129
+msgid "Settings saved"
+msgstr ""
+
+#: lib/updater/settings-page.php:136
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:138
+msgid ""
+"You must supply an iThemes membership username in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:140
+msgid ""
+"You must supply an iThemes membership password in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:142
+msgid ""
+"You must select at least one product to license. Ensure that you select the "
+"products that you wish to license in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:157
+msgid ""
+"An unknown server error occurred. Please try to license your products again "
+"at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:177
+msgid "Your product subscription has expired"
+msgstr ""
+
+#: lib/updater/settings-page.php:184
+msgid "Successfully licensed %l."
+msgstr ""
+
+#: lib/updater/settings-page.php:188 lib/updater/settings-page.php:193
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:201
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:203
+msgid ""
+"You must supply an iThemes membership username in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:205
+msgid ""
+"You must supply an iThemes membership password in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:207
+msgid ""
+"You must select at least one license to remove. Ensure that you select the "
+"licenses that you wish to remove in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:222
+msgid ""
+"An unknown server error occurred. Please try to remove licenses from your "
+"products again at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:243
+msgid "Unknown server error."
+msgstr ""
+
+#: lib/updater/settings-page.php:248
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:252
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:330
+msgid "Quick Release Updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:337
+msgid "Enable quick release updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:340
+msgid ""
+"Some products have quick releases that are created to solve specific issues "
+"that some users experience. In order to avoid causing users to have updates "
+"show up too frequently, automatic updates to these quick releases are "
+"disabled by default. Enabling this feature allows quick releases to be "
+"available to the automatic update system. Using this option is only "
+"recommended if support has requested that you enable it in order to receive "
+"a quick release. You should disable this option at a later time after "
+"confirming that the quick release solves the issue for you."
+msgstr ""
+
+#: lib/updater/settings-page.php:366 lib/updater/settings-page.php:397
+#: lib/updater/settings-page.php:521 lib/updater/settings-page.php:589
+msgid "Product"
+msgstr ""
+
+#: lib/updater/settings-page.php:367 lib/updater/settings-page.php:399
+msgid "Member"
+msgstr ""
+
+#: lib/updater/settings-page.php:368 lib/updater/settings-page.php:401
+msgid "Expiration"
+msgstr ""
+
+#: lib/updater/settings-page.php:369 lib/updater/settings-page.php:402
+msgid "Remaining Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:385
+msgid "Licensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:391 lib/updater/settings-page.php:515
+msgid "Select All"
+msgstr ""
+
+#: lib/updater/settings-page.php:400
+msgid "Product Status"
+msgstr ""
+
+#: lib/updater/settings-page.php:410
+msgid "unlimited"
+msgstr ""
+
+#: lib/updater/settings-page.php:451 lib/updater/settings-page.php:545
+msgid "Select %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:471
+msgid "Remove Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:505
+msgid "Unlicensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:507
+msgid ""
+"The following products have not been licensed. Licensing a product gives you "
+"access to automatic updates from within WordPress."
+msgstr ""
+
+#: lib/updater/settings-page.php:508
+msgid ""
+"To license products, select the products you wish to license, enter your "
+"iThemes membership username and password, and press the License Products "
+"button."
+msgstr ""
+
+#: lib/updater/settings-page.php:509
+msgid "Need help? <a href=\"%s\">Click here for a quick video tutorial</a>."
+msgstr ""
+
+#: lib/updater/settings-page.php:561
+msgid "License Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:581
+msgid "Unrecognized Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:583
+msgid ""
+"The following products were not recognized by the licensing system. This can "
+"be due to a bug in the product code, a temporary server issue, or because "
+"the product is no longer supported."
+msgstr ""
+
+#: lib/updater/settings-page.php:584
+msgid ""
+"Please check this page again at a later time to see if the problem resolves "
+"itself. If the product remains, please contact <a href=\"%s\">iThemes "
+"support</a> and provide them with the details given below."
+msgstr ""
+
+#: lib/updater/settings-page.php:590
+msgid "Type"
+msgstr ""
+
+#: lib/updater/settings-page.php:591
+msgid "Package"
+msgstr ""
+
+#: lib/updater/settings-page.php:592
+msgid "Version"
+msgstr ""
+
+#: lib/updater/settings-page.php:593
+msgid "Server Response"
+msgstr ""
+
+#: lib/updater/settings-page.php:603
+msgid "Unknown Error"
+msgstr ""
+
+#: lib/updater/settings-page.php:642
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:644
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:646
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:648
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:651
+msgid "%s ago"
+msgstr ""
+
+#: loopbuddy.php:49
+msgid "Displays custom query and/or layout."
+msgstr ""
+
+#: loopbuddy.php:150
+msgid "%s Error Code %s - Click for more details."
+msgstr ""
+
+#: loopbuddy.php:154
+msgid "%s Error Code: %s"
+msgstr ""
+
+#: loopbuddy.php:445
+msgid ""
+"Error #533. No layout data structure found. Please re-load the defaults for "
+"this layout."
+msgstr ""
+
+#: loopbuddy.php:517
+msgid ""
+"Error #3533. No layout data structure found. Please re-load the defaults for "
+"this layout."
+msgstr ""
+
+#: loopbuddy.php:520
+msgid ""
+"Error #9782. No such item found in the requested slot. It may have already "
+"been deleted. Please re-load the page and try again."
+msgstr ""
+
+#: loopbuddy.php:568
+msgid "LoopBuddy Ajax Assist"
+msgstr ""
+
+#: loopbuddy.php:720
+msgid "Post Type:"
+msgstr ""
+
+#: loopbuddy.php:726
+msgid "Post Status:"
+msgstr ""
+
+#: loopbuddy.php:732
+msgid "Show Sticky Posts Only?"
+msgstr ""
+
+#: loopbuddy.php:758 loopbuddy.php:759 loopbuddy.php:811 loopbuddy.php:812
+#: loopbuddy.php:862 loopbuddy.php:863 loopbuddy.php:932 loopbuddy.php:933
+#: loopbuddy.php:957 loopbuddy.php:958
+msgid "ID"
+msgstr ""
+
+#: loopbuddy.php:758 loopbuddy.php:759
+msgid "Post Title"
+msgstr ""
+
+#: loopbuddy.php:758 loopbuddy.php:759
+msgid "Post Date"
+msgstr ""
+
+#: loopbuddy.php:811 loopbuddy.php:812
+msgid "Category Title"
+msgstr ""
+
+#: loopbuddy.php:811 loopbuddy.php:812 loopbuddy.php:862 loopbuddy.php:863
+#: loopbuddy.php:932 loopbuddy.php:933
+msgid "Slug"
+msgstr ""
+
+#: loopbuddy.php:862 loopbuddy.php:863
+msgid "Tag Title"
+msgstr ""
+
+#: loopbuddy.php:932 loopbuddy.php:933
+msgid "Term Title"
+msgstr ""
+
+#: loopbuddy.php:957 loopbuddy.php:958
+msgid "User"
+msgstr ""
+
+#: loopbuddy.php:1093
+msgid "Attachments"
+msgstr ""
+
+#: loopbuddy.php:1100
+msgid "Daily Archives"
+msgstr ""
+
+#: loopbuddy.php:1101
+msgid "Monthly Archives"
+msgstr ""
+
+#: loopbuddy.php:1102
+msgid "Yearly Archives"
+msgstr ""
+
+#: loopbuddy.php:1108
+msgid "%s Archives"
+msgstr ""
+
+#: loopbuddy.php:1135
+msgid "Home Page"
+msgstr ""
+
+#: loopbuddy.php:1136
+msgid "Front Page"
+msgstr ""
+
+#: loopbuddy.php:1137
+msgid "Search Results"
+msgstr ""
+
+#: loopbuddy.php:1138
+msgid "404 Page"
+msgstr ""
+
+#: loopbuddy.php:1470 loopbuddy.php:1477
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: loopbuddy.php:1471 loopbuddy.php:1478
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loopbuddy.php:1576
+msgid "Title:"
+msgstr ""
+
+#: loopbuddy.php:1582 loopbuddy.php:1684
+msgid "Query:"
+msgstr ""
+
+#: loopbuddy.php:1601 loopbuddy.php:1695
+msgid "Layout:"
+msgstr ""
+
+#: loopbuddy.php:1624
+msgid "Use legacy widget format"
+msgstr ""
+
+#: loopbuddy.php:1626
+msgid ""
+"LoopBuddy 1.3 changed the widget output to match the standard WordPress "
+"output format. Enable this option to use the legacy output format."
+msgstr ""
+
+#: loopbuddy.php:1677
+msgid "Choose a layout and query"
+msgstr ""
+
+#: loopbuddy.php:1680
+msgid "Enable LoopBuddy"
+msgstr ""
+
+#: loopbuddy.php:1750
+msgid "The import data file is missing: %1$s"
+msgstr ""
+
+#: loopbuddy.php:1755
+msgid "The import data file could not be read: %1$s"
+msgstr ""
+
+#: loopbuddy.php:1757
+msgid "The import data file is empty: %1$s"
+msgstr ""
+
+#: loopbuddy.php:1764
+msgid "The import data is invalid."
+msgstr ""
+
+#: loopbuddy.php:1805
+msgid "%1$s (new)"
+msgstr ""
+
+#: loopbuddy.php:1814
+msgid "%1$s (new %2$s)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LoopBuddy"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://ithemes.com/purchase/loopbuddy/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create & manage fully custom loops with drag & drop ease and custom queries. "
+"Unlimited loops, queries, shortcodes, and widgets!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com/"
+msgstr ""
