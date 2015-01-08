@@ -1,0 +1,25 @@
+{
+    "image": "templates/ui-kit-feature/img/tree.jpg",
+    "title": {
+		"content": "Alamo Motel",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"hero": {
+		"content": "As the provincial highways and the United States highway system began to develop in the 1920s, long-distance road journeys became more common.",
+		"style": {
+			"color": "#6c6c6c",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	}
+}

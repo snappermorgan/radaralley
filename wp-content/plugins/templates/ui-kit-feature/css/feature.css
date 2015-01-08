@@ -1,0 +1,149 @@
+.feature {
+    padding:60px 0 40px;
+}
+
+.feature img {
+    opacity:0;
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:#f7f7f7;
+    max-width:100%;
+}
+
+.feature .container {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83.333333%;  
+}
+
+.feature img.loaded {
+    opacity:1;
+    -webkit-transition:opacity 0.5s;
+    -moz-transition:opacity 0.5s;
+    -o-transition:opacity 0.5s;
+    transition:opacity 0.5s;
+}
+
+
+.feature .container ul {
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 1114px;
+    width: 100%;
+}
+
+.feature p.hero + p.hero {
+    margin-top:15px;    
+}
+
+.feature.vertical .container ul li {
+    display:block;
+    text-align:center;
+}
+
+.feature .text-container {
+    max-width: 734px;
+    margin-top:60px;    
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.feature .text-container h1 {
+    font-weight: 600;
+    letter-spacing: -1.78px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+.feature .text-container .hero {
+    font-weight: 200;
+    color: #6C6C6C;
+}
+
+.feature .image-container {
+    line-height:0;
+    margin-top:60px;    
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.feature.vertical.medium .image-container img {
+    margin: 0 auto;
+    line-height: 0;
+    max-width: 100%;
+}
+
+.feature.vertical.small .image-container { 
+    max-width: 544px;
+}
+.feature p.hero a {
+    font-size: 30px;
+    line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+    
+    .feature.horisontal {
+        padding:120px 0 40px;
+    }
+    
+    .feature.horisontal .container ul {
+        display:table;
+		  table-layout: fixed; 
+    }
+    
+    .feature.horisontal .text-container {
+        text-align:left;
+    }
+     
+    
+    .feature.horisontal li {
+        width:50%;
+        display:table-cell;
+        vertical-align:middle;
+
+    }
+    
+    .feature.horisontal li .image-container img {
+		  width:100%;
+		  max-width: 100%;
+		  height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .feature.horisontal li:first-child .text-container {
+        padding-right:18%;
+    }
+    .feature.horisontal li:last-child .text-container {
+        padding-left:18%;
+    }
+    
+    .feature.horisontal .image-container, .feature.horisontal .text-container {
+        margin-top:0;    
+    }
+    
+    .feature.horisontal h1 {
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    
+    .feature {
+        padding: 36px 0 27px;
+    }
+    
+    .feature .text-container, .feature .image-container {
+        margin-top: 36px;
+    }
+        
+    .feature .text-container h1 {
+        margin-bottom: 10px;
+    }
+    .feature .text-container .hero {
+        margin-top: 22px;
+    }
+}

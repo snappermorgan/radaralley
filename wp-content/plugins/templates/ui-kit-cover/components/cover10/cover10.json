@@ -1,0 +1,16 @@
+{
+	"title": {
+		"content": "Made in Seattle",
+		"style": {
+			"color": "#ffffff",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+    "bg_image": "templates/ui-kit-cover/img/meadow.jpg",
+    "bg_color": "#000",
+    "opacity": "0.6"
+}

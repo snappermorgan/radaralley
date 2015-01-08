@@ -1,0 +1,25 @@
+{
+    "image": "templates/ui-kit-feature/img/lighthouse.jpg",
+    "title": {
+		"content": "Point Reyes",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"hero": {
+		"content": "Point Reyes is the windiest place on the Pacific Coast and the second foggiest place on the North American continent. It’s true!",
+		"style": {
+			"color": "#6c6c6c",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	}
+}

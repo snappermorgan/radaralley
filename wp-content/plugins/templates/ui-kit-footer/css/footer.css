@@ -1,0 +1,97 @@
+.footer {
+    padding-top:120px;
+    text-align:center;
+}
+
+.footer .container {
+    border-top:1px solid rgba(151,151,151,0.2);
+    padding:25px;
+    font-size:18px;
+    line-height:29px;
+    color:rgba(108,108,108,0.7);
+}
+.footer .container a {
+    color:rgba(66, 66, 66, 0.7);
+    border-color:rgba(66,66,66,0.2)
+}
+
+.footer .container a:hover {
+    color:#11A1EC;
+    border-bottom: 1px solid #11A1EC;
+}
+
+.footer .items li {
+    display: inline-block;
+    margin: 0 11px;
+}
+
+.footer.logo .container {
+    line-height:0;  
+}
+.footer .container a.brand {
+    border: none;
+}
+
+
+@media screen and (max-width: 568px) {
+    .footer {
+        padding-top:72px;
+    }
+}
+
+.footer p .font-size-1,
+.footer p.font-size-1 {
+    font-size: 15px;
+}
+.footer p .font-size-2,
+.footer p.font-size-2 {
+    font-size: 16px;
+}
+.footer p .font-size-3,
+.footer p.font-size-3 {
+    font-size: 17px;
+}
+.footer p .font-size-4,
+.footer p.font-size-4 {
+    font-size: 18px;
+}
+.footer p .font-size-5,
+.footer p.font-size-5 {
+    font-size: 19px;
+}
+.footer p .font-size-6,
+.footer p.font-size-6 {
+    font-size: 20px;
+}
+.footer p .font-size-7,
+.footer p.font-size-7 {
+    font-size: 21px;
+}
+.footer p .line-height-1,
+.footer p.line-height-1 {
+    line-height: 1.31;
+}
+.footer p .line-height-2,
+.footer p.line-height-2 {
+    line-height: 1.41;
+}
+.footer p .line-height-3,
+.footer p.line-height-3 {
+    line-height: 1.51;
+}
+.footer p .line-height-4,
+.footer p.line-height-4 {
+    line-height: 1.61;
+}
+.footer p .line-height-5,
+.footer p.line-height-5 {
+    line-height: 1.71;
+}
+.footer p .line-height-6,
+.footer p.line-height-6 {
+    line-height: 1.81;
+}
+.footer p .line-height-7,
+.footer p.line-height-7 {
+    line-height: 1.91;
+}

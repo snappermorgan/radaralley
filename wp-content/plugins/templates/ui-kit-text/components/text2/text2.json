@@ -1,0 +1,24 @@
+{
+	"title": {
+		"content": "SYNOPSIS",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"text": {
+		"content": "A Dodo decides that the best thing to dry them off would be a Caucus-Race, which consists of everyone running in a circle with no clear winner. Alice eventually frightens all the animals away.",
+		"style": {
+			"color": "#6C6C6C",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	}
+}

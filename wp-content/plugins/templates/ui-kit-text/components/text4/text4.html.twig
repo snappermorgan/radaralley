@@ -1,0 +1,52 @@
+<div
+    class="dm-template dm-text text4-{{ component_id }}"
+    {% if wp_mode %}
+        dm-template="text.text4"
+        component-id="{{ component_id }}"
+    {% endif %}>
+    <section class="text">
+        <div class="container">
+            <h1 
+                {% if edit_mode %}
+                    text-editing
+                    ng-model="data.title"
+                {% else %}
+                    style="color: {{ title.style.color }};
+                           font-family: {{ attribute(title.style, 'font-family') }};"
+                    class="font-size-{{ attribute(title.classes, 'font-size') }}
+                           line-height-{{ attribute(title.classes, 'line-height') }}"
+                {% endif %}>
+                {{ title.content }}
+            </h1>
+            <p 
+                {% if edit_mode %}
+                    class="hero"
+                    text-editing
+                    ng-model="data.hero"
+                {% else %}
+                    style="color: {{ hero.style.color }};
+                           font-family: {{ attribute(hero.style, 'font-family') }};"
+                    class="hero font-size-{{ attribute(hero.classes, 'font-size') }}
+                           line-height-{{ attribute(hero.classes, 'line-height') }}"
+                {% endif %}>
+                {{ hero.content }}
+            </p>
+            <p class="hero">
+                {% if edit_mode %}
+                    <span class="link" href="{{ link.url }}" ng-href="[[ data.link.url ]]">
+                        <span ng-model="data.link.name" dm-contenteditable contenteditable="true">
+                            {{ link.name }}
+                        </span>
+                        <customizer class="dm-popover popover fade top">
+                            <span class="dm-control-button" dm-edit-url="data.link.url"></span>
+                        </customizer>
+                    </span>
+                {% else %}
+                    <a href="{{ link.url }}">
+                        {{ link.name }}
+                    </a>
+                {% endif %}
+            </p>
+        </div>
+    </section>
+</div>

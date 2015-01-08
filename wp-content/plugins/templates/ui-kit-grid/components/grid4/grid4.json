@@ -1,0 +1,81 @@
+{
+    "title": {
+        "content": "Inside California",
+        "style": {
+            "color": "#424242",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "hero": {
+        "content": "California is bordered by Oregon to the north, Nevada to the east and Arizona to the southeast.",
+        "style": {
+            "color": "#6c6c6c",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "grid": [{
+        "bg_image": "templates/ui-kit-grid/img/2-3-1.jpg",
+        "sub_title": {
+            "content": "Tallest Building in NYC",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Start craning the necks — a new Midtown condo tower is slated to be the tallest residential building in the world.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "link": {
+            "name": "Explore City",
+            "url": "#"
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/2-3-2.jpg",
+        "sub_title": {
+            "content": "Santa Monica Mountains",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "The maps cov­er the 4,000 square miles of Los Angeles County — from the high desert to the coast.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "link": {
+            "name": "Santa Monica",
+            "url": "#"
+        }
+    }]
+}

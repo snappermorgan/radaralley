@@ -1,0 +1,31 @@
+{
+	"title": {
+		"content": "Photos",
+		"style": {
+			"color": "#ffffff",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"text": {
+		"content": "We have combined many <a href='#'>pre-designed</a> blocks which you will need when building.",
+		"style": {
+			"color": "#ffffff",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"bg_image": "templates/ui-kit-cover/img/legs.jpg",
+	"bg_color": "#000",
+	"opacity": "0.6",
+	"button": {
+		"name": "BUY NOW",
+		"url": "#"
+	}
+}

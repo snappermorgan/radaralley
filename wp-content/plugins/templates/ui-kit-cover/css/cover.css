@@ -1,0 +1,220 @@
+.cover {
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    height:100vh;
+    font-size: 26px;
+    margin-bottom:40px;
+}
+.cover:last-of-type {
+    margin-bottom: 0;
+}
+
+.cover + .cover {
+    padding-bottom:0;
+    margin-top:-40px;
+}
+.menu + .cover {
+    height: calc(100vh - 61px);
+}
+.cover a {
+    color: inherit;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    -webkit-transition: border 0.35s;
+    -moz-transition: border 0.35s;
+    -o-transition: border 0.35s;
+    transition: border 0.35s;
+}
+.cover a:hover {
+    color: inherit;
+    border-bottom: 2px solid rgba(255,255,255,1);
+}
+.cover .content {
+    max-width: 545px;
+    position: relative;
+    font-size: 30px;
+    -webkit-transition: padding 0.5s;
+    -moz-transition: padding 0.5s;
+    -o-transition: padding 0.5s;
+    transition: padding 0.5s;
+}
+.cover.center .content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 730px;
+}
+.cover.right .content {
+    float: right;
+}
+.cover.inverse {
+    color: #303336;
+    background: #fff;
+}
+.cover.inverse a {
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+
+.cover.inverse a:hover {
+    border-bottom: 2px solid rgba(0,0,0,1);
+}
+
+.cover.inverse .button {
+    border: 2px solid rgba(48, 51, 54, 1);
+	opacity:0.7;
+}
+.cover.inverse .button:hover {
+	opacity:1;
+}
+.cover .container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    z-index:1;
+}
+.cover .holder {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 136px 11.5%;
+}
+.cover.top .holder {
+    vertical-align: top;
+}
+.cover.bottom .holder {
+    vertical-align: bottom;
+}
+.cover h1 {
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+}
+.cover .hero {
+    opacity: 0.7;
+    font-weight: 200;
+}
+
+.cover .button {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 11px 28px;
+    border-radius: 25px;
+    margin-top: 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 1);
+     opacity:0.7;
+    border-color: #inherit;
+    color: inherit;
+    white-space:nowrap;
+    -webkit-transition: opacity 0.35s;
+    -moz-transition: opacity 0.35s;
+    -o-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+.cover .button:hover {
+	opacity:1;
+}
+/* background */
+.cover .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: inherit;
+    
+    -webkit-animation:fadeIn 0.5s;
+    -webkit-animation:fadeIn 0.5s;
+    -webkit-animation:fadeIn 0.5s;
+    -webkit-animation:fadeIn 0.5s;
+    
+    /* xlr8 */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity: 0;}}
+@-moz-keyframes fadeIn { from { opacity: 0;}}
+@-o-keyframes fadeIn { from { opacity: 0;}}
+@keyframes fadeIn { from { opacity: 0;}}
+
+/* responsive for cover */
+@media screen and (max-width: 568px) {
+    .cover .holder {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover .content {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover .content {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .cover .holder {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .cover .content {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .cover p .line-height-1,
+    .cover p.line-height-1 {
+        line-height: 1.18;
+    }
+    .cover p .line-height-2,
+    .cover p.line-height-2 {
+        line-height: 1.28;
+    }
+    .cover p .line-height-3,
+    .cover p.line-height-3 {
+        line-height: 1.38;
+    }
+    .cover p .line-height-4,
+    .cover p.line-height-4 {
+        line-height: 1.48;
+    }
+    .cover p .line-height-5,
+    .cover p.line-height-5 {
+        line-height: 1.58;
+    }
+    .cover p .line-height-6,
+    .cover p.line-height-6 {
+        line-height: 1.68;
+    }
+    .cover p .line-height-7,
+    .cover p.line-height-7 {
+        line-height: 1.78;
+    }
+}
