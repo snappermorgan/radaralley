@@ -1,0 +1,299 @@
+.image {
+    position:relative;
+    text-align:center;
+    line-height:0;
+}
+
+.image.full {
+    padding:0;
+    position:relative;  
+}
+
+.image img {
+    opacity:0;
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:#f7f7f7;
+}
+
+.image.loaded img {
+    opacity:1;
+    
+    -webkit-transition:opacity 0.5s;
+    -moz-transition:opacity 0.5s;
+    -o-transition:opacity 0.5s;
+    transition:opacity 0.5s;
+}
+
+.image.description p {
+    font-family: "PT Serif", Georgia, serif;
+    margin-top: 20px;
+    color: rgba(108,108,108,0.7);
+}
+.image.full {
+    padding:60px 0; 
+}
+.image.medium {
+    padding:40px 0; 
+}
+.image.small {
+    padding:20px 0; 
+}
+
+.image.small p, .image.medium p, .image.full p {
+    max-width:733px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    width: 83.333333%;
+}
+
+.image.full img {
+    max-width:100%;
+    width:100vw;
+}
+
+.image.medium img {
+    max-width:1114px;
+    width:100%;
+    margin:0 auto;
+}
+
+.image.small img {
+    max-width: 734px;
+    width: 83.333333%;
+    margin:0 auto;
+}
+
+.image:not(.description) p {
+    display:none;
+}
+
+.image.description p {
+    display:block;
+}
+
+
+.image.full.description p {
+    opacity:0;
+}
+.image.full.description.loaded p {
+    opacity:1;
+    
+    -webkit-transition:opacity 0.5s;
+    -moz-transition:opacity 0.5s;
+    -o-transition:opacity 0.5s;
+    transition:opacity 0.5s;
+}
+
+.image.full + .image.full {
+    padding-top: 0;
+}
+.image.full:not(.description) + .image.full:not(.description) {
+    margin-top:-20px;
+}
+
+.image p .font-size-1,
+.image p.font-size-1 {
+    font-size: 12px;
+}
+.image p .font-size-2,
+.image p.font-size-2 {
+    font-size: 13px;
+}
+.image p .font-size-3,
+.image p.font-size-3 {
+    font-size: 14px;
+}
+.image p .font-size-4,
+.image p.font-size-4 {
+    font-size: 15px;
+}
+.image p .font-size-5,
+.image p.font-size-5 {
+    font-size: 16px;
+}
+.image p .font-size-6,
+.image p.font-size-6 {
+    font-size: 17px;
+}
+.image p .font-size-7,
+.image p.font-size-7 {
+    font-size: 18px;
+}
+.image p .line-height-1,
+.image p.line-height-1 {
+    line-height: 1.43;
+}
+.image p .line-height-2,
+.image p.line-height-2 {
+    line-height: 1.53;
+}
+.image p .line-height-3,
+.image p.line-height-3 {
+    line-height: 1.63;
+}
+.image p .line-height-4,
+.image p.line-height-4 {
+    line-height: 1.73;
+}
+.image p .line-height-5,
+.image p.line-height-5 {
+    line-height: 1.83;
+}
+.image p .line-height-6,
+.image p.line-height-6 {
+    line-height: 1.93;
+}
+.image p .line-height-7,
+.image p.line-height-7 {
+    line-height: 2.03;
+}
+
+.image.full.textover p .font-size-1,
+.image.full.textover p.font-size-1 {
+    font-size: 18px;
+}
+.image.full.textover p .font-size-2,
+.image.full.textover p.font-size-2 {
+    font-size: 19px;
+}
+.image.full.textover p .font-size-3,
+.image.full.textover p.font-size-3 {
+    font-size: 20px;
+}
+.image.full.textover p .font-size-4,
+.image.full.textover p.font-size-4 {
+    font-size: 21px;
+}
+.image.full.textover p .font-size-5,
+.image.full.textover p.font-size-5 {
+    font-size: 22px;
+}
+.image.full.textover p .font-size-6,
+.image.full.textover p.font-size-6 {
+    font-size: 23px;
+}
+.image.full.textover p .font-size-7,
+.image.full.textover p.font-size-7 {
+    font-size: 24px;
+}
+.image.full.textover p .line-height-1,
+.image.full.textover p.line-height-1 {
+    line-height: 1.56;
+}
+.image.full.textover p .line-height-2,
+.image.full.textover p.line-height-2 {
+    line-height: 1.66;
+}
+.image.full.textover p .line-height-3,
+.image.full.textover p.line-height-3 {
+    line-height: 1.76;
+}
+.image.full.textover p .line-height-4,
+.image.full.textover p.line-height-4 {
+    line-height: 1.86;
+}
+.image.full.textover p .line-height-5,
+.image.full.textover p.line-height-5 {
+    line-height: 1.96;
+}
+.image.full.textover p .line-height-6,
+.image.full.textover p.line-height-6 {
+    line-height: 2.06;
+}
+.image.full.textover p .line-height-7,
+.image.full.textover p.line-height-7 {
+    line-height: 2.16;
+}
+
+@media screen and (min-width: 768px) {
+    .image.full.textover {
+        position:relative;
+    }
+    .image.full.textover p {
+        position:absolute;
+        bottom:60px;
+        color:#fff;
+        max-width:100%;
+        padding:100px 8.333333%;
+        width:100%;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB9CAYAAABj9QkzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEU1MUExMTc0QjYzMTFFNEJBMUQ5MTVCQTBCQ0JBMzAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEU1MUExMTg0QjYzMTFFNEJBMUQ5MTVCQTBCQ0JBMzAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4RTUxQTExNTRCNjMxMUU0QkExRDkxNUJBMEJDQkEzMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4RTUxQTExNjRCNjMxMUU0QkExRDkxNUJBMEJDQkEzMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PozP3AgAAAA2SURBVHjaYvj//z8DCDAygUgmGAsbl5EUWWwEE8myTERyiZAYLixiJYgNU5JkSU8H6EkKIMAAKXUEjIrKehQAAAAASUVORK5CYII=);
+        background-repeat:repeat-x;
+        background-position:bottom;
+        background-size: 100% 100%;
+        
+        z-index:10;
+    }
+}
+
+
+@media screen and (max-width: 568px) {
+    .image.full, .image.medium, .image.small {
+        padding: 27px 0;
+    }
+    
+    .image.full:not(.description) + .image.full:not(.description) {
+        margin-top:-18px;
+    }
+
+    .image.full.textover p .font-size-1,
+    .image.full.textover p.font-size-1 {
+        font-size: 12px;
+    }
+    .image.full.textover p .font-size-2,
+    .image.full.textover p.font-size-2 {
+        font-size: 13px;
+    }
+    .image.full.textover p .font-size-3,
+    .image.full.textover p.font-size-3 {
+        font-size: 14px;
+    }
+    .image.full.textover p .font-size-4,
+    .image.full.textover p.font-size-4 {
+        font-size: 15px;
+    }
+    .image.full.textover p .font-size-5,
+    .image.full.textover p.font-size-5 {
+        font-size: 16px;
+    }
+    .image.full.textover p .font-size-6,
+    .image.full.textover p.font-size-6 {
+        font-size: 17px;
+    }
+    .image.full.textover p .font-size-7,
+    .image.full.textover p.font-size-7 {
+        font-size: 18px;
+    }
+    .image.full.textover p .line-height-1,
+    .image.full.textover p.line-height-1 {
+        line-height: 1.43;
+    }
+    .image.full.textover p .line-height-2,
+    .image.full.textover p.line-height-2 {
+        line-height: 1.53;
+    }
+    .image.full.textover p .line-height-3,
+    .image.full.textover p.line-height-3 {
+        line-height: 1.63;
+    }
+    .image.full.textover p .line-height-4,
+    .image.full.textover p.line-height-4 {
+        line-height: 1.73;
+    }
+    .image.full.textover p .line-height-5,
+    .image.full.textover p.line-height-5 {
+        line-height: 1.83;
+    }
+    .image.full.textover p .line-height-6,
+    .image.full.textover p.line-height-6 {
+        line-height: 1.93;
+    }
+    .image.full.textover p .line-height-7,
+    .image.full.textover p.line-height-7 {
+        line-height: 2.03;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "image": "templates/ui-kit-image/img/mountains.jpg",
+    "text": {
+        "content": "Sherwood Forest is a royal forest in Nottinghamshire, England, famous by its historical association with the legend of Robin Hood.",
+        "style": {
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+    }
+}

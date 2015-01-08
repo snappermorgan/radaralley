@@ -1,0 +1,29 @@
+{
+    "image": "templates/ui-kit-feature/img/window.jpg",
+    "title": {
+		"content": "San Francisco",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"hero": {
+		"content": "San Francisco Chinatown is the largest Chinatown outside of Asia as well as the oldest Chinatown in North America. It is one of the top tourist attractions.",
+		"style": {
+			"color": "#6c6c6c",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+    "link": {
+    	"name": "Neighborhoods",
+    	"url": "#"
+    }
+}

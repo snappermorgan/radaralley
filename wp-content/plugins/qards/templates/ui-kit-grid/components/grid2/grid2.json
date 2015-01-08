@@ -1,0 +1,97 @@
+{
+    "title": {
+        "content": "Microblogging",
+        "style": {
+            "color": "#424242",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "hero": {
+        "content": "Microblogging is the practice of posting small pieces of digital content — which could be text, pictures, short videos, or other media.",
+        "style": {
+            "color": "#6c6c6c",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "grid": [{
+        "bg_image": "templates/ui-kit-grid/img/1-1.jpg",
+        "sub_title": {
+            "content": "White-tailed Deer in NJ",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Deer herd is a major component of the landscape throughout all but the most urbanized areas of the state.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/1-2.jpg",
+        "sub_title": {
+            "content": "Rye Field",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Rye grain is used for flour, rye bread, crisp bread, some whiskeys, some vodkas, and animal fodder.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/1-3.jpg",
+        "sub_title": {
+            "content": "National Recreation Area",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Golden Gate Area chronicles two hundred years of history, from the Native American culture.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }]
+}

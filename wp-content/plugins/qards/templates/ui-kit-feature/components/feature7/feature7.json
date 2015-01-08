@@ -1,0 +1,29 @@
+{
+    "image": "templates/ui-kit-feature/img/pier.jpg",
+    "title": {
+		"content": "Pier 39",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"hero": {
+		"content": "At Pier 39, there are shops, restaurants, a video arcade, street performances, an interpretive center for the Marine Mammal Center, the Aquarium of the Bay.",
+		"style": {
+			"color": "#6c6c6c",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+    "link": {
+    	"name": "Shopping Center",
+    	"url": "#"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "image": "templates/ui-kit-feature/img/guy.jpg",
+    "title": {
+		"content": "Video Streaming",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"hero": {
+		"content": "The verb \"to stream\" refers to the process of delivering media in this manner; the term refers to the delivery method of the medium.",
+		"style": {
+			"color": "#6c6c6c",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+    "link": {
+    	"name": "Take a Look",
+    	"url": "#"
+    }
+}

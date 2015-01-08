@@ -1,0 +1,10 @@
+{
+    "brand": {
+        "image": "templates/ui-kit-menu/img/designmodo.png",
+        "url": ""
+    },
+    "button": {
+    	"name": "Get the App",
+    	"url": ""
+    }
+}

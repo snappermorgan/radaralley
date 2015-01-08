@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" {% if edit_mode %} ng-app="dmApp" {% endif %} class="loaded">
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" {{site.language_attributes}}> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" {{site.language_attributes}}> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" {{site.language_attributes}}> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" {{site.language_attributes}}> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if edit_mode %}{{wp_title}}{% else %}{{ function('wp_title') }}{% endif %}</title>
+        <meta name="description" content="{{site.description}}">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+        <link rel="pingback" href="{{site.pingback_url}}" />
+        {{ function('wp_head') }}
+        <script data-cfasync="false" type="text/javascript">
+            var ajaxurl = "{{ ajaxurl }}";
+            var pluginUrl = "{{ pluginUrl }}";
+            var currentLayoutId = "{{ current_layout_id }}";
+            var currentPostId = "{{ current_post_id }}";
+            {% if edit_mode %}
+            var editMode = true;
+            {% else %}
+            var editMode = false;
+            {% endif %}
+        </script>
+
+        {% if debug_mode %}
+        {% else %}
+        {% endif %}
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+        {{ compStyles }}
+
+        {% if edit_mode %}
+            <link rel="stylesheet" id="initCSSFile" href="{{ ajaxurl }}?action=dm_api&method=component.css.get&params[component_ids]=[{{ current_component_ids|join(',') }}]">
+            <style id="mainCSSFile" type="text/css"></style>
+        {% else %}
+            <link rel="stylesheet" href="{{ ajaxurl }}?action=dm_api&method=layout.css.get&params[layout_id]={{ current_layout_id }}">
+        {% endif %}
+
+        <link rel="stylesheet" href="{{ ajaxurl }}?action=dm_api&method=settings.globalcss.get">
+        <script src='https://maps.google.com/maps/api/js?sensor=false'></script>
+        {% if edit_mode %}
+        <script type="text/javascript">
+           jQuery(document).ready(function() {
+                var d = new Date();
+                d = d.getTime();
+                if (jQuery('#reloadValue').val().length == 0) {
+                    jQuery('#reloadValue').val(d);
+                    jQuery('body').show();
+                }
+                else {
+                    jQuery('#reloadValue').val('');
+                    location.reload(true);
+                }
+            });
+       </script>
+       {% endif %}
+    </head>
+    <body {% if edit_mode %} class="edit-mode qards" ng-controller="DMCtrl" ng-keydown="keyDown($event)" ng-mouseup="mouseUp($event)" ng-mousedown="click($event)" {% else %} class="qards"{% endif %}>
+        {% if edit_mode %}
+            <input id="reloadValue" type="hidden" name="reloadValue" value="" />
+        {% endif %}
+        <div id="loader-container"></div>
+        {% if edit_mode %}
+        <div id="menu">
+            <div id="sideMenu">
+                <ul>
+                    <li data-menu-item="cover">Cover</li>
+                    <li data-menu-item="image">Image</li>
+                    <li data-menu-item="text">Text</li>
+                    <li data-menu-item="feature">Feature</li>
+                    <li data-menu-item="grid">Grid</li>
+                    <li data-menu-item="menu">Menu</li>
+                    <li data-menu-item="footer">Footer</li>
+                    <li data-menu-item="subscribe">Subscribe</li>
+                </ul>
+            </div>
+            <div id="subMenu" class="invisible"></div>
+            {% if edit_mode %}
+            <div class="dm-controls dm-toggle-holder" data-html2canvas-ignore>
+                <div class="dm-control-button">
+                    <div class="dm-control-button-action dm-toggle">
+                        <i class="dm-widget-icon">
+                            <svg style="width:16px; height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" enable-background="new 0 0 16 16">
+								<path fill="#FFF" d="M15 7h-6v-6c0-.5-.5-1-1-1s-1 .5-1 1v6h-6c-.5 0-1 .5-1 1s.5 1 1 1h6v6c0 .5.5 1 1 1s1-.5 1-1v-6h6c.5 0 1-.5 1-1s-.5-1-1-1z"/>
+                            </svg>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div class="topMenu">
+            <div id="startMenu">
+                <a class="arrow-btn" href="{{ bloginfo('url') }}/wp-admin/edit.php?post_type={{ postType }}"><span>&nbsp;</span><span>All Pages</span></a>
+                <div class="title"><input type="edit" value="{{wp_title}}" id="postTitle" placeholder="Enter title" /></div>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown trigger</a>
+                <ul class="dropdown-menu btns-right" role="menu" aria-labelledby="dLabel">
+                    <li><a id="reorderBlocks" href="#"><span>Reorder Blocks</span></a></li>
+                    <li><a id="previewLayout" href="#"><span>Preview</span></a></li>
+                    <li>
+                        <div class="dm-save-holder">
+                            <a href="#" class="dm-save disabled" id="saveChanges">Save</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="reorderMenu" class="disabledMenu">
+                <a class="arrow-btn" id="reorderBack" href="#"><span>&nbsp;</span><span>Back</span></a>
+                <div class="title">Reorder Blocks</div>
+                <ul class="btns-right">
+                    <li><a id="reorderDiscard" href="#"><span>Discard Changes</span></a></li>
+                    <li><a class="dm-save disabled" id="reorderSave" href="#">Save</a></li>
+                </ul>
+            </div>
+            <div id="previewMenu" class="disabledMenu">
+                <a class="arrow-btn" id="previewBack" href="#"><span>&nbsp;</span><span>Edit Mode</span></a>
+                <div class="title">{{wp_title}}</div>
+            </div>
+            <div id="editingMenu" class="disabledMenu">
+                <a class="arrow-btn" id="editingBack" href="#"><span>&nbsp;</span><span>Back</span></a>
+                <div class="title">Edit HTML & CSS</div>
+                <ul class="btns-right">
+                    <li><a id="editingDiscard" href="#"><span>Discard Changes</span></a></li>
+                    <li><a class="dm-save disabled" id="editingSave" href="#">Save</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="editingHolder">
+            <h2 class="editingHolder-mainTitle">
+            You’re going to customize this block, the code changes are irreversible.
+            Don't worry, you can use the default block again.</h2>
+            <h3 class="editingHolder-title">HTML</h3>
+            <div id="editingHTMLHolder"></div>
+            <h3 class="editingHolder-title">Custom CSS</h3>
+            <div id="editingCSSHolder"></div>
+        </div>
+        {% endif %}
+        <div class="designmodo-wrapper {{body_class}}">
+            <div id="templates">

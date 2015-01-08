@@ -1,0 +1,24 @@
+{
+	"title": {
+		"content": "Advice from a Caterpillar",
+		"style": {
+			"color": "#424242",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	},
+	"text": {
+		"content": "Alice comes upon a mushroom and sitting on it is a blue Caterpillar smoking a hookah. The Caterpillar questions Alice and she admits to her current identity crisis, compounded by her inability to remember a poem.",
+		"style": {
+			"color": "#6C6C6C",
+			"font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+		},
+		"classes": {
+			"font-size": 4,
+			"line-height": 4
+		}
+	}
+}

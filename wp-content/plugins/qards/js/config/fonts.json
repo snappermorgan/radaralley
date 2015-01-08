@@ -1,0 +1,25 @@
+{
+	"family" : {
+		"webFonts": {
+			"Courier New": "'Courier New', Courier, monospace",
+			"Georgia": "'Georgia', serif",
+			"Helvetica Neue": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+			"Tahoma": "'Tahoma', Geneva, sans-serif",
+			"Times New Roman": "'Times New Roman', Times, serif",
+			"Trebuchet MS": "'Trebuchet MS', Helvetica, sans-serif"
+		},
+		"googleFonts": {
+			"Droid Sans": "'Droid Sans', sans-serif",
+			"Droid Serif": "'Droid Serif', serif",
+			"Lora": "'Lora', serif",
+			"Muli": "'Muli', sans-serif",
+			"Noto Sans": "'Noto Sans', sans-serif",
+			"Noto Serif": "'Noto Serif', serif",
+			"Open Sans": "'Open Sans', sans-serif",
+			"PT Sans": "'PT Sans', sans-serif",
+			"PT Serif": "'PT Serif', serif",
+			"Raleway": "'Raleway', sans-serif",
+			"Montserrat": "'Montserrat', sans-serif"
+		}
+	}
+}

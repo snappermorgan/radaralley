@@ -1,0 +1,121 @@
+{
+    "title": {
+        "content": "Tasty Tuesday",
+        "style": {
+            "color": "#424242",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "hero": {
+        "content": "Pastry is a major type of bakers confectionery. It includes many of the various kinds of baked products.",
+        "style": {
+            "color": "#6c6c6c",
+            "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "classes": {
+            "font-size": 4,
+            "line-height": 4
+        }
+    },
+    "grid": [{
+        "bg_image": "templates/ui-kit-grid/img/2-1.jpg",
+        "sub_title": {
+            "content": "Mint Macarons",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Refreshing mint French macarons with minty white chocolate ganache filling are just beautiful!",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/2-2.jpg",
+        "sub_title": {
+            "content": "Handmade Macarons",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Our macarons are hand-made, and our professional chef selects with great care and her raw products.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/2-3.jpg",
+        "sub_title": {
+            "content": "Fig Jam",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "In a medium saucepan, mix figs and sugar together and cook on low heat, uncovered, about 30 minutes.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }, {
+        "bg_image": "templates/ui-kit-grid/img/2-4.jpg",
+        "sub_title": {
+            "content": "Crispy Baguette",
+            "style": {
+                "color": "#424242",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        },
+        "text": {
+            "content": "Flour is the baguette’s main ingredient: it makes up 60% of the bread, so it’s a critical element.",
+            "style": {
+                "color": "#6c6c6c",
+                "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+            },
+            "classes": {
+                "font-size": 4,
+                "line-height": 4
+            }
+        }
+    }]
+}
