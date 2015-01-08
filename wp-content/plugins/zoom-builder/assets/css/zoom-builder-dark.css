@@ -1,0 +1,11 @@
+.widget_wpzoom-pricing-table .pricing-table { border: none; background: #F3F4F5; }
+.widget_wpzoom-media-slider .carousel-tabs a.selected { border:none; }
+.widget_wpzoom-media-slider .carousel-dots a span { background: #000; border-color: #fff; }
+.widget_wpzoom-media-slider .carousel-dots a.selected span { background: #fff; }
+.widget_wpzoom-media-slider .carousel-dots a span:hover { background: #ccc; }
+.wpzlb-layout .widget_wpzoom-pricing-table .pricing-table-list li { color: #555; }
+.widget_wpzoom-media-slider .carousel-skin .carousel-nav-prev,
+.widget_wpzoom-media-slider .carousel-skin .carousel-nav-next,
+.widget_wpzoom-media-slider .half-skin .carousel-nav-prev,
+.widget_wpzoom-media-slider .half-skin .carousel-nav-next { background-image: url('../images/arrows_light.png'); height: 60px; }
+.wpzlb-layout h1, .wpzlb-layout h2, .wpzlb-layout h3, .wpzlb-layout h4, .wpzlb-layout h5 { color: #fff; }

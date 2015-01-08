@@ -1,0 +1,2556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZOOM Builder v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-03 07:41:41+0000\n"
+"Last-Translator: demoadmin <cioricip@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/main.php:97
+#@ zoom-builder
+msgid "Widget Added to Selected Column!"
+msgstr ""
+
+#: classes/main.php:99
+#: classes/main.php:774
+#@ zoom-builder
+msgid "Group Name&hellip;"
+msgstr ""
+
+#: classes/main.php:101
+#: classes/main.php:774
+#@ zoom-builder
+msgid "Group Name"
+msgstr ""
+
+#: classes/main.php:102
+#: classes/main.php:769
+#@ zoom-builder
+msgid "Click &amp; Drag to Rearrange This Group"
+msgstr ""
+
+#: classes/main.php:103
+#: classes/main.php:770
+#@ zoom-builder
+msgid "Change This Group&rsquo;s Settings"
+msgstr ""
+
+#: classes/main.php:104
+#: classes/main.php:771
+#@ zoom-builder
+msgid "Remove This Group"
+msgstr ""
+
+#: classes/main.php:106
+#: classes/main.php:783
+#@ zoom-builder
+msgid "Click &amp; Drag to Rearrange This Row"
+msgstr ""
+
+#: classes/main.php:108
+#: classes/main.php:785
+#@ zoom-builder
+msgid "Remove This Row"
+msgstr ""
+
+#: classes/main.php:109
+#: classes/main.php:785
+#@ zoom-builder
+msgid "Remove This Divider"
+msgstr ""
+
+#: classes/main.php:111
+#: classes/main.php:882
+#@ zoom-builder
+msgid "Font Color:"
+msgstr ""
+
+#: classes/main.php:112
+#: classes/main.php:888
+#@ zoom-builder
+msgid "Background"
+msgstr ""
+
+#: classes/main.php:113
+#: classes/main.php:892
+#@ zoom-builder
+msgid "Color:"
+msgstr ""
+
+#: classes/main.php:114
+#: classes/main.php:896
+#@ zoom-builder
+msgid "Image:"
+msgstr ""
+
+#: classes/main.php:115
+#: classes/main.php:897
+#@ zoom-builder
+msgid "Select Image"
+msgstr ""
+
+#: classes/main.php:116
+#: classes/main.php:897
+#: modules/feature-box/feature-box.php:197
+#@ zoom-builder
+msgid "Clear"
+msgstr ""
+
+#: classes/main.php:117
+#: classes/main.php:900
+#@ zoom-builder
+msgid "Position:"
+msgstr ""
+
+#: classes/main.php:118
+#: classes/main.php:154
+#: classes/main.php:901
+#: modules/call-to-action/call-to-action.php:205
+#: modules/feature-box/feature-box.php:120
+#: modules/media-slider/media-slider.php:577
+#: modules/media-slider/media-slider.php:587
+#: modules/media-slider/media-slider.php:595
+#@ zoom-builder
+msgid "Left"
+msgstr ""
+
+#: classes/main.php:119
+#: classes/main.php:901
+#: modules/call-to-action/call-to-action.php:207
+#: modules/feature-box/feature-box.php:122
+#: modules/media-slider/media-slider.php:596
+#@ zoom-builder
+msgid "Center"
+msgstr ""
+
+#: classes/main.php:120
+#: classes/main.php:155
+#: classes/main.php:901
+#: modules/call-to-action/call-to-action.php:206
+#: modules/feature-box/feature-box.php:121
+#: modules/media-slider/media-slider.php:576
+#: modules/media-slider/media-slider.php:588
+#: modules/media-slider/media-slider.php:597
+#@ zoom-builder
+msgid "Right"
+msgstr ""
+
+#: classes/main.php:121
+#: classes/main.php:904
+#@ zoom-builder
+msgid "Repeat:"
+msgstr ""
+
+#: classes/main.php:122
+#: classes/main.php:905
+#@ zoom-builder
+msgid "No Repeat"
+msgstr ""
+
+#: classes/main.php:123
+#: classes/main.php:905
+#@ zoom-builder
+msgid "Tile"
+msgstr ""
+
+#: classes/main.php:124
+#: classes/main.php:905
+#@ zoom-builder
+msgid "Tile Horizontally"
+msgstr ""
+
+#: classes/main.php:125
+#: classes/main.php:905
+#@ zoom-builder
+msgid "Tile Vertically"
+msgstr ""
+
+#: classes/main.php:126
+#: classes/main.php:908
+#@ zoom-builder
+msgid "Attachment:"
+msgstr ""
+
+#: classes/main.php:127
+#: classes/main.php:909
+#@ zoom-builder
+msgid "Scroll"
+msgstr ""
+
+#: classes/main.php:128
+#: classes/main.php:909
+#@ zoom-builder
+msgid "Fixed"
+msgstr ""
+
+#: classes/main.php:129
+#: classes/main.php:917
+#@ zoom-builder
+msgid "Padding:"
+msgstr ""
+
+#: classes/main.php:130
+#: classes/main.php:933
+#@ zoom-builder
+msgid "Border"
+msgstr ""
+
+#: classes/main.php:131
+#: classes/main.php:946
+#@ zoom-builder
+msgid "Top:"
+msgstr ""
+
+#: classes/main.php:132
+#: classes/main.php:953
+#@ zoom-builder
+msgid "Left:"
+msgstr ""
+
+#: classes/main.php:133
+#: classes/main.php:960
+#@ zoom-builder
+msgid "Right:"
+msgstr ""
+
+#: classes/main.php:134
+#: classes/main.php:967
+#@ zoom-builder
+msgid "Bottom:"
+msgstr ""
+
+#: classes/main.php:135
+#: classes/main.php:939
+#@ zoom-builder
+msgid "Color"
+msgstr ""
+
+#: classes/main.php:136
+#: classes/main.php:938
+#@ zoom-builder
+msgid "Width"
+msgstr ""
+
+#: classes/main.php:137
+#: classes/main.php:940
+#@ zoom-builder
+msgid "Style"
+msgstr ""
+
+#: classes/main.php:138
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "None"
+msgstr ""
+
+#: classes/main.php:139
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Solid"
+msgstr ""
+
+#: classes/main.php:140
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Dotted"
+msgstr ""
+
+#: classes/main.php:141
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Dashed"
+msgstr ""
+
+#: classes/main.php:142
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Double"
+msgstr ""
+
+#: classes/main.php:143
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Groove"
+msgstr ""
+
+#: classes/main.php:144
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Ridge"
+msgstr ""
+
+#: classes/main.php:145
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Inset"
+msgstr ""
+
+#: classes/main.php:146
+#: classes/main.php:949
+#: classes/main.php:956
+#: classes/main.php:963
+#: classes/main.php:970
+#@ zoom-builder
+msgid "Outset"
+msgstr ""
+
+#: classes/main.php:147
+#: classes/main.php:941
+#@ zoom-builder
+msgid "Radius"
+msgstr ""
+
+#: classes/main.php:148
+#: classes/main.php:924
+#@ zoom-builder
+msgid "Margin:"
+msgstr ""
+
+#: classes/main.php:150
+#: classes/main.php:856
+#@ zoom-builder
+msgid "Divider"
+msgstr ""
+
+#: classes/main.php:152
+#: classes/main.php:917
+#: classes/main.php:924
+#: classes/main.php:938
+#: classes/main.php:939
+#: classes/main.php:940
+#: classes/main.php:941
+#@ zoom-builder
+msgid "Lock all sides to the same value"
+msgstr ""
+
+#: classes/main.php:153
+#: modules/media-slider/media-slider.php:586
+#: modules/media-slider/media-slider.php:623
+#@ zoom-builder
+msgid "Top"
+msgstr ""
+
+#: classes/main.php:156
+#: modules/media-slider/media-slider.php:585
+#: modules/media-slider/media-slider.php:624
+#@ zoom-builder
+msgid "Bottom"
+msgstr ""
+
+#: classes/main.php:157
+#@ zoom-builder
+msgid "Top Left"
+msgstr ""
+
+#: classes/main.php:158
+#@ zoom-builder
+msgid "Top Right"
+msgstr ""
+
+#: classes/main.php:159
+#@ zoom-builder
+msgid "Bottom Left"
+msgstr ""
+
+#: classes/main.php:160
+#@ zoom-builder
+msgid "Bottom Right"
+msgstr ""
+
+#: classes/main.php:161
+#: classes/main.php:877
+#@ zoom-builder
+msgid "Reset all group settings to default"
+msgstr ""
+
+#: classes/main.php:162
+#: classes/main.php:877
+#@ zoom-builder
+msgid "Group Settings Reset!"
+msgstr ""
+
+#: classes/main.php:163
+#: classes/main.php:878
+#: modules/pricing-table/pricing-table.php:143
+#: modules/pricing-table/pricing-table.php:312
+#@ zoom-builder
+msgid "Close"
+msgstr ""
+
+#: classes/main.php:165
+#@ zoom-builder
+msgid "Select a Background Image"
+msgstr ""
+
+#: classes/main.php:166
+#@ zoom-builder
+msgid "Use This Image"
+msgstr ""
+
+#: classes/main.php:168
+#@ zoom-builder
+msgid "Are you sure you want to reset this group&rsquo;s settings? All settings for this group will be reset to their default values if you proceed."
+msgstr ""
+
+#: classes/main.php:169
+#@ zoom-builder
+msgid "Are you sure you want to remove this group? All widgets and their settings in this group will be removed if you proceed."
+msgstr ""
+
+#: classes/main.php:170
+#@ zoom-builder
+msgid "Are you sure you want to remove this row? All widgets and their settings in this row will be removed if you proceed."
+msgstr ""
+
+#: classes/main.php:171
+#@ zoom-builder
+msgid "Are you sure you want to remove these columns? All widgets and their settings within these columns will be removed if you proceed."
+msgstr ""
+
+#: classes/main.php:173
+#: classes/main.php:507
+#@ zoom-builder
+msgid "Load Saved Layout"
+msgstr ""
+
+#: classes/main.php:174
+#@ zoom-builder
+msgid "Layout Loaded Successfully!"
+msgstr ""
+
+#: classes/main.php:175
+#@ zoom-builder
+msgid "Loading of the Selected Layout Failed!"
+msgstr ""
+
+#: classes/main.php:176
+#@ zoom-builder
+msgid ""
+"This will overwrite the current layout with the selected saved layout. This action cannot be undone!\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+
+#: classes/main.php:177
+#: classes/main.php:541
+#@ zoom-builder
+msgid "Save Current Layout"
+msgstr ""
+
+#: classes/main.php:178
+#@ zoom-builder
+msgid "Save"
+msgstr ""
+
+#: classes/main.php:179
+#@ zoom-builder
+msgid "Cancel"
+msgstr ""
+
+#: classes/main.php:180
+#@ zoom-builder
+msgid "A name is required to save this layout!"
+msgstr ""
+
+#: classes/main.php:181
+#@ zoom-builder
+msgid ""
+"A saved layout with that name already exists!\n"
+"\n"
+"Click &ldquo;OK&rdquo; to overwrite the existing layout, or &ldquo;Cancel&rdquo; to go back and choose another name."
+msgstr ""
+
+#: classes/main.php:182
+#@ zoom-builder
+msgid "Layout saved successfully!"
+msgstr ""
+
+#: classes/main.php:183
+#@ zoom-builder
+msgid "Layout save failed!"
+msgstr ""
+
+#: classes/main.php:186
+#: classes/main.php:873
+#@ zoom-builder
+msgid "Add New Row"
+msgstr ""
+
+#: classes/main.php:187
+#: classes/main.php:874
+#@ zoom-builder
+msgid "Add New Divider"
+msgstr ""
+
+#: classes/main.php:188
+#: classes/main.php:618
+#@ zoom-builder
+msgid "Clone"
+msgstr ""
+
+#: classes/main.php:453
+#: classes/settings.php:96
+#: classes/settings.php:116
+#: zoom-builder.php:289
+#@ zoom-builder
+msgid "ZOOM Builder"
+msgstr ""
+
+#: classes/main.php:472
+#@ zoom-builder
+msgid "JavaScript must be enabled to use this feature."
+msgstr ""
+
+#: classes/main.php:481
+#@ zoom-builder
+msgid "Available Widgets"
+msgstr ""
+
+#: classes/main.php:481
+#@ zoom-builder
+msgctxt "removing-widget"
+msgid "Deactivate"
+msgstr ""
+
+#: classes/main.php:487
+#@ zoom-builder
+msgid "Drag widgets from here to a column below to activate them."
+msgstr ""
+
+#: classes/main.php:517
+#@ zoom-builder
+msgid "No saved layouts&hellip;"
+msgstr ""
+
+#: classes/main.php:522
+#@ zoom-builder
+msgid "Predefined Layouts"
+msgstr ""
+
+#: classes/main.php:531
+#@ zoom-builder
+msgid "No predefined layouts&hellip;"
+msgstr ""
+
+#: classes/main.php:544
+#: modules/contact-form/contact-form.php:241
+#@ zoom-builder
+msgid "Name:"
+msgstr ""
+
+#: classes/main.php:544
+#@ zoom-builder
+msgid "* Required"
+msgstr ""
+
+#: classes/main.php:556
+#@ zoom-builder
+msgid "Add New Group"
+msgstr ""
+
+#: classes/main.php:593
+#, php-format
+#@ zoom-builder
+msgid "Select a group for <strong>%s</strong>: "
+msgstr ""
+
+#: classes/main.php:593
+#@ zoom-builder
+msgid "&mdash; Select Group &mdash;"
+msgstr ""
+
+#: classes/main.php:1002
+#@ zoom-builder
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: classes/settings.php:48
+#@ zoom-builder
+msgid "Enabled Modules"
+msgstr ""
+
+#: classes/settings.php:49
+#@ zoom-builder
+msgid "Builder-Enabled Post Types"
+msgstr ""
+
+#: classes/settings.php:50
+#@ zoom-builder
+msgid "Layout Position"
+msgstr ""
+
+#: classes/settings.php:51
+#@ zoom-builder
+msgid "Dark Theme"
+msgstr ""
+
+#: classes/settings.php:52
+#@ zoom-builder
+msgid "Exclude Widgets"
+msgstr ""
+
+#: classes/settings.php:53
+#@ zoom-builder
+msgid "Exclude Saved Layouts"
+msgstr ""
+
+#: classes/settings.php:74
+#@ zoom-builder
+msgid "Delete This Saved Layout (Cannot be undone!)"
+msgstr ""
+
+#: classes/settings.php:80
+#: classes/settings.php:257
+#: classes/settings.php:440
+#@ zoom-builder
+msgid "No saved layouts found&hellip;"
+msgstr ""
+
+#: classes/settings.php:82
+#@ zoom-builder
+msgid ""
+"You are about to delete this saved layout. This cannot be undone!\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+
+#: classes/settings.php:84
+#@ zoom-builder
+msgid "Working&hellip;"
+msgstr ""
+
+#: classes/settings.php:85
+#@ zoom-builder
+msgid ""
+"You are about to reset/delete all ZOOM Builder widgets!\n"
+"\n"
+"Are you sure you want to continue? THIS CANNOT BE UNDONE!"
+msgstr ""
+
+#: classes/settings.php:97
+#@ zoom-builder
+msgid "ZOOM Builder Settings"
+msgstr ""
+
+#: classes/settings.php:97
+#: classes/settings.php:337
+#: classes/settings.php:382
+#: zoom-builder.php:360
+#: zoom-builder.php:464
+#@ zoom-builder
+msgid "Settings"
+msgstr ""
+
+#: classes/settings.php:98
+#@ zoom-builder
+msgid "ZOOM Builder Saved Layouts"
+msgstr ""
+
+#: classes/settings.php:98
+#: classes/settings.php:381
+#@ zoom-builder
+msgid "Saved Layouts"
+msgstr ""
+
+#: classes/settings.php:101
+#@ zoom-builder
+msgid "ZOOM Builder License"
+msgstr ""
+
+#: classes/settings.php:101
+#: classes/settings.php:117
+#@ zoom-builder
+msgid "License"
+msgstr ""
+
+#: classes/settings.php:106
+#@ zoom-builder
+msgid "Reset ZOOM Builder Widgets"
+msgstr ""
+
+#: classes/settings.php:106
+#: classes/settings.php:518
+#@ zoom-builder
+msgid "Reset Widgets"
+msgstr ""
+
+#: classes/settings.php:117
+#@ zoom-builder
+msgid "ZOOM Builder License Settings"
+msgstr ""
+
+#: classes/settings.php:145
+#@ zoom-builder
+msgid "Select which modules will be enabled."
+msgstr ""
+
+#: classes/settings.php:164
+#@ zoom-builder
+msgid "Select which post types will have the layout builder enabled."
+msgstr ""
+
+#: classes/settings.php:171
+#@ zoom-builder
+msgid "Above"
+msgstr ""
+
+#: classes/settings.php:171
+#@ zoom-builder
+msgid "&mdash; Layout will be placed above/before any post content."
+msgstr ""
+
+#: classes/settings.php:172
+#@ zoom-builder
+msgid "Below"
+msgstr ""
+
+#: classes/settings.php:172
+#@ zoom-builder
+msgid "&mdash; Layout will be placed below/after any post content."
+msgstr ""
+
+#: classes/settings.php:173
+#@ zoom-builder
+msgid "Replace"
+msgstr ""
+
+#: classes/settings.php:173
+#@ zoom-builder
+msgid "&mdash; Layout will take the place of any post content (i.e. No post content will be visible)."
+msgstr ""
+
+#: classes/settings.php:176
+#@ zoom-builder
+msgid "Select where the layout will appear, in relation to the post content, on the frontend of the site."
+msgstr ""
+
+#: classes/settings.php:182
+#@ zoom-builder
+msgid "Use Dark Theme"
+msgstr ""
+
+#: classes/settings.php:183
+#@ zoom-builder
+msgid "Should builder layouts on the frontend use a dark theme? Useful if you&rsquo;re using a dark WordPress theme."
+msgstr ""
+
+#: classes/settings.php:200
+#@ zoom-builder
+msgid "WPZOOM:"
+msgstr ""
+
+#: classes/settings.php:203
+#@ zoom-builder
+msgid "Builder:"
+msgstr ""
+
+#: classes/settings.php:243
+#@ zoom-builder
+msgid "Select any widgets that should be excluded from being used in the layout builder."
+msgstr ""
+
+#: classes/settings.php:273
+#@ zoom-builder
+msgid "Select any saved layouts that should be excluded from being used in the layout builder."
+msgstr ""
+
+#: classes/settings.php:475
+#@ zoom-builder
+msgid "License settings"
+msgstr ""
+
+#: classes/settings.php:483
+#@ zoom-builder
+msgid "Insert ZOOM Builder license key here"
+msgstr ""
+
+#: classes/settings.php:493
+#@ zoom-builder
+msgid "<p>This product is currently <strong>active</strong> and you will recieve updates.</p>"
+msgstr ""
+
+#: classes/settings.php:494
+#@ zoom-builder
+msgid ""
+"<p>However, if you want to deactivate it there is a button for this, but pelase note,\n"
+"\t\t\t\t\t\tonce clicked, you will not be able to recieve further plugin updates.</p>"
+msgstr ""
+
+#: classes/settings.php:497
+#@ zoom-builder
+msgid "Deactivate product."
+msgstr ""
+
+#: classes/settings.php:499
+#@ zoom-builder
+msgid "Activate license"
+msgstr ""
+
+#: classes/settings.php:526
+#@ zoom-builder
+msgid "Reset All Widgets"
+msgstr ""
+
+#: classes/settings.php:526
+#@ zoom-builder
+msgid "CANNOT BE UNDONE!"
+msgstr ""
+
+#: classes/settings.php:527
+#@ zoom-builder
+msgid "This will reset/delete all widgets currently associated with the ZOOM Builder.<br/> <em>Can be useful when you&rsquo;re planning to deactivate and/or remove the ZOOM Builder plugin.</em><br/> <strong class=\"error-message\">CANNOT BE UNDONE!</strong><br /> <small class=\"howto\">This will <strong>not</strong> affect your regular WordPress theme widgets.</small>"
+msgstr ""
+
+#: classes/settings.php:586
+#@ zoom-builder
+msgid "All widgets successfully reset!"
+msgstr ""
+
+#: classes/settings.php:586
+#@ zoom-builder
+msgid "Resetting the widgets failed! <em class=\"nonessential\">(Maybe there are no widgets to reset?)</em>"
+msgstr ""
+
+#: classes/updater.php:122
+#@ zoom-builder
+msgid "WPZOOM API Request Error. Please contact customer support if the problem persists."
+msgstr ""
+
+#: classes/updater.php:132
+#@ zoom-builder
+msgid "There was an error while making request, please try again in a few seconds."
+msgstr ""
+
+#: classes/updater.php:147
+#@ zoom-builder
+msgid "No license key provided! Go and grab your license key from WPZOOM Members area."
+msgstr ""
+
+#: classes/updater.php:186
+#@ zoom-builder
+msgid "Product activated successfully."
+msgstr ""
+
+#: classes/updater.php:189
+#@ zoom-builder
+msgid "There was an error during product activation."
+msgstr ""
+
+#: classes/updater.php:220
+#, php-format
+#@ zoom-builder
+msgid "<b>In order to recieve updates for ZOOM Builder plugin you need to</b> %sactivate your license%s first."
+msgstr ""
+
+#: classes/updater.php:220
+#@ zoom-builder
+msgid "Dismiss"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:13
+#@ zoom-builder
+msgid "Call to Action"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:15
+#@ zoom-builder
+msgid "A call to action widget with title, description, and linkable button."
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:146
+#@ zoom-builder
+msgid "Button on the right"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:147
+#@ zoom-builder
+msgid "Right button"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:154
+#@ zoom-builder
+msgid "Button on the left"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:155
+#@ zoom-builder
+msgid "Left button"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:162
+#@ zoom-builder
+msgid "Centered"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:163
+#@ zoom-builder
+msgid "Center button"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:170
+#@ zoom-builder
+msgid "Centered with button at the top"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:171
+#@ zoom-builder
+msgid "Top button"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:178
+#@ zoom-builder
+msgid "Two buttons centered"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:179
+#@ zoom-builder
+msgid "Two buttons"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:193
+#@ zoom-builder
+msgid "Headline:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:198
+#@ zoom-builder
+msgid "Content:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:203
+#: modules/feature-box/feature-box.php:118
+#@ zoom-builder
+msgid "Text Align:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:214
+#@ zoom-builder
+msgid "Button"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:216
+#: modules/call-to-action/call-to-action.php:249
+#@ zoom-builder
+msgid "Label:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:221
+#: modules/call-to-action/call-to-action.php:254
+#@ zoom-builder
+msgid "URL:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:226
+#: modules/call-to-action/call-to-action.php:259
+#@ zoom-builder
+msgid "Text Color:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:231
+#: modules/call-to-action/call-to-action.php:264
+#@ zoom-builder
+msgid "Background Color:"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:237
+#@ zoom-builder
+msgid "Separator"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:241
+#@ zoom-builder
+msgid "Separator between buttons"
+msgstr ""
+
+#: modules/call-to-action/call-to-action.php:247
+#@ zoom-builder
+msgid "Button #2"
+msgstr ""
+
+#: modules/clients/clients.php:14
+#@ zoom-builder
+msgid "Clients"
+msgstr ""
+
+#: modules/clients/clients.php:16
+#@ zoom-builder
+msgid "A sliding list of clients and/or partners from the clients custom post type."
+msgstr ""
+
+#: modules/clients/clients.php:64
+#: modules/posts/posts.php:90
+#: modules/testimonials/testimonials.php:106
+#@ zoom-builder
+msgid "No posts to display&hellip;"
+msgstr ""
+
+#: modules/clients/clients.php:94
+#@ zoom-builder
+msgid "Valuble Clients"
+msgstr ""
+
+#: modules/clients/clients.php:98
+#: modules/contact-form/contact-form.php:181
+#: modules/posts/posts.php:130
+#: modules/pricing-table/pricing-table.php:73
+#: modules/wysiwyg/wysiwyg.php:92
+#@ zoom-builder
+msgid "Title:"
+msgstr ""
+
+#: modules/clients/clients.php:103
+#: modules/posts/posts.php:155
+#@ zoom-builder
+msgid "Show:"
+msgstr ""
+
+#: modules/clients/clients.php:104
+#: modules/posts/posts.php:156
+#: modules/posts/posts.php:161
+#@ zoom-builder
+msgid "posts"
+msgstr ""
+
+#: modules/clients/clients.php:109
+#@ zoom-builder
+msgid "Show random clients"
+msgstr ""
+
+#: modules/clients/clients.php:130
+#@ zoom-builder
+msgctxt "post type general name"
+msgid "Clients"
+msgstr ""
+
+#: modules/clients/clients.php:131
+#@ zoom-builder
+msgctxt "post type singular name"
+msgid "Client"
+msgstr ""
+
+#: modules/clients/clients.php:132
+#@ zoom-builder
+msgctxt "client item"
+msgid "Add a New Client"
+msgstr ""
+
+#: modules/clients/clients.php:133
+#@ zoom-builder
+msgid "Add New Client"
+msgstr ""
+
+#: modules/clients/clients.php:134
+#@ zoom-builder
+msgid "Edit Client"
+msgstr ""
+
+#: modules/clients/clients.php:135
+#@ zoom-builder
+msgid "New Client"
+msgstr ""
+
+#: modules/clients/clients.php:136
+#@ zoom-builder
+msgid "View Client"
+msgstr ""
+
+#: modules/clients/clients.php:137
+#@ zoom-builder
+msgid "Search Clients"
+msgstr ""
+
+#: modules/clients/clients.php:138
+#: modules/media-slider/media-slider.php:680
+#: modules/team/team.php:221
+#: modules/testimonials/testimonials.php:205
+#@ zoom-builder
+msgid "Nothing found"
+msgstr ""
+
+#: modules/clients/clients.php:139
+#: modules/media-slider/media-slider.php:681
+#: modules/team/team.php:222
+#: modules/testimonials/testimonials.php:206
+#@ zoom-builder
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: modules/clients/clients.php:161
+#@ zoom-builder
+msgid "Enter the Company's name here"
+msgstr ""
+
+#: modules/clients/clients.php:188
+#@ zoom-builder
+msgid "Client URL</strong> (optional)"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:13
+#: modules/contact-form/contact-form.php:166
+#@ zoom-builder
+msgid "Contact Form"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:15
+#@ zoom-builder
+msgid "A simple contact form widget."
+msgstr ""
+
+#: modules/contact-form/contact-form.php:30
+#@ zoom-builder
+msgid "Successfully sent!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:30
+#@ zoom-builder
+msgid "Sending failed!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:88
+#@ zoom-builder
+msgid "No options&hellip;"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:168
+#@ zoom-builder
+msgid "Send"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:171
+#: modules/contact-form/contact-form.php:265
+#@ zoom-builder
+msgid "Name"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:172
+#: modules/contact-form/contact-form.php:251
+#@ zoom-builder
+msgid "Email"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:173
+#@ zoom-builder
+msgid "Subject"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:174
+#@ zoom-builder
+msgid "Message"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:186
+#@ zoom-builder
+msgid "Send Form To:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:188
+#@ zoom-builder
+msgid "Separate multiple recipients with newlines"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:192
+#@ zoom-builder
+msgid "Submit Button Label:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:197
+#@ zoom-builder
+msgid "Use Akismet for Spam Prevention"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:198
+#, php-format
+#@ zoom-builder
+msgid "You must have the <a href=\"%s\" title=\"Install Akismet Plugin\" class=\"thickbox\">Akismet plugin</a> installed and activated"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:202
+#@ zoom-builder
+msgid "Fields:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:235
+#@ zoom-builder
+msgid "Move This Field Up One"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:236
+#@ zoom-builder
+msgid "Move This Field Down One"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:237
+#@ zoom-builder
+msgid "Remove This Field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:242
+#@ zoom-builder
+msgid "The name of the field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:247
+#: modules/media-slider/media-slider.php:850
+#@ zoom-builder
+msgid "Type:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:248
+#@ zoom-builder
+msgid "The type of field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:250
+#@ zoom-builder
+msgid "Text"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:252
+#@ zoom-builder
+msgid "Checkbox"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:253
+#@ zoom-builder
+msgid "Radio"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:254
+#@ zoom-builder
+msgid "Textarea"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:255
+#@ zoom-builder
+msgid "Select"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:260
+#@ zoom-builder
+msgid "Options:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:260
+#@ zoom-builder
+msgid "The available options"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:266
+#@ zoom-builder
+msgid "Selected"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:266
+#@ zoom-builder
+msgid "Sel."
+msgstr ""
+
+#: modules/contact-form/contact-form.php:267
+#: modules/contact-form/contact-form.php:309
+#@ zoom-builder
+msgid "Required"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:267
+#@ zoom-builder
+msgid "Req."
+msgstr ""
+
+#: modules/contact-form/contact-form.php:268
+#: modules/pricing-table/pricing-table.php:142
+#: modules/pricing-table/pricing-table.php:311
+#@ zoom-builder
+msgid "Delete"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:268
+#@ zoom-builder
+msgid "Del."
+msgstr ""
+
+#: modules/contact-form/contact-form.php:291
+#@ zoom-builder
+msgid "Add New Option"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:298
+#@ zoom-builder
+msgid "Multiple"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:299
+#@ zoom-builder
+msgid "Are multiple selections allowed?"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:303
+#@ zoom-builder
+msgid "Starting Value:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:304
+#@ zoom-builder
+msgid "The initial value <em>(if any)</em> of the field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:310
+#@ zoom-builder
+msgid "Is this a required field?"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:314
+#@ zoom-builder
+msgid "Advanced"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:318
+#@ zoom-builder
+msgid "Show Input Label"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:319
+#@ zoom-builder
+msgid "Should the label for this field be displayed?"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:323
+#@ zoom-builder
+msgid "Placeholder:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:324
+#@ zoom-builder
+msgid "The placeholder text of the field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:329
+#@ zoom-builder
+msgid "Minimum Length:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:334
+#@ zoom-builder
+msgid "Maximum Length:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:341
+#@ zoom-builder
+msgid "CSS Classes:"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:342
+#@ zoom-builder
+msgid "Additional custom CSS classes that will be added to this field <em>[Separate multiple classes with spaces]</em>"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:343
+#@ zoom-builder
+msgid "e.g. &quot;special-class another&quot;"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:359
+#@ zoom-builder
+msgid "Add New Field"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:397
+#@ zoom-builder
+msgid "This field is required!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:398
+#@ zoom-builder
+msgid "This option must be selected!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:399
+#, php-format
+#@ zoom-builder
+msgid "This field requires the &ldquo;%s&rdquo; option to be selected!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:400
+#, php-format
+#@ zoom-builder
+msgid "This field requires at least %d characters!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:401
+#, php-format
+#@ zoom-builder
+msgid "This field can have no more than %d characters!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:402
+#@ zoom-builder
+msgid "A valid email address is required!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:403
+#@ zoom-builder
+msgid "Sending&hellip;"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:404
+#@ zoom-builder
+msgid "Sent!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:405
+#@ zoom-builder
+msgid "Failed!"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:506
+#@ zoom-builder
+msgid "[EMPTY]"
+msgstr ""
+
+#: modules/contact-form/contact-form.php:514
+#, php-format
+#@ zoom-builder
+msgid ""
+"Form Fields:\n"
+"-----\n"
+"\n"
+"%s"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:14
+#@ zoom-builder
+msgid "Feature"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:108
+#@ zoom-builder
+msgid "Feature Title:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:113
+#@ zoom-builder
+msgid "Feature Description:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:134
+#@ zoom-builder
+msgid "Icon"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:135
+#: modules/media-slider/media-slider.php:850
+#@ zoom-builder
+msgid "Image"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:143
+#@ zoom-builder
+msgid "Select an icon"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:157
+#@ zoom-builder
+msgid "Icon Color:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:163
+#@ zoom-builder
+msgid "Background:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:168
+#@ zoom-builder
+msgid "Roundness:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:174
+#@ zoom-builder
+msgid "Width:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:180
+#@ zoom-builder
+msgid "Icon Size:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:188
+#@ zoom-builder
+msgid "Preview"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:197
+#@ zoom-builder
+msgid "Upload an image or icon:"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:197
+#@ zoom-builder
+msgid "Upload"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:287
+#@ zoom-builder
+msgid "Feature Icon"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:289
+#@ zoom-builder
+msgid "Use this icon"
+msgstr ""
+
+#: modules/feature-box/feature-box.php:308
+#@ zoom-builder
+msgid "You can't use this type of file as image."
+msgstr ""
+
+#: modules/media-slider/media-slider.php:14
+#@ zoom-builder
+msgid "Media Slider"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:16
+#@ zoom-builder
+msgid "A slider widget that displays media attached to a specified post from the Slideshow custom post type."
+msgstr ""
+
+#: modules/media-slider/media-slider.php:442
+#@ zoom-builder
+msgid "No slideshow images found for selected post."
+msgstr ""
+
+#: modules/media-slider/media-slider.php:448
+#@ zoom-builder
+msgid "Invalid slideshow post selected."
+msgstr ""
+
+#: modules/media-slider/media-slider.php:502
+#@ zoom-builder
+msgid "Slideshow Title"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:508
+#@ zoom-builder
+msgid "Show Slideshow Title?"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:513
+#@ zoom-builder
+msgid "Select a Skin"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:520
+#@ zoom-builder
+msgid "Full width with thumbnails"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:521
+#@ zoom-builder
+msgid "Full-width"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:528
+#@ zoom-builder
+msgid "Full-width with caption"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:529
+#@ zoom-builder
+msgid "Full-width (2)"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:536
+#@ zoom-builder
+msgid "Caption on the right"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:537
+#@ zoom-builder
+msgid "Side by side"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:544
+#: modules/media-slider/media-slider.php:545
+#@ zoom-builder
+msgid "Carousel"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:556
+#@ zoom-builder
+msgid "Content Settings"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:559
+#@ zoom-builder
+msgid "Select a Post"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:561
+#@ zoom-builder
+msgid "&mdash; Select a Post &mdash;"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:568
+#, php-format
+#@ zoom-builder
+msgid "Select which post from <a href=\"%s\">Slideshow posts</a> will be displayed in this slider"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:573
+#: modules/media-slider/media-slider.php:582
+#@ zoom-builder
+msgid "Caption Position"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:575
+#: modules/media-slider/media-slider.php:584
+#: modules/media-slider/media-slider.php:612
+#: modules/media-slider/media-slider.php:622
+#@ zoom-builder
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:593
+#@ zoom-builder
+msgid "Text Align"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:607
+#@ zoom-builder
+msgid "Slideshow Settings"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:610
+#@ zoom-builder
+msgid "Navigation Type"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:613
+#@ zoom-builder
+msgid "Thumbnails"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:614
+#@ zoom-builder
+msgid "Tabs"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:615
+#@ zoom-builder
+msgid "Bullets"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:620
+#@ zoom-builder
+msgid "Navigation Position"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:629
+#@ zoom-builder
+msgid "Thumbnail Size"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:637
+#@ zoom-builder
+msgid "Autoplay Slider"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:641
+#@ zoom-builder
+msgid "Autoplay Interval"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:646
+#@ zoom-builder
+msgid "Slideshow Effect"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:648
+#@ zoom-builder
+msgid "Fade"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:649
+#@ zoom-builder
+msgid "Slide"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:672
+#@ zoom-builder
+msgctxt "post type general name"
+msgid "Slideshow"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:673
+#@ zoom-builder
+msgctxt "post type singular name"
+msgid "Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:674
+#@ zoom-builder
+msgctxt "slideshow item"
+msgid "Add a New Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:675
+#@ zoom-builder
+msgid "Add New Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:676
+#@ zoom-builder
+msgid "Edit Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:677
+#@ zoom-builder
+msgid "New Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:678
+#@ zoom-builder
+msgid "View Slideshow Item"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:679
+#@ zoom-builder
+msgid "Search Slideshow"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:822
+#@ zoom-builder
+msgid "Upload Images or Embed Videos"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:846
+#@ zoom-builder
+msgid "Click and drag to reorder this slide"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:847
+#@ zoom-builder
+msgid "Click to remove this slide"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:850
+#@ zoom-builder
+msgid "Video"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:855
+#@ zoom-builder
+msgid "Paste embed code here..."
+msgstr ""
+
+#: modules/media-slider/media-slider.php:859
+#@ zoom-builder
+msgid "Choose Image"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:860
+#@ zoom-builder
+msgid "Remove Image"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:864
+#@ zoom-builder
+msgid "Enter title"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:865
+#@ zoom-builder
+msgid "Enter slide URL"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:866
+#@ zoom-builder
+msgid "Enter description (HTML allowed)&hellip;"
+msgstr ""
+
+#: modules/media-slider/media-slider.php:871
+#@ zoom-builder
+msgid "+ Add Slide"
+msgstr ""
+
+#: modules/posts/posts.php:13
+#@ zoom-builder
+msgid "Posts"
+msgstr ""
+
+#: modules/posts/posts.php:15
+#@ zoom-builder
+msgid "Display posts, optionally filter by category."
+msgstr ""
+
+#: modules/posts/posts.php:74
+#@ zoom-builder
+msgid "0 comments"
+msgstr ""
+
+#: modules/posts/posts.php:74
+#@ zoom-builder
+msgid "1 comment"
+msgstr ""
+
+#: modules/posts/posts.php:74
+#@ zoom-builder
+msgid "% comments"
+msgstr ""
+
+#: modules/posts/posts.php:74
+#@ zoom-builder
+msgid "Comments are Disabled"
+msgstr ""
+
+#: modules/posts/posts.php:135
+#@ zoom-builder
+msgid "Category:"
+msgstr ""
+
+#: modules/posts/posts.php:137
+#@ zoom-builder
+msgid "All"
+msgstr ""
+
+#: modules/posts/posts.php:160
+#@ zoom-builder
+msgid "Offset:"
+msgstr ""
+
+#: modules/posts/posts.php:166
+#@ zoom-builder
+msgid "Hide post title"
+msgstr ""
+
+#: modules/posts/posts.php:171
+#@ zoom-builder
+msgid "Display post date"
+msgstr ""
+
+#: modules/posts/posts.php:176
+#@ zoom-builder
+msgid "Display post thumbnail"
+msgstr ""
+
+#: modules/posts/posts.php:181
+#@ zoom-builder
+msgid "Display number of comments"
+msgstr ""
+
+#: modules/posts/posts.php:189
+#@ zoom-builder
+msgid "Thumbnail size"
+msgstr ""
+
+#: modules/posts/posts.php:197
+#@ zoom-builder
+msgid "Display post excerpt"
+msgstr ""
+
+#: modules/posts/posts.php:201
+#@ zoom-builder
+msgid "Excerpt character limit:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:13
+#@ zoom-builder
+msgid "Pricing Table"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:15
+#@ zoom-builder
+msgid "Create Pricing Tables easily."
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:74
+#@ zoom-builder
+msgid "Pricing Plans"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:78
+#: modules/pricing-table/pricing-table.php:243
+#@ zoom-builder
+msgid "No pricing plan&hellip;"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:99
+#, php-format
+#@ zoom-builder
+msgid "Pricing Plan #%d"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:104
+#: modules/pricing-table/pricing-table.php:274
+#@ zoom-builder
+msgid "Plan Name:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:109
+#: modules/pricing-table/pricing-table.php:279
+#@ zoom-builder
+msgid "Plan Color:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:114
+#: modules/pricing-table/pricing-table.php:284
+#@ zoom-builder
+msgid "Price:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:119
+#: modules/pricing-table/pricing-table.php:289
+#@ zoom-builder
+msgid "Price Title:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:124
+#: modules/pricing-table/pricing-table.php:294
+#@ zoom-builder
+msgid "Features:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:131
+#: modules/pricing-table/pricing-table.php:300
+#@ zoom-builder
+msgid "Button Text:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:136
+#: modules/pricing-table/pricing-table.php:305
+#@ zoom-builder
+msgid "Button URL:"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:152
+#@ zoom-builder
+msgid "+ Add a new plan"
+msgstr ""
+
+#: modules/pricing-table/pricing-table.php:246
+#: modules/pricing-table/pricing-table.php:269
+#@ zoom-builder
+msgid "Pricing Plan #"
+msgstr ""
+
+#: modules/team/team.php:14
+#@ zoom-builder
+msgid "Team Members"
+msgstr ""
+
+#: modules/team/team.php:16
+#@ zoom-builder
+msgid "Displays a specified amount of team members from the team custom post type."
+msgstr ""
+
+#: modules/team/team.php:101
+#@ zoom-builder
+msgid "Follow me"
+msgstr ""
+
+#: modules/team/team.php:149
+#@ zoom-builder
+msgid "The Team"
+msgstr ""
+
+#: modules/team/team.php:153
+#: modules/testimonials/testimonials.php:142
+#@ zoom-builder
+msgid "Widget Title:"
+msgstr ""
+
+#: modules/team/team.php:159
+#@ zoom-builder
+msgid "Display member photo"
+msgstr ""
+
+#: modules/team/team.php:164
+#@ zoom-builder
+msgid "Display member name"
+msgstr ""
+
+#: modules/team/team.php:169
+#@ zoom-builder
+msgid "Display member role"
+msgstr ""
+
+#: modules/team/team.php:174
+#@ zoom-builder
+msgid "Display member company"
+msgstr ""
+
+#: modules/team/team.php:179
+#@ zoom-builder
+msgid "Link company to member URL"
+msgstr ""
+
+#: modules/team/team.php:184
+#@ zoom-builder
+msgid "Display Twitter Icon"
+msgstr ""
+
+#: modules/team/team.php:188
+#@ zoom-builder
+msgid "Number of Members to Show"
+msgstr ""
+
+#: modules/team/team.php:194
+#@ zoom-builder
+msgid "Show Random Members"
+msgstr ""
+
+#: modules/team/team.php:213
+#@ zoom-builder
+msgctxt "post type general name"
+msgid "Team"
+msgstr ""
+
+#: modules/team/team.php:214
+#@ zoom-builder
+msgctxt "post type singular name"
+msgid "Member"
+msgstr ""
+
+#: modules/team/team.php:215
+#@ zoom-builder
+msgctxt "member item"
+msgid "Add a New Member"
+msgstr ""
+
+#: modules/team/team.php:216
+#@ zoom-builder
+msgid "Add New Member"
+msgstr ""
+
+#: modules/team/team.php:217
+#@ zoom-builder
+msgid "Edit Member"
+msgstr ""
+
+#: modules/team/team.php:218
+#@ zoom-builder
+msgid "New Member"
+msgstr ""
+
+#: modules/team/team.php:219
+#@ zoom-builder
+msgid "View Member"
+msgstr ""
+
+#: modules/team/team.php:220
+#@ zoom-builder
+msgid "Search Members"
+msgstr ""
+
+#: modules/team/team.php:244
+#@ zoom-builder
+msgid "Enter the team member's name here"
+msgstr ""
+
+#: modules/team/team.php:268
+#@ zoom-builder
+msgid "Gravatar Email Address"
+msgstr ""
+
+#: modules/team/team.php:270
+#@ zoom-builder
+msgid "If member doesn&rsquo;t have a <a href=\"http://en.gravatar.com/\">Gravatar</a>, upload a &ldquo;Featured Image&rdquo;."
+msgstr ""
+
+#: modules/team/team.php:274
+#@ zoom-builder
+msgid "Company Name"
+msgstr ""
+
+#: modules/team/team.php:276
+#@ zoom-builder
+msgid "Example: <strong>WPZOOM</strong>"
+msgstr ""
+
+#: modules/team/team.php:280
+#@ zoom-builder
+msgid "Role"
+msgstr ""
+
+#: modules/team/team.php:282
+#@ zoom-builder
+msgid "Example: <strong>CEO &amp; Founder</strong>"
+msgstr ""
+
+#: modules/team/team.php:286
+#@ zoom-builder
+msgid "URL"
+msgstr ""
+
+#: modules/team/team.php:288
+#@ zoom-builder
+msgid "Example: <strong>http://www.wpzoom.com</strong>"
+msgstr ""
+
+#: modules/team/team.php:292
+#@ zoom-builder
+msgid "Twitter Username:"
+msgstr ""
+
+#: modules/team/team.php:294
+#@ zoom-builder
+msgid "Example: <strong>wpzoom</strong>"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:14
+#: modules/testimonials/testimonials.php:138
+#@ zoom-builder
+msgid "Testimonials"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:16
+#@ zoom-builder
+msgid "Displays a specified amount of posts from the testimonial custom post type."
+msgstr ""
+
+#: modules/testimonials/testimonials.php:148
+#@ zoom-builder
+msgid "Display author photo"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:153
+#@ zoom-builder
+msgid "Display author name"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:158
+#@ zoom-builder
+msgid "Display author position"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:163
+#@ zoom-builder
+msgid "Display author company"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:168
+#@ zoom-builder
+msgid "Link author company"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:172
+#@ zoom-builder
+msgid "Number of Testimonials to Show:"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:178
+#@ zoom-builder
+msgid "Show Random Testimonials"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:197
+#@ zoom-builder
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:198
+#@ zoom-builder
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:199
+#@ zoom-builder
+msgctxt "testimonial item"
+msgid "Add a New Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:200
+#@ zoom-builder
+msgid "Add New Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:201
+#@ zoom-builder
+msgid "Edit Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:202
+#@ zoom-builder
+msgid "New Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:203
+#@ zoom-builder
+msgid "View Testimonial"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:204
+#@ zoom-builder
+msgid "Search Testimonials"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:229
+#@ zoom-builder
+msgid "Enter the author's name here"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:255
+#@ zoom-builder
+msgid "Author Company"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:257
+#@ zoom-builder
+msgid "Example: WPZOOM"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:261
+#@ zoom-builder
+msgid "Author Position"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:263
+#@ zoom-builder
+msgid "Example: CEO &amp; Founder"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:267
+#@ zoom-builder
+msgid "Author Company URL"
+msgstr ""
+
+#: modules/testimonials/testimonials.php:269
+#@ zoom-builder
+msgid "Example: http://www.wpzoom.com"
+msgstr ""
+
+#: modules/wysiwyg/wysiwyg.php:13
+#@ zoom-builder
+msgid "WYSIWYG"
+msgstr ""
+
+#: modules/wysiwyg/wysiwyg.php:15
+#@ zoom-builder
+msgid "Arbitrary text or HTML with visual editor"
+msgstr ""
+
+#: zoom-builder.php:199
+#@ zoom-builder
+msgid "Welcome to ZOOM Builder"
+msgstr ""
+
+#: zoom-builder.php:289
+#@ zoom-builder
+msgid "This is the main ZOOM Builder interface. Here you can create groups, rows within those groups, and columns within those rows. Inside these columns is where you can place any widgets you would like. You can also resize columns and change some basic styles associated with each group. The interface is designed to be as user-friendly as possible."
+msgstr ""
+
+#: zoom-builder.php:290
+#@ zoom-builder
+msgid "Loading &amp; Saving Layouts"
+msgstr ""
+
+#: zoom-builder.php:290
+#@ zoom-builder
+msgid "You can also load previously saved layouts to overwrite the current layout. This could be useful if you want to have a similar layout to one you have made before. You can even save the current layout so that you may use it later."
+msgstr ""
+
+#: zoom-builder.php:291
+#@ zoom-builder
+msgid "Automatic Saving"
+msgstr ""
+
+#: zoom-builder.php:291
+#@ zoom-builder
+msgid "When you add/change groups, rows, and columns, and also when you move widgets, the changes are automatically saved. So you can immediately view changes on the frontend of your site by simply browsing to or refreshing the associated page on the frontend. No need to manually save the page!"
+msgstr ""
+
+#: zoom-builder.php:292
+#@ zoom-builder
+msgid "Plugin Settings"
+msgstr ""
+
+#: zoom-builder.php:292
+#@ zoom-builder
+msgid "Go here to view and modify the various plugin settings like: which post types have the builder enabled, any modules you want to be available for use with the plugin, and more&hellip;"
+msgstr ""
+
+#: zoom-builder.php:293
+#: zoom-builder.php:294
+#@ zoom-builder
+msgid "ZOOM Builder Tour"
+msgstr ""
+
+#: zoom-builder.php:293
+#@ zoom-builder
+msgid "Want to take a quick tour of a couple of the great features the ZOOM Builder has to offer? Just click &ldquo;<em>Start Tour</em>&rdquo; to get started&hellip;"
+msgstr ""
+
+#: zoom-builder.php:294
+#@ zoom-builder
+msgid "There are many more features available, so feel free to play around and try some things out yourself. Now go have fun building some interesting layouts with the ZOOM Builder!"
+msgstr ""
+
+#: zoom-builder.php:340
+#@ zoom-builder
+msgid "Start Tour"
+msgstr ""
+
+#: zoom-builder.php:341
+#@ zoom-builder
+msgid "Skip Tour"
+msgstr ""
+
+#: zoom-builder.php:342
+#@ zoom-builder
+msgid "End Tour"
+msgstr ""
+
+#: zoom-builder.php:343
+#@ zoom-builder
+msgid "Next"
+msgstr ""
+
+#: zoom-builder.php:355
+#@ zoom-builder
+msgid "Welcome to <strong>ZOOM Builder</strong>"
+msgstr ""
+
+#: zoom-builder.php:358
+#@ zoom-builder
+msgid "Thank you for installing ZOOM Builder, the feature-rich easy-to-use page layout builder plugin for WordPress, from <a href=\"http://wpzoom.com\" target=\"_blank\">WPZOOM</a>."
+msgstr ""
+
+#: zoom-builder.php:361
+#@ zoom-builder
+msgid "Documentation"
+msgstr ""
+
+#: zoom-builder.php:367
+#, php-format
+#@ zoom-builder
+msgid "Version %s"
+msgstr ""
+
+#: zoom-builder.php:372
+#@ default
+msgid "Drag & Drop Page Layout Builder"
+msgstr ""
+
+#: zoom-builder.php:377
+#@ default
+msgid "Style Customizer"
+msgstr ""
+
+#: zoom-builder.php:378
+#@ default
+msgid "Want a section of your layout to have different styles than everything else? No problem. Just use the group styles options to style it how you would like."
+msgstr ""
+
+#: zoom-builder.php:382
+#@ default
+msgid "Easy to Use for Everyone!"
+msgstr ""
+
+#: zoom-builder.php:383
+#@ default
+msgid "An intuitive design makes the ZOOM Builder easy to use for anyone! With several ways of placing widgets, you can find your preferred way to use the ZOOM Builder interface."
+msgstr ""
+
+#: zoom-builder.php:387
+#@ default
+msgid "Layout Import/Export"
+msgstr ""
+
+#: zoom-builder.php:388
+#@ default
+msgid "The ZOOM Builder comes with 10 unique premade layouts ready for use. Simply select any of them from the load layout dropdown in the builder interface."
+msgstr ""
+
+#: zoom-builder.php:398
+#@ default
+msgid "Works with any Theme and Widget"
+msgstr ""
+
+#: zoom-builder.php:399
+#@ default
+msgid "The ZOOM Builder has been tested with many popular themes and theme frameworks to ensure that you can use its advanced functionality no matter which WordPress theme you may use."
+msgstr ""
+
+#: zoom-builder.php:401
+#@ default
+msgid "Are you ready to take your site to the next level?"
+msgstr ""
+
+#: zoom-builder.php:402
+#@ default
+msgid "Supercharge your site with ZOOM Builder today!"
+msgstr ""
+
+#: zoom-builder.php:413
+#@ zoom-builder
+msgid "Go to ZOOM Builder settings"
+msgstr ""
+
+#: zoom-builder.php:414
+#@ default
+msgid "or"
+msgstr ""
+
+#: zoom-builder.php:415
+#@ zoom-builder
+msgid "Create a New Page"
+msgstr ""
+
+#: zoom-builder.php:464
+#@ zoom-builder
+msgid "The plugin settings"
+msgstr ""
+
+#: modules/wysiwyg/wysiwyg.php:96
+#@ zoom-builder
+msgid "HTML"
+msgstr ""
+
+#: modules/wysiwyg/wysiwyg.php:97
+#@ zoom-builder
+msgid " Visual"
+msgstr ""
+
+#: classes/main.php:107
+#: classes/main.php:784
+#@ zoom-builder
+msgid "Amount of Columns"
+msgstr ""
+
+#: classes/settings.php:76
+#@ zoom-builder
+msgid "Save Changes"
+msgstr ""
+
+#: classes/settings.php:77
+#: classes/settings.php:419
+#@ zoom-builder
+msgid "Import&hellip;"
+msgstr ""
+
+#: classes/settings.php:78
+#: classes/settings.php:456
+#@ zoom-builder
+msgid "Export&hellip;"
+msgstr ""
+
+#: classes/settings.php:338
+#@ zoom-builder
+msgid "General"
+msgstr ""
+
+#: classes/settings.php:339
+#@ zoom-builder
+msgid "Widgets"
+msgstr ""
+
+#: classes/settings.php:340
+#@ zoom-builder
+msgid "Frontend"
+msgstr ""
+
+#: classes/settings.php:383
+#@ zoom-builder
+msgid "Import"
+msgstr ""
+
+#: classes/settings.php:384
+#@ zoom-builder
+msgid "Export"
+msgstr ""
+
+#: classes/settings.php:407
+#@ zoom-builder
+msgid "Import Saved Layout"
+msgstr ""
+
+#: classes/settings.php:408
+#@ zoom-builder
+msgid "Choose a saved layout file from your computer to import:"
+msgstr ""
+
+#: classes/settings.php:413
+#, php-format
+#@ zoom-builder
+msgid "Maximum upload file size: <strong class=\"black\">%d%s</strong>"
+msgstr ""
+
+#: classes/settings.php:415
+#@ zoom-builder
+msgid "Allowed file types: <strong class=\"black\">.JSON</strong>"
+msgstr ""
+
+#: classes/settings.php:431
+#@ zoom-builder
+msgid "Export Saved Layout"
+msgstr ""
+
+#: classes/settings.php:432
+#@ zoom-builder
+msgid "Choose a saved layout below to export:"
+msgstr ""
+
+#: classes/settings.php:629
+#: classes/settings.php:679
+#@ zoom-builder
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: classes/settings.php:641
+#@ zoom-builder
+msgid "An invalid ZOOM Builder saved layout file was given&hellip; Import failed!"
+msgstr ""
+
+#: classes/settings.php:652
+#@ zoom-builder
+msgid "The given ZOOM Builder saved layout file has an invalid name or a layout with that name already exists&hellip; Import failed!"
+msgstr ""
+
+#: classes/settings.php:662
+#@ zoom-builder
+msgid "The given ZOOM Builder saved layout was successfully imported!"
+msgstr ""
+
+#: classes/settings.php:686
+#@ zoom-builder
+msgid "The given ZOOM Builder saved layout does not exist&hellip; Export failed!"
+msgstr ""
+

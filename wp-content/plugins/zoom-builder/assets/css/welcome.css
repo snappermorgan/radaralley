@@ -1,0 +1,26 @@
+.about-wrap > h1 > strong {
+	color: #0074a2
+}
+
+.about-wrap > .about-text {
+	min-height: 105px
+}
+
+.about-wrap > .about-text p {
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	padding: 0;
+	margin: 0
+}
+
+.about-wrap > .about-text p.buttons {
+	margin-top: 15px
+}
+
+.about-wrap .wp-badge {
+	color: #9eaccc;
+	background-color: #1d2d46;
+	background-image: url('../images/builder-welcome.png');
+	background-repeat: no-repeat
+}

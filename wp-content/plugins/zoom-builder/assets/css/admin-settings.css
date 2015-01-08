@@ -1,0 +1,165 @@
+@-moz-keyframes pulse { 0% { -moz-transform: scale(1) } 50% { -moz-transform: scale(1.1) } 100% { -moz-transform: scale(1) } }
+@-webkit-keyframes pulse { 0% { -webkit-transform: scale(1) } 50% { -webkit-transform: scale(1.1) } 100% { -webkit-transform: scale(1) } }
+@keyframes pulse { 0% { transform: scale(1) } 50% { transform: scale(1.1) } 100% { transform: scale(1) } }
+
+h2.nav-tab-wrapper span.rghtmarg {
+	margin-right: 10px
+}
+
+.settings-section {
+	display: none
+}
+
+.settings-section.section-active {
+	display: block
+}
+
+.settings-section table.form-table ul, .zoom-builder_page_wpzlb-saved-layouts table.form-table ul {
+	margin: 0
+}
+
+.settings-section#wpzlb-settings-general ul li small.howto, .settings-section#wpzlb-settings-frontend ul li small.howto {
+	display: inline;
+	margin: 0 0 0 1em
+}
+
+.settings-section#wpzlb-settings-widgets ul li span.builder-widget {
+	color: #2ea2cc
+}
+
+.settings-section#wpzlb-settings-widgets ul li span.wpzoom-widget {
+	color: #888
+}
+
+.zoom-builder_page_wpzlb-saved-layouts table.form-table ul li {
+	clear: both
+}
+
+.zoom-builder_page_wpzlb-saved-layouts table.form-table ul li .delete-layout {
+	display: block;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	color: #999;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 0 0 0 1em
+}
+
+.zoom-builder_page_wpzlb-saved-layouts table.form-table ul li .delete-layout:hover {
+	color: red
+}
+
+.settings-section table.form-table .wp-tab-panel, .zoom-builder_page_wpzlb-saved-layouts table.form-table .wp-tab-panel {
+	display: inline-block;
+	min-width: 250px;
+	max-width: 600px
+}
+
+.settings-section table.form-table .wp-tab-panel ul, .zoom-builder_page_wpzlb-saved-layouts table.form-table .wp-tab-panel ul {
+	margin: 0.5em 0
+}
+
+.settings-section table.form-table .wp-tab-panel ul li, .zoom-builder_page_wpzlb-saved-layouts table.form-table .wp-tab-panel ul li {
+	word-wrap: break-word;
+	line-height: 20px;
+	margin: 0
+}
+
+.settings-section#wpzlb-savedlayouts-import,
+.settings-section#wpzlb-savedlayouts-export {
+	margin: 1em 0 0
+}
+
+.settings-section#wpzlb-savedlayouts-import h3,
+.settings-section#wpzlb-savedlayouts-export h3 {
+	margin: 0 0 5px
+}
+
+.settings-section#wpzlb-savedlayouts-import p,
+.settings-section#wpzlb-savedlayouts-export p {
+	padding: 0;
+	margin: 0
+}
+
+.settings-section#wpzlb-savedlayouts-import .wp-tab-panel,
+.settings-section#wpzlb-savedlayouts-export .wp-tab-panel {
+	display: block;
+	max-width: 350px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 10px 0
+}
+
+.settings-section#wpzlb-savedlayouts-export .wp-tab-panel {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.settings-section#wpzlb-savedlayouts-import .wp-tab-panel ul,
+.settings-section#wpzlb-savedlayouts-export .wp-tab-panel ul {
+	margin: 0.5em 0
+}
+
+.settings-section#wpzlb-savedlayouts-import .wp-tab-panel ul li,
+.settings-section#wpzlb-savedlayouts-export .wp-tab-panel ul li {
+	word-wrap: break-word;
+	line-height: 20px;
+	margin: 0
+}
+
+.settings-section#wpzlb-savedlayouts-import input {
+	margin: 0
+}
+
+.settings-section#wpzlb-savedlayouts-import .black {
+	color: #222
+}
+
+.zoom-builder_page_wpzlb-reset .big-action-button input.button-primary {
+	font-size: 16px;
+	vertical-align: middle;
+	height: 80px;
+	padding-left: 60px;
+	padding-right: 60px;
+	-moz-transition-duration: 200ms;
+	-webkit-transition-duration: 200ms;
+	transition-duration: 200ms
+}
+
+.zoom-builder_page_wpzlb-reset .big-action-button input.button-primary:hover {
+	background-color: #cc582e;
+	border-color: #a22e00;
+	-moz-box-shadow: inset 0 1px 0 rgba(230, 150, 120, 0.5), 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(230, 150, 120, 0.5), 0 1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px 0 rgba(230, 150, 120, 0.5), 0 1px 0 rgba(0, 0, 0, 0.15)
+}
+
+.zoom-builder_page_wpzlb-reset .big-action-button input.button-primary.working {
+	pointer-events: none;
+	-moz-animation: pulse 1s ease-out;
+	-webkit-animation: pulse 1s ease-out;
+	animation: pulse 1s ease-out;
+	-moz-animation-fill-mode: both;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite
+}
+
+.zoom-builder_page_wpzlb-reset .big-action-button .info {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.7;
+	margin: 0 0 0 2em
+}
+
+.zoom-builder_page_wpzlb-reset .big-action-button .info .howto:before {
+	content: '';
+	display: block;
+	background: rgba(0, 0, 0, 0.2);
+	height: 1px;
+	width: 20px;
+	margin: 8px 0 2px
+}

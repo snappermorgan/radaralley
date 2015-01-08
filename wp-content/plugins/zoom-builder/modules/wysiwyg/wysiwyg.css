@@ -1,0 +1,70 @@
+/* CSS Document */
+
+#mce_fullscreen_container {
+    background-color: white;
+}
+
+#wp-wpzoom-wysiwyg-widget-wrap {
+    display: none;
+}
+
+.wysiwyg_editor_container {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-collapse: separate;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-bottom: 6px;
+    clear: both;
+}
+.wysiwyg_editor_container textarea,
+.wysiwyg_editor_container textarea:focus {
+    border: 0;
+}
+.editor_toggle_buttons {
+    margin-right: 15px;
+    margin-top: 8px;
+    float: right;
+}
+.editor_toggle_buttons a {
+    background: #ebebeb;
+    border: 1px solid #dedede;
+    border-bottom: none;
+    color: #777;
+    cursor: pointer;
+    float: right;
+    font: 13px/19px "Open Sans",sans-serif;
+    height: 19px;
+    margin: 5px 0 0 5px;
+    padding: 3px 8px 4px;
+    position: relative;
+    top: 1px;
+}
+.editor_toggle_buttons a.active {
+    background: #f5f5f5;
+}
+.editor_toggle_buttons a:not(.active):hover {
+    background: #fff;
+}
+.editor_media_buttons {
+    cursor: default;
+    padding: 8px 8px;
+    height: 22px;
+}
+.editor_media_buttons a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.editor_media_buttons img {
+    vertical-align: middle;
+    padding: 0 4px;
+}
+.editor_links {
+    font-size: 10px;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

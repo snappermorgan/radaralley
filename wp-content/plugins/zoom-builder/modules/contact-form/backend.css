@@ -1,0 +1,389 @@
+.widget.wpzoom-builder-widget-contact-form .widget-content fieldset {
+	background: transparent;
+	padding: 0;
+	border: 0;
+	margin: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields-label {
+	font-size: 13px;
+	line-height: 1.5
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields {
+	background: #f8f8f8;
+	padding: 10px;
+	border: 1px solid #ddd;
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+	margin: 0 0 1em
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li {
+	position: relative;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ddd;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+	margin: 10px 0 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li:first-child {
+	margin-top: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li:hover,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.focused {
+	border-color: #999
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.adding {
+	border-color: #39f
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.deleting {
+	border-color: #f00
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .new,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .delete {
+	display: none;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	z-index: 100
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .new {
+	background: rgba(51, 153, 255, 0.5)
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .delete {
+	background: rgba(255, 0, 0, 0.5)
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.moving {
+	border: 1px dashed #000
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-multiple,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-start-value,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-required,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-placeholder,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-minmaxlen,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-start-value,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-required,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-placeholder,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-minmaxlen,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-start-value,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-required,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-placeholder,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-minmaxlen {
+	display: none
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-options,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-options,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-options,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-select .field-multiple {
+	display: block
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li p {
+	margin: 0 0 10px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li p:last-child {
+	margin-bottom: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-controls {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #ddd;
+	padding: 3px 5px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li:only-child .field-controls {
+	display: none
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options p {
+	margin: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options {
+	position: relative;
+	margin: 0 0 10px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table {
+	background: rgba(0, 0, 0, 0.02);
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	border-spacing: 10px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table th,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td {
+	width: 1%;
+	padding: 0;
+	overflow: visible
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table th abbr {
+	cursor: help;
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.3)
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td {
+	text-align: center
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table th:first-child,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td:first-child {
+	width: 99%
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td input {
+	margin: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td.option-delete i {
+	cursor: pointer;
+	font-size: 16px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table td.option-delete i:hover {
+	color: #f00
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table tbody tr {
+	overflow: hidden
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table tbody tr:first-child:nth-last-child(2) td.option-delete i {
+	pointer-events: none;
+	opacity: 0.5
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .newopt,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .delopt {
+	position: absolute;
+	z-index: 10
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .newopt {
+	background: rgba(51, 153, 255, 0.5)
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .delopt {
+	background: rgba(255, 0, 0, 0.5)
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .option-add td {
+	cursor: pointer;
+	color: #000;
+	padding: 5px;
+	border: 1px dashed #666;
+	opacity: 0.3
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .option-add td:hover {
+	opacity: 1
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .field-options table .option-add td i {
+	font-size: 16px;
+	vertical-align: middle;
+	margin: 0 3px 0 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-move,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-delete {
+	font-size: 16px;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+	width: 16px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-move:hover {
+	color: #0074a2
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-delete:hover {
+	color: #f00
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced {
+	position: relative;
+	margin: 0 -10px -10px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-checkbox .field-advanced,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li.type-radio .field-advanced {
+	margin-top: 30px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced .field-advanced-label {
+	position: absolute;
+	top: -20px;
+	right: 0;
+	z-index: 10;
+	cursor: pointer;
+	font-size: 10px;
+	color: #999;
+	background: #f1f4f6;
+	height: 20px;
+	padding: 1px 10px;
+	border-top: 1px solid #e4eaee;
+	border-left: 1px solid #e4eaee;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced .field-advanced-label:hover,
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced.show .field-advanced-label {
+	color: #555
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced.show .field-advanced-label {
+	height: 21px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced .field-advanced-inner {
+	display: none;
+	background: #f1f4f6;
+	padding: 10px;
+	border-top: 1px solid #e4eaee
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-advanced.show .field-advanced-inner {
+	display: block
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-minmaxlen {
+	float: left
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-minlen {
+	margin-right: 15px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields li .field-minmaxlen label {
+	margin-right: 3px
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner {
+	display: inline-block;
+	position: relative
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-input {
+	padding-right: 18px;
+	margin: 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button {
+	position: absolute;
+	right: 0;
+	cursor: default;
+	font-size: 8px;
+	text-align: center;
+	line-height: 12px;
+	color: #999;
+	background: transparent;
+	height: 50%;
+	width: 15px;
+	padding: 0;
+	border: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button:hover {
+	color: #555;
+	outline: none
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button.ui-state-active {
+	color: #000
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button.ui-spinner-up {
+	top: 0;
+	padding: 1px 1px 0 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button.ui-spinner-down {
+	bottom: 0;
+	padding: 0 1px 1px 0
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button .ui-button-text {
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	height: 100%;
+	width: 100%
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button:hover .ui-button-text {
+	background: rgba(0, 0, 0, 0.15);
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05))
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button.ui-state-active .ui-button-text {
+	background: rgba(0, 0, 0, 0.25);
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1))
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .ui-spinner .ui-spinner-button .ui-icon {
+	display: inline-block;
+	text-indent: 0;
+	vertical-align: middle
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .fields .form-input-tip {
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0 0 0 0.6em
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .field-add {
+	margin: 0 0 1em
+}
+
+.widget.wpzoom-builder-widget-contact-form .widget-content .field-add i {
+	font-size: 16px;
+	vertical-align: middle;
+	margin: 0 5px 0 0
+}
