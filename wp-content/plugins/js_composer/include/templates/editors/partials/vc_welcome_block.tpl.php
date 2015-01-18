@@ -27,15 +27,12 @@ $templates = apply_filters('vc_load_default_templates_welcome_block', $total_tem
 					<?php if (isset($template['show_on_welcome_block']) && false === $template['show_on_welcome_block']) {
 	continue;
 }?>
-					<div
-						class="vc_template<?php if (isset($template['custom_class']) && strlen(trim($template['custom_class'])) > 0):echo ' ' . $template['custom_class'];endif;?>"
-						data-template_type="default_templates" data-template_unique_id="<?php echo $key;?>">
+					<div class="vc_template<?php if (isset($template['custom_class']) && strlen(trim($template['custom_class'])) > 0):echo ' ' . $template['custom_class'];endif;?>" data-template_type="default_templates" data-template_unique_id="<?php echo $key;?>">
 						<div class="wpb_wrapper">
 
 							<div class="wpb_single_image">
 								<div class="wpb_wrapper">
-									<div
-										class="vc_templates-image"<?php if (isset($template['image_path'])): ?> style="background-image:url('<?php echo $template['image_path'];?>');"<?php endif;?>></div>
+									<div class="vc_templates-image"<?php if (isset($template['image_path'])): ?> style="background-image:url('<?php echo $template['image_path'];?>');"<?php endif;?>></div>
 								</div>
 							</div>
 
@@ -48,9 +45,7 @@ $templates = apply_filters('vc_load_default_templates_welcome_block', $total_tem
 					</div>
 <?php endforeach;?>
 				<?php if ($templates_total_count != count($templates)): ?>
-					<div class="vc_default-templates-more-layouts"><a
-							class="vc_btn vc_btn-md vc_btn_3d vc_btn_more-layouts"
-							id="vc_templates-more-layouts"><?php echo __('More Layouts', 'js_composer');?></a></div>
+					<div class="vc_default-templates-more-layouts"><a class="vc_btn vc_btn-md vc_btn_3d vc_btn_more-layouts" id="vc_templates-more-layouts"><?php echo __('More Layouts', 'js_composer');?></a></div>
 <?php endif;?>
 </div>
 		</div>
