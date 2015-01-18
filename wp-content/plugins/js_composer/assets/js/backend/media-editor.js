@@ -53,7 +53,9 @@
                 attachments;
             if ('' !== ids && -1 !== ids) {
                 attachments = _.map(ids.split(/,/), function (id) {
-                    return Attachment.get(id);
+                    var attachment = Attachment.get(id);
+                    attachment.fetch();
+                    return attachment;
                 });
             }
             selection.reset(attachments);
@@ -224,6 +226,7 @@
         },
         init:function () {
             $('body').unbind('click.vcGalleryWidget').on('click.vcGalleryWidget', '.gallery_widget_add_images', function (event) {
+                event.preventDefault();
                 var $this = $(this),
                     editor = 'visual-composer';
                 wp.media.vc_editor.$vc_editor_element = $(this);
@@ -231,7 +234,6 @@
                     wp.media.VcSingleImage.frame(this).open('vc_editor');
                     return;
                 }
-                event.preventDefault();
                 $this.blur();
                 wp.media.vc_editor.open(editor);
             });

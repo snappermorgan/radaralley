@@ -4,10 +4,9 @@
 		   aria-hidden="true"><i class="icon"></i></a>
 		<a title="<?php _e( 'Hide panel', 'js_composer' ); ?>" href="#" class="vc_transparent" data-transparent="panel"
 		   aria-hidden="true"><i class="icon"></i></a>
-		<h3 class="vc_panel-title"><?php _e('Edit elements', 'js_composer') ?></h3>
+		<h3 class="vc_panel-title"><?php _e('Edit Elements', 'js_composer') ?></h3>
 	</div>
 	<div class="vc_panel-body vc_properties-list">
-		<?php _e( 'Select content element to edit properties.', 'js_composer' ) ?>
 	</div>
 	<div class="vc_panel-footer">
 		<button type="button" class="vc_btn vc_panel-btn-close"

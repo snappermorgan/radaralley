@@ -67,9 +67,6 @@ var vc_am = {
         interpolate: /\{\{\{([\s\S]+?)\}\}\}/g,
         escape:      /\{\{([^\}]+?)\}\}(?!\})/g
     },
-    regexp_shortcode = _.memoize(function() {
-      return new RegExp( '\\[(\\[?)(\\S+)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*(?:\\[(?!\\/\\2\\])[^\\[]*)*)(\\[\\/\\2\\]))?)(\\]?)' );
-    }),
     to_title = function(string) {
       string = string.replace(/_|-/, ' ');
       return string.charAt(0).toUpperCase() + string.slice(1);
@@ -291,7 +288,7 @@ var vc_am = {
       e && e.preventDefault && e.preventDefault();
       var string = $('#vc_atm-shortcode-string').val(), matches, data, params = [], attr;
       if(_.isEmpty(string)) return alert(window.i18nLocaleVcAutomapper.error_enter_valid_shortcode);
-      matches = string.match(regexp_shortcode());
+      matches = string.match(vc_regexp_shortcode());
       if(!matches) return alert(window.i18nLocaleVcAutomapper.error_enter_valid_shortcode);
       attr = wp.shortcode.attrs(matches[3]);
       _.each(attr.named, function(value, key){
@@ -430,13 +427,14 @@ var vc_am = {
       }
       var fields_required = ['param_name', 'heading', 'type'];
       _.each(attrs.params, function(param, index){
-        if(param.param_name === 'content' && !$('#vc_atm-params-list [name=param_name]:eq(' + index +')').data('system')) {
+        var $field_el = $('#vc_atm-params-list [name=param_name]:eq(' + index +')');
+        if(param.param_name === 'content' && !$field_el.data('system')) {
           result = window.i18nLocaleVcAutomapper.error_content_param_not_manually;
-          $('#vc_atm-params-list [name=param_name]:eq(' + index +')').addClass('vc_error');
+          $field_el.addClass('vc_error');
           return;
         }
         if(_.isBoolean(added_param_names[param.param_name]) && added_param_names[param.param_name] == true) {
-          $('#vc_atm-params-list [name=param_name]:eq(' + index +')').addClass('vc_error');
+          $field_el.addClass('vc_error');
           if(!result) result = window.i18nLocaleVcAutomapper.error_param_already_exists.replace(/\%s/, param.param_name);
         }
         added_param_names[param.param_name] = true;
@@ -445,7 +443,7 @@ var vc_am = {
             $('#vc_atm-params-list [name=' + field +']:eq(' + index +')').addClass('vc_error');
             if(!result) result = window.i18nLocaleVcAutomapper.error_enter_required_fields;
           } else if(field == 'param_name' && !param[field].match(/^[a-z0-9_]+$/g)) {
-            $('#vc_atm-params-list [name=' + field +']:eq(' + index +')').addClass('vc_error');
+            $field_el.addClass('vc_error');
             if(!result) result = window.i18nLocaleVcAutomapper.error_wrong_param_name;
           }
         }, this);

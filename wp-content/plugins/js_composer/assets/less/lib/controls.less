@@ -138,7 +138,8 @@
 .vc_control-btn {
     display: inline-block;
     vertical-align: middle !important;
-    .icon {
+    border: none !important;
+    .icon, .vc_icon {
         display: inline-block !important;
         background-image: url(@vc_pe_controls_sprite);
         background-repeat: no-repeat;
@@ -186,20 +187,28 @@
             background-color: @vc_control_hover_color;
         }
     }
-
 }
 
 // Control icons variations
 .vc_control-btn-prepend,
 .vc_control-btn-append {
-    .icon {
+    .icon, .vc_icon {
         background-position: 0 -16px;
-
+    }
+    .vc_controls-dark & {
+        .icon, .vc_icon {
+            background-position: -16px -16px;
+        }
     }
 }
 .vc_control-btn-layout {
-    .icon {
+    .icon, .vc_icon {
         background-position: 0 -80px;
+    }
+    .vc_controls-dark & {
+        .icon, .vc_icon {
+            background-position: -16px -80px;
+        }
     }
 }
 .vc_control-btn-append {
@@ -230,27 +239,40 @@
     }
 }
 .vc_control-btn-edit {
-    .icon {
+    .icon, .vc_icon {
         background-position: 0 -32px;
-
+    }
+    .vc_controls-dark & {
+        .icon, .vc_icon {
+            background-position: -16px -32px;
+        }
     }
 }
 .vc_control-btn-clone {
-    .icon {
+    .icon, .vc_icon {
         background-position: 0 -48px;
-
+    }
+    .vc_controls-dark & {
+        .icon, .vc_icon {
+            background-position: -16px -48px;
+        }
     }
 }
 .vc_control-btn-delete {
-    .icon {
+    .icon, .vc_icon {
         background-position: 0 -64px;
+    }
+    .vc_controls-dark & {
+        .icon, .vc_icon {
+            background-position: -16px -64px;
+        }
     }
 }
 .vc_control-btn-switcher {
     overflow-x: hidden;
     width: 24px;
     .transition(width 0.5s);
-    .icon {
+    .icon, .vc_icon {
         width: 10px;
         background-image: url(../vc/fe/expand.gif);
         background-position: center center;

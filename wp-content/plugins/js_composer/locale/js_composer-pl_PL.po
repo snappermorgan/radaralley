@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Visual Composer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 14:46+0200\n"
-"PO-Revision-Date: 2014-08-14 14:46+0200\n"
+"POT-Creation-Date: 2014-10-23 18:18+0200\n"
+"PO-Revision-Date: 2014-10-23 18:18+0200\n"
 "Last-Translator: Michael M <hello@wpbakery.com>\n"
 "Language-Team: Digital Factory <info@digitalfactory.pl>\n"
 "Language: pl_PL\n"
@@ -14,35 +14,35 @@ msgstr ""
 "X-Poedit-Basepath: ../\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.7\n"
 "X-Poedit-SearchPath-0: ./config/.\n"
 "X-Poedit-SearchPath-1: ./include/.\n"
 
-#: config/./map.php:13 config/./map.php:2342
+#: config/./map.php:13 config/./map.php:2368
 msgid "Grey"
 msgstr "Szary"
 
-#: config/./map.php:14 config/./map.php:2343
+#: config/./map.php:14 config/./map.php:2369
 msgid "Blue"
 msgstr "Niebieski"
 
-#: config/./map.php:15 config/./map.php:2344
+#: config/./map.php:15 config/./map.php:2370
 msgid "Turquoise"
 msgstr "Turkusowy"
 
-#: config/./map.php:16 config/./map.php:2345
+#: config/./map.php:16 config/./map.php:2371
 msgid "Green"
 msgstr "Zielony"
 
-#: config/./map.php:17 config/./map.php:2346
+#: config/./map.php:17 config/./map.php:2372
 msgid "Orange"
 msgstr "Pomarańczowy"
 
-#: config/./map.php:18 config/./map.php:2347
+#: config/./map.php:18 config/./map.php:2373
 msgid "Red"
 msgstr "Czerwony"
 
-#: config/./map.php:19 config/./map.php:2348
+#: config/./map.php:19 config/./map.php:2374
 msgid "Black"
 msgstr "Czarny"
 
@@ -54,7 +54,7 @@ msgstr "Rozmiar normalny"
 msgid "Large"
 msgstr "Duży"
 
-#: config/./map.php:26 config/./map.php:571
+#: config/./map.php:26 config/./map.php:597
 msgid "Small"
 msgstr "Mały"
 
@@ -75,8 +75,8 @@ msgstr "W nowym oknie"
 msgid "CSS Animation"
 msgstr "Notatka"
 
-#: config/./map.php:41 config/./map.php:2515 config/./map.php:2526
-#: config/./map.php:2537
+#: config/./map.php:41 config/./map.php:2541 config/./map.php:2552
+#: config/./map.php:2563
 #, fuzzy
 msgid "No"
 msgstr "Brak"
@@ -113,18 +113,19 @@ msgid "Row"
 msgstr ""
 
 #: config/./map.php:57 config/./map.php:269 config/./map.php:341
-#: config/./map.php:393 config/./map.php:465 config/./map.php:621
-#: config/./map.php:668 config/./map.php:771 config/./map.php:863
-#: config/./map.php:995 config/./map.php:1044 config/./map.php:1113
-#: config/./map.php:1181 config/./map.php:1211 config/./map.php:1455
-#: config/./map.php:1575 config/./map.php:1786 config/./map.php:1848
-#: config/./map.php:1912 config/./map.php:1991 config/./map.php:2119
-#: config/./map.php:2157 config/./map.php:2256 config/./map.php:2315
-#: config/./map.php:2387 config/./map.php:2463 config/./map.php:2499
-#: config/./map.php:3035 config/./map.php:3062
+#: config/./map.php:400 config/./map.php:490 config/./map.php:647
+#: config/./map.php:694 config/./map.php:797 config/./map.php:889
+#: config/./map.php:1021 config/./map.php:1070 config/./map.php:1139
+#: config/./map.php:1207 config/./map.php:1237 config/./map.php:1481
+#: config/./map.php:1601 config/./map.php:1812 config/./map.php:1874
+#: config/./map.php:1938 config/./map.php:2017 config/./map.php:2145
+#: config/./map.php:2183 config/./map.php:2282 config/./map.php:2341
+#: config/./map.php:2413 config/./map.php:2489 config/./map.php:2525
+#: config/./map.php:3061 config/./map.php:3088 config/./map.php:3683
+#: config/./map.php:3693 config/./map.php:3727 config/./map.php:3738
 #: include/./classes/settings/class-vc-automapper.php:256
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:35
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:34
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:37
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:35
 msgid "Content"
 msgstr "Treść"
 
@@ -145,42 +146,42 @@ msgid "Select font color"
 msgstr "Odznacz wszystkie"
 
 #: config/./map.php:111 config/./map.php:144 config/./map.php:187
-#: config/./map.php:238 config/./map.php:282 config/./map.php:380
-#: config/./map.php:450 config/./map.php:499 config/./map.php:655
-#: config/./map.php:751 config/./map.php:850 config/./map.php:978
-#: config/./map.php:1014 config/./map.php:1064 config/./map.php:1137
-#: config/./map.php:1344 config/./map.php:1440 config/./map.php:1561
-#: config/./map.php:1706 config/./map.php:1737 config/./map.php:1835
-#: config/./map.php:1898 config/./map.php:1979 config/./map.php:2106
-#: config/./map.php:2137 config/./map.php:2201 config/./map.php:2301
-#: config/./map.php:2372 config/./map.php:2429 config/./map.php:2573
-#: config/./map.php:2597 config/./map.php:2627 config/./map.php:2651
-#: config/./map.php:2693 config/./map.php:2732 config/./map.php:2771
-#: config/./map.php:2806 config/./map.php:2843 config/./map.php:2904
-#: config/./map.php:2938 config/./map.php:2972 config/./map.php:3021
-#: config/./map.php:3048 config/./map.php:3117
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:54
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:53
+#: config/./map.php:238 config/./map.php:282 config/./map.php:387
+#: config/./map.php:475 config/./map.php:524 config/./map.php:681
+#: config/./map.php:777 config/./map.php:876 config/./map.php:1004
+#: config/./map.php:1040 config/./map.php:1090 config/./map.php:1163
+#: config/./map.php:1370 config/./map.php:1466 config/./map.php:1587
+#: config/./map.php:1732 config/./map.php:1763 config/./map.php:1861
+#: config/./map.php:1924 config/./map.php:2005 config/./map.php:2132
+#: config/./map.php:2163 config/./map.php:2227 config/./map.php:2327
+#: config/./map.php:2398 config/./map.php:2455 config/./map.php:2599
+#: config/./map.php:2623 config/./map.php:2653 config/./map.php:2677
+#: config/./map.php:2719 config/./map.php:2758 config/./map.php:2797
+#: config/./map.php:2832 config/./map.php:2869 config/./map.php:2930
+#: config/./map.php:2964 config/./map.php:2998 config/./map.php:3047
+#: config/./map.php:3074 config/./map.php:3143
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:56
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:54
 msgid "Extra class name"
 msgstr "Dodaj dodatkową klasę CSS"
 
 #: config/./map.php:113 config/./map.php:146 config/./map.php:189
-#: config/./map.php:241 config/./map.php:284 config/./map.php:382
-#: config/./map.php:452 config/./map.php:501 config/./map.php:657
-#: config/./map.php:753 config/./map.php:852 config/./map.php:980
-#: config/./map.php:1016 config/./map.php:1066 config/./map.php:1139
-#: config/./map.php:1346 config/./map.php:1442 config/./map.php:1563
-#: config/./map.php:1708 config/./map.php:1739 config/./map.php:1837
-#: config/./map.php:1900 config/./map.php:1981 config/./map.php:2108
-#: config/./map.php:2139 config/./map.php:2203 config/./map.php:2303
-#: config/./map.php:2374 config/./map.php:2431 config/./map.php:2575
-#: config/./map.php:2599 config/./map.php:2629 config/./map.php:2653
-#: config/./map.php:2695 config/./map.php:2734 config/./map.php:2773
-#: config/./map.php:2808 config/./map.php:2845 config/./map.php:2906
-#: config/./map.php:2940 config/./map.php:2974 config/./map.php:3023
-#: config/./map.php:3050 config/./map.php:3119
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:56
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:55
+#: config/./map.php:241 config/./map.php:284 config/./map.php:389
+#: config/./map.php:477 config/./map.php:526 config/./map.php:683
+#: config/./map.php:779 config/./map.php:878 config/./map.php:1006
+#: config/./map.php:1042 config/./map.php:1092 config/./map.php:1165
+#: config/./map.php:1372 config/./map.php:1468 config/./map.php:1589
+#: config/./map.php:1734 config/./map.php:1765 config/./map.php:1863
+#: config/./map.php:1926 config/./map.php:2007 config/./map.php:2134
+#: config/./map.php:2165 config/./map.php:2229 config/./map.php:2329
+#: config/./map.php:2400 config/./map.php:2457 config/./map.php:2601
+#: config/./map.php:2625 config/./map.php:2655 config/./map.php:2679
+#: config/./map.php:2721 config/./map.php:2760 config/./map.php:2799
+#: config/./map.php:2834 config/./map.php:2871 config/./map.php:2932
+#: config/./map.php:2966 config/./map.php:3000 config/./map.php:3049
+#: config/./map.php:3076 config/./map.php:3145
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:58
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:56
 msgid ""
 "If you wish to style particular content element differently, then use this "
 "field to add a class name and then refer to it in your css file."
@@ -189,14 +190,14 @@ msgstr ""
 "nadać mu klasę CSS i móc z niej skorzystać w pliku .css"
 
 #: config/./map.php:117 config/./map.php:150 config/./map.php:193
-#: config/./map.php:245 config/./map.php:288 config/./map.php:757
-#: config/./map.php:2143 config/./map.php:3123
+#: config/./map.php:245 config/./map.php:288 config/./map.php:783
+#: config/./map.php:2169 config/./map.php:3149
 msgid "Css"
 msgstr ""
 
 #: config/./map.php:120 config/./map.php:153 config/./map.php:196
-#: config/./map.php:248 config/./map.php:291 config/./map.php:760
-#: config/./map.php:2146 config/./map.php:3126
+#: config/./map.php:248 config/./map.php:291 config/./map.php:786
+#: config/./map.php:2172 config/./map.php:3152
 #, fuzzy
 msgid "Design options"
 msgstr "Opis"
@@ -287,9 +288,9 @@ msgstr "Blok tekstowy"
 msgid "A block of text with WYSIWYG editor"
 msgstr ""
 
-#: config/./map.php:275 config/./map.php:1398 config/./map.php:1483
-#: config/./map.php:1918 config/./map.php:2779 config/./map.php:2795
-#: config/./map.php:3067 include/./classes/shortcodes/example.php:111
+#: config/./map.php:275 config/./map.php:1424 config/./map.php:1509
+#: config/./map.php:1944 config/./map.php:2805 config/./map.php:2821
+#: config/./map.php:3093 include/./classes/shortcodes/example.php:111
 #: include/./params/sorted_list/sorted_list.php:57
 #: include/./params/sorted_list/sorted_list.php:61
 #: include/./templates/teaser.html.php:52
@@ -312,17 +313,18 @@ msgstr "Tytuł separatora."
 msgid "Horizontal separator line"
 msgstr ""
 
-#: config/./map.php:347 config/./map.php:417 config/./map.php:1813
-#: config/./map.php:1875 config/./map.php:1945 config/./map.php:2071
+#: config/./map.php:347 config/./map.php:435 config/./map.php:1839
+#: config/./map.php:1901 config/./map.php:1971 config/./map.php:2097
+#: config/./map.php:3470
 msgid "Color"
 msgstr "Kolor"
 
-#: config/./map.php:349 config/./map.php:419
+#: config/./map.php:349 config/./map.php:437
 #, fuzzy
 msgid "Custom color"
 msgstr "Kolor przycisku."
 
-#: config/./map.php:351 config/./map.php:421
+#: config/./map.php:351 config/./map.php:439
 #, fuzzy
 msgid "Separator color."
 msgstr "Tytuł separatora."
@@ -335,326 +337,366 @@ msgstr ""
 msgid "Select border color for your element."
 msgstr ""
 
-#: config/./map.php:366 config/./map.php:436 config/./map.php:483
-#: config/./map.php:1868
+#: config/./map.php:366 config/./map.php:454 config/./map.php:508
+#: config/./map.php:1894 config/./map.php:3435
 msgid "Style"
 msgstr ""
 
-#: config/./map.php:369 config/./map.php:439
+#: config/./map.php:369 config/./map.php:457
 #, fuzzy
 msgid "Separator style."
 msgstr "Tytuł separatora."
 
-#: config/./map.php:373 config/./map.php:443 config/./map.php:2021
+#: config/./map.php:373 config/./map.php:461
+#, fuzzy
+msgid "Border width"
+msgstr "Blok Twitter"
+
+#: config/./map.php:376 config/./map.php:464
+msgid "Border width in pixels."
+msgstr ""
+
+#: config/./map.php:380 config/./map.php:468 config/./map.php:2047
 msgid "Element width"
 msgstr ""
 
-#: config/./map.php:376 config/./map.php:446
+#: config/./map.php:383 config/./map.php:471
 msgid "Separator element width in percents."
 msgstr ""
 
-#: config/./map.php:390
+#: config/./map.php:397
 #, fuzzy
 msgid "Separator with Text"
 msgstr "Separator z tekstem"
 
-#: config/./map.php:394
+#: config/./map.php:401
 msgid "Horizontal separator line with heading"
 msgstr ""
 
-#: config/./map.php:398 config/./map.php:401 config/./map.php:1092
-#: config/./map.php:1165 config/./map.php:1324 config/./map.php:1397
-#: config/./map.php:1482 config/./map.php:1686
+#: config/./map.php:405 config/./map.php:408 config/./map.php:1118
+#: config/./map.php:1191 config/./map.php:1350 config/./map.php:1423
+#: config/./map.php:1508 config/./map.php:1712 config/./map.php:3348
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:62
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1032
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1060
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1094
 #: include/./params/loop/loop.php:248
 #: include/./params/sorted_list/sorted_list.php:59
 #: include/./params/vc_link/vc_link.php:6
 msgid "Title"
 msgstr "Tytuł"
 
-#: config/./map.php:402
+#: config/./map.php:409
 msgid "Separator title."
 msgstr "Tytuł separatora."
 
-#: config/./map.php:406
+#: config/./map.php:413
 msgid "Title position"
 msgstr "Wybierz pozycję tytułu"
 
-#: config/./map.php:409 config/./map.php:698
+#: config/./map.php:416 config/./map.php:724
 msgid "Align center"
 msgstr "Do środka"
 
-#: config/./map.php:410 config/./map.php:696 config/./map.php:1971
-#: config/./map.php:2098
+#: config/./map.php:417 config/./map.php:722 config/./map.php:1997
+#: config/./map.php:2124
 msgid "Align left"
 msgstr "Do lewej"
 
-#: config/./map.php:411 config/./map.php:697 config/./map.php:1970
-#: config/./map.php:2097
+#: config/./map.php:418 config/./map.php:723 config/./map.php:1996
+#: config/./map.php:2123
 msgid "Align right"
 msgstr "Do prawej"
 
-#: config/./map.php:413
+#: config/./map.php:420
 msgid "Select title location."
 msgstr "Wybierz miejsce tytułu"
 
-#: config/./map.php:426 config/./map.php:2349
+#: config/./map.php:424
+#, fuzzy
+msgid "Separator alignment"
+msgstr "Tytuł separatora."
+
+#: config/./map.php:427 config/./map.php:3458
+#, fuzzy
+msgid "Center"
+msgstr "Do środka"
+
+#: config/./map.php:428 config/./map.php:3459
+msgid "Left"
+msgstr ""
+
+#: config/./map.php:429 config/./map.php:3460
+#, fuzzy
+msgid "Right"
+msgstr "Do prawej"
+
+#: config/./map.php:431
+#, fuzzy
+msgid "Select separator alignment."
+msgstr "Wybierz rodzaj wyrównania przycisku."
+
+#: config/./map.php:444 config/./map.php:2375
 #, fuzzy
 msgid "Custom Color"
 msgstr "Własne linki"
 
-#: config/./map.php:428
+#: config/./map.php:446
 msgid "Custom separator color for your element."
 msgstr ""
 
-#: config/./map.php:461
+#: config/./map.php:486
 #, fuzzy
 msgid "Message Box"
 msgstr "Wiadomość tekstowa"
 
-#: config/./map.php:466
+#: config/./map.php:491
 msgid "Notification box"
 msgstr ""
 
-#: config/./map.php:470
+#: config/./map.php:495
 msgid "Message box type"
 msgstr "Typ wiadomości tekstowej"
 
-#: config/./map.php:473
+#: config/./map.php:498
 msgid "Informational"
 msgstr "Informacja"
 
-#: config/./map.php:474
+#: config/./map.php:499
 msgid "Warning"
 msgstr "Ostrzeżenie"
 
-#: config/./map.php:475
+#: config/./map.php:500
 msgid "Success"
 msgstr "Powodzenie"
 
-#: config/./map.php:476
+#: config/./map.php:501
 msgid "Error"
 msgstr "Błąd"
 
-#: config/./map.php:478
+#: config/./map.php:503
 msgid "Select message type."
 msgstr "Wybierz rodzaj wiadomości."
 
-#: config/./map.php:486
+#: config/./map.php:511
 msgid "Alert style."
 msgstr ""
 
-#: config/./map.php:492
+#: config/./map.php:517
 msgid "Message text"
 msgstr "Wiadomość tekstowa"
 
-#: config/./map.php:494
+#: config/./map.php:519
 msgid "<p>I am message box. Click edit button to change this text.</p>"
 msgstr ""
 "<p>To jest wiadomość tekstowa. Kliknij przycisk Edytuj aby zmienić ten tekst."
 "</p>"
 
-#: config/./map.php:510
+#: config/./map.php:535
 #, fuzzy
 msgid "Facebook Like"
 msgstr "Przycisk Lubię z Facebook'a"
 
-#: config/./map.php:513 config/./map.php:537 config/./map.php:561
-#: config/./map.php:598
+#: config/./map.php:538 config/./map.php:563 config/./map.php:587
+#: config/./map.php:624
 msgid "Social"
 msgstr ""
 
-#: config/./map.php:514
+#: config/./map.php:539
 #, fuzzy
 msgid "Facebook like button"
 msgstr "Przycisk Lubię z Facebook'a"
 
-#: config/./map.php:518 config/./map.php:542
+#: config/./map.php:543 config/./map.php:568
 msgid "Button type"
 msgstr "Rodzaj przycisku"
 
-#: config/./map.php:522 config/./map.php:570
+#: config/./map.php:547 config/./map.php:596
 msgid "Standard"
 msgstr "Standardowy"
 
-#: config/./map.php:523
+#: config/./map.php:548
 msgid "Button count"
 msgstr "Przycisk z liczbą Like'ów"
 
-#: config/./map.php:524
+#: config/./map.php:549
 msgid "Box count"
 msgstr "Blok z liczbą Like'ów"
 
-#: config/./map.php:526 config/./map.php:550
+#: config/./map.php:551 config/./map.php:576
 msgid "Select button type."
 msgstr "Wybierz typ przycisku."
 
-#: config/./map.php:534
+#: config/./map.php:559
 #, fuzzy
 msgid "Tweetmeme Button"
 msgstr "Przycisk Twitter'a"
 
-#: config/./map.php:538
+#: config/./map.php:564
 #, fuzzy
 msgid "Share on twitter button"
 msgstr "Tekst przycisku."
 
-#: config/./map.php:546 config/./map.php:607 config/./map.php:922
-#: config/./map.php:1514
+#: config/./map.php:572 config/./map.php:633 config/./map.php:948
+#: config/./map.php:1540
 msgid "Horizontal"
 msgstr "Heoryzontalnie"
 
-#: config/./map.php:547 config/./map.php:608 config/./map.php:923
-#: config/./map.php:1514
+#: config/./map.php:573 config/./map.php:634 config/./map.php:949
+#: config/./map.php:1540
 msgid "Vertical"
 msgstr "Wertykalnie"
 
-#: config/./map.php:548 config/./map.php:585 config/./map.php:1747
+#: config/./map.php:574 config/./map.php:611 config/./map.php:1773
+#: config/./map.php:3537 config/./map.php:3589 config/./new_elements.php:102
+#: config/./new_elements.php:117
+#: include/./params/animation_style/animation_style.php:32
 msgid "None"
 msgstr "Brak"
 
-#: config/./map.php:558
+#: config/./map.php:584
 #, fuzzy
 msgid "Google+ Button"
 msgstr "Przycisk Google+"
 
-#: config/./map.php:562
+#: config/./map.php:588
 msgid "Recommend on Google"
 msgstr ""
 
-#: config/./map.php:566
+#: config/./map.php:592 config/./map.php:3520
 msgid "Button size"
 msgstr "Wielkość przycisku"
 
-#: config/./map.php:572
+#: config/./map.php:598
 msgid "Medium"
 msgstr "Średni"
 
-#: config/./map.php:573
+#: config/./map.php:599
 msgid "Tall"
 msgstr "Wysoki"
 
-#: config/./map.php:575
+#: config/./map.php:601
 #, fuzzy
 msgid "Select button size."
 msgstr "Wybierz typ przycisku."
 
-#: config/./map.php:579
+#: config/./map.php:605
 msgid "Annotation"
 msgstr "Notatka"
 
-#: config/./map.php:583
+#: config/./map.php:609
 msgid "Inline"
 msgstr "W linii"
 
-#: config/./map.php:584
+#: config/./map.php:610
 msgid "Bubble"
 msgstr "Chmurka"
 
-#: config/./map.php:587
+#: config/./map.php:613
 #, fuzzy
 msgid "Select type of annotation"
 msgstr "Wybierz typ notatki."
 
-#: config/./map.php:595
+#: config/./map.php:621
 #, fuzzy
 msgid "Pinterest"
 msgstr "Przycisk Pinterest"
 
-#: config/./map.php:599
+#: config/./map.php:625
 msgid "Pinterest button"
 msgstr "Przycisk Pinterest"
 
-#: config/./map.php:603
+#: config/./map.php:629
 msgid "Button layout"
 msgstr "Szablon przycisku"
 
-#: config/./map.php:609
+#: config/./map.php:635
 msgid "No count"
 msgstr "Nie zliczaj"
 
-#: config/./map.php:610
+#: config/./map.php:636
 #, fuzzy
 msgid "Select button layout."
 msgstr "Wybierz typ przycisku."
 
-#: config/./map.php:618
+#: config/./map.php:644
 msgid "FAQ"
 msgstr ""
 
-#: config/./map.php:622
+#: config/./map.php:648
 msgid "Toggle element for Q&A block"
 msgstr ""
 
-#: config/./map.php:628 config/./map.php:630
+#: config/./map.php:654 config/./map.php:656
 msgid "Toggle title"
 msgstr "Tutuł rozwijanego blogu"
 
-#: config/./map.php:631
+#: config/./map.php:657
 msgid "Toggle block title."
 msgstr "Tytuł rozwijanego bloku."
 
-#: config/./map.php:637
+#: config/./map.php:663
 msgid "Toggle content"
 msgstr "Rozwijana treść"
 
-#: config/./map.php:639
+#: config/./map.php:665
 #, fuzzy
 msgid "<p>Toggle content goes here, click edit button to change this text.</p>"
 msgstr "<p>Tu powinna znaleźć się treść rozwijanego bloku.</p>"
 
-#: config/./map.php:640
+#: config/./map.php:666
 msgid "Toggle block content."
 msgstr "Blok z treścią rozwijanego przycisku."
 
-#: config/./map.php:644
+#: config/./map.php:670
 msgid "Default state"
 msgstr "Stan domyśłny"
 
-#: config/./map.php:647
+#: config/./map.php:673
 msgid "Closed"
 msgstr "Zamknięte"
 
-#: config/./map.php:648
+#: config/./map.php:674
 msgid "Open"
 msgstr "Otwóz"
 
-#: config/./map.php:650
+#: config/./map.php:676
 #, fuzzy
 msgid "Select \"Open\" if you want toggle to be open by default."
 msgstr "Zaznacz to jeśli chcesz aby było domyślnie otwarte."
 
-#: config/./map.php:665
+#: config/./map.php:691
 #, fuzzy
 msgid "Single Image"
 msgstr "Pojedynczy obrazek"
 
-#: config/./map.php:669
+#: config/./map.php:695
 msgid "Simple image with CSS animation"
 msgstr ""
 
-#: config/./map.php:673 config/./map.php:776 config/./map.php:868
-#: config/./map.php:1000 config/./map.php:1050 config/./map.php:1118
-#: config/./map.php:1185 config/./map.php:1366 config/./map.php:1460
-#: config/./map.php:1580 config/./map.php:1725 config/./map.php:2124
-#: config/./map.php:2162 config/./map.php:2261 config/./map.php:2320
-#: config/./map.php:2392 config/./map.php:2567 config/./map.php:2591
-#: config/./map.php:2615 config/./map.php:2645 config/./map.php:2669
-#: config/./map.php:2719 config/./map.php:2757 config/./map.php:2789
-#: config/./map.php:2825 config/./map.php:2922 config/./map.php:2957
-#: config/./map.php:2990
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:40
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:39
+#: config/./map.php:699 config/./map.php:802 config/./map.php:894
+#: config/./map.php:1026 config/./map.php:1076 config/./map.php:1144
+#: config/./map.php:1211 config/./map.php:1392 config/./map.php:1486
+#: config/./map.php:1606 config/./map.php:1751 config/./map.php:2150
+#: config/./map.php:2188 config/./map.php:2287 config/./map.php:2346
+#: config/./map.php:2418 config/./map.php:2593 config/./map.php:2617
+#: config/./map.php:2641 config/./map.php:2671 config/./map.php:2695
+#: config/./map.php:2745 config/./map.php:2783 config/./map.php:2815
+#: config/./map.php:2851 config/./map.php:2948 config/./map.php:2983
+#: config/./map.php:3016
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:42
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:40
 msgid "Widget title"
 msgstr "Nazwa bloku"
 
-#: config/./map.php:675 config/./map.php:778 config/./map.php:870
-#: config/./map.php:1002 config/./map.php:1052 config/./map.php:1120
-#: config/./map.php:1187 config/./map.php:1368 config/./map.php:1462
-#: config/./map.php:1582 config/./map.php:1727 config/./map.php:2126
-#: config/./map.php:2164 config/./map.php:2263 config/./map.php:2322
-#: config/./map.php:2394
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:42
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:41
+#: config/./map.php:701 config/./map.php:804 config/./map.php:896
+#: config/./map.php:1028 config/./map.php:1078 config/./map.php:1146
+#: config/./map.php:1213 config/./map.php:1394 config/./map.php:1488
+#: config/./map.php:1608 config/./map.php:1753 config/./map.php:2152
+#: config/./map.php:2190 config/./map.php:2289 config/./map.php:2348
+#: config/./map.php:2420
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:44
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:42
 #, fuzzy
 msgid ""
 "Enter text which will be used as widget title. Leave blank if no title is "
@@ -663,19 +705,19 @@ msgstr ""
 "Wpisz tytuł dla tego bloku lub pozostaw puste, jeśli tytuł nie jest "
 "potrzebny."
 
-#: config/./map.php:679 include/./params/sorted_list/sorted_list.php:58
+#: config/./map.php:705 include/./params/sorted_list/sorted_list.php:58
 msgid "Image"
 msgstr "Obrazek"
 
-#: config/./map.php:682
+#: config/./map.php:708
 msgid "Select image from media library."
 msgstr ""
 
-#: config/./map.php:687 config/./map.php:812 config/./map.php:881
+#: config/./map.php:713 config/./map.php:838 config/./map.php:907
 msgid "Image size"
 msgstr "Wielkość obrazka"
 
-#: config/./map.php:689
+#: config/./map.php:715
 #, fuzzy
 msgid ""
 "Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
@@ -687,119 +729,121 @@ msgstr ""
 "w pikselach: 200x100 (szerokość x wysokość). Jeśli zostawisz to pole puste "
 "zostanie zastosowana wielkość miniatury."
 
-#: config/./map.php:693
+#: config/./map.php:719
 #, fuzzy
 msgid "Image alignment"
 msgstr "Link do obrazka"
 
-#: config/./map.php:700
+#: config/./map.php:726
 #, fuzzy
 msgid "Select image alignment."
 msgstr "Wybierz rodzaj wyrównania przycisku."
 
-#: config/./map.php:704
+#: config/./map.php:730
 #, fuzzy
 msgid "Image style"
 msgstr "Wielkość obrazka"
 
-#: config/./map.php:710
+#: config/./map.php:736
 #, fuzzy
 msgid "Border color"
 msgstr "Kolor przycisku."
 
-#: config/./map.php:718
+#: config/./map.php:744
 #, fuzzy
 msgid "Border color."
 msgstr "Kolor przycisku."
 
-#: config/./map.php:723
+#: config/./map.php:749
 #, fuzzy
 msgid "Link to large image?"
 msgstr "Link do powiększonego obrazka"
 
-#: config/./map.php:725
+#: config/./map.php:751
 msgid "If selected, image will be linked to the larger image."
 msgstr ""
 
-#: config/./map.php:726 config/./map.php:946 config/./map.php:953
-#: config/./map.php:960 config/./map.php:967 config/./map.php:974
-#: config/./map.php:1419 config/./map.php:1529 config/./map.php:1536
-#: config/./map.php:1543 config/./map.php:1550 config/./map.php:1557
-#: config/./map.php:1634 config/./map.php:2839
+#: config/./map.php:752 config/./map.php:972 config/./map.php:979
+#: config/./map.php:986 config/./map.php:993 config/./map.php:1000
+#: config/./map.php:1445 config/./map.php:1555 config/./map.php:1562
+#: config/./map.php:1569 config/./map.php:1576 config/./map.php:1583
+#: config/./map.php:1660 config/./map.php:2865 config/./map.php:3307
+#: config/./map.php:3633
 msgid "Yes, please"
 msgstr ""
 
-#: config/./map.php:730
+#: config/./map.php:756
 msgid "Image link"
 msgstr "Link do obrazka"
 
-#: config/./map.php:732
+#: config/./map.php:758
 msgid "Enter URL if you want this image to have a link."
 msgstr ""
 
-#: config/./map.php:741
+#: config/./map.php:767
 msgid "Link Target"
 msgstr "Cel linku"
 
-#: config/./map.php:768
+#: config/./map.php:794
 #, fuzzy
 msgid "Image Gallery"
 msgstr "Galeria obrazków"
 
-#: config/./map.php:772
+#: config/./map.php:798
 #, fuzzy
 msgid "Responsive image gallery"
 msgstr "Galeria obrazków"
 
-#: config/./map.php:782
+#: config/./map.php:808
 msgid "Gallery type"
 msgstr "Typ galerii"
 
-#: config/./map.php:785 config/./map.php:1590
+#: config/./map.php:811 config/./map.php:1616
 msgid "Flex slider fade"
 msgstr "Flex slider zanikanie"
 
-#: config/./map.php:786 config/./map.php:1591
+#: config/./map.php:812 config/./map.php:1617
 msgid "Flex slider slide"
 msgstr "Flex slider przesuwanie"
 
-#: config/./map.php:787 config/./map.php:1592
+#: config/./map.php:813 config/./map.php:1618
 msgid "Nivo slider"
 msgstr "Nivo slider"
 
-#: config/./map.php:788
+#: config/./map.php:814
 msgid "Image grid"
 msgstr "Siatka obrazków"
 
-#: config/./map.php:790
+#: config/./map.php:816
 #, fuzzy
 msgid "Select gallery type."
 msgstr "Wybierz rodzaj wiadomości."
 
-#: config/./map.php:794 config/./map.php:1056 config/./map.php:1604
+#: config/./map.php:820 config/./map.php:1082 config/./map.php:1630
 msgid "Auto rotate slides"
 msgstr "Automatycznie zmieniaj slajdy"
 
-#: config/./map.php:796 config/./map.php:1008 config/./map.php:1058
-#: config/./map.php:1606 include/./classes/settings/class-vc-settings.php:571
+#: config/./map.php:822 config/./map.php:1034 config/./map.php:1084
+#: config/./map.php:1632 include/./classes/settings/class-vc-settings.php:571
 msgid "Disable"
 msgstr ""
 
-#: config/./map.php:797 config/./map.php:1060 config/./map.php:1607
+#: config/./map.php:823 config/./map.php:1086 config/./map.php:1633
 #, fuzzy
 msgid "Auto rotate slides each X seconds."
 msgstr ""
 "Automatycznie zmieniaj slajdy co X sekund. Wybierz 0 aby wyłączyć tę funkcję."
 
-#: config/./map.php:805 config/./map.php:874
+#: config/./map.php:831 config/./map.php:900 config/./map.php:3701
+#: config/./map.php:3703
 msgid "Images"
 msgstr "Obrazki"
 
-#: config/./map.php:808 config/./map.php:877
+#: config/./map.php:834 config/./map.php:903
 msgid "Select images from media library."
 msgstr ""
 
-#: config/./map.php:814 config/./map.php:883
+#: config/./map.php:840 config/./map.php:909
 #, fuzzy
 msgid ""
 "Enter image size. Example: thumbnail, medium, large, full or other sizes "
@@ -811,31 +855,31 @@ msgstr ""
 "w pikselach: 200x100 (szerokość x wysokość). Jeśli zostawisz to pole puste "
 "zostanie zastosowana wielkość miniatury."
 
-#: config/./map.php:818 config/./map.php:887
+#: config/./map.php:844 config/./map.php:913
 msgid "On click"
 msgstr "Po kliknięciu"
 
-#: config/./map.php:821 config/./map.php:890
+#: config/./map.php:847 config/./map.php:916
 msgid "Open prettyPhoto"
 msgstr "Otwórz prettyPhoto"
 
-#: config/./map.php:822 config/./map.php:891
+#: config/./map.php:848 config/./map.php:917
 msgid "Do nothing"
 msgstr "Nie rób nic"
 
-#: config/./map.php:823 config/./map.php:892 config/./map.php:1647
+#: config/./map.php:849 config/./map.php:918 config/./map.php:1673
 msgid "Open custom link"
 msgstr "Otwóz własny link"
 
-#: config/./map.php:825
+#: config/./map.php:851
 msgid "Define action for onclick event if needed."
 msgstr ""
 
-#: config/./map.php:829 config/./map.php:898 config/./map.php:1654
+#: config/./map.php:855 config/./map.php:924 config/./map.php:1680
 msgid "Custom links"
 msgstr "Własne linki"
 
-#: config/./map.php:831 config/./map.php:900
+#: config/./map.php:857 config/./map.php:926
 #, fuzzy
 msgid ""
 "Enter links for each slide here. Divide links with linebreaks (Enter) . "
@@ -843,54 +887,54 @@ msgstr ""
 "Wybierz \"Otwórz własny link\" w parametrze \"Link\" i dodaj linki dla "
 "każdego ze slajdów. Każdy link napisz w oddzielnym rzędzie."
 
-#: config/./map.php:839 config/./map.php:908
+#: config/./map.php:865 config/./map.php:934
 msgid "Custom link target"
 msgstr "Własne cel linku"
 
-#: config/./map.php:841 config/./map.php:910
+#: config/./map.php:867 config/./map.php:936
 msgid "Select where to open  custom links."
 msgstr "Wybierz jak mają być otwierane własne linki."
 
-#: config/./map.php:860
+#: config/./map.php:886
 #, fuzzy
 msgid "Image Carousel"
 msgstr "Karuzela"
 
-#: config/./map.php:864
+#: config/./map.php:890
 msgid "Animated carousel with images"
 msgstr ""
 
-#: config/./map.php:894
+#: config/./map.php:920
 #, fuzzy
 msgid "What to do when slide is clicked?"
 msgstr "Co robić po kliknięciu w slajd?"
 
-#: config/./map.php:919 config/./map.php:1512
+#: config/./map.php:945 config/./map.php:1538
 #, fuzzy
 msgid "Slider mode"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:925 config/./map.php:1515
+#: config/./map.php:951 config/./map.php:1541
 msgid ""
 "Slides will be positioned horizontally (for horizontal swipes) or vertically "
 "(for vertical swipes)"
 msgstr ""
 
-#: config/./map.php:929 config/./map.php:1505
+#: config/./map.php:955 config/./map.php:1531
 #, fuzzy
 msgid "Slider speed"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:932 config/./map.php:1508
+#: config/./map.php:958 config/./map.php:1534
 msgid "Duration of animation between slides (in ms)"
 msgstr ""
 
-#: config/./map.php:936 config/./map.php:1519
+#: config/./map.php:962 config/./map.php:1545
 #, fuzzy
 msgid "Slides per view"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:939
+#: config/./map.php:965
 msgid ""
 "Set numbers of slides you want to display at the same time on slider's "
 "container for carousel mode. Supports also \"auto\" value, in this case it "
@@ -898,312 +942,313 @@ msgid ""
 "compatible with loop mode."
 msgstr ""
 
-#: config/./map.php:943 config/./map.php:1526
+#: config/./map.php:969 config/./map.php:1552
 #, fuzzy
 msgid "Slider autoplay"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:945 config/./map.php:1528
+#: config/./map.php:971 config/./map.php:1554
 msgid "Enables autoplay mode."
 msgstr ""
 
-#: config/./map.php:950 config/./map.php:1533
+#: config/./map.php:976 config/./map.php:1559
 msgid "Hide pagination control"
 msgstr ""
 
-#: config/./map.php:952
+#: config/./map.php:978
 msgid "If YES pagination control will be removed."
 msgstr ""
 
-#: config/./map.php:957 config/./map.php:1540
+#: config/./map.php:983 config/./map.php:1566
 #, fuzzy
 msgid "Hide prev/next buttons"
 msgstr "Przycisk Pinterest"
 
-#: config/./map.php:959
+#: config/./map.php:985
 msgid "If \"YES\" prev/next control will be removed."
 msgstr ""
 
-#: config/./map.php:964 config/./map.php:1547
+#: config/./map.php:990 config/./map.php:1573
 msgid "Partial view"
 msgstr ""
 
-#: config/./map.php:966
+#: config/./map.php:992
 msgid "If \"YES\" part of the next slide will be visible on the right side."
 msgstr ""
 
-#: config/./map.php:971 config/./map.php:1554
+#: config/./map.php:997 config/./map.php:1580
 #, fuzzy
 msgid "Slider loop"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:973 config/./map.php:1556
+#: config/./map.php:999 config/./map.php:1582
 msgid "Enables loop mode."
 msgstr ""
 
-#: config/./map.php:990
+#: config/./map.php:1016
 msgid "Tabs"
 msgstr "Zakładki"
 
-#: config/./map.php:996
+#: config/./map.php:1022
 #, fuzzy
 msgid "Tabbed content"
 msgstr "Rozwijana treść"
 
-#: config/./map.php:1006
+#: config/./map.php:1032
 #, fuzzy
 msgid "Auto rotate tabs"
 msgstr "Automatycznie zmieniaj slajdy"
 
-#: config/./map.php:1010
+#: config/./map.php:1036
 #, fuzzy
 msgid "Auto rotate tabs each X seconds."
 msgstr ""
 "Automatycznie zmieniaj slajdy co X sekund. Wybierz 0 aby wyłączyć tę funkcję."
 
-#: config/./map.php:1027 config/./map.php:1077
+#: config/./map.php:1053 config/./map.php:1103
 msgid "Tab 1"
 msgstr "Zakładka 1"
 
-#: config/./map.php:1028 config/./map.php:1078
+#: config/./map.php:1054 config/./map.php:1104
 msgid "Tab 2"
 msgstr "Zakładka 2"
 
-#: config/./map.php:1038
+#: config/./map.php:1064
 msgid "Tour"
 msgstr ""
 
-#: config/./map.php:1046
+#: config/./map.php:1072
 msgid "Vertical tabbed content"
 msgstr ""
 
-#: config/./map.php:1084 include/./classes/core/class-vc-base.php:529
+#: config/./map.php:1110 include/./classes/core/class-vc-base.php:475
 #: include/./classes/shortcodes/vc-tab.php:2
 msgid "Tab"
 msgstr "Zakłądka"
 
-#: config/./map.php:1094
+#: config/./map.php:1120
 #, fuzzy
 msgid "Tab title."
 msgstr "Tytuł"
 
-#: config/./map.php:1098
+#: config/./map.php:1124
 #, fuzzy
 msgid "Tab ID"
 msgstr "Zakładka 1"
 
-#: config/./map.php:1108
+#: config/./map.php:1134
 #, fuzzy
 msgid "Accordion"
 msgstr "Dział zwijany"
 
-#: config/./map.php:1114
+#: config/./map.php:1140
 msgid "Collapsible content panels"
 msgstr ""
 
-#: config/./map.php:1124
+#: config/./map.php:1150
 #, fuzzy
 msgid "Active section"
 msgstr "Dodaj dział"
 
-#: config/./map.php:1126
+#: config/./map.php:1152
 msgid ""
 "Enter section number to be active on load or enter false to collapse all "
 "sections."
 msgstr ""
 
-#: config/./map.php:1130
+#: config/./map.php:1156
 msgid "Allow collapsible all"
 msgstr ""
 
-#: config/./map.php:1132
+#: config/./map.php:1158
 msgid "Select checkbox to allow all sections to be collapsible."
 msgstr ""
 
-#: config/./map.php:1133
+#: config/./map.php:1159
 #, fuzzy
 msgid "Allow"
 msgstr "Żółty"
 
-#: config/./map.php:1147
+#: config/./map.php:1173
 msgid "Add section"
 msgstr "Dodaj dział"
 
-#: config/./map.php:1151
+#: config/./map.php:1177
 msgid "Section 1"
 msgstr "Dział 1"
 
-#: config/./map.php:1152
+#: config/./map.php:1178
 msgid "Section 2"
 msgstr "Dział 2"
 
-#: config/./map.php:1157 include/./classes/core/class-vc-base.php:530
-#: include/./classes/core/class-vc-base.php:533
+#: config/./map.php:1183 include/./classes/core/class-vc-base.php:476
+#: include/./classes/core/class-vc-base.php:479
 #: include/./templates/shortcodes/vc_accordion_tab.php:5
 msgid "Section"
 msgstr "Dział"
 
-#: config/./map.php:1167
+#: config/./map.php:1193
 #, fuzzy
 msgid "Accordion section title."
 msgstr "Dział zwijany"
 
-#: config/./map.php:1177
+#: config/./map.php:1203
 #, fuzzy
 msgid "Teaser (posts) Grid"
 msgstr "Siatka z listą wpisów"
 
-#: config/./map.php:1191 config/./map.php:1382
+#: config/./map.php:1217 config/./map.php:1408
 msgid "Columns count"
 msgstr "Liczba kolumn."
 
-#: config/./map.php:1195 config/./map.php:1387
+#: config/./map.php:1221 config/./map.php:1413
 msgid "Select columns count."
 msgstr "Wybierz liczbę kolumn."
 
-#: config/./map.php:1199 config/./map.php:1611
+#: config/./map.php:1225 config/./map.php:1637
 #: include/./params/loop/loop.php:178
 msgid "Post types"
 msgstr "Typy wpisów"
 
-#: config/./map.php:1201 config/./map.php:1613
+#: config/./map.php:1227 config/./map.php:1639
 msgid "Select post types to populate posts from."
 msgstr "Wybierztypy wpisów z których mają być wyświetlane wpisy."
 
-#: config/./map.php:1205
+#: config/./map.php:1231
 #, fuzzy
 msgid "Teasers count"
 msgstr "Liczba wpisów"
 
-#: config/./map.php:1207
+#: config/./map.php:1233
 #, fuzzy
 msgid "How many teasers to show? Enter number or word \"All\"."
 msgstr "Wpisz ile wpisów pokazać. Wpisz liczbę lub określenie \"All\"."
 
-#: config/./map.php:1214 config/./map.php:1621
+#: config/./map.php:1240 config/./map.php:1647
 msgid "Teaser (Excerpt)"
 msgstr "Wypis"
 
-#: config/./map.php:1215
+#: config/./map.php:1241
 msgid "Full Content"
 msgstr "Cała treść"
 
-#: config/./map.php:1217 config/./map.php:1263 config/./map.php:1277
-#: config/./map.php:1430
+#: config/./map.php:1243 config/./map.php:1289 config/./map.php:1303
+#: config/./map.php:1456
 msgid "Teaser layout template."
 msgstr "Wybierz szablon listy wpisów."
 
-#: config/./map.php:1221
+#: config/./map.php:1247
 msgid "Layout"
 msgstr "Szablon"
 
-#: config/./map.php:1224
+#: config/./map.php:1250
 msgid "Title + Thumbnail + Text"
 msgstr "Tytuł + miniatura + tekst"
 
-#: config/./map.php:1225
+#: config/./map.php:1251
 msgid "Thumbnail + Title + Text"
 msgstr "Miniatura + tytuł + tekst"
 
-#: config/./map.php:1226
+#: config/./map.php:1252
 msgid "Thumbnail + Text"
 msgstr "Miniatura + tekst"
 
-#: config/./map.php:1227
+#: config/./map.php:1253
 msgid "Thumbnail + Title"
 msgstr "Miniatura + tytuł"
 
-#: config/./map.php:1228
+#: config/./map.php:1254
 msgid "Thumbnail only"
 msgstr "Tylko miniatura"
 
-#: config/./map.php:1229
+#: config/./map.php:1255
 msgid "Title + Text"
 msgstr "Tytuł + tekst"
 
-#: config/./map.php:1230
+#: config/./map.php:1256
 msgid "Teaser layout."
 msgstr "Wybierz sposób wyświetlania wpisów."
 
-#: config/./map.php:1234 config/./map.php:1642
+#: config/./map.php:1260 config/./map.php:1668 config/./new_elements.php:76
 #: include/./params/sorted_list/sorted_list.php:60
 msgid "Link"
 msgstr "Link"
 
-#: config/./map.php:1237 config/./map.php:1354 config/./map.php:1645
+#: config/./map.php:1263 config/./map.php:1380 config/./map.php:1671
 #: include/./params/sorted_list/sorted_list.php:68
 msgid "Link to post"
 msgstr "Link do wpisu"
 
-#: config/./map.php:1238 config/./map.php:1356 config/./map.php:1646
+#: config/./map.php:1264 config/./map.php:1382 config/./map.php:1672
 msgid "Link to bigger image"
 msgstr "Link do powiększonego obrazka"
 
-#: config/./map.php:1239
+#: config/./map.php:1265
 msgid "Thumbnail to bigger image, title to post"
 msgstr "Miniatura to link powiększonego obrazka, tytuł link do wpisu"
 
-#: config/./map.php:1240 config/./map.php:1355 config/./map.php:1648
+#: config/./map.php:1266 config/./map.php:1381 config/./map.php:1674
 #: include/./params/sorted_list/sorted_list.php:67
 #: include/./templates/teaser.html.php:16
 #: include/./templates/teaser.html.php:37
 msgid "No link"
 msgstr "Brak linku"
 
-#: config/./map.php:1242 config/./map.php:1650
+#: config/./map.php:1268 config/./map.php:1676
 msgid "Link type."
 msgstr "Rodzaj linku."
 
-#: config/./map.php:1246 config/./map.php:1407 config/./map.php:1492
+#: config/./map.php:1272 config/./map.php:1433 config/./map.php:1518
 msgid "Link target"
 msgstr "Cel linku"
 
-#: config/./map.php:1256
+#: config/./map.php:1282
 #, fuzzy
 msgid "Teaser grid layout"
 msgstr "Wybierz sposób wyświetlania wpisów."
 
-#: config/./map.php:1259
+#: config/./map.php:1285
 msgid "Grid"
 msgstr "Siatka"
 
-#: config/./map.php:1260
+#: config/./map.php:1286
 msgid "Grid with filter"
 msgstr "Siatka z filtrem"
 
-#: config/./map.php:1261
+#: config/./map.php:1287
 msgid "Carousel"
 msgstr "Karuzela"
 
-#: config/./map.php:1267 config/./map.php:1424
+#: config/./map.php:1293 config/./map.php:1450
 msgid "Layout mode"
 msgstr "Tryb szablonu"
 
-#: config/./map.php:1270 config/./map.php:1427
+#: config/./map.php:1296 config/./map.php:1453
 msgid "Fit rows"
 msgstr "Dopasuj rzędy"
 
-#: config/./map.php:1271 config/./map.php:1428
+#: config/./map.php:1297 config/./map.php:1454
 msgid "Masonry"
 msgstr "Klocki"
 
-#: config/./map.php:1281 include/./params/loop/loop.php:182
+#: config/./map.php:1307 config/./map.php:3179
+#: include/./params/loop/loop.php:182
 #, fuzzy
 msgid "Taxonomies"
 msgstr "Taksonomie"
 
-#: config/./map.php:1289
+#: config/./map.php:1315
 #, fuzzy
 msgid "Select taxonomies."
 msgstr "Wybierz taksonomie z."
 
-#: config/./map.php:1293 config/./map.php:1434 config/./map.php:1499
-#: config/./map.php:1661
+#: config/./map.php:1319 config/./map.php:1460 config/./map.php:1525
+#: config/./map.php:1687
 msgid "Thumbnail size"
 msgstr "Wielkość miniatury"
 
-#: config/./map.php:1295 config/./map.php:1436 config/./map.php:1501
-#: config/./map.php:1663
+#: config/./map.php:1321 config/./map.php:1462 config/./map.php:1527
+#: config/./map.php:1689
 #, fuzzy
 msgid ""
 "Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
@@ -1214,11 +1259,11 @@ msgstr ""
 "wielkości określone w używanym motywie. Alternatywnie możesz wpisać rozmiar "
 "w pikselach: 200x100 (szerokość x wysokość)."
 
-#: config/./map.php:1299 config/./map.php:1667
+#: config/./map.php:1325 config/./map.php:1693
 msgid "Post/Page IDs"
 msgstr "ID wpisu/strony"
 
-#: config/./map.php:1301
+#: config/./map.php:1327
 msgid ""
 "Fill this field with page/posts IDs separated by commas (,) to retrieve only "
 "them. Use this in conjunction with \"Post types\" field."
@@ -1226,11 +1271,11 @@ msgstr ""
 "Wypełnij to pole numerami ID stron/wpisów oddzielając je przecinkami. Użyj "
 "tej funkcji w połączeniu z polem \"Typy wpisów\""
 
-#: config/./map.php:1305
+#: config/./map.php:1331
 msgid "Exclude Post/Page IDs"
 msgstr "Wyklucz ID wpisu/strony"
 
-#: config/./map.php:1307
+#: config/./map.php:1333
 msgid ""
 "Fill this field with page/posts IDs separated by commas (,) to exclude them "
 "from query."
@@ -1238,13 +1283,14 @@ msgstr ""
 "Wypełnij to pole numerami ID stron/wpisów oddzielając je przecinkami, aby "
 "wykluczyć je z zapytania."
 
-#: config/./map.php:1311 config/./map.php:1673 config/./map.php:2912
+#: config/./map.php:1337 config/./map.php:1699 config/./map.php:2938
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:633
 #: include/./params/loop/loop.php:180
 #: include/./templates/shortcodes/vc_wp_categories.php:4
 msgid "Categories"
 msgstr "Kategorie"
 
-#: config/./map.php:1313 config/./map.php:1675
+#: config/./map.php:1339 config/./map.php:1701
 #, fuzzy
 msgid ""
 "If you want to narrow output, enter category names here. Note: Only listed "
@@ -1254,141 +1300,179 @@ msgstr ""
 "Uwaga: tylko wpisy z podanych kategorii będą wyświetlane. Każda kategoria "
 "powinna być podana w oddzielnym wierszu!"
 
-#: config/./map.php:1317 config/./map.php:1679 config/./map.php:1696
+#: config/./map.php:1343 config/./map.php:1705 config/./map.php:1722
+#: config/./map.php:3342
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:203
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:250
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:334
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:545
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:606
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:686
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:764
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:818
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:911
 msgid "Order by"
 msgstr "Sortuj wg"
 
-#: config/./map.php:1321 config/./map.php:1683
+#: config/./map.php:1347 config/./map.php:1709 config/./map.php:3345
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:59
 #: include/./params/loop/loop.php:245
 msgid "Date"
 msgstr "Daty"
 
-#: config/./map.php:1322 config/./map.php:1684
+#: config/./map.php:1348 config/./map.php:1710
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:60
 msgid "ID"
 msgstr "ID"
 
-#: config/./map.php:1323 config/./map.php:1685
+#: config/./map.php:1349 config/./map.php:1711 config/./map.php:3347
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:61
 #: include/./params/loop/loop.php:179 include/./params/loop/loop.php:247
 msgid "Author"
 msgstr "Autora"
 
-#: config/./map.php:1325 config/./map.php:1687
+#: config/./map.php:1351 config/./map.php:1713
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:63
 #: include/./params/loop/loop.php:250
 msgid "Modified"
 msgstr "Daty modyfikacji"
 
-#: config/./map.php:1326 config/./map.php:1688 config/./map.php:2295
-#: config/./map.php:2883 include/./params/loop/loop.php:252
+#: config/./map.php:1352 config/./map.php:1714 config/./map.php:2321
+#: config/./map.php:2909
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:64
+#: include/./params/loop/loop.php:252
 msgid "Random"
 msgstr "Losowo"
 
-#: config/./map.php:1327 config/./map.php:1689
+#: config/./map.php:1353 config/./map.php:1715
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:65
 #: include/./params/loop/loop.php:253
 msgid "Comment count"
 msgstr "Liczba komentarzy"
 
-#: config/./map.php:1328 config/./map.php:1690
+#: config/./map.php:1354 config/./map.php:1716
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:66
 #: include/./params/loop/loop.php:254
 msgid "Menu order"
 msgstr "Kolejności w menu"
 
-#: config/./map.php:1330 config/./map.php:1692
+#: config/./map.php:1356 config/./map.php:1718
 #, php-format
 msgid "Select how to sort retrieved posts. More at %s."
 msgstr ""
 
-#: config/./map.php:1334
+#: config/./map.php:1360
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:210
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:257
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:341
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:552
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:613
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:693
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:771
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:825
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:918
 msgid "Order way"
 msgstr "Kolejność sortowania"
 
-#: config/./map.php:1337 config/./map.php:1699
+#: config/./map.php:1363 config/./map.php:1725 config/./map.php:3373
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:71
 #: include/./params/loop/loop.php:264
 msgid "Descending"
 msgstr "Malejąco"
 
-#: config/./map.php:1338 config/./map.php:1700
+#: config/./map.php:1364 config/./map.php:1726 config/./map.php:3372
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:72
 #: include/./params/loop/loop.php:263
 msgid "Ascending"
 msgstr "Rosnąco"
 
-#: config/./map.php:1340 config/./map.php:1702
+#: config/./map.php:1366 config/./map.php:1728
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:213
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:260
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:344
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:555
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:616
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:696
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:774
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:828
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:921
 #, php-format
 msgid "Designates the ascending or descending order. More at %s."
 msgstr ""
 
-#: config/./map.php:1359
+#: config/./map.php:1385
 #, fuzzy
 msgid "Posts Grid"
 msgstr "Pokaz slajdów wpisów"
 
-#: config/./map.php:1362
+#: config/./map.php:1388
 #, fuzzy
 msgid "Posts in grid view"
 msgstr "Pokaz slajdów wpisów"
 
-#: config/./map.php:1372
+#: config/./map.php:1398
 #, fuzzy
 msgid "Grids content"
 msgstr "Liczba slajdów"
 
-#: config/./map.php:1378 config/./map.php:1472
+#: config/./map.php:1404 config/./map.php:1498
 msgid "Create WordPress loop, to populate content from your site."
 msgstr ""
 
-#: config/./map.php:1391 config/./map.php:1476
+#: config/./map.php:1417 config/./map.php:1502
 #, fuzzy
 msgid "Teaser layout"
 msgstr "Wybierz sposób wyświetlania wpisów."
 
-#: config/./map.php:1393 config/./map.php:1478
+#: config/./map.php:1419 config/./map.php:1504
 msgid ""
 "Control teasers look. Enable blocks and place them in desired order. Note: "
 "This setting can be overrriden on post to post basis."
 msgstr ""
 
-#: config/./map.php:1396 config/./map.php:1481
+#: config/./map.php:1422 config/./map.php:1507
 #, fuzzy
 msgid "Thumbnail"
 msgstr "Tylko miniatura"
 
-#: config/./map.php:1399 config/./map.php:1484
+#: config/./map.php:1425 config/./map.php:1510
 #, fuzzy
 msgid "Teaser/Excerpt"
 msgstr "Wypis"
 
-#: config/./map.php:1400 config/./map.php:1485
+#: config/./map.php:1426 config/./map.php:1511
 #, fuzzy
 msgid "Full content"
 msgstr "Cała treść"
 
-#: config/./map.php:1402 config/./map.php:1487
+#: config/./map.php:1428 config/./map.php:1513
 #, fuzzy
 msgid "Read more link"
 msgstr "Zobacz więcej"
 
-#: config/./map.php:1417
+#: config/./map.php:1443 config/./map.php:3305
 msgid "Show filter"
 msgstr ""
 
-#: config/./map.php:1420
+#: config/./map.php:1446
 msgid "Select to add animated category filter to your posts grid."
 msgstr ""
 
-#: config/./map.php:1451
+#: config/./map.php:1477
 #, fuzzy
 msgid "Post Carousel"
 msgstr "Karuzela"
 
-#: config/./map.php:1456
+#: config/./map.php:1482
 msgid "Animated carousel with posts"
 msgstr ""
 
-#: config/./map.php:1466
+#: config/./map.php:1492
 #, fuzzy
 msgid "Carousel content"
 msgstr "Rozwijana treść"
 
-#: config/./map.php:1522
+#: config/./map.php:1548
 msgid ""
 "Set numbers of slides you want to display at the same time on slider's "
 "container for carousel mode. Also supports for \"auto\" value, in this case "
@@ -1396,77 +1480,77 @@ msgid ""
 "compatible with loop mode."
 msgstr ""
 
-#: config/./map.php:1535
+#: config/./map.php:1561
 msgid "If \"YES\" pagination control will be removed"
 msgstr ""
 
-#: config/./map.php:1542
+#: config/./map.php:1568
 msgid "If \"YES\" prev/next control will be removed"
 msgstr ""
 
-#: config/./map.php:1549
+#: config/./map.php:1575
 msgid "If \"YES\" part of the next slide will be visible on the right side"
 msgstr ""
 
-#: config/./map.php:1572
+#: config/./map.php:1598
 #, fuzzy
 msgid "Posts Slider"
 msgstr "Pokaz slajdów wpisów"
 
-#: config/./map.php:1576
+#: config/./map.php:1602
 msgid "Slider with WP Posts"
 msgstr ""
 
-#: config/./map.php:1586
+#: config/./map.php:1612
 msgid "Slider type"
 msgstr "Typ pokazu slajdów"
 
-#: config/./map.php:1594
+#: config/./map.php:1620
 #, fuzzy
 msgid "Select slider type."
 msgstr "Wybierz rodzaj wiadomości."
 
-#: config/./map.php:1598
+#: config/./map.php:1624
 msgid "Slides count"
 msgstr "Liczba slajdów"
 
-#: config/./map.php:1600
+#: config/./map.php:1626
 #, fuzzy
 msgid "How many slides to show? Enter number or word \"All\"."
 msgstr ""
 "Ile slajdów ma być wyświetlonych. Wpisz liczbę lub wybierz \"Wszystkie\"."
 
-#: config/./map.php:1617
+#: config/./map.php:1643
 #: include/./classes/settings/class-vc-automapper.php:299
 msgid "Description"
 msgstr "Opis"
 
-#: config/./map.php:1620
+#: config/./map.php:1646
 msgid "No description"
 msgstr "Brak opisu"
 
-#: config/./map.php:1623
+#: config/./map.php:1649
 msgid "Some sliders support description text, what content use for it?"
 msgstr ""
 "Niektóre pokazy slajdów umożłiwiają dodanie opisu. Wybierz jaka ma być jego "
 "zawartość?"
 
-#: config/./map.php:1631
+#: config/./map.php:1657
 msgid "Output post title?"
 msgstr ""
 
-#: config/./map.php:1633
+#: config/./map.php:1659
 msgid "If selected, title will be printed before the teaser text."
 msgstr ""
 
-#: config/./map.php:1657
+#: config/./map.php:1683
 #, fuzzy
 msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
 msgstr ""
 "Wybierz \"Otwórz własny link\" w parametrze \"Link\" i dodaj linki dla "
 "każdego ze slajdów. Każdy link napisz w oddzielnym rzędzie."
 
-#: config/./map.php:1669
+#: config/./map.php:1695
 msgid ""
 "Fill this field with page/posts IDs separated by commas (,), to retrieve "
 "only them. Use this in conjunction with \"Post types\" field."
@@ -1474,167 +1558,167 @@ msgstr ""
 "Wypełnij to pole numerami ID stron/wpisów oddzielając je przecinkami. Użyj "
 "tej funkcji w połączeniu z polem \"Typy wpisów\""
 
-#: config/./map.php:1716
+#: config/./map.php:1742
 msgid "Widgetised Sidebar"
 msgstr "Panel boczny z widgetami"
 
-#: config/./map.php:1720 config/./map.php:2214 config/./map.php:2235
+#: config/./map.php:1746 config/./map.php:2240 config/./map.php:2261
 msgid "Structure"
 msgstr ""
 
-#: config/./map.php:1721
+#: config/./map.php:1747
 #, fuzzy
 msgid "Place widgetised sidebar"
 msgstr "Panel boczny z widgetami"
 
-#: config/./map.php:1731
+#: config/./map.php:1757
 msgid "Sidebar"
 msgstr "Panel boczny"
 
-#: config/./map.php:1733
+#: config/./map.php:1759
 msgid "Select which widget area output."
 msgstr "Wybierz z jakiego pola mają być wyświetlane widgety."
 
-#: config/./map.php:1748
+#: config/./map.php:1774
 msgid "Address book icon"
 msgstr "Książka adresowa"
 
-#: config/./map.php:1749
+#: config/./map.php:1775
 msgid "Alarm clock icon"
 msgstr "Budzik"
 
-#: config/./map.php:1750
+#: config/./map.php:1776
 msgid "Anchor icon"
 msgstr "Kotwica"
 
-#: config/./map.php:1751
+#: config/./map.php:1777
 msgid "Application Image icon"
 msgstr "Aplikacja"
 
-#: config/./map.php:1752
+#: config/./map.php:1778
 msgid "Arrow icon"
 msgstr "Strzałka"
 
-#: config/./map.php:1753
+#: config/./map.php:1779
 msgid "Asterisk icon"
 msgstr "Asterisk"
 
-#: config/./map.php:1754
+#: config/./map.php:1780
 msgid "Hammer icon"
 msgstr "Młot"
 
-#: config/./map.php:1755
+#: config/./map.php:1781
 msgid "Balloon icon"
 msgstr "Chmurka"
 
-#: config/./map.php:1756
+#: config/./map.php:1782
 msgid "Balloon Buzz icon"
 msgstr "Chmurka Chrome"
 
-#: config/./map.php:1757
+#: config/./map.php:1783
 msgid "Balloon Facebook icon"
 msgstr "Chmurka Facebook"
 
-#: config/./map.php:1758
+#: config/./map.php:1784
 msgid "Balloon Twitter icon"
 msgstr "Chmurka Twitter"
 
-#: config/./map.php:1759
+#: config/./map.php:1785
 msgid "Battery icon"
 msgstr "Bateria"
 
-#: config/./map.php:1760
+#: config/./map.php:1786
 msgid "Binocular icon"
 msgstr "Lornetka"
 
-#: config/./map.php:1761
+#: config/./map.php:1787
 msgid "Document Excel icon"
 msgstr "Dokument Excel'a"
 
-#: config/./map.php:1762
+#: config/./map.php:1788
 msgid "Document Image icon"
 msgstr "Dokument z obrazkiem"
 
-#: config/./map.php:1763
+#: config/./map.php:1789
 msgid "Document Music icon"
 msgstr "Dokument z muzyką"
 
-#: config/./map.php:1764
+#: config/./map.php:1790
 msgid "Document Office icon"
 msgstr "Dukument Office'a"
 
-#: config/./map.php:1765
+#: config/./map.php:1791
 msgid "Document PDF icon"
 msgstr "Dokument PDF"
 
-#: config/./map.php:1766
+#: config/./map.php:1792
 msgid "Document Powerpoint icon"
 msgstr "Dokument PowerPoint'a"
 
-#: config/./map.php:1767
+#: config/./map.php:1793
 msgid "Document Word icon"
 msgstr "Dokument Word'a"
 
-#: config/./map.php:1768
+#: config/./map.php:1794
 msgid "Bookmark icon"
 msgstr "Bookmark"
 
-#: config/./map.php:1769
+#: config/./map.php:1795
 msgid "Camcorder icon"
 msgstr "Kamera"
 
-#: config/./map.php:1770
+#: config/./map.php:1796
 msgid "Camera icon"
 msgstr "Aparat"
 
-#: config/./map.php:1771
+#: config/./map.php:1797
 msgid "Chart icon"
 msgstr "Wykres"
 
-#: config/./map.php:1772
+#: config/./map.php:1798
 msgid "Chart pie icon"
 msgstr "Wykres kołowy"
 
-#: config/./map.php:1773
+#: config/./map.php:1799
 msgid "Clock icon"
 msgstr "Zegar"
 
-#: config/./map.php:1774
+#: config/./map.php:1800
 msgid "Fire icon"
 msgstr "Ogień"
 
-#: config/./map.php:1775
+#: config/./map.php:1801
 msgid "Heart icon"
 msgstr "Serce"
 
-#: config/./map.php:1776
+#: config/./map.php:1802
 msgid "Mail icon"
 msgstr "E-mail"
 
-#: config/./map.php:1777
+#: config/./map.php:1803
 msgid "Play icon"
 msgstr "Odtwarzaj"
 
-#: config/./map.php:1778
+#: config/./map.php:1804
 msgid "Shield icon"
 msgstr "Tarcza"
 
-#: config/./map.php:1779
+#: config/./map.php:1805
 msgid "Video icon"
 msgstr "Video"
 
-#: config/./map.php:1783 config/./map.php:1844
+#: config/./map.php:1809 config/./map.php:1870 config/./new_elements.php:75
 msgid "Button"
 msgstr "Przycisk"
 
-#: config/./map.php:1787 config/./map.php:1849
+#: config/./map.php:1813 config/./map.php:1875
 #, fuzzy
 msgid "Eye catching button"
 msgstr "Przycisk akcji"
 
-#: config/./map.php:1791 config/./map.php:1795 config/./map.php:1859
-#: config/./map.php:1863 config/./map.php:1925 config/./map.php:1927
-#: config/./map.php:2055 config/./map.php:2059
+#: config/./map.php:1817 config/./map.php:1821 config/./map.php:1885
+#: config/./map.php:1889 config/./map.php:1951 config/./map.php:1953
+#: config/./map.php:2081 config/./map.php:2085
 #: include/./templates/shortcodes/vc_button.php:10
 #: include/./templates/shortcodes/vc_button2.php:4
 #: include/./templates/shortcodes/vc_cta_button.php:9
@@ -1642,182 +1726,182 @@ msgstr "Przycisk akcji"
 msgid "Text on the button"
 msgstr "Tekst przycisku."
 
-#: config/./map.php:1796 config/./map.php:1864 config/./map.php:1928
-#: config/./map.php:2060
+#: config/./map.php:1822 config/./map.php:1890 config/./map.php:1954
+#: config/./map.php:2086
 msgid "Text on the button."
 msgstr "Tekst przycisku."
 
-#: config/./map.php:1800 config/./map.php:1853 config/./map.php:1932
-#: config/./map.php:2049
+#: config/./map.php:1826 config/./map.php:1879 config/./map.php:1958
+#: config/./map.php:2075
 msgid "URL (Link)"
 msgstr "Adres URL (link)"
 
-#: config/./map.php:1802 config/./map.php:1855 config/./map.php:1934
-#: config/./map.php:2051
+#: config/./map.php:1828 config/./map.php:1881 config/./map.php:1960
+#: config/./map.php:2077
 msgid "Button link."
 msgstr "Link przycisku."
 
-#: config/./map.php:1806 config/./map.php:1938
+#: config/./map.php:1832 config/./map.php:1964
 msgid "Target"
 msgstr "Otwórz w"
 
-#: config/./map.php:1816 config/./map.php:1878 config/./map.php:1948
-#: config/./map.php:2074
+#: config/./map.php:1842 config/./map.php:1904 config/./map.php:1974
+#: config/./map.php:2100
 msgid "Button color."
 msgstr "Kolor przycisku."
 
-#: config/./map.php:1821 config/./map.php:1953
+#: config/./map.php:1847 config/./map.php:1979
 msgid "Icon"
 msgstr "Ikona"
 
-#: config/./map.php:1824 config/./map.php:1956
+#: config/./map.php:1850 config/./map.php:1982
 #, fuzzy
 msgid "Button icon."
 msgstr "Przycisk z liczbą Like'ów"
 
-#: config/./map.php:1828 config/./map.php:1890 config/./map.php:1960
-#: config/./map.php:2086
+#: config/./map.php:1854 config/./map.php:1916 config/./map.php:1986
+#: config/./map.php:2112
 msgid "Size"
 msgstr "Rozmiar"
 
-#: config/./map.php:1831 config/./map.php:1894 config/./map.php:1963
-#: config/./map.php:2090
+#: config/./map.php:1857 config/./map.php:1920 config/./map.php:1989
+#: config/./map.php:2116 config/./map.php:3524
 msgid "Button size."
 msgstr "Wielkość przycisku."
 
-#: config/./map.php:1871 config/./map.php:2067
+#: config/./map.php:1897 config/./map.php:2093
 #, fuzzy
 msgid "Button style."
 msgstr "Rodzaj przycisku"
 
-#: config/./map.php:1909 config/./map.php:1988
+#: config/./map.php:1935 config/./map.php:2014
 #, fuzzy
 msgid "Call to Action Button"
 msgstr "Przycisk akcji"
 
-#: config/./map.php:1913 config/./map.php:1992
+#: config/./map.php:1939 config/./map.php:2018
 msgid "Catch visitors attention with CTA block"
 msgstr ""
 
-#: config/./map.php:1920
+#: config/./map.php:1946
 msgid "Click edit button to change this text."
 msgstr "Kliknij przycisk edytuj aby zmienić ten tekst."
 
-#: config/./map.php:1921 include/./classes/shortcodes/example.php:114
+#: config/./map.php:1947 include/./classes/shortcodes/example.php:114
 msgid "Enter your content."
 msgstr "Wpisz treść."
 
-#: config/./map.php:1967 config/./map.php:2094
+#: config/./map.php:1993 config/./map.php:2120
 msgid "Button position"
 msgstr "Pozycja przycisku"
 
-#: config/./map.php:1972 config/./map.php:2099
+#: config/./map.php:1998 config/./map.php:2125
 msgid "Align bottom"
 msgstr "Do dołu"
 
-#: config/./map.php:1974 config/./map.php:2101
+#: config/./map.php:2000 config/./map.php:2127
 msgid "Select button alignment."
 msgstr "Wybierz rodzaj wyrównania przycisku."
 
-#: config/./map.php:1996
+#: config/./map.php:2022
 msgid "Heading first line"
 msgstr ""
 
-#: config/./map.php:2000
+#: config/./map.php:2026
 msgid "Hey! I am first heading line feel free to change me"
 msgstr ""
 
-#: config/./map.php:2001
+#: config/./map.php:2027
 msgid "Text for the first heading line."
 msgstr ""
 
-#: config/./map.php:2005
+#: config/./map.php:2031
 msgid "Heading second line"
 msgstr ""
 
-#: config/./map.php:2010
+#: config/./map.php:2036
 msgid "Optional text for the second heading line."
 msgstr ""
 
-#: config/./map.php:2014
+#: config/./map.php:2040
 msgid "CTA style"
 msgstr ""
 
-#: config/./map.php:2017
+#: config/./map.php:2043
 #, fuzzy
 msgid "Call to action style."
 msgstr "Przycisk akcji"
 
-#: config/./map.php:2024
+#: config/./map.php:2050
 msgid "Call to action element width in percents."
 msgstr ""
 
-#: config/./map.php:2028 include/./params/font_container/font_container.php:93
+#: config/./map.php:2054 include/./params/font_container/font_container.php:93
 #, fuzzy
 msgid "Text align"
 msgstr "Blok tekstowy"
 
-#: config/./map.php:2031
+#: config/./map.php:2057
 msgid "Text align in call to action block."
 msgstr ""
 
-#: config/./map.php:2035
+#: config/./map.php:2061
 msgid "Custom Background Color"
 msgstr ""
 
-#: config/./map.php:2037
+#: config/./map.php:2063
 msgid "Select background color for your element."
 msgstr ""
 
-#: config/./map.php:2043
+#: config/./map.php:2069
 msgid "Promotional text"
 msgstr ""
 
-#: config/./map.php:2045
+#: config/./map.php:2071
 msgid ""
 "I am promo text. Click edit button to change this text. Lorem ipsum dolor "
 "sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
 "ullamcorper mattis, pulvinar dapibus leo."
 msgstr ""
 
-#: config/./map.php:2064
+#: config/./map.php:2090 config/./map.php:3496
 #, fuzzy
 msgid "Button style"
 msgstr "Rodzaj przycisku"
 
-#: config/./map.php:2116
+#: config/./map.php:2142
 #, fuzzy
 msgid "Video Player"
 msgstr "Odtwarzacz wideo"
 
-#: config/./map.php:2120
+#: config/./map.php:2146
 msgid "Embed YouTube/Vimeo player"
 msgstr ""
 
-#: config/./map.php:2130
+#: config/./map.php:2156
 msgid "Video link"
 msgstr "Link do pliku video"
 
-#: config/./map.php:2133
+#: config/./map.php:2159
 #, php-format
 msgid "Link to the video. More about supported formats at %s."
 msgstr ""
 
-#: config/./map.php:2154
+#: config/./map.php:2180
 #, fuzzy
 msgid "Google Maps"
 msgstr "Mapy Google"
 
-#: config/./map.php:2158
+#: config/./map.php:2184
 #, fuzzy
 msgid "Map block"
 msgstr "Blok tekstowy"
 
-#: config/./map.php:2168
+#: config/./map.php:2194
 msgid "Map embed iframe"
 msgstr ""
 
-#: config/./map.php:2170
+#: config/./map.php:2196
 #, php-format
 msgid ""
 "Visit %s to create your map. 1) Find location 2) Click \"Share\" and make "
@@ -1825,310 +1909,311 @@ msgid ""
 "site\" link 4) Copy iframe code and paste it here."
 msgstr ""
 
-#: config/./map.php:2174
+#: config/./map.php:2200
 msgid "Map height"
 msgstr "Wysokość mapy"
 
-#: config/./map.php:2177
+#: config/./map.php:2203
 #, fuzzy
 msgid ""
 "Enter map height in pixels. Example: 200 or leave it empty to make map "
 "responsive."
 msgstr "Podaj wysokość mapy w pikselach, np. 200."
 
-#: config/./map.php:2211 config/./map.php:2221
+#: config/./map.php:2237 config/./map.php:2247
 msgid "Raw HTML"
 msgstr "Kod HTML"
 
-#: config/./map.php:2216
+#: config/./map.php:2242
 msgid "Output raw html code on your page"
 msgstr ""
 
-#: config/./map.php:2224
+#: config/./map.php:2250
 msgid "Enter your HTML content."
 msgstr "Wpisz treść HTML"
 
-#: config/./map.php:2232
+#: config/./map.php:2258
 #, fuzzy
 msgid "Raw JS"
 msgstr "Kod JavaScript"
 
-#: config/./map.php:2237
+#: config/./map.php:2263
 msgid "Output raw javascript code on your page"
 msgstr ""
 
-#: config/./map.php:2242
+#: config/./map.php:2268
 msgid "Raw js"
 msgstr "Kod JavaScript"
 
-#: config/./map.php:2245
+#: config/./map.php:2271
 #, fuzzy
 msgid "Enter your JS code."
 msgstr "Wpisz treść."
 
-#: config/./map.php:2254
+#: config/./map.php:2280
 #, fuzzy
 msgid "Flickr Widget"
 msgstr "Blok Flickr"
 
-#: config/./map.php:2257
+#: config/./map.php:2283
 msgid "Image feed from your flickr account"
 msgstr ""
 
-#: config/./map.php:2267
+#: config/./map.php:2293
 msgid "Flickr ID"
 msgstr "Flickr ID"
 
-#: config/./map.php:2270
+#: config/./map.php:2296
 #, php-format
 msgid "To find your flickID visit %s."
 msgstr ""
 
-#: config/./map.php:2274
+#: config/./map.php:2300
 msgid "Number of photos"
 msgstr "Liczba zdjęć"
 
-#: config/./map.php:2277
+#: config/./map.php:2303
 #, fuzzy
 msgid "Number of photos."
 msgstr "Liczba zdjęć"
 
-#: config/./map.php:2281
+#: config/./map.php:2307
 msgid "Type"
 msgstr "Rodzaj"
 
-#: config/./map.php:2284
+#: config/./map.php:2310
 msgid "User"
 msgstr "Użytkownik"
 
-#: config/./map.php:2285
+#: config/./map.php:2311
 msgid "Group"
 msgstr "Grupa"
 
-#: config/./map.php:2287
+#: config/./map.php:2313
 #, fuzzy
 msgid "Photo stream type."
 msgstr "Rodzaj źródła zdjęć"
 
-#: config/./map.php:2291
+#: config/./map.php:2317
 msgid "Display"
 msgstr "Wyświetlanie"
 
-#: config/./map.php:2294
+#: config/./map.php:2320
 msgid "Latest"
 msgstr "Najnowsze"
 
-#: config/./map.php:2297
+#: config/./map.php:2323
 #, fuzzy
 msgid "Photo order."
 msgstr "Kolejność zdjęć"
 
-#: config/./map.php:2312
+#: config/./map.php:2338
 msgid "Progress Bar"
 msgstr ""
 
-#: config/./map.php:2316
+#: config/./map.php:2342
 msgid "Animated progress bar"
 msgstr ""
 
-#: config/./map.php:2326
+#: config/./map.php:2352
 msgid "Graphic values"
 msgstr ""
 
-#: config/./map.php:2328
+#: config/./map.php:2354
 msgid ""
 "Input graph values, titles and color here. Divide values with linebreaks "
 "(Enter). Example: 90|Development|#e75956"
 msgstr ""
 
-#: config/./map.php:2333 config/./map.php:2414
+#: config/./map.php:2359 config/./map.php:2440
 msgid "Units"
 msgstr ""
 
-#: config/./map.php:2335 config/./map.php:2416
+#: config/./map.php:2361 config/./map.php:2442
 msgid ""
 "Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
 "unit will be appended to the graph title."
 msgstr ""
 
-#: config/./map.php:2339 config/./map.php:2420
+#: config/./map.php:2365 config/./map.php:2446
 #, fuzzy
 msgid "Bar color"
 msgstr "Kolor przycisku."
 
-#: config/./map.php:2351
+#: config/./map.php:2377
 #, fuzzy
 msgid "Select bar background color."
 msgstr "Wybierz liczbę kolumn."
 
-#: config/./map.php:2356
+#: config/./map.php:2382
 #, fuzzy
 msgid "Bar custom color"
 msgstr "Kolor przycisku."
 
-#: config/./map.php:2358
+#: config/./map.php:2384
 msgid "Select custom background color for bars."
 msgstr ""
 
-#: config/./map.php:2363 config/./map.php:2888 config/./map.php:2928
-#: config/./map.php:2963 config/./map.php:3011
+#: config/./map.php:2389 config/./map.php:2914 config/./map.php:2954
+#: config/./map.php:2989 config/./map.php:3037
 msgid "Options"
 msgstr ""
 
-#: config/./map.php:2366
+#: config/./map.php:2392
 #, fuzzy
 msgid "Add Stripes?"
 msgstr "Dodaj obrazki"
 
-#: config/./map.php:2367
+#: config/./map.php:2393
 msgid "Add animation? Will be visible with striped bars."
 msgstr ""
 
-#: config/./map.php:2383
+#: config/./map.php:2409
 msgid "Pie chart"
 msgstr ""
 
-#: config/./map.php:2388
+#: config/./map.php:2414
 msgid "Animated pie chart"
 msgstr ""
 
-#: config/./map.php:2399
+#: config/./map.php:2425
 msgid "Pie value"
 msgstr ""
 
-#: config/./map.php:2401
+#: config/./map.php:2427
 msgid "Input graph value here. Choose range between 0 and 100."
 msgstr ""
 
-#: config/./map.php:2407
+#: config/./map.php:2433
 msgid "Pie label value"
 msgstr ""
 
-#: config/./map.php:2409
+#: config/./map.php:2435
 msgid "Input integer value for label. If empty \"Pie value\" will be used."
 msgstr ""
 
-#: config/./map.php:2423
+#: config/./map.php:2449
 #, fuzzy
 msgid "Select pie chart color."
 msgstr "Wybierz miejsce tytułu"
 
-#: config/./map.php:2457
+#: config/./map.php:2483
 msgid "No contact forms found"
 msgstr ""
 
-#: config/./map.php:2461
+#: config/./map.php:2487
 msgid "Contact Form 7"
 msgstr ""
 
-#: config/./map.php:2464
+#: config/./map.php:2490
 msgid "Place Contact Form7"
 msgstr ""
 
-#: config/./map.php:2468
+#: config/./map.php:2494
 #, fuzzy
 msgid "Form title"
 msgstr "Tutuł rozwijanego blogu"
 
-#: config/./map.php:2471
+#: config/./map.php:2497
 #, fuzzy
 msgid "What text use as form title. Leave blank if no title is needed."
 msgstr ""
 "Wpisz tytuł dla tego bloku lub pozostaw puste, jeśli tytuł nie jest "
 "potrzebny."
 
-#: config/./map.php:2475
+#: config/./map.php:2501
 #, fuzzy
 msgid "Select contact form"
 msgstr "Wybierz taksonomie z."
 
-#: config/./map.php:2478
+#: config/./map.php:2504
 msgid "Choose previously created contact form from the drop down list."
 msgstr ""
 
-#: config/./map.php:2485
+#: config/./map.php:2511
 msgid "No Gravity forms found."
 msgstr ""
 
-#: config/./map.php:2489
+#: config/./map.php:2515
 msgid "Select a form to display."
 msgstr ""
 
-#: config/./map.php:2496
+#: config/./map.php:2522
 msgid "Gravity Form"
 msgstr ""
 
-#: config/./map.php:2500
+#: config/./map.php:2526
 msgid "Place Gravity form"
 msgstr ""
 
-#: config/./map.php:2504
+#: config/./map.php:2530
 msgid "Form"
 msgstr ""
 
-#: config/./map.php:2507
+#: config/./map.php:2533
 msgid "Select a form to add it to your post or page."
 msgstr ""
 
-#: config/./map.php:2512
+#: config/./map.php:2538
 msgid "Display Form Title"
 msgstr ""
 
-#: config/./map.php:2516 config/./map.php:2527 config/./map.php:2538
+#: config/./map.php:2542 config/./map.php:2553 config/./map.php:2564
+#: config/./new_elements.php:132 config/./new_elements.php:145
 msgid "Yes"
 msgstr ""
 
-#: config/./map.php:2518
+#: config/./map.php:2544
 msgid "Would you like to display the forms title?"
 msgstr ""
 
-#: config/./map.php:2523
+#: config/./map.php:2549
 #, fuzzy
 msgid "Display Form Description"
 msgstr "Brak opisu"
 
-#: config/./map.php:2529
+#: config/./map.php:2555
 msgid "Would you like to display the forms description?"
 msgstr ""
 
-#: config/./map.php:2534
+#: config/./map.php:2560
 msgid "Enable AJAX?"
 msgstr ""
 
-#: config/./map.php:2540
+#: config/./map.php:2566
 msgid "Enable AJAX submission?"
 msgstr ""
 
-#: config/./map.php:2545
+#: config/./map.php:2571
 msgid "Tab Index"
 msgstr ""
 
-#: config/./map.php:2547
+#: config/./map.php:2573
 msgid ""
 "(Optional) Specify the starting tab index for the fields of this form. Leave "
 "blank if you're not sure what this is."
 msgstr ""
 
-#: config/./map.php:2557
+#: config/./map.php:2583
 msgid "Search"
 msgstr ""
 
-#: config/./map.php:2560 config/./map.php:2584 config/./map.php:2608
-#: config/./map.php:2638 config/./map.php:2662 config/./map.php:2712
-#: config/./map.php:2750 config/./map.php:2782 config/./map.php:2818
-#: config/./map.php:2862 config/./map.php:2915 config/./map.php:2950
-#: config/./map.php:2983
+#: config/./map.php:2586 config/./map.php:2610 config/./map.php:2634
+#: config/./map.php:2664 config/./map.php:2688 config/./map.php:2738
+#: config/./map.php:2776 config/./map.php:2808 config/./map.php:2844
+#: config/./map.php:2888 config/./map.php:2941 config/./map.php:2976
+#: config/./map.php:3009
 msgid "WordPress Widgets"
 msgstr ""
 
-#: config/./map.php:2563
+#: config/./map.php:2589
 msgid "A search form for your site"
 msgstr ""
 
-#: config/./map.php:2569 config/./map.php:2593 config/./map.php:2617
-#: config/./map.php:2647 config/./map.php:2671 config/./map.php:2721
-#: config/./map.php:2759 config/./map.php:2791 config/./map.php:2827
-#: config/./map.php:2924 config/./map.php:2959 config/./map.php:2992
+#: config/./map.php:2595 config/./map.php:2619 config/./map.php:2643
+#: config/./map.php:2673 config/./map.php:2697 config/./map.php:2747
+#: config/./map.php:2785 config/./map.php:2817 config/./map.php:2853
+#: config/./map.php:2950 config/./map.php:2985 config/./map.php:3018
 #, fuzzy
 msgid ""
 "What text use as a widget title. Leave blank to use default widget title."
@@ -2136,322 +2221,886 @@ msgstr ""
 "Wpisz tytuł dla tego bloku lub pozostaw puste, jeśli tytuł nie jest "
 "potrzebny."
 
-#: config/./map.php:2581 include/./templates/shortcodes/vc_wp_meta.php:4
+#: config/./map.php:2607 include/./templates/shortcodes/vc_wp_meta.php:4
 msgid "Meta"
 msgstr ""
 
-#: config/./map.php:2587
+#: config/./map.php:2613
 msgid "Log in/out, admin, feed and WordPress links"
 msgstr ""
 
-#: config/./map.php:2605
+#: config/./map.php:2631
 #: include/./templates/shortcodes/vc_wp_recentcomments.php:4
 msgid "Recent Comments"
 msgstr ""
 
-#: config/./map.php:2611
+#: config/./map.php:2637
 msgid "The most recent comments"
 msgstr ""
 
-#: config/./map.php:2621
+#: config/./map.php:2647
 #, fuzzy
 msgid "Number of comments to show"
 msgstr "Liczba zdjęć"
 
-#: config/./map.php:2635
+#: config/./map.php:2661
 #, fuzzy
 msgid "Calendar"
 msgstr "Standardowy"
 
-#: config/./map.php:2641
+#: config/./map.php:2667
 msgid "A calendar of your sites posts"
 msgstr ""
 
-#: config/./map.php:2659 include/./templates/shortcodes/vc_wp_pages.php:4
+#: config/./map.php:2685 include/./templates/shortcodes/vc_wp_pages.php:4
 #, fuzzy
 msgid "Pages"
 msgstr "Obrazki"
 
-#: config/./map.php:2665
+#: config/./map.php:2691
 msgid "Your sites WordPress Pages"
 msgstr ""
 
-#: config/./map.php:2675 config/./map.php:2877
+#: config/./map.php:2701 config/./map.php:2903 config/./map.php:3368
 msgid "Sort by"
 msgstr ""
 
-#: config/./map.php:2678
+#: config/./map.php:2704
 #: include/./templates/editors/popups/panel_post_settings.tpl.php:13
 #, fuzzy
 msgid "Page title"
 msgstr "Tutuł rozwijanego blogu"
 
-#: config/./map.php:2679
+#: config/./map.php:2705
 #, fuzzy
 msgid "Page order"
 msgstr "Kolejności w menu"
 
-#: config/./map.php:2680
+#: config/./map.php:2706
 #, fuzzy
 msgid "Page ID"
 msgstr "ID wpisu/strony"
 
-#: config/./map.php:2686
+#: config/./map.php:2712 config/./map.php:3407 config/./map.php:3409
 msgid "Exclude"
 msgstr ""
 
-#: config/./map.php:2688
+#: config/./map.php:2714
 msgid "Page IDs, separated by commas."
 msgstr ""
 
-#: config/./map.php:2709
+#: config/./map.php:2735
 msgid "Tag Cloud"
 msgstr ""
 
-#: config/./map.php:2715
+#: config/./map.php:2741
 msgid "Your most used tags in cloud format"
 msgstr ""
 
-#: config/./map.php:2725
+#: config/./map.php:2751
 msgid "Taxonomy"
 msgstr ""
 
-#: config/./map.php:2747
+#: config/./map.php:2773
 #, fuzzy
 msgid "Custom Menu"
 msgstr "Własne linki"
 
-#: config/./map.php:2753
+#: config/./map.php:2779
 msgid "Use this widget to add one of your custom menus as a widget"
 msgstr ""
 
-#: config/./map.php:2763
+#: config/./map.php:2789
 msgid "Menu"
 msgstr ""
 
-#: config/./map.php:2766
+#: config/./map.php:2792
 msgid ""
 "Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
 "create new menu."
 msgstr ""
 
-#: config/./map.php:2766
+#: config/./map.php:2792
 #, fuzzy
 msgid "Select menu"
 msgstr "Odznacz wszystkie"
 
-#: config/./map.php:2785
+#: config/./map.php:2811
 msgid "Arbitrary text or HTML"
 msgstr ""
 
-#: config/./map.php:2815 include/./templates/shortcodes/vc_wp_posts.php:4
+#: config/./map.php:2841 include/./templates/shortcodes/vc_wp_posts.php:4
 msgid "Recent Posts"
 msgstr ""
 
-#: config/./map.php:2821
+#: config/./map.php:2847
 msgid "The most recent posts on your site"
 msgstr ""
 
-#: config/./map.php:2831
+#: config/./map.php:2857
 #, fuzzy
 msgid "Number of posts to show"
 msgstr "Liczba zdjęć"
 
-#: config/./map.php:2837
+#: config/./map.php:2863
 msgid "Display post date?"
 msgstr ""
 
-#: config/./map.php:2851
+#: config/./map.php:2877
 #, fuzzy
 msgid "All Links"
 msgstr "Link"
 
-#: config/./map.php:2859
+#: config/./map.php:2885
 #, fuzzy
 msgid "Links"
 msgstr "Link"
 
-#: config/./map.php:2866
+#: config/./map.php:2892
 msgid "Your blogroll"
 msgstr ""
 
-#: config/./map.php:2870
+#: config/./map.php:2896
 #, fuzzy
 msgid "Link Category"
 msgstr "Kategorie"
 
-#: config/./map.php:2880
+#: config/./map.php:2906
 #, fuzzy
 msgid "Link title"
 msgstr "Rodzaj linku."
 
-#: config/./map.php:2881
+#: config/./map.php:2907
 #, fuzzy
 msgid "Link rating"
 msgstr "Cel linku"
 
-#: config/./map.php:2882
+#: config/./map.php:2908
 #, fuzzy
 msgid "Link ID"
 msgstr "Link"
 
-#: config/./map.php:2891
+#: config/./map.php:2917
 #, fuzzy
 msgid "Show Link Image"
 msgstr "Cel linku"
 
-#: config/./map.php:2892
+#: config/./map.php:2918
 msgid "Show Link Name"
 msgstr ""
 
-#: config/./map.php:2893
+#: config/./map.php:2919
 #, fuzzy
 msgid "Show Link Description"
 msgstr "Opis"
 
-#: config/./map.php:2894
+#: config/./map.php:2920
 msgid "Show Link Rating"
 msgstr ""
 
-#: config/./map.php:2899
+#: config/./map.php:2925
 #, fuzzy
 msgid "Number of links to show"
 msgstr "Liczba zdjęć"
 
-#: config/./map.php:2918
+#: config/./map.php:2944
 msgid "A list or dropdown of categories"
 msgstr ""
 
-#: config/./map.php:2931 config/./map.php:2966
+#: config/./map.php:2957 config/./map.php:2992
 msgid "Display as dropdown"
 msgstr ""
 
-#: config/./map.php:2932 config/./map.php:2967
+#: config/./map.php:2958 config/./map.php:2993
 msgid "Show post counts"
 msgstr ""
 
-#: config/./map.php:2933
+#: config/./map.php:2959
 msgid "Show hierarchy"
 msgstr ""
 
-#: config/./map.php:2947 include/./templates/shortcodes/vc_wp_archives.php:4
+#: config/./map.php:2973 include/./templates/shortcodes/vc_wp_archives.php:4
 msgid "Archives"
 msgstr ""
 
-#: config/./map.php:2953
+#: config/./map.php:2979
 msgid "A monthly archive of your sites posts"
 msgstr ""
 
-#: config/./map.php:2980
+#: config/./map.php:3006
 msgid "RSS"
 msgstr ""
 
-#: config/./map.php:2986
+#: config/./map.php:3012
 msgid "Entries from any RSS or Atom feed"
 msgstr ""
 
-#: config/./map.php:2996
+#: config/./map.php:3022
 msgid "RSS feed URL"
 msgstr ""
 
-#: config/./map.php:2998
+#: config/./map.php:3024
 msgid "Enter the RSS feed URL."
 msgstr ""
 
-#: config/./map.php:3003
+#: config/./map.php:3029
 msgid "Items"
 msgstr ""
 
-#: config/./map.php:3005
+#: config/./map.php:3031
 #, fuzzy
 msgid "10 - Default"
 msgstr "14 - domyślne"
 
-#: config/./map.php:3006
+#: config/./map.php:3032
 msgid "How many items would you like to display?"
 msgstr ""
 
-#: config/./map.php:3014
+#: config/./map.php:3040
 msgid "Display item content?"
 msgstr ""
 
-#: config/./map.php:3015
+#: config/./map.php:3041
 msgid "Display item author if available?"
 msgstr ""
 
-#: config/./map.php:3016
+#: config/./map.php:3042
 msgid "Display item date?"
 msgstr ""
 
-#: config/./map.php:3031
+#: config/./map.php:3057
 msgid "Empty Space"
 msgstr ""
 
-#: config/./map.php:3036
+#: config/./map.php:3062
 msgid "Add spacer with custom height"
 msgstr ""
 
-#: config/./map.php:3040
+#: config/./map.php:3066
 #, fuzzy
 msgid "Height"
 msgstr "Wysokość mapy"
 
-#: config/./map.php:3044
+#: config/./map.php:3070
 msgid "Enter empty space height."
 msgstr ""
 
-#: config/./map.php:3058
+#: config/./map.php:3084
 #, fuzzy
 msgid "Custom Heading"
 msgstr "Własne linki"
 
-#: config/./map.php:3063
+#: config/./map.php:3089
 msgid "Add custom heading text with google fonts"
 msgstr ""
 
-#: config/./map.php:3070
+#: config/./map.php:3096
 msgid "This is custom heading element with Google Fonts"
 msgstr ""
 
-#: config/./map.php:3071
+#: config/./map.php:3097
 msgid ""
 "Enter your content. If you are using non-latin characters be sure to "
 "activate them under Settings/Visual Composer/General Settings."
 msgstr ""
 
-#: config/./map.php:3088
+#: config/./map.php:3114
 #, fuzzy
 msgid "Select element tag."
 msgstr "Skasuj %element%"
 
-#: config/./map.php:3089
+#: config/./map.php:3115
 #, fuzzy
 msgid "Select text alignment."
 msgstr "Wybierz rodzaj wyrównania przycisku."
 
-#: config/./map.php:3090
+#: config/./map.php:3116
 #, fuzzy
 msgid "Enter font size."
 msgstr "Wpisz wartość foo."
 
-#: config/./map.php:3091
+#: config/./map.php:3117
 msgid "Enter line height."
 msgstr ""
 
-#: config/./map.php:3092
+#: config/./map.php:3118
 #, fuzzy
 msgid "Select color for your element."
 msgstr "Wybierz liczbę kolumn."
 
-#: config/./map.php:3109
+#: config/./map.php:3135
 #, fuzzy
 msgid "Select font family."
 msgstr "Wybierz typ przycisku."
 
-#: config/./map.php:3110
+#: config/./map.php:3136
 #, fuzzy
 msgid "Select font styling."
 msgstr "Wybierz typ przycisku."
+
+#: config/./map.php:3166 config/./map.php:3229 config/./map.php:3231
+#, fuzzy
+msgid "Custom query"
+msgstr "Własne linki"
+
+#: config/./map.php:3167
+msgid "List of ids"
+msgstr ""
+
+#: config/./map.php:3195
+msgid "2 columns (6 items per row)"
+msgstr ""
+
+#: config/./map.php:3196
+msgid "3 columns (4 items per row)"
+msgstr ""
+
+#: config/./map.php:3197
+msgid "4 columns (3 items per row)"
+msgstr ""
+
+#: config/./map.php:3198
+msgid "6 columns (2 items per row)"
+msgstr ""
+
+#: config/./map.php:3199
+msgid "12 columns (1 item per row)"
+msgstr ""
+
+#: config/./map.php:3205
+msgid "Data source"
+msgstr ""
+
+#: config/./map.php:3208
+msgid "What content do you want to show."
+msgstr ""
+
+#: config/./map.php:3212 config/./map.php:3214
+msgid "Include only"
+msgstr ""
+
+#: config/./map.php:3239
+msgid "Narrow data source"
+msgstr ""
+
+#: config/./map.php:3261
+msgid "Taxonomies like tags, categories as etc."
+msgstr ""
+
+#: config/./map.php:3269
+#, fuzzy
+msgid "Total items count"
+msgstr "Liczba slajdów"
+
+#: config/./map.php:3273
+msgid "If empty then all items will be displayed"
+msgstr ""
+
+#: config/./map.php:3281
+#, fuzzy
+msgid "Display Style"
+msgstr "Wyświetlanie"
+
+#: config/./map.php:3284
+#: include/./classes/editors/popups/class-vc-add-element-box.php:70
+msgid "Show all"
+msgstr ""
+
+#: config/./map.php:3285 config/./map.php:3500 config/./map.php:3512
+#: config/./map.php:3525
+#, fuzzy
+msgid "Load more button"
+msgstr "Zobacz więcej"
+
+#: config/./map.php:3286
+#, fuzzy
+msgid "Lazy loading"
+msgstr "Ładuję, proszę czekać..."
+
+#: config/./map.php:3287 config/./map.php:3688 config/./map.php:3733
+msgid "Paginator"
+msgstr ""
+
+#: config/./map.php:3293 config/./map.php:3295 config/./new_elements.php:87
+msgid "Items per page"
+msgstr ""
+
+#: config/./map.php:3308
+msgid "Show filter on the top of the grid"
+msgstr ""
+
+#: config/./map.php:3312
+#, fuzzy
+msgid "Single element width"
+msgstr "Skasuj %element%"
+
+#: config/./map.php:3320 config/./map.php:3336
+#, fuzzy
+msgid "Gap"
+msgstr "Mapa"
+
+#: config/./map.php:3323
+msgid "0px"
+msgstr ""
+
+#: config/./map.php:3324
+msgid "1px"
+msgstr ""
+
+#: config/./map.php:3325
+msgid "2px"
+msgstr ""
+
+#: config/./map.php:3326
+msgid "3px"
+msgstr ""
+
+#: config/./map.php:3327
+msgid "4px"
+msgstr ""
+
+#: config/./map.php:3328
+msgid "5px"
+msgstr ""
+
+#: config/./map.php:3329
+msgid "10px"
+msgstr ""
+
+#: config/./map.php:3330
+msgid "15px"
+msgstr ""
+
+#: config/./map.php:3331
+msgid "20px"
+msgstr ""
+
+#: config/./map.php:3332
+msgid "25px"
+msgstr ""
+
+#: config/./map.php:3333
+msgid "30px"
+msgstr ""
+
+#: config/./map.php:3334
+msgid "35px"
+msgstr ""
+
+#: config/./map.php:3346
+#, fuzzy
+msgid "Order by post id"
+msgstr "Sortuj wg"
+
+#: config/./map.php:3349
+msgid "Last modified date"
+msgstr ""
+
+#: config/./map.php:3350
+msgid "Post/page parent id"
+msgstr ""
+
+#: config/./map.php:3351
+#, fuzzy
+msgid "Number of comments"
+msgstr "Liczba zdjęć"
+
+#: config/./map.php:3352
+msgid "Menu order/Order by Page Order"
+msgstr ""
+
+#: config/./map.php:3353
+#, fuzzy
+msgid "Meta value"
+msgstr "Stan domyśłny"
+
+#: config/./map.php:3354
+msgid "Meta value number"
+msgstr ""
+
+#: config/./map.php:3356
+#, fuzzy
+msgid "Random order"
+msgstr "Losowo"
+
+#: config/./map.php:3358
+msgid ""
+"Note that meta key must also be present if \"Meta value\" or \"Meta value "
+"Number\" is set."
+msgstr ""
+
+#: config/./map.php:3359 config/./map.php:3370 config/./map.php:3386
+#: config/./map.php:3398 config/./map.php:3410
+#, fuzzy
+msgid "Data settings"
+msgstr "Ustawienia ogólne"
+
+#: config/./map.php:3383 config/./map.php:3385
+msgid "Meta key"
+msgstr ""
+
+#: config/./map.php:3395 config/./map.php:3397
+#: include/./templates/params/column_offset/template.tpl.php:17
+msgid "Offset"
+msgstr ""
+
+#: config/./map.php:3424
+msgid "Source"
+msgstr ""
+
+#: config/./map.php:3427 config/./map.php:3451 config/./map.php:3466
+#: config/./map.php:3478 config/./map.php:3491
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:839
+msgid "Filter"
+msgstr ""
+
+#: config/./map.php:3438 config/./map.php:3544
+msgid "Rounded"
+msgstr ""
+
+#: config/./map.php:3439
+msgid "Less Rounded"
+msgstr ""
+
+#: config/./map.php:3440 include/./params/css_editor/css_editor.php:43
+#, fuzzy
+msgid "Border"
+msgstr "Kolejności w menu"
+
+#: config/./map.php:3441
+#, fuzzy
+msgid "Rounded Border"
+msgstr "Kolejności w menu"
+
+#: config/./map.php:3442
+msgid "Less Rounded Border"
+msgstr ""
+
+#: config/./map.php:3443
+msgid "Filled"
+msgstr ""
+
+#: config/./map.php:3444
+msgid "Rounded Filled"
+msgstr ""
+
+#: config/./map.php:3445
+#: include/./classes/settings/class-vc-automapper.php:283
+#, fuzzy
+msgid "Dropdown"
+msgstr "Przykłąd rozwijanej listy"
+
+#: config/./map.php:3455
+#, fuzzy
+msgid "Align"
+msgstr "Do lewej"
+
+#: config/./map.php:3482
+#, fuzzy
+msgid "Filter size"
+msgstr "Wielkość przycisku"
+
+#: config/./map.php:3486
+#, fuzzy
+msgid "Filter size."
+msgstr "Wielkość przycisku"
+
+#: config/./map.php:3508
+#, fuzzy
+msgid "Button color"
+msgstr "Kolor przycisku."
+
+#: config/./map.php:3534
+#, fuzzy
+msgid "Arrows design"
+msgstr "Strzałka"
+
+#: config/./map.php:3538
+msgid "Simple"
+msgstr ""
+
+#: config/./map.php:3539
+msgid "Simple Circle Border"
+msgstr ""
+
+#: config/./map.php:3540
+msgid "Simple Circle"
+msgstr ""
+
+#: config/./map.php:3541
+msgid "Simple Square"
+msgstr ""
+
+#: config/./map.php:3542
+msgid "Simple Square Rounded"
+msgstr ""
+
+#: config/./map.php:3543
+msgid "Simple Rounded"
+msgstr ""
+
+#: config/./map.php:3545
+msgid "Rounded Circle Border"
+msgstr ""
+
+#: config/./map.php:3546
+msgid "Rounded Circle"
+msgstr ""
+
+#: config/./map.php:3547
+msgid "Rounded Square"
+msgstr ""
+
+#: config/./map.php:3548
+msgid "Simple Arrow"
+msgstr ""
+
+#: config/./map.php:3549
+msgid "Simple Rounded Arrow"
+msgstr ""
+
+#: config/./map.php:3552 config/./map.php:3566 config/./map.php:3578
+#: config/./map.php:3610 config/./map.php:3622 config/./map.php:3634
+#: config/./map.php:3646 config/./map.php:3656 config/./map.php:3669
+#, fuzzy
+msgid "Pagination controls"
+msgstr "Blok z liczbą Like'ów"
+
+#: config/./map.php:3560
+#, fuzzy
+msgid "Arrows position"
+msgstr "Strzałka"
+
+#: config/./map.php:3563
+msgid "Inside Wrapper"
+msgstr ""
+
+#: config/./map.php:3564
+msgid "Outside Wrapper"
+msgstr ""
+
+#: config/./map.php:3574
+#, fuzzy
+msgid "Arrows color"
+msgstr "Strzałka"
+
+#: config/./map.php:3586
+msgid "Paging design"
+msgstr ""
+
+#: config/./map.php:3590
+msgid "Square Dots"
+msgstr ""
+
+#: config/./map.php:3591
+msgid "Radio Dots"
+msgstr ""
+
+#: config/./map.php:3592
+msgid "Point Dots"
+msgstr ""
+
+#: config/./map.php:3593
+msgid "Fill Square Dots"
+msgstr ""
+
+#: config/./map.php:3594
+msgid "Rounded Fill Square Dots"
+msgstr ""
+
+#: config/./map.php:3595
+msgid "Pagination Default"
+msgstr ""
+
+#: config/./map.php:3596
+msgid "Outline Default Dark"
+msgstr ""
+
+#: config/./map.php:3597
+msgid "Outline Default Light"
+msgstr ""
+
+#: config/./map.php:3598
+msgid "Pagination Rounded"
+msgstr ""
+
+#: config/./map.php:3599
+msgid "Outline Rounded Dark"
+msgstr ""
+
+#: config/./map.php:3600
+msgid "Outline Rounded Light"
+msgstr ""
+
+#: config/./map.php:3601
+msgid "Pagination Square"
+msgstr ""
+
+#: config/./map.php:3602
+msgid "Outline Square Dark"
+msgstr ""
+
+#: config/./map.php:3603
+msgid "Outline Square Light"
+msgstr ""
+
+#: config/./map.php:3604
+msgid "Pagination Rounded Square"
+msgstr ""
+
+#: config/./map.php:3605
+msgid "Outline Rounded Square Dark"
+msgstr ""
+
+#: config/./map.php:3606
+msgid "Outline Rounded Square Light"
+msgstr ""
+
+#: config/./map.php:3607
+msgid "Stripes Dark"
+msgstr ""
+
+#: config/./map.php:3608
+msgid "Stripes Light"
+msgstr ""
+
+#: config/./map.php:3618
+#, fuzzy
+msgid "Paging color"
+msgstr "Kolor przycisku."
+
+#: config/./map.php:3630 config/./map.php:3632
+msgid "Loop"
+msgstr ""
+
+#: config/./map.php:3642
+msgid "Autoplay time"
+msgstr ""
+
+#: config/./map.php:3645
+msgid "Default -1. Disabled autoplay."
+msgstr ""
+
+#: config/./map.php:3654
+#, fuzzy
+msgid "Animation In"
+msgstr "Notatka"
+
+#: config/./map.php:3667
+#, fuzzy
+msgid "Animation Out"
+msgstr "Notatka"
+
+#: config/./map.php:3680
+#, fuzzy
+msgid "Basic grid"
+msgstr "Siatka obrazków"
+
+#: config/./map.php:3684 config/./map.php:3694
+msgid "All in one grid element"
+msgstr ""
+
+#: config/./map.php:3690
+#, fuzzy
+msgid "Masonry grid"
+msgstr "Klocki"
+
+#: config/./map.php:3724
+#, fuzzy
+msgid "Media grid"
+msgstr "Galeria obrazków"
+
+#: config/./map.php:3728 config/./map.php:3739
+#, fuzzy
+msgid "Media grid element"
+msgstr "Dodaj obrazek"
+
+#: config/./map.php:3735
+msgid "Masonry Media grid"
+msgstr ""
+
+#: config/./new_elements.php:72
+#, fuzzy
+msgid "Load more button style"
+msgstr "Rodzaj przycisku"
+
+#: config/./new_elements.php:73
+#, fuzzy
+msgid "Select load more button style"
+msgstr "Wybierz typ przycisku."
+
+#: config/./new_elements.php:89
+msgid "How much Items to display in one view (default 10)"
+msgstr ""
+
+#: config/./new_elements.php:99
+msgid "Arrows style"
+msgstr ""
+
+#: config/./new_elements.php:100
+msgid "Select arrows style(carousel)"
+msgstr ""
+
+#: config/./new_elements.php:103
+msgid "Style1"
+msgstr ""
+
+#: config/./new_elements.php:104
+msgid "Style2"
+msgstr ""
+
+#: config/./new_elements.php:114
+#, fuzzy
+msgid "Pager style"
+msgstr "Wielkość obrazka"
+
+#: config/./new_elements.php:115
+msgid "Select pager style(carousel)"
+msgstr ""
+
+#: config/./new_elements.php:118
+#, fuzzy
+msgid "Box style"
+msgstr "Rodzaj przycisku"
+
+#: config/./new_elements.php:119
+#, fuzzy
+msgid "Numbers"
+msgstr "Liczba zdjęć"
+
+#: config/./new_elements.php:120
+msgid "Circles"
+msgstr ""
+
+#: config/./new_elements.php:130
+msgid "Auto play pager"
+msgstr ""
+
+#: config/./new_elements.php:134
+msgid "Auto play pager?"
+msgstr ""
+
+#: config/./new_elements.php:143
+msgid "Loop pager"
+msgstr ""
+
+#: config/./new_elements.php:147
+#, fuzzy
+msgid "Loop pager content?"
+msgstr "Rozwijana treść"
+
+#: config/./new_elements.php:156
+msgid "Speed for slides changes in autoplay mode in milliseconds, default 500"
+msgstr ""
+
+#: config/./new_elements.php:158
+msgid "Auto play speed"
+msgstr ""
+
+#: config/./new_elements.php:167
+#, fuzzy
+msgid "Carousel effect"
+msgstr "Rozwijana treść"
 
 #: config/./templates.php:5
 msgid "Landing Page"
@@ -2480,48 +3129,49 @@ msgstr ""
 msgid "Product Page"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:515
+#: include/./classes/core/class-vc-base.php:461
 msgid "Add/remove picture"
 msgstr "Dodaj/Usuń zdjęcie"
 
-#: include/./classes/core/class-vc-base.php:516
+#: include/./classes/core/class-vc-base.php:462
 msgid "Finish Adding Images"
 msgstr "Zakończ dodawanie obrazków"
 
-#: include/./classes/core/class-vc-base.php:517
+#: include/./classes/core/class-vc-base.php:463
 msgid "Add Image"
 msgstr "Dodaj obrazek"
 
-#: include/./classes/core/class-vc-base.php:518
+#: include/./classes/core/class-vc-base.php:464
 msgid "Add Images"
 msgstr "Dodaj obrazki"
 
-#: include/./classes/core/class-vc-base.php:519
-#: include/./classes/editors/class-vc-backend-editor.php:53
+#: include/./classes/core/class-vc-base.php:465
+#: include/./classes/editors/class-vc-backend-editor.php:52
+#: include/./classes/editors/navbar/class-vc-navbar.php:60
 #: include/./classes/editors/navbar/class-vc-navbar.php:62
 #: include/./classes/settings/class-vc-settings.php:100
 #: include/./classes/settings/class-vc-settings.php:106
 msgid "Visual Composer"
 msgstr "Edytor wizualny"
 
-#: include/./classes/core/class-vc-base.php:520
+#: include/./classes/core/class-vc-base.php:466
 msgid "BACKEND EDITOR"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:521
+#: include/./classes/core/class-vc-base.php:467
 msgid "FRONTEND EDITOR"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:522
+#: include/./classes/core/class-vc-base.php:468
 msgid "CLASSIC MODE"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:523
+#: include/./classes/core/class-vc-base.php:469
 #, fuzzy
 msgid "Please enter template name"
 msgstr "Proszę wpisać nazwy szablonów"
 
-#: include/./classes/core/class-vc-base.php:524
+#: include/./classes/core/class-vc-base.php:470
 msgid ""
 "Confirm deleting \"{template_name}\" template, press Cancel to leave. This "
 "action cannot be undone."
@@ -2529,179 +3179,179 @@ msgstr ""
 "Potwierdź usuwanie szablonu \"{template_name}\" lub wciśnij Anuluj aby "
 "przerwać. Tego działania nie można odwrócić."
 
-#: include/./classes/core/class-vc-base.php:525
+#: include/./classes/core/class-vc-base.php:471
 msgid "Press OK to delete section, Cancel to leave"
 msgstr "Kliknij OK aby usunąć sekcję lub Anuluj aby przerwać"
 
-#: include/./classes/core/class-vc-base.php:526
+#: include/./classes/core/class-vc-base.php:472
 msgid "Drag and drop me in the column"
 msgstr "Przeciągnij i upuść mnie w kolumnie"
 
-#: include/./classes/core/class-vc-base.php:527
+#: include/./classes/core/class-vc-base.php:473
 msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
 msgstr "Kliknij OK aby usunąć zakłądkę \"{tab_name}\" lub Anuluj aby przerwać "
 
-#: include/./classes/core/class-vc-base.php:528
+#: include/./classes/core/class-vc-base.php:474
 #: include/./classes/shortcodes/vc-tour.php:4
 msgid "Slide"
 msgstr "Slajd"
 
-#: include/./classes/core/class-vc-base.php:531
+#: include/./classes/core/class-vc-base.php:477
 msgid "Please enter new tab title"
 msgstr "Wpisz nazwę nowej zakładki"
 
-#: include/./classes/core/class-vc-base.php:532
+#: include/./classes/core/class-vc-base.php:478
 msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
 msgstr "Kliknij OK aby usunąć sekcję \"{tab_name}\" lub Anuluj aby przerwać"
 
-#: include/./classes/core/class-vc-base.php:534
+#: include/./classes/core/class-vc-base.php:480
 msgid "Please enter new section title"
 msgstr "Proszę wpisać nazwę sekcji"
 
-#: include/./classes/core/class-vc-base.php:535
+#: include/./classes/core/class-vc-base.php:481
 msgid "Error. Please try again."
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:536
+#: include/./classes/core/class-vc-base.php:482
 msgid ""
 "If you close this window all shortcode settings will be lost. Close this "
 "window?"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:537
+#: include/./classes/core/class-vc-base.php:483
 #, fuzzy
 msgid "Select element type"
 msgstr "Wybierz rodzaj wiadomości."
 
-#: include/./classes/core/class-vc-base.php:538
+#: include/./classes/core/class-vc-base.php:484
 #, fuzzy
 msgid "Media gallery"
 msgstr "Galeria obrazków"
 
-#: include/./classes/core/class-vc-base.php:539
+#: include/./classes/core/class-vc-base.php:485
 #, fuzzy
 msgid "Element settings"
 msgstr "Ustawienia ogólne"
 
-#: include/./classes/core/class-vc-base.php:540
+#: include/./classes/core/class-vc-base.php:486
 msgid "Add tab"
 msgstr "Dodaj zakłądkę"
 
-#: include/./classes/core/class-vc-base.php:541
+#: include/./classes/core/class-vc-base.php:487
 msgid "Are you sure you want to convert to new version?"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:542
+#: include/./classes/core/class-vc-base.php:488
 #, fuzzy
 msgid "Loading..."
 msgstr "Ładuję, proszę czekać..."
 
-#: include/./classes/core/class-vc-base.php:544
+#: include/./classes/core/class-vc-base.php:490
 #, fuzzy
 msgid "Set Image"
 msgstr "Obrazek"
 
-#: include/./classes/core/class-vc-base.php:545
+#: include/./classes/core/class-vc-base.php:491
 msgid "Are you sure that you want to remove all your data?"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:546
+#: include/./classes/core/class-vc-base.php:492
 #, fuzzy
 msgid "Loop settings"
 msgstr "Ustawienia ogólne"
 
-#: include/./classes/core/class-vc-base.php:547
+#: include/./classes/core/class-vc-base.php:493
 msgid "Enter custom layout for your row:"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:548
+#: include/./classes/core/class-vc-base.php:494
 msgid "Wrong row layout format! Example: 1/2 + 1/2 or span6 + span6."
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:549
+#: include/./classes/core/class-vc-base.php:495
 msgid "Row background color"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:550
+#: include/./classes/core/class-vc-base.php:496
 msgid "Row background image"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:551
+#: include/./classes/core/class-vc-base.php:497
 #, fuzzy
 msgid "Column background color"
 msgstr "Liczba kolumn."
 
-#: include/./classes/core/class-vc-base.php:552
+#: include/./classes/core/class-vc-base.php:498
 #, fuzzy
 msgid "Column background image"
 msgstr "Liczba kolumn."
 
-#: include/./classes/core/class-vc-base.php:553
+#: include/./classes/core/class-vc-base.php:499
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:22
 msgid "Guides ON"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:554
+#: include/./classes/core/class-vc-base.php:500
 msgid "Guides OFF"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:555
+#: include/./classes/core/class-vc-base.php:501
 msgid "New template successfully saved!"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:556
+#: include/./classes/core/class-vc-base.php:502
 msgid "Template added to the page."
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:557
+#: include/./classes/core/class-vc-base.php:503
 #, fuzzy
 msgid "Nothing to save. Template is empty."
 msgstr "Brak własnych szablonów."
 
-#: include/./classes/core/class-vc-base.php:558
+#: include/./classes/core/class-vc-base.php:504
 msgid "Page settings updated!"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:559
+#: include/./classes/core/class-vc-base.php:505
 #, fuzzy
 msgid "Update all"
 msgstr "Zaktualizuj listę plików"
 
-#: include/./classes/core/class-vc-base.php:560
+#: include/./classes/core/class-vc-base.php:506
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:561
+#: include/./classes/core/class-vc-base.php:507
 #, php-format
 msgid "%s saved!"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:562
+#: include/./classes/core/class-vc-base.php:508
 #, php-format
 msgid "%s deleted!"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:563
+#: include/./classes/core/class-vc-base.php:509
 #, php-format
 msgid ""
 "%s cloned. <a href=\"#\" class=\"vc_edit-cloned\" data-model-id=\"%s\">Edit "
 "now?</a>"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:564
+#: include/./classes/core/class-vc-base.php:510
 msgid "Loading Google Font failed"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:565
+#: include/./classes/core/class-vc-base.php:511
 #, fuzzy
 msgid "Loading Font..."
 msgstr "Ładuję, proszę czekać..."
 
-#: include/./classes/core/class-vc-base.php:566
+#: include/./classes/core/class-vc-base.php:512
 msgid "Unable to load Google Fonts"
 msgstr ""
 
-#: include/./classes/core/class-vc-base.php:626
+#: include/./classes/core/class-vc-base.php:548
 #: include/./classes/settings/class-vc-settings.php:99
 #: include/./classes/settings/class-vc-settings.php:105
 #: include/./classes/settings/class-vc-settings.php:983
@@ -2709,42 +3359,63 @@ msgid "Visual Composer Settings"
 msgstr "Ustawienia Edytora wizualnego"
 
 #: include/./classes/core/class-wpb-map.php:104
-#: include/./classes/core/class-wpb-map.php:264
-#: include/./classes/core/class-wpb-map.php:292
-#: include/./classes/core/class-wpb-map.php:329
-#: include/./classes/core/class-wpb-map.php:394
+#: include/./classes/core/class-wpb-map.php:121
+#: include/./classes/core/class-wpb-map.php:288
+#: include/./classes/core/class-wpb-map.php:316
+#: include/./classes/core/class-wpb-map.php:357
+#: include/./classes/core/class-wpb-map.php:423
 #, php-format
 msgid "Wrong name for shortcode:%s. Name required"
 msgstr "Nieprawidłowa nazwa dla skrótu:%s. Nazwa jest wymagana"
 
 #: include/./classes/core/class-wpb-map.php:106
+#: include/./classes/core/class-wpb-map.php:123
 #, php-format
 msgid "Wrong base for shortcode:%s. Base required"
 msgstr "Nieprawidłowy alias dla skrótu:%s. Alias jest wymagany"
 
-#: include/./classes/core/class-wpb-map.php:294
-#: include/./classes/core/class-wpb-map.php:331
+#: include/./classes/core/class-wpb-map.php:318
+#: include/./classes/core/class-wpb-map.php:359
 #, php-format
 msgid "Wrong attribute for '%s' shortcode. Attribute 'param_name' required"
 msgstr ""
 "Nieprawidłowy atrybut dla skrótu '%s'. Wymagany jest atrybut 'param_name'"
 
-#: include/./classes/core/class-wpb-map.php:396
+#: include/./classes/core/class-wpb-map.php:425
 #, fuzzy, php-format
 msgid "Wrong setting_name for shortcode:%s. Base can't be modified."
 msgstr "Nieprawidłowy alias dla skrótu:%s. Alias jest wymagany"
 
-#: include/./classes/editors/class-vc-frontend-editor.php:222
+#: include/./classes/editors/class-vc-edit-form-fields.php:136
+#, fuzzy
+msgid "General"
+msgstr "Ustawienia ogólne"
+
+#: include/./classes/editors/class-vc-edit-form-fields.php:167
+#: include/./classes/settings/class-vc-automapper.php:314
+msgid "Edit"
+msgstr "Edytuj"
+
+#: include/./classes/editors/class-vc-frontend-editor.php:312
 #, fuzzy, php-format
 msgid "Edit %s with Visual Composer"
 msgstr "Edytor wizualny"
 
-#: include/./classes/editors/class-vc-frontend-editor.php:231
-#: include/./classes/editors/class-vc-frontend-editor.php:241
-#: include/./classes/editors/class-vc-frontend-editor.php:272
+#: include/./classes/editors/class-vc-frontend-editor.php:316
+#, fuzzy
+msgid "(no title)"
+msgstr "Tutuł rozwijanego blogu"
+
+#: include/./classes/editors/class-vc-frontend-editor.php:325
+#: include/./classes/editors/class-vc-frontend-editor.php:335
+#: include/./classes/editors/class-vc-frontend-editor.php:374
 #, fuzzy
 msgid "Edit with Visual Composer"
 msgstr "Edytor wizualny"
+
+#: include/./classes/editors/navbar/class-vc-navbar-frontend.php:21
+msgid "Toggle editor's guides"
+msgstr ""
 
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:31
 msgid "Desktop"
@@ -2802,6 +3473,12 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
+#: include/./classes/editors/navbar/class-vc-navbar.php:67
+#: include/./templates/editors/popups/panel_post_settings.tpl.php:8
+#, fuzzy
+msgid "Page settings"
+msgstr "Ustawienia ogólne"
+
 #: include/./classes/editors/navbar/class-vc-navbar.php:68
 msgid "CSS"
 msgstr ""
@@ -2824,30 +3501,26 @@ msgstr "Treść"
 msgid "Preview"
 msgstr ""
 
-#: include/./classes/editors/popups/class-vc-add-element-box.php:70
-msgid "Show all"
-msgstr ""
-
 #: include/./classes/editors/popups/class-vc-add-element-box.php:82
 msgid "Other"
 msgstr ""
 
-#: include/./classes/editors/popups/class-vc-templates-editor.php:222
+#: include/./classes/editors/popups/class-vc-templates-editor.php:223
 #, fuzzy
 msgid "Delete template"
 msgstr "Skasuj %element%"
 
-#: include/./classes/editors/popups/class-vc-templates-editor.php:231
+#: include/./classes/editors/popups/class-vc-templates-editor.php:232
 msgid "Save current page as a Template"
 msgstr "Zapisz obecną stronę jako szablon"
 
-#: include/./classes/editors/popups/class-vc-templates-editor.php:233
+#: include/./classes/editors/popups/class-vc-templates-editor.php:234
 #: include/./templates/editors/popups/panel_templates_editor.tpl.php:34
 #: include/./templates/editors/popups/panel_templates_editor.tpl.php:46
 msgid "Load Template"
 msgstr "Wczytaj szablon"
 
-#: include/./classes/editors/popups/class-vc-templates-editor.php:239
+#: include/./classes/editors/popups/class-vc-templates-editor.php:240
 msgid "No custom templates yet."
 msgstr "Brak własnych szablonów."
 
@@ -2975,6 +3648,7 @@ msgid "Shortcode parameters"
 msgstr ""
 
 #: include/./classes/settings/class-vc-automapper.php:242
+#: include/./templates/editors/popups/modal_edit_element.tpl.php:13
 #: include/./templates/editors/popups/panel_multi_shortcode_edit_form.tpl.php:16
 #: include/./templates/editors/popups/panel_post_settings.tpl.php:36
 #: include/./templates/editors/popups/panel_shortcode_edit_form.tpl.php:16
@@ -3026,11 +3700,6 @@ msgstr "Wybierz rodzaj wiadomości."
 msgid "Textfield"
 msgstr "Tekst"
 
-#: include/./classes/settings/class-vc-automapper.php:283
-#, fuzzy
-msgid "Dropdown"
-msgstr "Przykłąd rozwijanej listy"
-
 #: include/./classes/settings/class-vc-automapper.php:285
 #, fuzzy
 msgid "Textarea"
@@ -3056,12 +3725,6 @@ msgstr ""
 #: include/./classes/settings/class-vc-automapper.php:301
 msgid "Explain param."
 msgstr ""
-
-#: include/./classes/settings/class-vc-automapper.php:314
-#: include/./classes/shortcodes/shortcodes.php:596
-#: include/./classes/shortcodes/shortcodes.php:890
-msgid "Edit"
-msgstr "Edytuj"
 
 #: include/./classes/settings/class-vc-license.php:97
 #, php-format
@@ -3383,9 +4046,9 @@ msgstr ""
 #: include/./classes/settings/class-vc-settings.php:999
 msgid ""
 "<strong>Deprecated:</strong> To override class names that are applied to "
-"Visual Composer content elements you should use WordPress add_filter"
-"('vc_shortcodes_css_class') function. <a class='vc_show_example'>See "
-"Example</a>."
+"Visual Composer content elements you should use WordPress "
+"add_filter('vc_shortcodes_css_class') function. <a "
+"class='vc_show_example'>See Example</a>."
 msgstr ""
 
 #: include/./classes/settings/class-vc-settings.php:1007
@@ -3482,14 +4145,19 @@ msgstr "Przykłąd rozwijanej listy"
 msgid "One, two or three?"
 msgstr "Jeden, dwa czy trzy?"
 
-#: include/./classes/shortcodes/shortcodes.php:235
+#: include/./classes/shortcodes/paginator/class-vc-pageable.php:55
+#, fuzzy
+msgid "Load more"
+msgstr "Zobacz więcej"
+
+#: include/./classes/shortcodes/shortcodes.php:236
 #, php-format
 msgid ""
 "Template file is missing for `%s` shortcode. Make sure you have `%s` file in "
 "your theme folder."
 msgstr ""
 
-#: include/./classes/shortcodes/shortcodes.php:456
+#: include/./classes/shortcodes/shortcodes.php:458
 #: include/./templates/editors/partials/backend_controls.tpl.php:14
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:13
 #: include/./templates/editors/partials/frontend_controls.tpl.php:10
@@ -3504,7 +4172,7 @@ msgstr ""
 msgid "Edit %s"
 msgstr "Edytuj"
 
-#: include/./classes/shortcodes/shortcodes.php:457
+#: include/./classes/shortcodes/shortcodes.php:459
 #: include/./templates/editors/partials/backend_controls.tpl.php:18
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:17
 #: include/./templates/editors/partials/frontend_controls.tpl.php:13
@@ -3517,7 +4185,7 @@ msgstr "Edytuj"
 msgid "Clone %s"
 msgstr "Klonuj"
 
-#: include/./classes/shortcodes/shortcodes.php:457
+#: include/./classes/shortcodes/shortcodes.php:459
 #: include/./templates/editors/partials/backend_controls.tpl.php:22
 #: include/./templates/editors/partials/backend_controls_tab.tpl.php:21
 #: include/./templates/editors/partials/frontend_controls.tpl.php:16
@@ -3531,62 +4199,57 @@ msgstr "Klonuj"
 msgid "Delete %s"
 msgstr "Usuń"
 
-#: include/./classes/shortcodes/shortcodes.php:610
-msgid "Save"
-msgstr "Zapisz"
-
-#: include/./classes/shortcodes/shortcodes.php:663
-msgid ""
-"Field type is changed from `textarea_html` to `textarea`, because it is "
-"already used by `"
-msgstr ""
-
-#: include/./classes/shortcodes/shortcodes.php:732
-#: include/./classes/shortcodes/vc-gallery.php:27
-msgid "Add images"
-msgstr "Dodaj obrazki"
-
-#: include/./classes/shortcodes/shortcodes.php:746
-#: include/./classes/shortcodes/vc-single-image.php:22
-#: include/./params/css_editor/css_editor.php:73
-msgid "Add image"
-msgstr "Dodaj obrazek"
-
-#: include/./classes/shortcodes/shortcodes.php:809
+#: include/./classes/shortcodes/shortcodes.php:594
 #, php-format
 msgid "Append to this %s"
 msgstr ""
 
-#: include/./classes/shortcodes/shortcodes.php:810
+#: include/./classes/shortcodes/shortcodes.php:595
 #, php-format
 msgid "Prepend to this %s"
 msgstr ""
 
-#: include/./classes/shortcodes/shortcodes.php:813
+#: include/./classes/shortcodes/shortcodes.php:598
 #, php-format
 msgid "Edit this %s"
 msgstr ""
 
-#: include/./classes/shortcodes/shortcodes.php:814
+#: include/./classes/shortcodes/shortcodes.php:599
 #, php-format
 msgid "Clone this %s"
 msgstr ""
 
-#: include/./classes/shortcodes/shortcodes.php:816
+#: include/./classes/shortcodes/shortcodes.php:601
 #, fuzzy, php-format
 msgid "Delete this %s"
 msgstr "Skasuj %element%"
 
-#: include/./classes/shortcodes/shortcodes.php:914
-#, fuzzy
-msgid "General"
-msgstr "Ustawienia ogólne"
+#: include/./classes/shortcodes/vc-basic-grid.php:84
+#: include/./classes/shortcodes/vc-basic-grid_old.php:81
+msgid "next"
+msgstr ""
+
+#: include/./classes/shortcodes/vc-basic-grid.php:85
+#: include/./classes/shortcodes/vc-basic-grid_old.php:82
+msgid "prev"
+msgstr ""
+
+#: include/./classes/shortcodes/vc-basic-grid.php:86
+#: include/./classes/shortcodes/vc-basic-grid_old.php:83
+msgid "last"
+msgstr ""
+
+#: include/./classes/shortcodes/vc-basic-grid.php:87
+#: include/./classes/shortcodes/vc-basic-grid_old.php:84
+msgid "first"
+msgstr ""
 
 #: include/./classes/shortcodes/vc-column.php:21
 msgid "Append to this column"
 msgstr ""
 
 #: include/./classes/shortcodes/vc-column.php:22
+#: include/./params/vc_grid_element/vc_grid_element.php:192
 msgid "Prepend to this column"
 msgstr ""
 
@@ -3603,6 +4266,11 @@ msgstr "Usuń aktualne zaznaczenie"
 #: include/./templates/shortcodes/vc_flickr.php:19
 msgid "View stream on flickr"
 msgstr "Zobacz obrazki z Flickr"
+
+#: include/./classes/shortcodes/vc-gallery.php:27
+#: include/./params/default_params.php:242
+msgid "Add images"
+msgstr "Dodaj obrazki"
 
 #: include/./classes/shortcodes/vc-posts-grid.php:22
 #: include/./params/sorted_list/sorted_list.php:30
@@ -3624,6 +4292,7 @@ msgid "Custom"
 msgstr "Własne linki"
 
 #: include/./classes/shortcodes/vc-row.php:34
+#: include/./params/vc_grid_element/vc_grid_element.php:148
 #, fuzzy
 msgid "Drag row to reorder"
 msgstr "Kolejność zdjęć"
@@ -3634,6 +4303,7 @@ msgid "Add column"
 msgstr "Dodaj dział"
 
 #: include/./classes/shortcodes/vc-row.php:36
+#: include/./params/vc_grid_element/vc_grid_element.php:167
 msgid "Delete this row"
 msgstr ""
 
@@ -3649,6 +4319,12 @@ msgstr ""
 #, fuzzy
 msgid "Toggle row"
 msgstr "Rozwijana treść"
+
+#: include/./classes/shortcodes/vc-single-image.php:22
+#: include/./params/css_editor/css_editor.php:73
+#: include/./params/default_params.php:239
+msgid "Add image"
+msgstr "Dodaj obrazek"
 
 #: include/./classes/shortcodes/vc-teaser-grid.php:14
 #, php-format
@@ -3691,48 +4367,750 @@ msgstr ""
 msgid "Update Visual Composer now."
 msgstr "Edytor wizualny"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:29
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:28
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:31
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:29
 #, fuzzy
 msgid "No sliders found"
 msgstr "Nivo slider"
 
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:33
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:35
 msgid "Layer Slider"
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:36
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:38
 msgid "Place LayerSlider"
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:46
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:48
 msgid "LayerSlider ID"
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:50
+#: include/./classes/vendors/plugins/class-vc-vendor-layerslider.php:52
 msgid "Select your LayerSlider."
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:32
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:45
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:33
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:46
 msgid "Revolution Slider"
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:35
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:36
 msgid "Place Revolution slider"
 msgstr ""
 
-#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:49
+#: include/./classes/vendors/plugins/class-vc-vendor-revslider.php:50
 msgid "Select your Revolution Slider."
 msgstr ""
 
-#: include/./helpers/helpers.php:244
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:102
+msgid "Cart"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:105
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:122
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:138
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:156
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:184
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:231
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:278
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:323
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:391
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:438
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:480
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:526
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:595
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:667
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:712
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:745
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:799
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:892
+msgid "WooCommerce"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:106
+msgid "Displays the cart contents"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:119
+msgid "Checkout"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:123
+msgid "Displays the checkout"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:135
+msgid "Order Tracking Form"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:139
+msgid "Lets a user see the status of an order"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:153
+#, fuzzy
+msgid "My Account"
+msgstr "Nie zliczaj"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:157
+msgid "Shows the \"my account\" section"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:161
+#, fuzzy
+msgid "Order count"
+msgstr "Liczba slajdów"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:164
+msgid ""
+"You can specify the number or order to show, it's set by default to 15 (use "
+"-1 to display all orders.)"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:181
+msgid "Recent products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:185
+msgid "Lists recent products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:189
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:236
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:531
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:672
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:717
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:750
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:804
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:897
+msgid "Per page"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:192
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:239
+msgid ""
+"The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:196
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:243
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:328
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:538
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:620
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:679
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:724
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:757
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:811
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:904
+#, fuzzy
+msgid "Columns"
+msgstr "Liczba kolumn."
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:199
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:246
+msgid ""
+"The columns attribute controls how many columns wide the products should be "
+"before wrapping."
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:206
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:253
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:337
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:548
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:609
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:689
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:767
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:821
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:914
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:228
+#, fuzzy
+msgid "Featured products"
+msgstr "Ikona wpisu nie została wybrana."
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:232
+msgid "Display products set as \"featured\""
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:275
+msgid "Product"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:279
+msgid "Show a single product by ID or SKU"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:283
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:396
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:443
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:485
+#, fuzzy
+msgid "Select identificator"
+msgstr "Wybierz taksonomie z."
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:285
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:398
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:445
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:487
+msgid "Input product ID or product SKU or product title to see suggestions"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:320
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:348
+msgid "Products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:324
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:392
+msgid "Show multiple products by ID or SKU"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:354
+msgid "Enter List of Products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:388
+#, fuzzy
+msgid "Add to cart"
+msgstr "Dodaj zakłądkę"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:406
+msgid "Wrapper inline style"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:435
+msgid "Add to cart URL"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:439
+msgid "Show URL on the add to cart button"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:477
+msgid "Product page"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:481
+msgid "Show single product by ID or SKU"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:523
+msgid "Product category"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:527
+msgid "Show multiple products in a category"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:534
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:675
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:720
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:753
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:807
+msgid "How much items per page to show"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:541
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:623
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:682
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:727
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:760
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:814
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:907
+msgid "How much columns grid"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:559
+#, fuzzy
+msgid "Category"
+msgstr "Kategorie"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:562
+msgid "Product category list"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:592
+#, fuzzy
+msgid "Product categories"
+msgstr "Kategorie"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:596
+msgid "Display product categories loop"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:600
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:627
+msgid "Number"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:602
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:629
+msgid "Hide empty"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:639
+msgid "List of product categories"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:664
+msgid "Sale products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:668
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:746
+msgid "List all products on sale"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:709
+msgid "Best Selling Products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:713
+msgid "List best selling products on sale"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:742
+msgid "Top Rated Products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:796
+#, fuzzy
+msgid "Product Attribute"
+msgstr "Atrybut Foo"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:800
+msgid "List products with an attribute shortcode"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:832
+#, fuzzy
+msgid "Attribute"
+msgstr "Atrybut Foo"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:835
+msgid "List of product taxonomy attribute"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:842
+#, fuzzy
+msgid "Taxonomy values"
+msgstr "Taksonomie"
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:887
+msgid "Related Products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:893
+msgid "List related products"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:900
+msgid ""
+"Please note: the \"per_page\" shortcode argument will determine how many "
+"products are shown on a page. This will not add pagination to the shortcode. "
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1030
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1058
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1092
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1121
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1150
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1185
+msgid "Id"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1034
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1062
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1096
+msgid "Sku"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1123
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1152
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1187
+msgid "Name"
+msgstr ""
+
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1125
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1154
+#: include/./classes/vendors/plugins/class-vc-vendor-woocommerce.php:1189
+msgid "Slug"
+msgstr ""
+
+#: include/./helpers/helpers.php:265
 msgid "Added"
 msgstr "Dodano"
 
 #: include/./helpers/helpers_api.php:4
 msgid "Wrong wpb_map object. Base attribute is required"
 msgstr "Nieprawidłowy obiekt wpb_map. Kod atrybutu jest wymagany."
+
+#: include/./params/animation_style/animation_style.php:36
+msgid "Attention Seekers"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:39
+msgid "bounce"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:43
+msgid "flash"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:47
+msgid "pulse"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:51
+msgid "rubberBand"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:55
+msgid "shake"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:59
+msgid "swing"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:63
+msgid "tada"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:67
+#, fuzzy
+msgid "wobble"
+msgstr "Chmurka"
+
+#: include/./params/animation_style/animation_style.php:74
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:77
+msgid "bounceIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:81
+msgid "bounceInDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:85
+msgid "bounceInLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:89
+msgid "bounceInRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:93
+msgid "bounceInUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:100
+msgid "Bouncing Exits"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:103
+msgid "bounceOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:107
+msgid "bounceOutDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:111
+msgid "bounceOutLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:115
+msgid "bounceOutRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:119
+msgid "bounceOutUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:126
+msgid "Fading Entrances"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:129
+msgid "fadeIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:133
+msgid "fadeInDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:137
+msgid "fadeInDownBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:141
+msgid "fadeInLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:145
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:149
+msgid "fadeInRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:153
+msgid "fadeInRightBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:157
+msgid "fadeInUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:161
+msgid "fadeInUpBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:168
+msgid "Fading Exits"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:170
+msgid "fadeOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:174
+msgid "fadeOutDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:178
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:182
+msgid "fadeOutLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:186
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:190
+msgid "fadeOutRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:194
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:198
+msgid "fadeOutUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:202
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:209
+msgid "Flippers"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:211
+msgid "flip"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:215
+msgid "flipInX"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:219
+msgid "flipInY"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:223
+msgid "flipOutX"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:227
+msgid "flipOutY"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:234
+msgid "Lightspeed"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:236
+msgid "lightSpeedIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:240
+msgid "lightSpeedOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:247
+msgid "Rotating Entrances"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:249
+msgid "rotateIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:253
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:257
+msgid "rotateInDownRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:261
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:265
+msgid "rotateInUpRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:272
+msgid "Rotating Exits"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:274
+msgid "rotateOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:278
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:282
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:286
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:290
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:297
+msgid "Specials"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:299
+msgid "hinge"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:303
+msgid "rollIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:307
+msgid "rollOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:314
+msgid "Zoom Entrances"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:316
+msgid "zoomIn"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:320
+msgid "zoomInDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:324
+msgid "zoomInLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:328
+msgid "zoomInRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:332
+msgid "zoomInUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:339
+msgid "Zoom Exits"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:341
+msgid "zoomOut"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:345
+msgid "zoomOutDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:349
+msgid "zoomOutLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:353
+msgid "zoomOutRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:357
+msgid "zoomOutUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:364
+#, fuzzy
+msgid "Slide Entrances"
+msgstr "Typ pokazu slajdów"
+
+#: include/./params/animation_style/animation_style.php:366
+msgid "slideInDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:370
+msgid "slideInLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:374
+#, fuzzy
+msgid "slideInRight"
+msgstr "Do prawej"
+
+#: include/./params/animation_style/animation_style.php:378
+msgid "slideInUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:385
+#, fuzzy
+msgid "Slide Exits"
+msgstr "Slajd 1"
+
+#: include/./params/animation_style/animation_style.php:387
+msgid "slideOutDown"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:391
+msgid "slideOutLeft"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:395
+msgid "slideOutRight"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:399
+msgid "slideOutUp"
+msgstr ""
+
+#: include/./params/animation_style/animation_style.php:479
+#, fuzzy
+msgid "Animate it"
+msgstr "Notatka"
 
 #: include/./params/column_offset/column_offset.php:55
 msgid "Default value from width attribute"
@@ -3747,11 +5125,6 @@ msgstr ""
 #: include/./params/column_offset/column_offset.php:73
 msgid "No offset"
 msgstr ""
-
-#: include/./params/css_editor/css_editor.php:43
-#, fuzzy
-msgid "Border"
-msgstr "Kolejności w menu"
 
 #: include/./params/css_editor/css_editor.php:46
 msgid "Background"
@@ -3876,6 +5249,7 @@ msgid "Manage options"
 msgstr ""
 
 #: include/./params/options/options.php:6
+#: include/./templates/editors/popups/modal_edit_element.tpl.php:12
 #: include/./templates/editors/popups/panel_multi_shortcode_edit_form.tpl.php:14
 #: include/./templates/editors/popups/panel_post_settings.tpl.php:34
 #: include/./templates/editors/popups/panel_shortcode_edit_form.tpl.php:14
@@ -3925,6 +5299,33 @@ msgid ""
 "default settings in \"Posts Grid\" or \"Carousel\" content elements."
 msgstr ""
 
+#: include/./params/textarea_html/textarea_html.php:14
+msgid ""
+"Field type is changed from `textarea_html` to `textarea`, because it is "
+"already used by `"
+msgstr ""
+
+#: include/./params/vc_grid_element/vc_grid_element.php:63
+msgid "Add row"
+msgstr ""
+
+#: include/./params/vc_grid_element/vc_grid_element.php:153
+msgid "1/1"
+msgstr ""
+
+#: include/./params/vc_grid_element/vc_grid_element.php:157
+msgid "1/2 + 1/2"
+msgstr ""
+
+#: include/./params/vc_grid_element/vc_grid_element.php:161
+msgid "1/3 + 1/3 + 1/3"
+msgstr ""
+
+#: include/./params/vc_grid_element/vc_grid_element.php:233
+#, fuzzy
+msgid "Drag to reorder"
+msgstr "Kolejność zdjęć"
+
 #: include/./params/vc_link/vc_link.php:6
 #, fuzzy
 msgid "Select URL"
@@ -3933,34 +5334,6 @@ msgstr "Zaznacz wszystkie"
 #: include/./params/vc_link/vc_link.php:6
 msgid "URL"
 msgstr ""
-
-#: include/./templates/teaser.html.php:14
-#: include/./templates/teaser.html.php:35
-#, fuzzy
-msgid "Link to"
-msgstr "Link do wpisu"
-
-#: include/./templates/teaser.html.php:18
-#: include/./templates/teaser.html.php:39
-#, fuzzy
-msgid "On post"
-msgstr "Link do wpisu"
-
-#: include/./templates/teaser.html.php:20
-#: include/./templates/teaser.html.php:41
-#, fuzzy
-msgid "Big image"
-msgstr "Pojedynczy obrazek"
-
-#: include/./templates/teaser.html.php:29
-msgid "Featured"
-msgstr ""
-
-#: include/./templates/teaser.html.php:63
-#: include/./templates/shortcodes/vc_teaser_grid.php:181
-#: include/./templates/shortcodes/post_block/_item.php:20
-msgid "Read more"
-msgstr "Zobacz więcej"
 
 #: include/./templates/editors/backend_editor.tpl.php:24
 msgid "Loading, please wait..."
@@ -4031,19 +5404,18 @@ msgstr ""
 msgid " Add Some Content or Use Predefined Layouts..."
 msgstr ""
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:9
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:12
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:8
 #: include/./templates/editors/popups/modal_add_element.tpl.php:11
 #, fuzzy
 msgid "Add element"
 msgstr "Dodaj obrazek"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:15
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:8
 #, fuzzy
 msgid "Add text block"
 msgstr "Blok tekstowy"
 
-#: include/./templates/editors/partials/vc_welcome_block.tpl.php:21
+#: include/./templates/editors/partials/vc_welcome_block.tpl.php:14
 #, fuzzy
 msgid "Choose Your Layout"
 msgstr "Popularne szablony"
@@ -4089,15 +5461,20 @@ msgstr ""
 msgid "Edit elements"
 msgstr "Elementy treści"
 
-#: include/./templates/editors/popups/panel_post_settings.tpl.php:8
+#: include/./templates/editors/popups/panel_multi_shortcode_edit_form.tpl.php:10
+#: include/./templates/editors/popups/panel_shortcode_edit_form.tpl.php:10
 #, fuzzy
-msgid "Page settings"
-msgstr "Ustawienia ogólne"
+msgid "Select content element to edit properties."
+msgstr "Kliknij ikonę ołówka w elementach treści aby zmienić ich właściwości."
 
-#: include/./templates/editors/popups/panel_post_settings.tpl.php:19
+#: include/./templates/editors/popups/panel_post_settings.tpl.php:17
 #, fuzzy
 msgid "Please enter page title"
 msgstr "Wpisz nazwę nowej zakładki"
+
+#: include/./templates/editors/popups/panel_post_settings.tpl.php:18
+msgid "Here you can change title of the current "
+msgstr ""
 
 #: include/./templates/editors/popups/panel_post_settings.tpl.php:23
 #, fuzzy
@@ -4109,11 +5486,6 @@ msgid ""
 "Enter custom CSS code here. Your custom CSS will be outputted only on this "
 "particular page."
 msgstr ""
-
-#: include/./templates/editors/popups/panel_shortcode_edit_form.tpl.php:10
-#, fuzzy
-msgid "Select content element to edit properties."
-msgstr "Kliknij ikonę ołówka w elementach treści aby zmienić ich właściwości."
 
 #: include/./templates/editors/popups/panel_templates_editor.tpl.php:16
 #, fuzzy
@@ -4164,10 +5536,6 @@ msgstr ""
 msgid "Device"
 msgstr ""
 
-#: include/./templates/params/column_offset/template.tpl.php:17
-msgid "Offset"
-msgstr ""
-
 #: include/./templates/params/column_offset/template.tpl.php:23
 msgid "Hide on device?"
 msgstr ""
@@ -4192,18 +5560,31 @@ msgstr ""
 msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
 msgstr ""
 
+#: include/./templates/shortcodes/post_block/_item.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: include/./templates/shortcodes/post_block/_item.php:20
+#: include/./templates/shortcodes/vc_teaser_grid.php:181
+#: include/./templates/teaser.html.php:63
+msgid "Read more"
+msgstr "Zobacz więcej"
+
 #: include/./templates/shortcodes/vc_accordion_tab.php:12
 msgid "Empty section. Edit page to add content here."
 msgstr ""
 
-#: include/./templates/shortcodes/vc_item.php:9
-msgid "Item"
-msgstr ""
-
+#: include/./templates/shortcodes/vc_basic_grid_filter.php:8
+#: include/./templates/shortcodes/vc_basic_grid_filter.php:14
 #: include/./templates/shortcodes/vc_posts_grid.php:130
 #: include/./templates/shortcodes/vc_teaser_grid.php:313
 msgid "All"
 msgstr "Wszystkie"
+
+#: include/./templates/shortcodes/vc_item.php:9
+msgid "Item"
+msgstr ""
 
 #: include/./templates/shortcodes/vc_posts_grid.php:164
 #: include/./templates/shortcodes/vc_posts_slider.php:192
@@ -4236,10 +5617,30 @@ msgstr "Tweet"
 msgid "Follow us on twitter"
 msgstr "Śledź nas na Twitterze"
 
-#: include/./templates/shortcodes/post_block/_item.php:20
-#, php-format
-msgid "Permalink to %s"
+#: include/./templates/teaser.html.php:14
+#: include/./templates/teaser.html.php:35
+#, fuzzy
+msgid "Link to"
+msgstr "Link do wpisu"
+
+#: include/./templates/teaser.html.php:18
+#: include/./templates/teaser.html.php:39
+#, fuzzy
+msgid "On post"
+msgstr "Link do wpisu"
+
+#: include/./templates/teaser.html.php:20
+#: include/./templates/teaser.html.php:41
+#, fuzzy
+msgid "Big image"
+msgstr "Pojedynczy obrazek"
+
+#: include/./templates/teaser.html.php:29
+msgid "Featured"
 msgstr ""
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
 
 #~ msgid "Press OK to pop (move) section to the top level, Cancel to leave"
 #~ msgstr ""
@@ -4415,9 +5816,6 @@ msgstr ""
 #~ msgid "Delete current slide"
 #~ msgstr "Usuń aktualny slajd"
 
-#~ msgid "Slide 1"
-#~ msgstr "Slajd 1"
-
 #~ msgid "Slide 2"
 #~ msgstr "Slajd 2"
 
@@ -4467,9 +5865,6 @@ msgstr ""
 
 #~ msgid "Map type"
 #~ msgstr "Rodzaj mapy"
-
-#~ msgid "Map"
-#~ msgstr "Mapa"
 
 #~ msgid "Satellite"
 #~ msgstr "Satelita"

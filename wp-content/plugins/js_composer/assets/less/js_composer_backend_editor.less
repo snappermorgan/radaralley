@@ -1,16 +1,15 @@
-/*!
- * Visual Composer v4.3.4 (http://vc.wpbakery.com)
- * Copyright 2011-2014 Michael M - WPBakery.com
- */
+@import "../lib/bootstrap3/less/component-animations.less";
 
 @import "lib/editor.less";
-@import "../lib/bootstrap3/less/component-animations.less";
+
 // Here comes panels
 @vc_modal_top_margin: 34px;
 // Elements icons
 @import "lib/elements_icons.less";
 // Add element box
 @import "popups/modal_add_element.less";
+// Add template modal box
+@import "popups/panel_add_templates.less";
 
 // Navigation bar
 @vc_navbar_sprite_left_position: -60px;
@@ -23,6 +22,7 @@
 // Message box shown when post content is empty
 @vc_welcome_margin: 14px;
 @import "modules/vc_welcome.less";
+@import "modules/vc_default_templates.less";
 
 // Backend switcher
 @import "modules/vc_switcher.less";
@@ -43,6 +43,7 @@
 // Backend controls
 @import "lib/controls.less";
 @import "lib/backend_controls.less";
+@import "lib/backend_wp_pointers.less";
 // Shortcodes
 @import "backend_shortcodes/rows_columns.less";
 @import "backend_shortcodes/empty_containers.less";
@@ -59,7 +60,19 @@
 @import "backend_shortcodes/vc_gmaps.less";
 @import "backend_shortcodes/vc_googleplus.less";
 @import "backend_shortcodes/vc_images_carousel.less";
-@import "backend_shortcodes/vc_message.less";
+//@import "backend_shortcodes/vc_message_old.less"; // @deprecated since 4.4
+@import "backend_shortcodes/vc_message_box.less";
+
+.vc_shortcode-param[data-param_name="icon_pixelicons"] {
+    .vc-icons-selector .selected-icon {
+        line-height: 40px;
+        i.vc_pixel_icon {
+            position: relative;
+            top: 3px;
+        }
+    }
+}
+
 @import "backend_shortcodes/vc_pie.less";
 @import "backend_shortcodes/vc_pinterest.less";
 @import "backend_shortcodes/vc_posts_slider.less";
@@ -79,6 +92,7 @@
 @import "backend_shortcodes/vc_video.less";
 @import "backend_shortcodes/vc_widget_sidebar.less";
 @import "backend_shortcodes/vc_wp_widget.less";
+@import "params/vc_grid_item/vc_gitem_editor.less";
 
 .vc_admin_label {
     font-size: 11px;
@@ -97,16 +111,13 @@
 @import "vendor/layerslider.less";
 @import "vendor/rev_slider.less";
 
+@import "lib/vc_font.less";
+
 #wpb_visual_composer {
     display: none;
     > .inside {
         margin: 0;
         padding: 0;
-    }
-    .vc_modal-title, .vc_panel-title {
-        border: 0;
-        padding: 0;
-        margin: 0;
     }
     .vc_navbar {
         border-bottom: 1px solid @vc_navbar_border_color;

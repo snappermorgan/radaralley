@@ -8,13 +8,19 @@
  * ========================================================= */
 (function($) {
   if(_.isUndefined(window.vc)) window.vc = {};
+	vc.showSpinner = function() {
+		$('#vc_logo').addClass('vc_ajax-loading');
+	};
+	vc.hideSpinner = function() {
+		$('#vc_logo').removeClass('vc_ajax-loading');
+	}
   $( document ).ajaxSend(function(e, xhr, req) {
-    req && req.data && req.data.match(/vc_inline=true/) && $('#vc_logo').addClass('vc_ajax-loading');
+    req && req.data && typeof req.data == 'string' && req.data.match(/vc_inline=true/) && vc.showSpinner();
   }).ajaxStop(function(){
-      $('#vc_logo').removeClass('vc_ajax-loading');
+	  vc.hideSpinner();
     });
   vc.active_panel = false;
-  vc.closeActivePanel= function(model) {
+  vc.closeActivePanel = function(model) {
     if(!this.active_panel) return false;
     if(model && vc.active_panel.model && vc.active_panel.model.get('id') === model.get('id')) {
       this.active_panel.hide();
@@ -24,17 +30,18 @@
   };
   vc.updateSettingsBadge = function() {
     var value = vc.$custom_css.val();
-    if(value.trim() !== '') {
+    if(value && value.trim() !== '') {
       $('#vc_post-css-badge').show();
     } else {
       $('#vc_post-css-badge').hide();
     }
-  }
+  };
   /**
    * Modal prototype
    * @type {*}
    */
   vc.ModalView = Backbone.View.extend({
+    message_box_timeout: false,
     events: {
       'hidden.bs.modal': 'hide',
       'shown.bs.modal': 'shown'
@@ -53,11 +60,20 @@
       this.$el.modal('show');
       return this;
     },
+    showMessage: function(text, type) {
+      this.message_box_timeout && this.$el.find('.vc_message').remove() && window.clearTimeout(this.message_box_timeout);
+      this.message_box_timeout = false;
+      var $message_box = $('<div class="vc_message type-' + type +'"></div>');
+      this.$el.find('.vc_modal-body').prepend($message_box);
+      $message_box.text(text).fadeIn();
+      this.message_box_timeout = window.setTimeout(function(){
+        $message_box.remove();
+      }, 6000);
+    },
     hide: function() {
       $(window).unbind('resize.ModalView');
     },
     shown: function() {
-
     }
   });
   vc.element_start_index = 0;
@@ -117,8 +133,9 @@
     hideEmptyFilters: function() {
       this.$el.find('.vc_filter-content-elements .active').removeClass('active');
       this.$el.find('.vc_filter-content-elements > :first').addClass('active');
+      var self = this;
       this.$el.find('[data-filter]').each(function () {
-        if (!$($(this).data('filter') + '.vc_visible:not(.vc_inappropriate)', this.$content).length) {
+        if (!$($(this).data('filter') + '.vc_visible:not(.vc_inappropriate)', self.$content).length) {
           $(this).parent().hide();
         } else {
           $(this).parent().show();
@@ -192,7 +209,13 @@
     getDefaultParams: function(tag) {
       var params = {};
       _.each(vc.getMapped(tag).params, function(param){
-        if(!_.isUndefined(param.value)) params[param.param_name] = param.value;
+        if(!_.isUndefined(param.value)) {
+            if( vc.atts[param.type] && vc.atts[param.type].defaults ) {
+                params[param.param_name] = vc.atts[param.type].defaults();
+            } else {
+                params[param.param_name] = param.value;
+            }
+        }
       });
       return params;
     },
@@ -207,7 +230,7 @@
           }
           if (_.isString(shortcode.as_child.except)) {
             if (_.contains(shortcode.as_child.except.replace(/\s/, '').split(','), tag)) {
-              memo += separator + '.[data-element=' + shortcode.base + ']';
+              memo += separator + '[data-element=' + shortcode.base + ']';
             }
           }
         } else if (shortcode.as_child === false) {
@@ -309,64 +332,153 @@
    * Panel prototype
    */
   vc.PanelView = Backbone.View.extend({
-    draggable: false,
-    events: {
-      'click [data-dismiss=panel]': 'hide',
-      'mouseover [data-transparent=panel]': 'addOpacity',
-      'mouseout [data-transparent=panel]': 'removeOpacity'
-    },
-    initialize: function() {
-      _.bindAll(this, 'setSize');
-    },
-    addOpacity: function() {
-      this.$el.addClass('vc_panel-opacity');
-    },
-    removeOpacity: function(){
-      this.$el.removeClass('vc_panel-opacity');
-    },
-    message_box_timeout: false,
-    init: function(){},
-    show: function() {
-      vc.closeActivePanel();
-      this.init();
-      vc.active_panel = this;
-      $(window).bind('resize.vcPropertyPanel', this.setSize);
-      this.setSize();
-      this.$el.show();
-      if(!this.draggable) {
-        this.$el.draggable({iframeFix: true, handle: '.vc_panel-heading'});
-        this.draggable = true;
-      }
-    },
-    hide: function(e) {
-      e && e.preventDefault();
-      $(window).unbind('resize.vcPropertyPanel');
-      vc.active_panel = false;
-      this.$el.hide();
-    },
-    content: function() {
-      return this.$el.find('.panel-body');
-    },
-    setSize: function() {
-      //var height = $(window).height() - 200; // @fix ACE editor
-      //this.content().css('maxHeight', height);
-    },
-    showMessage: function(text, type) {
-      this.message_box_timeout && this.$el.find('.vc_panel-message').remove() && window.clearTimeout(this.message_box_timeout);
-      this.message_box_timeout = false;
-      var $message_box = $('<div class="vc_panel-message type-' + type +'"></div>').appendTo(this.$el.find('.vc_panel-body'));
-      $message_box.text(text).fadeIn();
-      this.message_box_timeout = window.setTimeout(function(){
-        $message_box.remove();
-      }, 6000);
-    },
-    minimizeBody: function(e) {
-      e && e.preventDefault && e.preventDefault();
-      this.$el.find('.panel-body,.panel-footer').slideToggle();
-    },
-    isVisible: function() {
-      return this.$el.is(':visible');
-    }
+	  draggable: false,
+	  $body: false,
+	  $tabs: false,
+	  $content: false,
+	  events: {
+		  'click [data-dismiss=panel]': 'hide',
+		  'mouseover [data-transparent=panel]': 'addOpacity',
+		  'click [data-transparent=panel]': 'toggleOpacity',
+		  'mouseout [data-transparent=panel]': 'removeOpacity',
+		  'click .vc_panel-tabs-link': 'changeTab'
+	  },
+	  options: {
+		  startTab: 0
+	  },
+	  clicked: false,
+	  initialize: function () {
+		  this.clicked = false;
+		  this.$el.removeClass('vc_panel-opacity');
+		  this.$body = $('body');
+		  this.$content = this.$el.find('.vc_panel-body');
+		  _.bindAll(this, 'setSize', 'fixElContainment', 'changeTab', 'setTabsSize');
+	  },
+	  toggleOpacity: function () {
+		  this.clicked = !this.clicked;
+	  },
+	  addOpacity: function () {
+		  !this.clicked && this.$el.addClass('vc_panel-opacity');
+	  },
+	  removeOpacity: function () {
+		  !this.clicked && this.$el.removeClass('vc_panel-opacity');
+	  },
+	  message_box_timeout: false,
+	  init: function () {
+	  },
+	  show: function () {
+		  vc.closeActivePanel();
+		  this.init();
+		  vc.active_panel = this;
+		  this.clicked = false;
+		  this.$el.css('height','auto');
+		  this.$el.removeClass('vc_panel-opacity');
+		  var $tabs = this.$el.find('.vc_panel-tabs');
+		  if ($tabs.length) {
+			  this.$tabs = $tabs;
+			  this.setTabs();
+		  }
+		  $(window).unbind('resize.vcPropertyPanel').bind('resize.vcPropertyPanel', this.setSize);
+		  this.setSize();
+		  this.$el.show();
+		  if (!this.draggable) {
+			  this.initDraggable();
+		  } else {
+			  $(window).trigger('resize');
+		  }
+		  this.fixElContainment();
+	  },
+	  hide: function (e) {
+		  e && e.preventDefault();
+		  $(window).unbind('resize.vcPropertyPanel');
+		  vc.active_panel = false;
+		  this.$el.hide();
+	  },
+	  content: function () {
+		  return this.$el.find('.panel-body');
+	  },
+	  fixElContainment: function () {
+		  if (!this.$body) {
+			  this.$body = $('body');
+		  }
+		  var el_w = this.$el.width(),
+			  el_h = this.$el.height(),
+			  container_w = this.$body.width(),
+			  container_h = this.$body.height();
+
+		  // To be sure that containment always correct, even after resize
+		  var containment = [-el_w + 20, 0, container_w - 20, container_h - 30];
+		  var positions = this.$el.position();
+		  var new_positions = {};
+		  if (positions.left < containment[0]) {
+			  new_positions.left = containment[0];
+		  }
+		  if (positions.top < 0) {
+			  new_positions.top = 0;
+		  }
+		  if (positions.left > containment[2]) {
+			  new_positions.left = containment[2];
+		  }
+		  if (positions.top > containment[3]) {
+			  new_positions.top = containment[3];
+		  }
+		  this.$el.css(new_positions);
+	  },
+	  /**
+	   * Init draggable feature for panels to allow it Moving, also allow moving only in proper containment
+	   */
+	  initDraggable: function () {
+		  this.$el.draggable({
+			  //containment:containment,
+			  iframeFix: true,
+			  handle: '.vc_panel-heading',
+			  start: this.fixElContainment,
+			  stop: this.fixElContainment
+		  });
+		  $(window).unbind('resize.fixElContainment').bind('resize.fixElContainment', this.fixElContainment);
+		  $(window).unbind('scroll.fixElContainment').bind('scroll.fixElContainment', this.fixElContainment);
+		  this.draggable = true;
+	  },
+	  setSize: function() {
+		  var height = $(window).height() - parseInt(this.$el.css('top')) - 170;
+		  this.$content.css('maxHeight', height);
+	  },
+	  setTabs: function() {
+		  if(this.$tabs.length) {
+			  this.$tabs.find('.vc_panel-tabs-control').removeClass('vc_active').eq(this.options.startTab).addClass('vc_active');
+			  this.$tabs.find('.vc_panel-tab').removeClass('vc_active').eq(this.options.startTab).addClass('vc_active');
+			  window.setTimeout(this.setTabsSize,100);
+		  }
+	  },
+	  setTabsSize: function () {
+		  this.$tabs && this.$tabs.parents('.vc_with-tabs.vc_panel-body').css('margin-top', this.$tabs.find('.vc_panel-tabs-menu').outerHeight());
+	  },
+	  changeTab: function(e) {
+		  e && e.preventDefault && e.preventDefault();
+		  if(e.target && this.$tabs) {
+			  var $tab = $(e.target);
+			  this.$tabs.find('.vc_active').removeClass('vc_active');
+			  $tab.parent().addClass('vc_active');
+			  this.$el.find($tab.data('target')).addClass('vc_active');
+			  window.setTimeout(this.setTabsSize,100);
+		  }
+	  },
+	  showMessage: function (text, type) {
+		  this.message_box_timeout && this.$el.find('.vc_panel-message').remove() && window.clearTimeout(this.message_box_timeout);
+		  this.message_box_timeout = false;
+		  var $message_box = $('<div class="vc_panel-message type-' + type + '"></div>').appendTo(this.$el.find('.vc_panel-body'));
+		  $message_box.text(text).fadeIn();
+		  this.message_box_timeout = window.setTimeout(function () {
+			  $message_box.remove();
+		  }, 6000);
+	  },
+	  minimizeBody: function (e) {
+		  e && e.preventDefault && e.preventDefault();
+		  this.$el.find('.panel-body,.panel-footer').slideToggle();
+	  },
+	  isVisible: function () {
+		  return this.$el.is(':visible');
+	  }
   });
   /**
    * Shortcode settings panel
@@ -374,92 +486,128 @@
    */
   vc.EditElementPanelView = vc.PanelView.extend({
     el: $('#vc_properties-panel'),
-    $content: false,
+	tabsInit: false,
+	doCheckTabs: true,
+	$tabsMenu: false,
     dependent_elements:{},
     mapped_params:{},
     draggable: false,
+    panelInit: false,
+    $spinner: false,
     events: {
       'click [data-save=true]': 'save',
       'click [data-dismiss=panel]': 'hide',
       'mouseover [data-transparent=panel]': 'addOpacity',
+      'click [data-transparent=panel]': 'toggleOpacity',
       'mouseout [data-transparent=panel]': 'removeOpacity'
     },
     initialize: function() {
-      _.bindAll(this, 'setSize');
-    },
-    setSize: function() {
-      var height = $(window).height() - 190;
-      this.$content.css('maxHeight', height);
+      _.bindAll(this, 'setSize','setTabsSize', 'fixElContainment');
     },
     render: function(model, not_request_template) {
       this.model = model;
+      this.$el.css('height','auto');
       var tag = this.model.get('shortcode'),
         params = this.model.setting('params') || [];
       _.bindAll(this, 'hookDependent');
-      this.mapped_params = {};
+		this.tabsInit = false;
+		this.mapped_params = {};
       this.dependent_elements = {};
       _.each(params, function (param) {
         this.mapped_params[param.param_name] = param;
       }, this);
       this.$content = not_request_template ? this.$el : this.$el.find('.vc_properties-list').removeClass('vc_with-tabs');
-      this.$content.html('<span class="vc_spinner"></span>');
+      this.$content.html(""); // if multiple times pressed
+      this.$spinner = $('<span class="vc_spinner"></span>');
+      this.$content.prepend(this.$spinner);
       this.show();
-      !not_request_template &&
       $.ajax({
         type:'POST',
         url:window.ajaxurl,
-        data:{
-          action:'wpb_show_edit_form',
-          element:this.model.get('shortcode'),
-          post_id: $('#post_ID').val(),
-          shortcode: vc.builder.toString(this.model)
-        },
+        data: this.ajaxData(),
         context:this
       }).done(function (data) {
-          this.$content.html(data);
-          this.$content.scrollTop(0);
+          var $data = $(data).hide();
+          this.$content.append($data);
           this.init();
+          $data.show();
+	      this.setSize();
+          this.$spinner.remove();
+          this.$content.scrollTop(0);
         });
       this.setTitle();
       return this;
     },
-    init: function() {
-      this.initDependency();
-      $('.wpb-edit-form .textarea_html').each(function(){
-          window.init_textarea_html($(this));
+	ajaxData: function() {
+		return {
+			action: 'vc_edit_form', // OLD version wpb_show_edit_form
+			tag: this.model.get('shortcode'),
+			post_id: $('#post_ID').val(),
+			params: this.model.get('params')
+			// shortcode: vc.builder.toString(this.model)
+		};
+	},
+    init: function () {
+      var self = this;
+      $('.vc_shortcode-param', this.content()).each(function () {
+        var param = {};
+        var $el = $(this);
+        param.type = $el.data('param_type');
+        param.param_name = $el.data('param_name');
+        vc.atts.init.call(self, param, $el);
       });
+      this.initDependency();
+      $('.wpb-edit-form .textarea_html').each(function () {
+        window.init_textarea_html($(this));
+      });
+      this.panelInit = true;
     },
     initDependency:function () {
       // setup dependencies
+		var callDependencies = {};
       _.each(this.mapped_params, function (param) {
         if (_.isObject(param) && _.isObject(param.dependency) && _.isString(param.dependency.element)) {
           var $masters = $('[name=' + param.dependency.element + '].wpb_vc_param_value', this.$content),
             $slave = $('[name= ' + param.param_name + '].wpb_vc_param_value', this.$content);
           _.each($masters, function (master) {
             var $master = $(master),
+				name = $master.attr('name'),
               rules = param.dependency;
             if (!_.isArray(this.dependent_elements[$master.attr('name')])) this.dependent_elements[$master.attr('name')] = [];
             this.dependent_elements[$master.attr('name')].push($slave);
-            $master.bind('keyup change', this.hookDependent);
-            this.hookDependent({currentTarget:$master}, [$slave]);
+            //
+			!$master.data('dependentSet')
+				&& $master.attr('data-dependent-set', 'true')
+				&& $master.bind('keyup change', this.hookDependent);
+			if(!callDependencies[name]) {
+				callDependencies[name] = $master;
+			}
             if (_.isString(rules.callback)) {
               window[rules.callback].call(this);
             }
           }, this);
         }
       }, this);
+		this.doCheckTabs = false;
+		_.each(callDependencies, function(obj){
+			this.hookDependent({currentTarget:obj});
+		}, this);
+		this.doCheckTabs = true;
+		this.checkTabs();
+		callDependencies = null;
     },
-    hookDependent: function (e, dependent_elements) {
+    hookDependent: function (e) {
       var $master = $(e.currentTarget),
           $master_container = $master.closest('.vc_column'),
-          master_value,
           is_empty,
           dependent_elements = _.isArray(dependent_elements) ? dependent_elements : this.dependent_elements[$master.attr('name')],
           master_value = $master.is(':checkbox') ? _.map(this.$content.find('[name=' + $(e.currentTarget).attr('name') + '].wpb_vc_param_value:checked'),
           function (element) {
             return $(element).val();
           })
-          : $master.val();
+          : $master.val(),
+		  checkTabs = true && this.doCheckTabs;
+		this.doCheckTabs = false;
       is_empty = $master.is(':checkbox') ? !this.$content.find('[name=' + $master.attr('name') + '].wpb_vc_param_value:checked').length
         : !master_value.length;
       if($master_container.hasClass('vc_dependent-hidden')) {
@@ -475,15 +623,58 @@
             $param_block.removeClass('vc_dependent-hidden');
           } else if (_.isBoolean(rules.is_empty) && rules.is_empty === true && is_empty) {
             $param_block.removeClass('vc_dependent-hidden');
-          } else if (_.intersection((_.isArray(rules.value) ? rules.value : [rules.value]), (_.isArray(master_value) ? master_value : [master_value])).length) {
-            $param_block.removeClass('vc_dependent-hidden');
+          } else if (rules.value && _.intersection((_.isArray(rules.value) ? rules.value : [rules.value]), (_.isArray(master_value) ? master_value : [master_value])).length) {
+	          $param_block.removeClass('vc_dependent-hidden');
+          } else if (rules.value_not_equal_to && !_.intersection((_.isArray(rules.value_not_equal_to) ? rules.value_not_equal_to : [rules.value_not_equal_to]), (_.isArray(master_value) ? master_value : [master_value])).length) {
+	          $param_block.removeClass('vc_dependent-hidden');
           } else {
             $param_block.addClass('vc_dependent-hidden');
           }
-          $element.trigger('change');
+          var event = jQuery.Event('change');
+          event.extra_type = 'vcHookDepended';
+		  $element.trigger(event);
         }, this);
       }
+     if(checkTabs) {
+		 this.checkTabs();
+		 this.doCheckTabs = true;
+	 }
       return this;
+    },
+    // Hide tabs if all params inside is vc_dependent-hidden
+    checkTabs: function() {
+		var that = this;
+		if(this.tabsInit === false) {
+			this.tabsInit = true;
+			if(this.$content.hasClass('vc_with-tabs')) {
+				this.$tabsMenu = this.$content.find('.vc_edit-form-tabs-menu');
+			}
+		}
+		if(this.$tabsMenu) {
+			this.$content.find('.vc_edit-form-tab').each(function(index){
+				var $tabControl = that.$tabsMenu.find('> [data-tab-index="' + index + '"]');
+              if ($(this).find('.vc_shortcode-param:not(".vc_dependent-hidden")').length) {
+                if ($tabControl.hasClass('vc_dependent-hidden')) {
+                  $tabControl.removeClass('vc_dependent-hidden').removeClass('vc_tab-color-animated').addClass('vc_tab-color-animated');
+                  window.setTimeout(function () {
+                    $tabControl.removeClass('vc_tab-color-animated')
+                  }, 200);
+                }
+              } else {
+                $tabControl.addClass('vc_dependent-hidden');
+              }
+			});
+          // new enchacement from #1467
+          window.setTimeout(this.setTabsSize,100);
+		}
+    },
+    /**
+     * new enchacement from #1467
+     * Set tabs positions absolute and height relative to content, to make sure it is stacked to top of panel
+     * @since 4.4
+     */
+    setTabsSize: function () {
+      this.$tabsMenu.parents('.vc_with-tabs.vc_panel-body').css('margin-top', this.$tabsMenu.outerHeight());
     },
     setActive: function() {
       this.$el.prev().addClass('active');
@@ -496,7 +687,7 @@
       this.params = _.extend({}, this.model.get('params'));
       _.each(attributes_settings, function (param) {
         var value = vc.atts.parseFrame.call(this, param);
-        if(_.isNull(value) || value === '') {
+        if((_.isUndefined(param.save_always) || param.save_always == false) && (_.isNull(value) || value === '')) {
           delete this.params[param.param_name];
         } else {
           this.params[param.param_name] =  value;
@@ -511,6 +702,7 @@
       return this.$content;
     },
     save: function(){
+      if( !this.panelInit ) return;
       this.model.save({params: this.getParams()});
       this.showMessage(window.sprintf(window.i18nLocale.inline_element_saved, vc.getMapped(this.model.get('shortcode')).name), 'success');
       !vc.frame_window && this.hide();
@@ -519,12 +711,13 @@
       if(this.$el.is(':hidden')) vc.closeActivePanel();
       vc.active_panel = this;
       $(window).bind('resize.vcPropertyPanel', this.setSize);
-      this.setSize();
       this.$el.show();
       if(!this.draggable) {
-        this.$el.draggable({iframeFix: true, handle: '.vc_panel-heading'});
-        this.draggable = true;
+        this.initDraggable();
       }
+	  this.setSize();
+	  this.fixElContainment();
+
     },
     hide: function(e) {
       e && e.preventDefault();
@@ -532,10 +725,11 @@
       $(window).unbind('resize.vcPropertyPanel');
       this._killEditor();
       this.$el.hide();
-      this.$content.html('');
+      this.$el.find('.vc_properties-list').removeClass('vc_with-tabs').css('margin-top','auto');
+      this.$content.empty().html('');
     },
     setTitle: function() {
-      this.$el.find('.vc_panel-title').text(vc.getMapped(this.model.get('shortcode')).name + ' settings');
+      this.$el.find('.vc_panel-title').text(vc.getMapped(this.model.get('shortcode')).name + ' ' + window.i18nLocale.settings);
       return this;
     },
     _killEditor:function () {
@@ -561,6 +755,7 @@
     events: {
       'click [data-save=true]': 'save',
       'click [data-dismiss=panel]': 'hide',
+      'click [data-transparent=panel]': 'toggleOpacity',
       'mouseover [data-transparent=panel]': 'addOpacity',
       'mouseout [data-transparent=panel]': 'removeOpacity'
     },
@@ -574,11 +769,12 @@
       this.saved_css_data = vc.$custom_css.val();
       this.saved_title = vc.title;
       this.editor = new Vc_postSettingsEditor();
+	  this.$body = $('body');
+	  _.bindAll(this, 'setSize', 'fixElContainment');
     },
     render: function() {
       this.$title = this.$el.find('#vc_page-title-field');
       this.$title.val(vc.title);
-      !vc.$title.length && $('#vc_settings-title-container').hide();
       this.setEditor();
       return this;
     },
@@ -634,11 +830,13 @@
 
   /**
    * Templates editor
+   * @deprecated since 4.4 use vc.TemplatesModalViewBackend/Frontend
    * @type {*}
    */
   vc.TemplatesEditorPanelView = vc.PanelView.extend({
     events: {
       'click [data-dismiss=panel]': 'hide',
+      'click [data-transparent=panel]': 'toggleOpacity',
       'mouseover [data-transparent=panel]': 'addOpacity',
       'mouseout [data-transparent=panel]': 'removeOpacity',
       'click .wpb_remove_template':'removeTemplate',
@@ -647,9 +845,20 @@
       'click #vc_template-save':'saveTemplate'
     },
     render: function() {
+		var $tabs = $("#vc_tabs-templates");
       this.$name = $('#vc_template-name');
       this.$list = $('#vc_template-list');
-      $("#vc_tabs-templates").tabs();
+      //$("#vc_tabs-templates").tabs();
+      var $tabs = $('#vc_tabs-templates');
+      $tabs.find('.vc_edit-form-tab-control').removeClass('vc_active').eq(0).addClass('vc_active');
+      $tabs.find('.vc_edit-form-tab').removeClass('vc_active').eq(0).addClass('vc_active');
+      $tabs.find('.vc_edit-form-link').click(function(e){
+        e.preventDefault();
+        var $this = $(this);
+        $tabs.find('.vc_active').removeClass('vc_active');
+        $this.parent().addClass('vc_active');
+        $($this.attr('href')).addClass('vc_active');
+      });
       return this;
     },
     /**
@@ -694,7 +903,7 @@
       var $button = $(e.currentTarget);
       $.ajax({
         type:'POST',
-        url:window.ajaxurl,
+        url:vc.frame_window.location.href,
         data:{
           action: 'vc_frontend_template',
           template_id:$button.data('template_id'),
@@ -722,6 +931,13 @@
           //Shortcodes.fetch({reset: true});
         });
     },
+	ajaxData: function($button) {
+		return {
+			action:'vc_frontend_default_template',
+			template_name:$button.data('template_name'),
+			vc_inline: true
+		};
+	},
     /**
      * Load saved template from server.
      * @param e - Event object
@@ -731,12 +947,8 @@
       var $button = $(e.currentTarget);
       $.ajax({
         type:'POST',
-        url:window.ajaxurl,
-        data:{
-          action:'vc_frontend_default_template',
-          template_name:$button.data('template_name'),
-          vc_inline: true
-        },
+        url:vc.frame_window.location.href,
+        data:this.ajaxData($button),
         context: this
       }).done(function (html) {
           var template, data;
@@ -795,7 +1007,14 @@
     }
   });
   vc.TemplatesEditorPanelViewBackendEditor = vc.TemplatesEditorPanelView.extend({
-    /**
+	  ajaxData: function($button) {
+		  return {
+			  action:'vc_backend_template',
+			  template_id:$button.attr('data-template_id'),
+			  vc_inline: true
+		  };
+	  },
+	 /**
      * Load saved template from server.
      * @param e - Event object
      */
@@ -805,11 +1024,7 @@
       $.ajax({
         type:'POST',
         url:window.ajaxurl,
-        data:{
-          action:'vc_backend_template',
-          template_id:$button.attr('data-template_id'),
-          vc_inline: true
-        },
+        data: this.ajaxData($button),
         context: this
       }).done(function (shortcodes) {
           _.each(vc.filters.templates, function (callback) {
@@ -849,9 +1064,167 @@
       return vc.storage.getContent();
     }
   });
+
+  /**
+   * @since 4.4
+   */
+  vc.TemplatesPanelViewBackend = vc.PanelView.extend({
+	  // new feature -> elements filtering
+	  $name: false,
+	  $list: false,
+	  template_load_action: 'vc_backend_load_template',
+	  save_template_action: 'vc_save_template',
+	  delete_template_action: 'vc_delete_template',
+	  appendedTemplateType: 'my_templates',
+	  appendedTemplateCategory: 'my_templates',
+	  appendedCategory: 'my_templates',
+	  appendedClass: 'my_templates',
+	  loadUrl: window.ajaxurl,
+	  events: $.extend(vc.PanelView.prototype.events, {
+			  'click .vc_template-save-btn': 'saveTemplate',
+			  'click [data-template_unique_id] [data-template-handler]': 'loadTemplate',
+			  'click .vc_template-delete-icon': 'removeTemplate'
+		}),
+	  render: function () {
+		  this.$el.css('left',($(window).width()-this.$el.width())/2);
+		  this.$name = this.$el.find('.vc_panel-templates-name');
+		  this.$list = this.$el.find('.vc_templates-list-my_templates');
+		  return vc.TemplatesPanelViewBackend.__super__.render.call(this);
+	  },
+	  /**
+	   * Save My Template
+	   * @param e
+	   * @returns {boolean}
+	   */
+	  saveTemplate: function (e) {
+		  e.preventDefault();
+		  var name = this.$name.val(),
+			  data, shortcodes;
+		  if (_.isString(name) && name.length) {
+			  shortcodes = this.getPostContent();
+			  if (!shortcodes.trim().length) {
+				  this.showMessage(window.i18nLocale.template_is_empty, 'error');
+				  return false;
+			  }
+			  data = {
+				  action: this.save_template_action,
+				  template: shortcodes,
+				  template_name: name,
+				  vc_inline: true
+			  };
+			  this.$name.val('');
+			  this.reloadTemplateList(data); // todo modify this
+		  } else {
+			  this.showMessage(window.i18nLocale.please_enter_templates_name, 'error');
+			  return false;
+		  }
+	  },
+	  /**
+	   * Remove template from server database.
+	   * @param e - Event object
+	   */
+	  removeTemplate: function (e) {
+		  e && e.preventDefault();
+		  var $button = $(e.target);
+		  var $template = $button.parents('.vc_template');
+		  var template_name = $template.find('.vc_template-display-title').text();
+		  var answer = confirm(window.i18nLocale.confirm_deleting_template.replace('{template_name}', template_name));
+		  if (answer) {
+			  var template_id = $template.data('template_unique_id');
+			  $template.remove();
+			  $.ajax({
+				  type: 'POST',
+				  url: window.ajaxurl,
+				  data: {
+					  action: this.delete_template_action,
+					  template_id: template_id,
+					  vc_inline: true
+				  },
+				  context: this
+			  }).done(function () {
+				  this.showMessage(window.i18nLocale.template_removed, 'success');
+			  });
+		  }
+	  },
+	  reloadTemplateList: function (data) {
+		  var self = this;
+		  var $template = $('<li class="vc_template vc_col-sm-4 vc_templates-template-type-' + this.appendedClass + '"></li>');
+		  $template.load(window.ajaxurl, data, function (html) {
+			  self.filter = false; // reset current filter
+			  $template.attr('data-category', self.appendedTemplateCategory);
+			  $template.attr('data-template_unique_id', $(html).data('template_id'));
+			  $template.attr('data-template_type', self.appendedTemplateType);
+			  self.showMessage(window.i18nLocale.template_save, 'success');
+			  self.$list.prepend($(this));
+		  });
+	  },
+	  getPostContent: function () {
+		  return vc.storage.getContent();
+	  },
+	  loadTemplate: function (e) {
+		  e.preventDefault();
+		  var $template_data = $(e.target).parents('.vc_template');
+		  $.ajax({
+			  type: 'POST',
+			  url: this.loadUrl,
+			  data: {
+				  action: this.template_load_action,
+				  template_unique_id: $template_data.data('template_unique_id'),
+				  template_type: $template_data.data('template_type'),
+				  vc_inline: true
+			  },
+			  context: this
+		  }).done(this.renderTemplate);
+	  },
+	  renderTemplate: function (html) {
+		  // Render template for backend
+		  _.each(vc.filters.templates, function (callback) {
+			  html = callback(html);
+		  });
+		  vc.storage.append(html);
+		  vc.shortcodes.fetch({reset: true});
+		  this.showMessage(window.i18nLocale.template_added, 'success');
+	  }
+  });
+
+	/**
+	 * @since 4.4
+	 */
+	vc.TemplatesPanelViewFrontend = vc.TemplatesPanelViewBackend.extend({
+		template_load_action: 'vc_frontend_load_template',
+		loadUrl: false,
+		initialize: function() {
+			this.loadUrl = vc.$frame.attr('src');
+			vc.TemplatesPanelViewFrontend.__super__.initialize.call(this);
+		},
+		render: function() {
+			return vc.TemplatesPanelViewFrontend.__super__.render.call(this);
+		},
+		renderTemplate: function (html) {
+			// Render template for frontend
+			var template, data;
+			_.each($(html), function (element) {
+				if (element.id === "vc_template-data") {
+					try {
+						data = JSON.parse(element.innerHTML)
+					} catch (e) {
+					}
+				}
+				if (element.id === "vc_template-html") {
+					template = element.innerHTML;
+				}
+			});
+			template && data && vc.builder.buildFromTemplate(template, data);
+		},
+		getPostContent: function () {
+			return vc.builder.getContent();
+		}
+	});
+
   vc.RowLayoutEditorPanelView = vc.PanelView.extend({
     events: {
       'click [data-dismiss=panel]': 'hide',
+      'click [data-transparent=panel]': 'toggleOpacity',
       'mouseover [data-transparent=panel]': 'addOpacity',
       'mouseout [data-transparent=panel]': 'removeOpacity',
       'click .vc_layout-btn': 'setLayout',

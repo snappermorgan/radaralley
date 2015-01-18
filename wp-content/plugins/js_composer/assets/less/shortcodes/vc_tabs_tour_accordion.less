@@ -57,11 +57,13 @@
   .wpb_accordion_wrapper .wpb_accordion_header,
   &.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
     background-color: @vc_tab_bg_active;
-  }/* fix: #1019
+  }/*
+  fix #1019
   .wpb_tour_tabs_wrapper .wpb_tabs_nav li,
   .wpb_accordion_wrapper .wpb_accordion_header {
     .wpb_transition();
-  }*/
+  }
+  */
   
   .wpb_tour_tabs_wrapper .wpb_tab,
   .wpb_accordion_wrapper .wpb_accordion_content {
@@ -100,7 +102,7 @@
     }
   }
   .wpb_tour_tabs_wrapper .wpb_tab {
-    .wpb_box_sizing();
+    .box-sizing(border-box);
     border: none;    
     float: left;
     width: @tour_slides_width;

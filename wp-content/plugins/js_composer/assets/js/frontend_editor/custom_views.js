@@ -368,11 +368,20 @@
     },
     already_build: false,
     active_model_id: false,
+    $tabsNav: false,
+    active: 0,
     render: function() {
       _.bindAll(this, 'stopSorting');
       this.$tabs = this.$el.find('> .wpb_tabs');
       window.InlineShortcodeView_vc_tabs.__super__.render.call(this);
+      this.buildNav();
       return this;
+    },
+    buildNav: function() {
+      var $nav = this.tabsControls();
+      this.$tabs.find('> .wpb_wrapper > .vc_element[data-tag="vc_tab"]').each(function(key){
+        $('li:eq('+key+')', $nav).attr('data-m-id', $(this).data('model-id'));
+      });
     },
     changed: function() {
       if(this.$el.find('.vc_element[data-tag]').length == 0) {
@@ -384,21 +393,25 @@
     },
     setActiveTab: function(e) {
       var $tab = $(e.currentTarget);
-      this.active_model_id = $tab.data('modelId');
+      this.active_model_id = $tab.data('m-id');
     },
     tabsControls: function() {
-      return this.$el.find('.wpb_tabs_nav');
+      return this.$tabsNav ? this.$tabsNav : this.$tabsNav = this.$el.find('.wpb_tabs_nav');
     },
     buildTabs: function(active_model) {
-      var active = false;
       if(active_model) {
         this.active_model_id = active_model.get('id');
-        active = this.tabsControls().find('[data-model-id=' + this.active_model_id +']').index();
+        this.active = this.tabsControls().find('[data-m-id=' + this.active_model_id +']').index();
       }
       if(this.active_model_id === false) {
-        this.active_model_id = this.tabsControls().find('li:first').data('modelId');
+        var active_el = this.tabsControls().find('li:first');
+        this.active = active_el.index();
+        this.active_model_id = active_el.data('m-id');
       }
-      vc.frame_window.vc_iframe.buildTabs(this.$tabs, active);
+      if ( ! this.checkCount() ) vc.frame_window.vc_iframe.buildTabs(this.$tabs, this.active);
+    },
+    checkCount: function() {
+      return this.$tabs.find('> .wpb_wrapper > .vc_element[data-tag="vc_tab"]').length != this.$tabs.find('> .wpb_wrapper > .vc_element.vc_vc_tab').length;
     },
     beforeUpdate: function() {
       this.$tabs.find('.wpb_tabs_heading').remove();
@@ -407,6 +420,7 @@
     updated: function() {
       window.InlineShortcodeView_vc_tabs.__super__.updated.call(this);
       this.$tabs.find('.wpb_tabs_nav:first').remove();
+      this.buildNav();
       vc.frame_window.vc_iframe.buildTabs(this.$tabs);
       this.setSorting();
     },
@@ -419,8 +433,11 @@
       if(this.updateIfExistTab(model)) return false;
       var $control = this.buildControlHtml(model),
           $cloned_tab;
-      if(model.get('cloned') && ($cloned_tab = this.tabsControls().find('[data-model-id=' + model.get('cloned_from').id + ']')).length) {
-        $control.insertAfter($cloned_tab);
+      if(model.get('cloned') && ($cloned_tab = this.tabsControls().find('[data-m-id=' + model.get('cloned_from').id + ']')).length) {
+        if( ! model.get('cloned_appended') ) {
+          $control.appendTo(this.tabsControls());
+          model.set('cloned_appended', true);
+        }
       } else {
         $control.appendTo(this.tabsControls());
       }
@@ -432,7 +449,7 @@
 		this.buildTabs(model);
 	},
     updateIfExistTab: function(model) {
-      var $tab = this.tabsControls().find('[data-model-id=' + model.get('id') + ']');
+      var $tab = this.tabsControls().find('[data-m-id=' + model.get('id') + ']');
       if($tab.length) {
         $tab.find('a').text(model.getParam('title'));
         return true;
@@ -441,7 +458,7 @@
     },
     buildControlHtml: function(model) {
       var params = model.get('params'),
-          $tab =$('<li data-model-id="' + model.get('id') +'"><a href="#tab-' + model.getParam('tab_id') + '"></a></li>');
+          $tab =$('<li data-m-id="' + model.get('id') +'"><a href="#tab-' + model.getParam('tab_id') + '"></a></li>');
       $tab.data('model', model);
       $tab.find('> a').text(model.getParam('title'));
       return $tab;
@@ -476,11 +493,11 @@
     },
     removeTab: function(model) {
       if(vc.shortcodes.where({parent_id: this.model.get('id')}).length == 1) return this.model.destroy();
-      var $tab = this.tabsControls().find('[data-model-id=' + model.get('id') + ']'),
+      var $tab = this.tabsControls().find('[data-m-id=' + model.get('id') + ']'),
           index = $tab.index();
-      if( this.tabsControls().find('[data-model-id]:eq(' + (index+1) + ')').length) {
+      if( this.tabsControls().find('[data-m-id]:eq(' + (index+1) + ')').length) {
         vc.frame_window.vc_iframe.setActiveTab(this.$tabs, (index+1));
-      } else if(this.tabsControls().find('[data-model-id]:eq(' + (index-1) + ')').length) {
+      } else if(this.tabsControls().find('[data-m-id]:eq(' + (index-1) + ')').length) {
         vc.frame_window.vc_iframe.setActiveTab(this.$tabs, (index-1));
       } else {
         vc.frame_window.vc_iframe.setActiveTab(this.$tabs, 0);
@@ -499,6 +516,7 @@
       _.bindAll(this, 'stopSorting');
       this.$tabs = this.$el.find('> .wpb_tour');
       window.InlineShortcodeView_vc_tabs.__super__.render.call(this);
+      this.buildNav();
       return this;
     },
     beforeUpdate: function() {
@@ -561,9 +579,6 @@
           builder = new vc.ShortcodesBuilder();
       var newmodel = vc.CloneModel(builder, this.model, this.model.get('parent_id'));
 	  var active_model = this.parent_view.active_model_id;
-	  if(this.parent_view.addTab) {
-		  this.parent_view.addTab(newmodel);
-	  }
 	  var that = this;
 	  builder.render(function(){
 		  if(that.parent_view.cloneTabAfter) {
@@ -732,7 +747,7 @@
   window.InlineShortcodeView_vc_toggle = window.InlineShortcodeView.extend({
     render: function() {
       var model_id = this.model.get('id');
-      window.InlineShortcodeView_vc_posts_slider.__super__.render.call(this);
+      window.InlineShortcodeView_vc_toggle.__super__.render.call(this);
       vc.frame_window.vc_iframe.addActivity(function(){
         this.vc_iframe.vc_toggle(model_id);
       });
@@ -757,8 +772,22 @@
       return this;
     }
   });
-    vc.addTemplateFilter(function (string) {
+
+  vc.addTemplateFilter(function (string) {
     var random_id = VCS4() + '-' + VCS4();
     return string.replace(/tab\_id\=\"([^\"]+)\"/g, 'tab_id="$1' + random_id + '"');
   });
+	window.InlineShortcodeView_vc_basic_grid = vc.shortcode_view.extend({
+		render:function (e) {
+			window.InlineShortcodeView_vc_basic_grid.__super__.render.call(this, e);
+			var model_id = this.model.get('id');
+			vc.frame_window.vc_iframe.addActivity(function(){
+              vc.frame_window.vc_iframe.gridInit(model_id);
+			});
+			return this;
+		}
+	});
+	window.InlineShortcodeView_vc_masonry_grid = window.InlineShortcodeView_vc_basic_grid.extend();
+	window.InlineShortcodeView_vc_media_grid = window.InlineShortcodeView_vc_basic_grid.extend();
+	window.InlineShortcodeView_vc_masonry_media_grid = window.InlineShortcodeView_vc_basic_grid.extend();
 })(window.jQuery);

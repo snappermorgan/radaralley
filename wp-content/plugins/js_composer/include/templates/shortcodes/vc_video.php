@@ -16,6 +16,7 @@ $el_class = $this->getExtraClass( $el_class );
 
 $video_w = ( isset( $content_width ) ) ? $content_width : 500;
 $video_h = $video_w / 1.61; //1.61 golden ratio
+/** @var WP_Embed $wp_embed  */
 global $wp_embed;
 $embed = $wp_embed->run_shortcode( '[embed width="' . $video_w . '"' . $video_h . ']' . $link . '[/embed]' );
 

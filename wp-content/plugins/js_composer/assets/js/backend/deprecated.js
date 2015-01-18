@@ -34,10 +34,10 @@
 //Go to end of the last line
       this.$editor.gotoLine(count, session.getLine(count-1).length);
     },
-    setSize: function() {
+    setSize: function () {
       var height = $(window).height() - 250; // @fix ACE editor
-      $("#wpb_csseditor").css('height', height);
-      $("#wpb_csseditor").css('minHeight', height);
+      var $css_editor = $("#wpb_csseditor");
+      $css_editor.css({'height': height, 'minHeight': height});
     },
     save: function() {
       this.setAlertOnDataChange();
@@ -201,12 +201,13 @@
       var $list = this.$el.find('.wpb-elements-list'),
         $control = $(e.currentTarget),
         filter = '',
-        name_filter = $('#vc_elements_name_filter').val();
+        $name_filter = $('#vc_elements_name_filter'),
+        name_filter = $name_filter.val();
       if ($control.is('[data-filter]')) {
         $('.wpb-content-layouts-container .isotope-filter .active', $list).removeClass('active');
         $control.parent().addClass('active');
         filter = $control.data('filter');
-        $('#vc_elements_name_filter').val('');
+        $name_filter.val('');
       } else if (name_filter.length > 0) {
         filter = ":containsi('" + name_filter + "')";
         $('.wpb-content-layouts-container .isotope-filter .active', $list).removeClass('active');

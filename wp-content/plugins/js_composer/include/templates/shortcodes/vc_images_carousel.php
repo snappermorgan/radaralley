@@ -1,4 +1,7 @@
 <?php
+/**
+ * @var $this WPBakeryShortCode_VC_images_carousel
+ */
 $output = $title = $onclick = $custom_links = $img_size = $custom_links_target = $images = $el_class = $partial_view = '';
 $mode = $slides_per_view = $wrap = $autoplay = $hide_pagination_control = $hide_prev_next_buttons = $speed = '';
 extract( shortcode_atts( array(
@@ -25,7 +28,7 @@ $el_start = '';
 $el_end = '';
 $slides_wrap_start = '';
 $slides_wrap_end = '';
-$pretty_rand = $onclick == 'link_image' ? rand() : '';
+$pretty_rand = $onclick == 'link_image' ? ' rel="prettyPhoto[rel-' . get_the_ID() . '-' . rand() . ']"' : '';
 
 wp_enqueue_script( 'vc_carousel_js' );
 wp_enqueue_style( 'vc_carousel_css' );
@@ -86,7 +89,7 @@ $slider_width = $this->getSliderWidth( $img_size );
 								<?php if ( $onclick == 'link_image' ): ?>
 								<?php $p_img_large = $post_thumbnail['p_img_large']; ?>
 								<a class="prettyphoto"
-								   href="<?php echo $p_img_large[0] ?>" <?php echo ' rel="prettyPhoto[rel-' . $pretty_rand . ']"' ?>>
+								   href="<?php echo $p_img_large[0] ?>" <?php echo $pretty_rand; ?>>
 									<?php echo $thumbnail ?>
 								</a>
 								<?php elseif ( $onclick == 'custom_link' && isset( $custom_links[$i] ) && $custom_links[$i] != '' ): ?>

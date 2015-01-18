@@ -1,5 +1,37 @@
-19.12.2014 - ver 4.3.5
-   - Compatibility with WP 4.1
+16.01.2015 - ver 4.4
+   - Bulgarian translation added. Thanks to: Valentin Val
+   - New elements added: Grid, Masonry Grid, Media Grid, Media Masonry Grid
+   - Grid Element builder added
+   - Element replaced: Toggle element replaced with new version
+   - Element replaced: Message box replaced with new version
+   - Tab (groups) are fixed in content element edit
+   - New filter added: vc_wpb_getimagesize
+   - Improvements for German translation - .mo, .po files updated
+   - Separator thickness option and alignment added
+   - Predefault template list updated
+   - Blank page layout updated
+   - Button 2.0 has alignment option "centre"
+   - Compatibility and automapping with Ninja Forms introduced
+   - Icon Element: Icon Element
+   - Woo Commerce shortcodes are automapped
+   - Autocomplete param added
+   - custom_markup param added
+   - Filter available: vc_custom_markup_render_filter
+   - Drag icon for column added
+   - Accordion title replacement bug fixed
+   - Row can be stretched: full width, full width with content, full width with content (no paddings) Note: This won't work with overflow: hidden
+   - EasyTables is fully compatible with Visual Composer Frontend
+   - Compatibility with Yoast SEO
+   - Multiple fields param group added
+   - Undefined offset warning removed if single image with incorrect id
+   - Shortcode automapper regexp improved for better handling shortcodes without params
+   - Welcome screen typography following Visual Comopser design
+   - Saving post with custom Query overriding title and slug bug fixed
+   - Tour element autorotate option fixed
+   - Mixed content errors in https mode removed
+   - custom.css file will be loaded only if it has content
+   - Nested Shortcode "as_child" parameter when set to "except" fixed
+   - ... and more
 
 10.09.2014 - ver 4.3.4
    - WP 4.0 improvements
@@ -9,7 +41,7 @@
    - Custom CSS in Settings page converted > to special char fixed
    - IE8 compatibility improved. vc-ie8.css added. Thanks to AJ Clarke
    - Using front-end editor turns off the comments fixed
-   - Persian translation added. Thanks to: Muhammad Ali - http://bestit.org
+   - Persian translation added. Thanks to: Ali Mohammadi | www.bestit.co
 
 19.08.2014 - ver 4.3.3
    - Edit elements in Accordion fixed

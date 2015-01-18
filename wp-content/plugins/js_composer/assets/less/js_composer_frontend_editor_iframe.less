@@ -1,8 +1,3 @@
-/*!
- * Visual Composer v4.3.4 (http://vc.wpbakery.com)
- * Copyright 2011-2014 Michael M - WPBakery.com
- */
-
 // Fixes for theme css to enable correct representation of the page controls.
 @import "config/variables.less";
 // Some css fixes for WP themes.
@@ -14,29 +9,30 @@ html.js_active { margin-top: 0 !important; }
 .vc_catcher {
     background-color: #E8ECB8
 }
+.vc_empty-placeholder {
+    margin-bottom: 30px;
+}
 .vc_hidden-placeholder {
     display: none !important;
 }
 @import "modules/vc_welcome.less";
+@import "modules/vc_default_templates.less";
+
 .vc_welcome {
     display: none;
 }
 .vc_controls {
     display: none;
 }
-.compose-mode {
-    // Controls
-    @import "lib/controls.less";
+.compose-mode, .view-mode {
+
     // Vc element settings
     @import "lib/frontend_vc_elements.less";
-    // Custom shortcodes settings
-    @import "lib/frontend_editor_controls.less";
+
     // Helper information
     .vc_welcome {
         display: block;
     }
-    // usefull classes for drag&drop/sorting activity
-    @import "lib/frontend_draganddrop.less";
 
     .vc_hidden-xs {
         @media (max-width: @screen-xs-max) {
@@ -65,4 +61,26 @@ html.js_active { margin-top: 0 !important; }
             }
         }
     }
+}
+
+.view-mode {
+    .vc_element {
+        &:hover, &.vc_hover, &.vc_hold-hover {
+            > .wpb_row {
+                > .vc_element {
+                    &:before {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.compose-mode {
+    // Controls
+    @import "lib/controls.less";
+    // Custom shortcodes settings
+    @import "lib/frontend_editor_controls.less";
+    // usefull classes for drag&drop/sorting activity
+    @import "lib/frontend_draganddrop.less";
 }

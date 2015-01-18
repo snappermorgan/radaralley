@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: WPBakery Visual Composer v4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-14 14:45+0200\n"
-"PO-Revision-Date: 2014-08-14 14:45+0200\n"
-"Last-Translator: Michael M <hello@wpbakery.com>\n"
+"PO-Revision-Date: 2014-12-03 00:47+0100\n"
+"Last-Translator: Sébastien Landrieu <s.landrieu@buzness.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -187,7 +187,7 @@ msgstr "Êtes-vous certain(e) de vouloir supprimer toutes vos données?"
 # @ default
 #: include/./classes/core/class-vc-base.php:546
 msgid "Loop settings"
-msgstr ""
+msgstr "Paramètres de boucle"
 
 # @ js_composer
 #: include/./classes/core/class-vc-base.php:547
@@ -237,9 +237,8 @@ msgstr "Votre nouveau modèle a bien été enregistré!"
 
 # @ js_composer
 #: include/./classes/core/class-vc-base.php:556
-#, fuzzy
 msgid "Template added to the page."
-msgstr "Ajouter le modèle à la page"
+msgstr "Modèle ajouté à la page"
 
 # @ js_composer
 #: include/./classes/core/class-vc-base.php:557
@@ -400,9 +399,8 @@ msgstr "Enregistrer le brouillon"
 
 # @ js_composer
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:93
-#, fuzzy
 msgid "Save as Pending"
-msgstr "Descendant"
+msgstr "Enregistrer comme latent"
 
 # @ js_composer
 #: include/./classes/editors/navbar/class-vc-navbar-frontend.php:98
@@ -482,35 +480,30 @@ msgstr "Aucun modèle personnalisé disponible"
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:110
 #: include/./classes/settings/class-vc-automapper.php:123
-#, fuzzy
 msgid "My shortcodes"
-msgstr "Shortcodes actifs"
+msgstr "Mes shortcodes"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:121
-#, fuzzy
 msgid "Are you sure you want to delete this shortcode?"
-msgstr ""
-"Êtes-vous sûr(e) de vouloir réinitialiser vers les paramètres par défaut?"
+msgstr "Êtes-vous sûr(e) de vouloir supprimer ce shortcode?"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:122
-#, fuzzy
 msgid "Are you sure you want to delete the shortcode's param?"
 msgstr ""
 "Êtes-vous sûr(e) de vouloir réinitialiser vers les paramètres par défaut?"
+"supprimer les paramètres de ce shortcode?"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:124
-#, fuzzy
 msgid "Shortcode name is required."
-msgstr "Mauvais nom pour le shortcode:%s. Nom requis."
+msgstr "Le nom de shortcode est requis"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:125
-#, fuzzy
 msgid "Please enter valid shortcode tag."
-msgstr "Merci de saisir le nom de votre modèle"
+msgstr "Merci de saisir un tag de shortcode valide"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:126
@@ -580,9 +573,8 @@ msgstr "Merci de saisir une chaine de shortcode"
 
 # @ default
 #: include/./classes/settings/class-vc-automapper.php:176
-#, fuzzy
 msgid "Please enter valid shortcode"
-msgstr "Saisissez un titre de page"
+msgstr "Merci de saisir un shortcode valide"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:181
@@ -607,9 +599,8 @@ msgstr ""
 
 # @ default
 #: include/./classes/settings/class-vc-automapper.php:212
-#, fuzzy
 msgid "General information"
-msgstr "Réglages généraux"
+msgstr "Informations générales"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:215
@@ -631,7 +622,7 @@ msgstr "Catégorie :"
 # @ default
 #: include/./classes/settings/class-vc-automapper.php:225
 msgid "Comma separated categories names"
-msgstr ""
+msgstr "Noms des catégories séparés par des virgules"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:229
@@ -641,7 +632,7 @@ msgstr "Incluez les paramètres nécessaires dans le shortcode"
 # @ default
 #: include/./classes/settings/class-vc-automapper.php:235
 msgid "Shortcode parameters"
-msgstr ""
+msgstr "Paramètres des shortcodes"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:242
@@ -654,9 +645,8 @@ msgstr "Sauvegarder les modifications"
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:244
 #: include/./classes/settings/class-vc-automapper.php:313
-#, fuzzy
 msgid "Delete"
-msgstr "Supprimer %s"
+msgstr "Supprimer"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:254
@@ -684,9 +674,8 @@ msgstr "Contenu"
 #: include/./classes/settings/class-vc-automapper.php:258
 #: include/./classes/settings/class-vc-automapper.php:264
 #: include/./classes/settings/class-vc-automapper.php:272
-#, fuzzy
 msgid "Required value"
-msgstr "Valeur de camembert"
+msgstr "Valeur"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:261
@@ -709,33 +698,28 @@ msgstr "En-tête pour le champs dans le formulaire d'édition de shortcode"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:277
-#, fuzzy
 msgid "Field type"
-msgstr "Type de slider"
+msgstr "Type de champ"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:279
-#, fuzzy
 msgid "Select field type"
-msgstr "Sélectionner un type d'élément"
+msgstr "Sélectionner un type de champ"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:281
-#, fuzzy
 msgid "Textfield"
-msgstr "Texte"
+msgstr "Champ de texte"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:283
-#, fuzzy
 msgid "Dropdown"
-msgstr "Exemple de menu déroulant"
+msgstr "Menu déroulant"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:285
-#, fuzzy
 msgid "Textarea"
-msgstr "Texte"
+msgstr "Zone de texte"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:287
@@ -749,9 +733,8 @@ msgstr "Type de champs pour le formulaire d'édition de shortcode"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:293
-#, fuzzy
 msgid "Default value"
-msgstr "État par défaut"
+msgstr "Valeur par défaut"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-automapper.php:296
@@ -1086,13 +1069,12 @@ msgstr ""
 
 # @ js_composer
 #: include/./classes/settings/class-vc-settings.php:707
-#, fuzzy
 msgid ""
 "To change default horizontal spacing between columns, enter new value in "
 "pixels here."
 msgstr ""
-"Pour changer l'espacement horizontal par défaut entre les colonnes, entrez "
-"une valeur en pourcentages ici."
+"Pour modifier l'espacement entre les colonnes, saisissez une valuer en "
+"pixels ici"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-settings.php:713
@@ -1196,9 +1178,9 @@ msgstr ""
 #: include/./classes/settings/class-vc-settings.php:999
 msgid ""
 "<strong>Deprecated:</strong> To override class names that are applied to "
-"Visual Composer content elements you should use WordPress add_filter"
-"('vc_shortcodes_css_class') function. <a class='vc_show_example'>See "
-"Example</a>."
+"Visual Composer content elements you should use WordPress "
+"add_filter('vc_shortcodes_css_class') function. <a "
+"class='vc_show_example'>See Example</a>."
 msgstr ""
 "<strong>Obsolète :</strong> Pour remplacer les noms de classes qui sont "
 "appliquées à des éléments de contenu Visual Composer, vous devez utiliser la "
@@ -1211,6 +1193,8 @@ msgid ""
 "You have used element class names settings to replace row and column css "
 "classes."
 msgstr ""
+"Vous avez utilisé des noms de classe pour remplacer celles des lignes et "
+"colonnes..."
 
 # @ default
 #: include/./classes/settings/class-vc-settings.php:1008
@@ -1219,6 +1203,9 @@ msgid ""
 "your theme, to replace row and column classes with custom classes saved by "
 "you earlier."
 msgstr ""
+"Vous trouverez ci-dessous le code que vous devrez ajouter à votre fichier "
+"functions.php de thème graphique pour remplacer les classes de lignes et de "
+"colonnes que vous avez enregistrées auparavant"
 
 # @ js_composer
 #: include/./classes/settings/class-vc-settings.php:1077
@@ -1274,11 +1261,10 @@ msgstr "Le CSS personnalisé ne peut être créé. Erreur de connexion."
 
 # @ js_composer
 #: include/./classes/settings/class-vc-settings.php:1308
-#, fuzzy
 msgid "custom.css could not be created. Cannot write custom css to \""
 msgstr ""
 "Le CSS personnalisé ne peut être créé. Impossible d'écrire le CSS "
-"personnalisé vers \"\"."
+"personnalisé vers \""
 
 # @ js_composer
 #: include/./classes/settings/class-vc-settings.php:1310
@@ -1407,6 +1393,8 @@ msgid ""
 "Field type is changed from `textarea_html` to `textarea`, because it is "
 "already used by `"
 msgstr ""
+"Le type de champ a changé de `textarea_html` vers ` to `textarea` car il est "
+"déjà utilisé par `"
 
 # @ js_composer
 #: include/./classes/shortcodes/shortcodes.php:732
@@ -1561,6 +1549,7 @@ msgid ""
 "To receive automatic updates license activation is required. Please visit <a "
 "href=\""
 msgstr ""
+"Pour recevoir des mises à jour automatiques, une activation est requise."
 
 # @ js_composer
 #: include/./classes/updaters/class-vc-updater.php:79
@@ -1792,27 +1781,23 @@ msgstr "Pas de décalage"
 
 # @ js_composer
 #: include/./params/css_editor/css_editor.php:43
-#, fuzzy
 msgid "Border"
-msgstr "Odre"
+msgstr "Bordure"
 
 # @ js_composer
 #: include/./params/css_editor/css_editor.php:46
-#, fuzzy
 msgid "Background"
-msgstr "Couleur de fond de la rangée"
+msgstr "Fond"
 
 # @ js_composer
 #: include/./params/css_editor/css_editor.php:50
-#, fuzzy
 msgid "Box controls"
-msgstr "Compteur de boite"
+msgstr "Contrôles de boite"
 
 # @ js_composer
 #: include/./params/css_editor/css_editor.php:51
-#, fuzzy
 msgid "Simplify controls"
-msgstr "Afficher ls contrôles %s"
+msgstr "Simplifier les contrôles %s"
 
 # @ js_composer
 #: include/./params/css_editor/css_editor.php:77
@@ -2238,7 +2223,7 @@ msgstr "Ajouter un bloc de texte"
 # @ default
 #: include/./templates/editors/partials/vc_welcome_block.tpl.php:21
 msgid "Choose Your Layout"
-msgstr ""
+msgstr "Choisissez votre mise en page"
 
 # @ js_composer
 #: include/./templates/editors/popups/panel_edit_layout.tpl.php:3
@@ -2490,28 +2475,28 @@ msgstr "Suivez-nous sur Twitter"
 # @ default
 #: include/./templates/shortcodes/vc_wp_archives.php:4 config/./map.php:2947
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 # @ default
 #: include/./templates/shortcodes/vc_wp_meta.php:4 config/./map.php:2581
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 # @ default
 #: include/./templates/shortcodes/vc_wp_pages.php:4 config/./map.php:2659
 msgid "Pages"
-msgstr ""
+msgstr "Pages"
 
 # @ default
 #: include/./templates/shortcodes/vc_wp_posts.php:4 config/./map.php:2815
 msgid "Recent Posts"
-msgstr ""
+msgstr "Articles récents"
 
 # @ default
 #: include/./templates/shortcodes/vc_wp_recentcomments.php:4
 #: config/./map.php:2605
 msgid "Recent Comments"
-msgstr ""
+msgstr "Commentaires récents"
 
 # @ js_composer
 #: include/./templates/shortcodes/post_block/_item.php:20
@@ -3816,7 +3801,7 @@ msgstr ""
 # @ vc_extend
 #: config/./map.php:1451
 msgid "Post Carousel"
-msgstr ""
+msgstr "Carousel d'articles"
 
 # @ js_composer
 #: config/./map.php:1456
@@ -4340,11 +4325,12 @@ msgstr "Hauteur du plan"
 
 # @ js_composer
 #: config/./map.php:2177
-#, fuzzy
 msgid ""
 "Enter map height in pixels. Example: 200 or leave it empty to make map "
 "responsive."
-msgstr "Entrer la hauteur de la carte en pixels. Exemple : 200."
+msgstr ""
+"Entrer la hauteur de la carte en pixels. Exemple : 200 ou laissez vide pour "
+"du responsive par défaut."
 
 # @ js_composer
 #: config/./map.php:2211 config/./map.php:2221
@@ -4526,7 +4512,7 @@ msgstr "Ajouter une animation? Cela sera visible sur les barres rayées."
 # @ vc_extend
 #: config/./map.php:2383
 msgid "Pie chart"
-msgstr ""
+msgstr "Graphique camembert"
 
 # @ js_composer
 #: config/./map.php:2388
@@ -4679,7 +4665,7 @@ msgstr ""
 # @ default
 #: config/./map.php:2557
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 # @ js_composer
 #: config/./map.php:2560 config/./map.php:2584 config/./map.php:2608
@@ -4724,7 +4710,7 @@ msgstr "Nombre de commentaires à afficher"
 # @ default
 #: config/./map.php:2635
 msgid "Calendar"
-msgstr ""
+msgstr "Calendrier"
 
 # @ js_composer
 #: config/./map.php:2641
@@ -4764,7 +4750,7 @@ msgstr "ID des pages, séparés par des virgules"
 # @ default
 #: config/./map.php:2709
 msgid "Tag Cloud"
-msgstr ""
+msgstr "Nuage de mots clés"
 
 # @ js_composer
 #: config/./map.php:2715
@@ -4779,7 +4765,7 @@ msgstr "Taxonomie"
 # @ default
 #: config/./map.php:2747
 msgid "Custom Menu"
-msgstr ""
+msgstr "Menu personnalisé"
 
 # @ js_composer
 #: config/./map.php:2753
@@ -4835,7 +4821,7 @@ msgstr "Tous les liens"
 # @ default
 #: config/./map.php:2859
 msgid "Links"
-msgstr ""
+msgstr "Liens"
 
 # @ js_composer
 #: config/./map.php:2866
@@ -4915,7 +4901,7 @@ msgstr "Une archive mensuelle de vos articles"
 # @ default
 #: config/./map.php:2980
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 # @ js_composer
 #: config/./map.php:2986

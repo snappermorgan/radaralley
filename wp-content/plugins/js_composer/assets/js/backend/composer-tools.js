@@ -17,6 +17,14 @@ function getCookie(c_name) {
   }
 }
 
+/**
+ * Helper function to transform to Title Case
+ * @since 4.4
+ */
+function vc_toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
 (function ($) {
     $.expr[':'].containsi = function (a, i, m) {
         return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
@@ -226,9 +234,6 @@ function VCS4() {
  * Taxonomies filter
  *
  * Show or hide taxonomies depending on selected post types
-
- * @param $element - post type checkbox object
- * @param $object -
  */
 var wpb_grid_post_types_for_taxonomies_handler = function () {
     var $labels = this.$content.find('.wpb_el_type_taxonomies label[data-post-type]'),
@@ -256,16 +261,16 @@ var wpb_single_image_img_link_dependency_callback = function () {
         if (checked) {
             $img_link_target.show();
         } else {
-            if ( $link_field.val().length > 0 &&  $link_field.val() !== 'http://') {
+            if ($link_field.val().length > 0 && $link_field.val() !== 'http://') {
                 $img_link_target.show();
             } else {
                 $img_link_target.hide();
             }
         }
     });
-    var key_up_callback =  _.debounce(function () {
+    var key_up_callback = _.debounce(function () {
         var val = $(this).val();
-        if (val.length > 0 &&  val !== 'http://' && val !== 'https://') {
+        if (val.length > 0 && val !== 'http://' && val !== 'https://') {
             $img_link_target.show();
         } else {
             $img_link_target.hide();
@@ -275,20 +280,20 @@ var wpb_single_image_img_link_dependency_callback = function () {
     if (this.$content.find('#img_link_large-yes').is(':checked')) {
         $img_link_target.show();
     } else {
-        if ($('.wpb-edit-form [name=link]').length && $('.wpb-edit-form [name=link]').val().length > 0) {
+        if ($link_field.length && $link_field.val().length > 0) {
             $img_link_target.show();
         } else {
             $img_link_target.hide();
         }
     }
-    if( params.img_link && params.img_link.length && !params.link ) {
-      old_param_value = params.img_link;
-      if(!old_param_value.match(/^https?\:\/\//)) old_param_value = 'http://' + old_param_value;
-      $('.wpb-edit-form [name=link]').val(old_param_value);
+    if (params.img_link && params.img_link.length && !params.link) {
+        old_param_value = params.img_link;
+        if (!old_param_value.match(/^https?\:\/\//)) old_param_value = 'http://' + old_param_value;
+        $link_field.val(old_param_value);
     }
-  vc.edit_form_callbacks.push(function() {
-    if(this.params.img_link) this.params.img_link = '';
-  });
+    vc.edit_form_callbacks.push(function () {
+        if (this.params.img_link) this.params.img_link = '';
+    });
 };
 
 var vc_button_param_target_callback = function () {
@@ -320,7 +325,77 @@ var vc_cta_button_param_target_callback = function () {
     }, 300);
     $link_field.keyup(key_up_callback).trigger('keyup');
 };
+/*
+var vc_grid_include_dependency_callback = function () {
+	var $ = jQuery;
+	var include_el = $('.wpb_vc_param_value[name=include]',this.$content);
+	// include_el.parents('.wpb_el_type_autocomplete.vc_shortcode-param').removeClass('vc_dependent-hidden');
+	var include_obj = include_el.data('object');
+	var post_type_object = $('select.wpb_vc_param_value[name="post_type"]',this.$content);
+	var val = post_type_object.val();
+	include_obj.source_data = function (request, response) {
+		return {query: {query:val,term:request.term}};
+	};
+    include_obj.source_data_val = val;
+	post_type_object.change(function(e){
+		val = $(this).val();
+        if(include_obj.source_data_val != val) {
+            include_obj.source_data = function (request, response) {
+                return {query: {query:val,term:request.term}};
+            };
+        
+            include_obj.$el.data('uiAutocomplete').destroy();
+            include_obj.$sortable_wrapper.find('.vc_data').remove(); // remove all appended items
+            include_obj.render(); // re-render data
 
+            include_obj.source_data_val = val;
+            // include_el.parents('.wpb_el_type_autocomplete.vc_shortcode-param').removeClass('vc_dependent-hidden');
+        }
+	});
+};
+*/
+var vc_grid_exclude_dependency_callback = function () {
+	var $ = jQuery;
+	var exclude_el = $('.wpb_vc_param_value[name=exclude]',this.$content);
+	// exclude_el.parents('.wpb_el_type_autocomplete.vc_shortcode-param').removeClass('vc_dependent-hidden');
+	var exclude_obj = exclude_el.data('object');
+	var post_type_object = $('select.wpb_vc_param_value[name="post_type"]',this.$content);
+	var val = post_type_object.val();
+	exclude_obj.source_data = function (request, response) {
+		return {query: {query:val,term:request.term}};
+	};
+    exclude_obj.source_data_val = val;
+	post_type_object.change(function(){
+		val = $(this).val();
+        if(exclude_obj.source_data_val != val) {
+            exclude_obj.source_data = function (request, response) {
+                return {query: {query:val,term:request.term}};
+            };
+
+            exclude_obj.$el.data('uiAutocomplete').destroy();
+            exclude_obj.$sortable_wrapper.find('.vc_data').remove(); // remove all appended items
+            exclude_obj.render(); // re-render data
+
+            exclude_obj.source_data_val = val;
+		    // exclude_el.parents('.wpb_el_type_autocomplete.vc_shortcode-param').removeClass('vc_dependent-hidden');
+        }
+	});
+};
+
+/*
+var vc_grid_custom_query_dependency = function() {
+    var $ = jQuery,
+        $post_type = $('select.wpb_vc_param_value[name="post_type"]',this.$content);
+    $post_type.change(function(){
+       var val = $(this).val();
+       if(val === 'custom') {
+           $(this).parents('.vc_shortcode-param').parent().addClass('vc_grid-custom-source');
+       } else {
+           $(this).parents('.vc_shortcode-param').parent().removeClass('vc_grid-custom-source');
+       }
+    });
+}
+*/
 var vc_wpnop = function(content) {
     var blocklist1, blocklist2, preserve_linebreaks = false, preserve_br = false;
 
@@ -470,3 +545,8 @@ var vc_wpautop = function(pee) {
         pee = pee.replace(/<wp-temp-br([^>]*)>/g, '<br$1>');
     return pee;
 };
+
+
+var vc_regexp_shortcode = _.memoize(function() {
+    return new RegExp( '\\[(\\[?)(\\S[^\\]]+)(?![\\w-])([^\\]\\/]*(?:\\/(?!\\])[^\\]\\/]*)*?)(?:(\\/)\\]|\\](?:([^\\[]*(?:\\[(?!\\/\\2\\])[^\\[]*)*)(\\[\\/\\2\\]))?)(\\]?)' );
+});

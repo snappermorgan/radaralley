@@ -2,9 +2,15 @@
 require_once vc_path_dir('EDITORS_DIR', 'popups/class-vc-add-element-box.php');
 $add_element_box = new Vc_Add_Element_Box();
 $add_element_box->render();
+
 // Edit form for mapped shortcode.
 visual_composer()->editForm()->render();
-visual_composer()->templatesEditor()->render();
+
+// Rendering Templates Modal Editor
+visual_composer()->templatesPanelEditor()->render();
+// Rendering Templates Panel (old @deprecated) Editor // will be removed
+//visual_composer()->templatesEditor()->render();
+
 // Post settings
 require_once vc_path_dir('EDITORS_DIR', 'popups/class-vc-post-settings.php');
 $post_settings = new Vc_Post_Settings($editor);

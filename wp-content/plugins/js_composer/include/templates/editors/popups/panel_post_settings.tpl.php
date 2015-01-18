@@ -5,18 +5,18 @@
 		<a title="<?php _e( 'Hide panel', 'js_composer' ); ?>" href="#" class="vc_transparent" data-transparent="panel"
 		   aria-hidden="true"><i class="vc_icon"></i></a>
 
-		<h3 class="vc_panel-title"><?php _e('Page settings', 'js_composer') ?></h3>
+		<h3 class="vc_panel-title"><?php _e('Page Settings', 'js_composer') ?></h3>
 	</div>
-	<div class="vc_panel-body wpb-edit-form">
-		<div class="vc_row wpb_edit_form_elements">
+	<div class="vc_panel-body vc_properties-list">
+		<div class="vc_row">
 			<div class="vc_col-sm-12 vc_column" id="vc_settings-title-container">
 				<div class="wpb_element_label"><?php _e('Page title', 'js_composer') ?></div>
-				<span class="description"></span>
-
 				<div class="edit_form_line">
 					<input name="page_title" class="wpb-textinput vc_title_name" type="text" value=""
 						   id="vc_page-title-field"
 						   placeholder="<?php _e( 'Please enter page title', 'js_composer' ) ?>">
+					<span class="description"><?php _e('Here you can change title of the current ' . get_post_type()
+						. '. Possibly changes will not be affected in a preview, but will be updated after saving.', 'js_composer') ?></span>
 				</div>
 			</div>
 			<div class="vc_col-sm-12 vc_column">

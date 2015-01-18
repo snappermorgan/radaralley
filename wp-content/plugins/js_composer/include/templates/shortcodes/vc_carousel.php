@@ -21,10 +21,21 @@ extract( shortcode_atts( array(
 	'partial_view' => '',
 	'title' => ''
 ), $atts ) );
-list( $args, $my_query ) = vc_build_loop_query( $posts_query ); //
+global $vc_posts_grid_exclude_id;
+$vc_posts_grid_exclude_id[] = get_the_ID(); // fix recursive nesting
+if ( is_array( $posts_query ) ) {
+	$posts_query['post_status'] = 'publish';
+} else {
+	$posts_query .= '|post_status:publish';
+}
+list( $args, $my_query ) = vc_build_loop_query( $posts_query, get_the_ID() );
 $teaser_blocks = vc_sorted_list_parse_value( $layout );
+/** @var $my_query WP_Query */
 while ( $my_query->have_posts() ) {
 	$my_query->the_post(); // Get post from query
+	if ( in_array( get_the_ID(), $vc_posts_grid_exclude_id ) ) {
+		continue;
+	}
 	$post = new stdClass(); // Creating post object.
 	$post->id = get_the_ID();
 	$post->link = get_permalink( $post->id );

@@ -1,4 +1,5 @@
 <?php
+/** @var $this WPBakeryShortCode_VC_Tab */
 $output = $title = $tab_id = '';
 extract(shortcode_atts($this->predefined_atts, $atts));
 

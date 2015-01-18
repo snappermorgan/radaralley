@@ -27,7 +27,7 @@
     }
     &.in .vc_modal-dialog { .translate(0, 0)}
     *, & {
-        box-sizing: border-box;
+        .box-sizing(border-box);
     }
 }
 .add_element_size(4);
@@ -51,9 +51,11 @@
     .modal-title;
     .vc_heading(16px);
     cursor: default;
+    border: 0 !important;
 }
 .vc_modal-body {
     .modal-body;
+    overflow-y: auto;
 }
 
 .vc_modal-footer {

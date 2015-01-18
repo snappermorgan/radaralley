@@ -8,10 +8,11 @@
 					   placeholder="<?php esc_attr_e( 'Search by element name', "js_composer" ); ?>"/>
 
 				<h3 class="vc_modal-title"
-					id="vc_add-element-dialog-title"><?php _e( 'Add element', 'js_composer' ) ?></h3>
+					id="vc_add-element-dialog-title"><?php _e( 'Add Element', 'js_composer' ) ?></h3>
 			</div>
 			<div class="vc_modal-body wpb-elements-list">
 				<ul class="wpb-content-layouts-container" style="position: relative;">
+					<?php /** @var $box Vc_Add_Element_Box */ ?>
 					<li><?php echo $box->contentCategories() ?></li>
 					<li><?php echo $box->getControls() ?></li>
 				</ul>

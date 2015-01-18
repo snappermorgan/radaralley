@@ -1,10 +1,15 @@
 <?php
-require_once vc_path_dir('VENDORS_DIR', 'plugins/class-vc-vendor-qtranslate.php');
+require_once vc_path_dir( 'VENDORS_DIR', 'plugins/class-vc-vendor-qtranslate.php' );
+
 /**
- * Class Vc_Vendor_Mqtranslate
+ * Class Vc_Vendor_Mqtranslate extends class Vc_Vendor_Qtranslate::__construct
+ * @since 4.3
  */
 Class Vc_Vendor_Mqtranslate extends Vc_Vendor_Qtranslate implements Vc_Vendor_Interface {
 
+	/**
+	 * @since 4.3
+	 */
 	public function setLanguages() {
 		global $q_config;
 		$languages = get_option( 'mqtranslate_enabled_languages' );
@@ -14,15 +19,9 @@ Class Vc_Vendor_Mqtranslate extends Vc_Vendor_Qtranslate implements Vc_Vendor_In
 		$this->languages = $languages;
 	}
 
-	public function isActive() {
-		include_once( ABSPATH . 'wp-admin/includes/plugin.php' ); // Require plugin.php to use is_plugin_active() below
-		if ( is_plugin_active( 'mqtranslate/mqtranslate.php' ) ) {
-			return true;
-		}
-
-		return false;
-	}
-
+	/**
+	 * @since 4.3
+	 */
 	public function qtransSwitch() {
 		global $q_config;
 		$q_config['js']['qtrans_save'] .= '

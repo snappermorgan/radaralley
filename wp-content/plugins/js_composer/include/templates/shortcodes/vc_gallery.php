@@ -74,7 +74,7 @@ if ( $type == 'flexslider' || $type == 'flexslider_fade' || $type == 'fading' ) 
 //if ( $images == '' ) return null;
 if ( $images == '' ) $images = '-1,-2,-3';
 
-$pretty_rel_random = ' rel="prettyPhoto[rel-' . rand() . ']"'; //rel-'.rand();
+$pretty_rel_random = ' rel="prettyPhoto[rel-' . get_the_ID() . '-' . rand() . ']"'; //rel-'.rand();
 
 if ( $onclick == 'custom_link' ) {
 	$custom_links = explode( ',', $custom_links );

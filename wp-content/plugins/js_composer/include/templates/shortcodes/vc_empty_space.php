@@ -3,7 +3,7 @@ extract(shortcode_atts(array(
     'height' => WPBMap::getParam('vc_empty_space','height'),
     'el_class' => ''
 ), $atts));
-$class = "vc_empty_space";
+$class = "vc_empty_space ";
 
 $pattern = '/^(\d*(?:\.\d+)?)\s*(px|\%|in|cm|mm|em|rem|ex|pt|pc|vw|vh|vmin|vmax)?$/';
 // allowed metrics: http://www.w3schools.com/cssref/css_units.asp

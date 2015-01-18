@@ -35,7 +35,7 @@
     },
     build: function(shortcodes, callback) {
       var that = this;
-      this.ajax({action: 'vc_load_shortcode', shortcodes: shortcodes}).done(function(html){
+      this.ajax({action: 'vc_load_shortcode', shortcodes: shortcodes},vc.frame_window.location.href).done(function(html){
         _.each($(html), function(block){
           this._renderBlockCallback(block);
         }, this);
@@ -44,6 +44,7 @@
         vc.activity = false;
         this.checkNoContent();
         vc.frame_window.vc_iframe.loadScripts();
+	    //vc.frame_window.vc_js(); // causes bug #1499 with tour
         this.last() && vc.frame.scrollTo(this.first());
         this.models = [];
         this.showResultMessage();
@@ -63,11 +64,16 @@
       return this.models.length ? _.first(this.models) : false;
     },
     buildFromContent: function() {
-      var content = $('#vc_template-post-content').html()
+      /*var content = JSON.parse(vc.frame_window.jQuery('#vc_template-post-content').html())
                       .replace(/\<style([^\>]*)\>\/\*\* vc_js\-placeholder \*\*\//g, '<script$1>')
                       .replace(/\<\/style([^\>]*)\>\<\!\-\- vc_js\-placeholder \-\-\>/g, '</script$1>');
-      try {vc.$page.html(content); } catch(e) {}
-      _.each(vc.post_shortcodes, function(shortcode){
+                      */
+      var content = decodeURIComponent((vc.frame_window.jQuery('#vc_template-post-content').html()+'').replace(/\+/g, '%20'))
+                      .replace(/\<style([^\>]*)\>\/\*\* vc_js\-placeholder \*\*\//g, '<script$1>')
+                      .replace(/\<\/style([^\>]*)\>\<\!\-\- vc_js\-placeholder \-\-\>/g, '</script$1>');          
+      try {vc.$page.html(content).prepend($('<div class="vc_empty-placeholder"></div>')); } catch(e) {}
+      _.each(vc.post_shortcodes, function(data){
+	      var shortcode = JSON.parse(decodeURIComponent((data+'').replace(/\+/g,'%20')));
         var $block = vc.$page.find('[data-model-id=' + shortcode.id + ']'),
           $parent = $block.parents('[data-model-id]'),
           params = _.isObject(shortcode.attrs) ? shortcode.attrs : {};
@@ -84,7 +90,8 @@
       vc.frame.setSortable();
       this.checkNoContent();
       vc.frame.render();
-      vc.frame_window.vc_iframe.reload();
+	  try { vc.frame_window.vc_iframe.reload(); } catch(e) {}
+	  //vc.frame_window.vc_js(); // causes bug #1499 with tour element, added in https://github.com/mmihey/js_composer/commit/1b0efa1460c7336da60530cfa330b9d62e71fa7b
     },
     buildFromTemplate: function(html, data) {
       var $html = $(html);
@@ -96,7 +103,8 @@
           vc.app.placeElement($block);
         }
       }, this);
-      _.each(data, function(shortcode){
+      _.each(data, function(encoded_shortcode){
+	    var shortcode = JSON.parse(decodeURIComponent(encoded_shortcode.replace(/\+/g,'%20')));
         var $block = vc.$page.find('[data-model-id=' + shortcode.id + ']'),
             params = _.isObject(shortcode.attrs) ? shortcode.attrs : {},
             model;
@@ -119,28 +127,9 @@
       this.last() && vc.frame.scrollTo(this.first());
       this.models = [];
       this.showResultMessage();
+	  vc.frame.render();
+	  vc.frame_window.vc_iframe.reload();
       this.is_build_complete = true;
-    },
-    _buildFromTemplate: function(html, data) {
-      var $html = $(html);
-      vc.setDataChanged();
-      vc.app.placeElement($html);
-      _.each(data, function(shortcode){
-        var $block = vc.$page.find('[data-model-id=' + shortcode.id + ']'),
-          $parent = $block.parents('[data-model-id]'),
-          params = _.isObject(shortcode.attrs) ? shortcode.attrs : {},
-          model = vc.shortcodes.create({
-            id: shortcode.id,
-            shortcode: shortcode.tag,
-            params: params,
-            parent_id: $parent.hasClass('vc_element') ? $parent.data('modelId') : false,
-            from_template: true
-          });
-        this._renderBlockCallback($block.get(0));
-      }, this);
-      vc.frame.setSortable();
-      this.checkNoContent();
-      vc.frame_window.vc_iframe.loadScripts();
     },
     _renderBlockCallback: function(block) {
       var $this = $(block), $html, model;
@@ -186,7 +175,7 @@
     update: function(model) {
       var shortcode = this.toString(model);
       vc.setDataChanged();
-      this.ajax({action: 'vc_load_shortcode', shortcodes: [{id: model.get('id'), string: shortcode, tag: model.get('shortcode')}]})
+      this.ajax({action: 'vc_load_shortcode', shortcodes: [{id: model.get('id'), string: shortcode, tag: model.get('shortcode')}]},vc.frame_window.location.href)
         .done(function(html){
           var old_view = model.view;
           _.each($(html), function(block){
@@ -199,7 +188,8 @@
             }
             old_view.remove();
             vc.frame_window.vc_iframe.loadScripts();
-            model.view.changed();
+	        //vc.frame_window.vc_js(); // causes bug #1499 with tour! ,added in https://github.com/mmihey/js_composer/commit/1b0efa1460c7336da60530cfa330b9d62e71fa7b
+	        model.view.changed();
             vc.frame.setSortable();
             model.view.updated();
           }
@@ -259,7 +249,7 @@
           tag: tag,
           attrs: _.omit(params, 'content'),
           content: content,
-          type: content == '' && !vc.getMapped(tag).is_container ? 'single' : ''
+          type: _.isUndefined(vc.getParamSettings(tag,'content')) && !vc.getMapped(tag).is_container ? 'single' : ''
         });
       }, this);
       return string;
@@ -272,7 +262,7 @@
 		return vc.title;
 	},
     checkNoContent: function() {
-      vc.frame.noContent(!vc.shortcodes.length ? true : false);
+      vc.frame.noContent(!vc.shortcodes.length);
     },
     save: function(status) {
       var string = this.getContent(),

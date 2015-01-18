@@ -77,13 +77,13 @@ jQuery(document).ready(function ($) {
 
         }
     });
-  var showUpdaterSubmitButton = function() {
-          $('#vc_settings-updater [type=submit]').attr('disabled', false);
-      },
-      hideUpdaterSubmitButton = function() {
-        $('#vc_settings-updater [type=submit]').attr('disabled', true);
+    var showUpdaterSubmitButton = function () {
+            $('#vc_settings-updater [type=submit]').attr('disabled', false);
+        },
+        hideUpdaterSubmitButton = function () {
+            $('#vc_settings-updater [type=submit]').attr('disabled', true);
 
-      };
+        };
 
   $('#vc_settings-activate-license').click(function(e){
     var $button = $(this),
@@ -158,8 +158,8 @@ jQuery(document).ready(function ($) {
         $button.attr('disabled', false);
       });
   });
-    $css_editor = $('#wpb_csseditor');
-	$css_editor_input = $("textarea.custom_css.wpb_csseditor");
+    var $css_editor = $('#wpb_csseditor');
+	var $css_editor_input = $("textarea.custom_css.wpb_csseditor");
     if( $css_editor.length ) {
         window.css_editor = new Vc_postSettingsEditor();
         window.css_editor.setEditor($css_editor_input.val());

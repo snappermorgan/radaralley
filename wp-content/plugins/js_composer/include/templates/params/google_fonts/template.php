@@ -1,8 +1,9 @@
-<div class="vc_row-fluid vc_shortcode-param vc_column">
+<div class="vc_row-fluid vc_column">
     <div class="wpb_element_label"><?php _e( 'Font Family', 'js_composer' ); ?></div>
     <div class="vc_google_fonts_form_field-font_family-container">
         <select class="vc_google_fonts_form_field-font_family-select" default[font_style]="<?php echo $values['font_style']; ?>">
         <?php
+        /** @var $this Vc_Google_Fonts */
         $fonts = $this->_vc_google_fonts_get_fonts();
         foreach ( $fonts as $font_data ): ?>
             <option value="<?php echo $font_data->font_family . ':' . $font_data->font_styles; ?>" data[font_types]="<?php echo $font_data->font_types; ?>" data[font_family]="<?php echo $font_data->font_family; ?>" data[font_styles]="<?php echo $font_data->font_styles; ?>" class="<?php echo vc_build_safe_css_class( $font_data->font_family ); ?>" <?php echo( strtolower( $values['font_family'] ) == strtolower( $font_data->font_family ) || strtolower( $values['font_family'] ) == strtolower( $font_data->font_family ) . ':' . $font_data->font_styles ? 'selected="selected"' : '' ); ?> ><?php _e( $font_data->font_family, 'js_composer' ); ?></option>
@@ -15,7 +16,7 @@
 </div>
 
 <?php if ( isset( $fields['no_font_style'] ) && $fields['no_font_style'] === false || !isset( $fields['no_font_style'] ) ): ?>
-    <div class="vc_row-fluid vc_shortcode-param vc_column">
+    <div class="vc_row-fluid vc_column">
         <div class="wpb_element_label"><?php _e( 'Font style', 'js_composer' ); ?></div>
         <div class="vc_google_fonts_form_field-font_style-container">
             <select class="vc_google_fonts_form_field-font_style-select"></select>
@@ -26,7 +27,7 @@
     <?php endif; ?>
 <?php endif; ?>
 
-<div class="vc_row-fluid vc_shortcode-param vc_column">
+<div class="vc_row-fluid vc_column">
     <div class="wpb_element_label"><?php _e( 'Google Fonts preview', 'js_composer' ); ?>:</div>
     <div class="vc_google_fonts_form_field-preview-container">
         <span><?php _e( 'Grumpy wizards make toxic brew for the evil Queen and Jack.', 'js_composer' ); ?></span>

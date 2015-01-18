@@ -46,19 +46,18 @@
         },
         checkControlsPosition: function() {
             if(!this.$controls_buttons) return;
-            var window_top, control_top, element_position_top, new_position,
+            var window_top, element_position_top, new_position,
                 element_height = this.$el.height(),
                 window_height = $(window).height();
             if(element_height > window_height) {
                 window_top = $(window).scrollTop();
-                control_top = this.$controls_buttons.offset().top;
+                // control_top = this.$controls_buttons.offset().top;
                 element_position_top = this.$el.offset().top;
                 new_position =  (window_top - element_position_top) + $(window).height()/2;
                 if(new_position > 40 && new_position < element_height) {
                     this.$controls_buttons.css('top',  new_position);
                 } else if(new_position > element_height) {
                     this.$controls_buttons.css('top',  element_height - 40);
-
                 } else {
                     this.$controls_buttons.css('top',  40);
                 }
@@ -79,7 +78,8 @@
             }, this);
         },
         setContent:function () {
-            this.$content = this.$el.find('> .wpb_element_wrapper > .vc_container_for_children');
+            this.$content = this.$el.find('> .wpb_element_wrapper > .vc_container_for_children,'
+				+ ' > .vc_element-wrapper > .vc_container_for_children');
         },
         setEmpty:function () {
         },
@@ -114,8 +114,9 @@
             this.renderContent();
         },
         render:function () {
-            if ($('#vc_shortcode-template-' + this.model.get('shortcode')).is('script')) {
-                this.html2element(_.template($('#vc_shortcode-template-' + this.model.get('shortcode')).html(), this.model.toJSON()));
+            var $shortcode_template_el = $('#vc_shortcode-template-' + this.model.get('shortcode'));
+            if ($shortcode_template_el.is('script')) {
+                this.html2element(_.template($shortcode_template_el.html(), this.model.toJSON()));
             } else {
                 var params = this.model.get('params');
                 $.ajax({
@@ -129,8 +130,8 @@
                     dataType:'html',
                     context:this
                 }).done(function (html) {
-                        this.html2element(html);
-                    });
+                    this.html2element(html);
+                });
             }
             this.model.view = this;
             this.$controls_buttons = this.$el.find('.vc_controls > :first');
@@ -167,10 +168,18 @@
             return this;
         },
         // View utils {{
-        addShorcode:function (model) {
-            var view = new ShortcodeView({model:model});
-            this.$content.append(view.render().el);
-            app.setSortable();
+        addShortcode:function (view, method) {
+			var before_shortcode;
+			before_shortcode = _.last(vc.shortcodes.filter(function (shortcode) {
+				return shortcode.get('parent_id') === this.get('parent_id') && parseFloat(shortcode.get('order')) < parseFloat(this.get('order'));
+			}, view.model));
+			if(before_shortcode) {
+				view.render().$el.insertAfter('[data-model-id=' + before_shortcode.id + ']');
+			} else if( method === 'append') {
+				this.$content.append(view.render().el);
+			} else {
+				this.$content.prepend(view.render().el);
+			}
         },
         changeShortcodeParams:function (model) {
             var params = model.get('params'),
@@ -180,7 +189,7 @@
                 _.each(settings.params, function (p) {
                     var name = p.param_name,
                         value = params[name],
-                        $wrapper = this.$el.find('> .wpb_element_wrapper'),
+                        $wrapper = this.$el.find('> .wpb_element_wrapper, > .vc_element-wrapper'),
                         label_value = value,
                         $admin_label = $wrapper.children('.admin_label_' + name);
                     if (_.isObject(vc.atts[p.type]) && _.isFunction(vc.atts[p.type].render)) {
@@ -231,7 +240,8 @@
                     }
                 }, this);
             }
-            if (this.model.get('parent_id') !== false && _.isObject(view = vc.app.views[this.model.get('parent_id')])) {
+            var view = vc.app.views[this.model.get('parent_id')];
+            if (this.model.get('parent_id') !== false && _.isObject(view)) {
                 view.checkIsEmpty();
             }
         },
@@ -239,7 +249,8 @@
             if (this.model.get('parent_id') === false) return model;
             var $parent_view = $('[data-model-id=' + this.model.get('parent_id') + ']'),
                 view = vc.app.views[this.model.get('parent_id')];
-            this.$el.appendTo($parent_view.find('> .wpb_element_wrapper > .wpb_column_container'));
+            this.$el.appendTo($parent_view.find('> .wpb_element_wrapper > .wpb_column_container,'
+				+ ' > .vc_element-wrapper > .wpb_column_container'));
             view.checkIsEmpty();
         },
         // }}
@@ -249,15 +260,17 @@
             var answer = confirm(i18n.press_ok_to_delete_section);
             if (answer === true) this.model.destroy();
         },
-
         addElement:function (e) {
             _.isObject(e) && e.preventDefault();
             // new ElementBlockView({model:{position_to_add:!_.isObject(e) || !$(e.currentTarget).closest('.bottom-controls').hasClass('bottom-controls') ? 'start' : 'end'}}).show(this);
           vc.add_element_block_view.render(this.model, !_.isObject(e) || !$(e.currentTarget).closest('.bottom-controls').hasClass('bottom-controls'));
         },
-        editElement:function (e) {
+        editElement: function (e) {
             if (_.isObject(e)) e.preventDefault();
-          vc.edit_element_block_view.render(this.model);
+            if ( !vc.active_panel || !vc.active_panel.model || !this.model || ( vc.active_panel.model && this.model && vc.active_panel.model.get('id') != this.model.get('id') ) ) {
+                vc.closeActivePanel();
+                vc.edit_element_block_view.render(this.model);
+            }
         },
         clone:function (e) {
             if (_.isObject(e)) e.preventDefault();
@@ -276,17 +289,19 @@
         // }}
     });
 
-    var VisualComposer = Backbone.View.extend({
+    var VisualComposer = vc.visualComposerView = Backbone.View.extend({
         el:$('#wpb_visual_composer'),
         views:{},
+        disableFixedNav: false,
         events:{
             "click #wpb-add-new-row":'createRow',
             'click #vc_post-settings-button': 'editSettings',
             'click #vc_add-new-element, .vc_add-element-button, .vc_add-element-not-empty-button':'addElement',
             'click .vc_add-text-block-button':'addTextBlock',
             'click .wpb_switch-to-composer':'switchComposer',
-            'click #vc_templates-editor-button': 'openTemplatesEditor',
-            'click [data-template_name]':'loadDefaultTemplate',
+            'click #vc_templates-editor-button': 'openTemplatesWindow',
+            'click #vc_templates-more-layouts': 'openTemplatesWindow',
+            'click .vc_template[data-template_unique_id] > .wpb_wrapper':'loadDefaultTemplate',
             'click #wpb-save-post':'save',
             'click .vc_control-preview':'preview'
         },
@@ -316,7 +331,12 @@
             this.$loading_block = $('#vc_logo');
             vc.add_element_block_view = new vc.AddElementBlockViewBackendEditor({el: '#vc_add-element-dialog'});
             vc.edit_element_block_view = new vc.EditElementPanelView({el: '#vc_properties-panel'});
-            vc.templates_editor_view = new vc.TemplatesEditorPanelViewBackendEditor({el: '#vc_templates-editor'});
+	        /**
+	         * @deprecated since 4.4
+	         * @type {vc.TemplatesEditorPanelViewBackendEditor}
+	         */
+	          vc.templates_editor_view = new vc.TemplatesEditorPanelViewBackendEditor({el: '#vc_templates-editor'});
+            vc.templates_panel_view = new vc.TemplatesPanelViewBackend({el: '#vc_templates-panel'});
             vc.post_settings_view = new vc.PostSettingsPanelViewBackendEditor({el: '#vc_post-settings-panel'});
             this.setSortable();
             this.setDraggable();
@@ -380,49 +400,51 @@
         },
         appendShortcode:function (model) {
             var view = this.getView(model),
-                position = model.get('order'),
-                $element_to_add = model.get('parent_id') !== false ?
-                    this.views[model.get('parent_id')].$content
-                    :
-                    this.$content;
+				parentModelView =  model.get('parent_id') !== false ?
+					this.views[model.get('parent_id')] : false;
             this.views[model.id] = view;
             if (model.get('parent_id')) {
                 var parent_view = this.views[model.get('parent_id')];
                 parent_view.unsetEmpty();
             }
-            $element_to_add.append(view.render().el);
+			if(parentModelView) {
+				parentModelView.addShortcode(view, 'append');
+			} else {
+				this.$content.append(view.render().el);
+			}
             view.ready();
-
             view.changeShortcodeParams(model); // Refactor
             view.checkIsEmpty();
             this.setNotEmpty();
         },
         addShortcode: function (model) {
-            var view = this.getView(model),
-                position = model.get('order'),
-                $element_to_add = model.get('parent_id') !== false ?
-                    this.views[model.get('parent_id')].$content
-                    :
-                    this.$content;
+            var view, parentModelView;
+            view = this.getView(model);
+            parentModelView =  model.get('parent_id') !== false ?
+                    this.views[model.get('parent_id')] : false;
             view.use_default_content = model.get('cloned') !== true;
             this.views[model.id] = view;
-            var before_shortcode = _.last(Shortcodes.filter(function (shortcode) {
-                return shortcode.get('parent_id') === this.get('parent_id') && parseFloat(shortcode.get('order')) < parseFloat(this.get('order'));
-            }, model));
-            if (before_shortcode) {
+            if(parentModelView) {
+                parentModelView.addShortcode(view);
+                parentModelView.checkIsEmpty();
+                model.trigger('change:params', model);
+                view.ready();
+                this.setSortable();
+                this.setNotEmpty();
+            } else {
+                this.addRow(view);
+            }
+        },
+        addRow: function(view) {
+            var before_shortcode;
+            before_shortcode = _.last(vc.shortcodes.filter(function (shortcode) {
+                return shortcode.get('parent_id') === false && parseFloat(shortcode.get('order')) < parseFloat(this.get('order'));
+            }, view.model));
+            if(before_shortcode) {
                 view.render().$el.insertAfter('[data-model-id=' + before_shortcode.id + ']');
             } else {
-                $element_to_add.prepend(view.render().el);
+                this.$content.append(view.render().el);
             }
-
-            if (model.get('parent_id')) {
-                var parent_view = this.views[model.get('parent_id')];
-                parent_view.checkIsEmpty();
-            }
-            model.trigger('change:params', model);
-            view.ready();
-            this.setSortable();
-            this.setNotEmpty();
         },
         addTextBlock:function (e) {
             e.preventDefault();
@@ -446,14 +468,21 @@
           _.isObject(e) && e.preventDefault();
           vc.add_element_block_view.render(false);
         },
+        /**
+         * @deprecated since 4.4 use openTemplatesWindow
+         * @param e
+         */
         openTemplatesEditor: function(e) {
           e && e.preventDefault();
           vc.templates_editor_view.render().show();
         },
+        openTemplatesWindow: function(e) {
+          e && e.preventDefault();
+          vc.templates_panel_view.render().show();
+        },
         loadDefaultTemplate: function(e) {
           e && e.preventDefault();
-          vc.templates_editor_view.loadDefaultTemplate(e);
-          // $("#vc_no-content-helper").remove(); // TODO check P vs S
+          vc.templates_panel_view.loadTemplate(e);
         },
         editSettings: function(e) {
           e && e.preventDefault();
@@ -491,7 +520,7 @@
         },
         updateRowsSorting:function () {
             _.defer(function (app) {
-                var $rows = app.$content.find('> .wpb_vc_row');
+                var $rows = app.$content.find(app.rowSortableSelector);
                 $rows.each(function () {
                     var index = $(this).index();
                     if ($rows.length - 1 > index) store.lock();
@@ -503,17 +532,21 @@
           var tag = $(element).data('element_type'),
             $helper = $('<div class="vc_helper vc_helper-' + tag + '"><i class="vc_element-icon'
               + ( vc.map[tag].icon ? ' ' + vc.map[tag].icon : '' )
-              + '"></i> ' + vc.map[tag].name + '</div>').prependTo('body');
+              + '"'
+              + ( vc.map[tag].is_container ? ' data-is-container="true"' : '' )
+              + '></i> ' + vc.map[tag].name + '</div>').prependTo('body');
           return $helper;
         },
+		rowSortableSelector: "> .wpb_vc_row",
         setSortable:function () {
             var that = this;
+            // 1st level sorting (rows). work also in wp41.
             $('.wpb_main_sortable').sortable({
                 forcePlaceholderSize:true,
                 placeholder:"widgets-placeholder",
                 // cursorAt: { left: 10, top : 20 },
                 cursor:"move",
-                items:"> .wpb_vc_row", // wpb_sortablee
+                items: this.rowSortableSelector, // wpb_sortablee
                 handle:'.column_move',
                 distance:0.5,
                 start:this.sortingStarted,
@@ -523,6 +556,7 @@
                     ui.placeholder.css({maxWidth:ui.placeholder.parent().width()});
                 }
             });
+            // 2st level sorting (elements).
             $('.wpb_column_container').sortable({
                 forcePlaceholderSize: true,
                 forceHelperSize: false,
@@ -535,7 +569,7 @@
                 scrollSensitivity: 70,
                 cursor: 'move',
                 cursorAt: {top: 20, left: 16},
-                tolerance: 'intersect',
+                tolerance:'intersect', // this helps with dragging textblock into tabs
                 start:function () {
                     $('#visual_composer_content').addClass('vc_sorting-started');
                     $('.vc_not_inner_content').addClass('dragging_in');
@@ -589,7 +623,7 @@
                 var parent_view = this.views[model.get('parent_id')];
                 parent_view.checkIsEmpty();
             }
-            if (this.$content.find('[data-element_type]').length === 0) {
+            if ( Shortcodes.length === 0 ) {
                 this.setIsEmpty();
             } else {
                 this.setNotEmpty();
@@ -662,6 +696,10 @@
             $win.unbind('scroll.composer').on('scroll.composer', this.processScroll);
         },
         processScroll:function (e) {
+            if(true === this.disableFixedNav) {
+                this.$nav.removeClass('vc_subnav-fixed');
+                return;
+            }
             if( !this.navTop || this.navTop < 0) {
                 this.setNavTop();
             }

@@ -1,15 +1,16 @@
 <?php
 define( 'TAB_TITLE', __( "Tab", "js_composer" ) );
-require_once vc_path_dir('SHORTCODES_DIR', 'vc-column.php');
+require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-column.php' );
 
 class WPBakeryShortCode_VC_Tab extends WPBakeryShortCode_VC_Column {
 	protected $controls_css_settings = 'tc vc_control-container';
-	protected $controls_list = array('add', 'edit', 'clone', 'delete');
+	protected $controls_list = array( 'add', 'edit', 'clone', 'delete' );
 	protected $predefined_atts = array(
 		'tab_id' => TAB_TITLE,
 		'title' => ''
 	);
 	protected $controls_template_file = 'editors/partials/backend_controls_tab.tpl.php';
+
 	public function __construct( $settings ) {
 		parent::__construct( $settings );
 	}
@@ -27,7 +28,7 @@ class WPBakeryShortCode_VC_Tab extends WPBakeryShortCode_VC_Column {
 	}
 
 	public function getColumnControls( $controls, $extended_css = '' ) {
-		return $this->getColumnControlsModular($extended_css);
+		return $this->getColumnControlsModular( $extended_css );
 		/*
 		$controls_start = '<div class="vc_controls controls controls_column' . ( ! empty( $extended_css ) ? " {$extended_css}" : '' ) . '">';
 		$controls_end = '</div>';
@@ -45,17 +46,33 @@ class WPBakeryShortCode_VC_Tab extends WPBakeryShortCode_VC_Column {
 	}
 }
 
-
+/**
+ * @param $settings
+ * @param $value
+ *
+ * @deprecated due to without prefix
+ * @return string
+ */
 function tab_id_settings_field( $settings, $value ) {
-	$dependency = vc_generate_dependencies_attributes( $settings );
+	return vc_tab_id_settings_field( $settings, $value );
+}
+
+/**
+ * @param $settings
+ * @param $value
+ *
+ * @since 4.4
+ * @return string
+ */
+function vc_tab_id_settings_field( $settings, $value ) {
 	return '<div class="my_param_block">'
-	  . '<input name="' . $settings['param_name']
-	  . '" class="wpb_vc_param_value wpb-textinput '
-	  . $settings['param_name'] . ' ' . $settings['type'] . '_field" type="hidden" value="'
-	  . $value . '" ' . $dependency . ' />'
-	  . '<label>' . $value . '</label>'
-	  . '</div>';
+	       . '<input name="' . $settings['param_name']
+	       . '" class="wpb_vc_param_value wpb-textinput '
+	       . $settings['param_name'] . ' ' . $settings['type'] . '_field" type="hidden" value="'
+	       . $value . '" />'
+	       . '<label>' . $value . '</label>'
+	       . '</div>';
 	// TODO: Add data-js-function to documentation
 }
 
-add_shortcode_param( 'tab_id', 'tab_id_settings_field' );
+vc_add_shortcode_param( 'tab_id', 'vc_tab_id_settings_field' );

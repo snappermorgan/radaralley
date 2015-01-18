@@ -20,13 +20,7 @@
 .vc_off {
     .opacity(.7);
 }
-// Color field
-.vc_edit_color_option_variants(@selector, @color, @txt_color) {
-    .@{selector} {
-    background-color: @color !important;
-    color: @txt_color !important;
-};
-    }
+
 .vc_colored-dropdown {
     .vc_edit_color_option_variants(~'blue', @blue, #ffffff);
     .vc_edit_color_option_variants(~'turquoise', @turquoise, #ffffff);

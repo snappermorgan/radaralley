@@ -1,4 +1,5 @@
 <?php
+/** @var $this WPBakeryShortCode_VC_Posts_Grid */
 global $vc_teaser_box;
 $grid_link = $grid_layout_mode = $title = $filter = '';
 $posts = array();
@@ -23,9 +24,13 @@ $this->getLoop( $loop );
 $my_query = $this->query;
 $args = $this->loop_args;
 $teaser_blocks = vc_sorted_list_parse_value( $grid_layout );
+global $vc_posts_grid_exclude_id;
 while ( $my_query->have_posts() ) {
 	$my_query->the_post(); // Get post from query
 	$post = new stdClass(); // Creating post object.
+	if ( in_array( get_the_ID(), $vc_posts_grid_exclude_id ) ) {
+		continue;
+	}
 	$post->id = get_the_ID();
 	$post->link = get_permalink( $post->id );
 	if ( $vc_teaser_box->getTeaserData( 'enable', $post->id ) === '1' ) {

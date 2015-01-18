@@ -31,11 +31,11 @@
 
 		$langs.show();
 
-		if (!vc) vc = {};
+		if (!window.vc) window.vc = {};
 		vc.QtransResetContent = function () {
 			$('#content-html').trigger('click');
 			$('#qtrans_textarea_content').css('minHeight', '300px');
-			wpActiveEditor = 'qtrans_textarea_content';
+			window.wpActiveEditor = 'qtrans_textarea_content';
 		};
 
 		vc.Storage.prototype.getContent = function () {

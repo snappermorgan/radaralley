@@ -13,13 +13,13 @@
     window.VcRowView = vc.shortcode_view.extend({
         change_columns_layout:false,
         events:{
-            'click > .controls .column_delete':'deleteShortcode',
-            'click > .controls .set_columns':'setColumns',
-            'click > .controls .column_add':'addElement',
-            'click > .controls .column_edit':'editElement',
-            'click > .controls .column_clone':'clone',
-            'click > .controls .column_move':'moveElement',
-            'click > .controls .column_toggle': 'toggleElement',
+            'click > .vc_controls [data-vc-control="delete"]':'deleteShortcode',
+            'click > .vc_controls .set_columns':'setColumns',
+            'click > .vc_controls [data-vc-control="add"]':'addElement',
+            'click > .vc_controls [data-vc-control="edit"]':'editElement',
+            'click > .vc_controls [data-vc-control="clone"]':'clone',
+            'click > .vc_controls [data-vc-control="move"]':'moveElement',
+            'click > .vc_controls [data-vc-control="toggle"]': 'toggleElement',
             'click > .wpb_element_wrapper .vc_controls': 'openClosedRow'
         },
         convertRowColumns:function (layout) {
@@ -42,7 +42,7 @@
                 new_layout.push(new_width);
                 new_column_params = _.extend(!_.isUndefined(columns[i]) ? columns[i].get('params') : {}, {width: new_width}),
                 vc.storage.lock();
-                new_column = Shortcodes.create({shortcode:(this.model.get('shortcode') === 'vc_row_inner' ? 'vc_column_inner' : 'vc_column'), params:new_column_params, parent_id:this.model.id});
+                new_column = Shortcodes.create({shortcode:this.getChildTag(), params:new_column_params, parent_id:this.model.id});
                 if (_.isObject(columns[i])) {
                     _.each(Shortcodes.where({parent_id:columns[i].id}), function (shortcode) {
                         vc.storage.lock();
@@ -74,7 +74,6 @@
         },
         changeShortcodeParams:function (model) {
           window.VcRowView.__super__.changeShortcodeParams.call(this, model);
-
           this.buildDesignHelpers();
         },
         buildDesignHelpers: function() {
@@ -107,10 +106,13 @@
         },
         addElement: function(e) {
           e && e.preventDefault();
-          var new_column = Shortcodes.create({shortcode:(this.model.get('shortcode') === 'vc_row_inner' ? 'vc_column_inner' : 'vc_column'), params:{}, parent_id:this.model.id});
+          Shortcodes.create({shortcode: this.getChildTag(), params:{}, parent_id:this.model.id});
           this.setActiveLayoutButton();
           this.$el.removeClass('vc_collapsed-row');
         },
+		getChildTag: function() {
+			return this.model.get('shortcode') === 'vc_row_inner' ? 'vc_column_inner' : 'vc_column';
+		},
         _getCurrentLayoutString: function() {
             var layouts = [];
             $('> .wpb_vc_column, > .wpb_vc_column_inner', this.$content).each(function () {
@@ -119,9 +121,10 @@
             });
             return layouts.join(' + ');
         },
+		sortingSelector: "> [data-element_type=vc_column], > [data-element_type=vc_column_inner]",
         setSorting:function () {
             var that = this;
-            if (this.$content.find("> [data-element_type=vc_column], > [data-element_type=vc_column_inner]").length > 1) {
+            if (this.$content.find(this.sortingSelector).length > 1) {
                 this.$content.removeClass('wpb-not-sortable').sortable({
                     forcePlaceholderSize:true,
                     placeholder:"widgets-placeholder-column",
@@ -129,7 +132,7 @@
                     // cursorAt: { left: 10, top : 20 },
                     cursor:"move",
                     //handle: '.controls',
-                    items:"> [data-element_type=vc_column], > [data-element_type=vc_column_inner]", //wpb_sortablee
+                    items:this.sortingSelector, //wpb_sortablee
                     distance:0.5,
                     start:function (event, ui) {
                         $('#visual_composer_content').addClass('vc_sorting-started');
@@ -139,7 +142,7 @@
                         $('#visual_composer_content').removeClass('vc_sorting-started');
                     },
                     update:function () {
-                        var $columns = $("> [data-element_type=vc_column], > [data-element_type=vc_column_inner]", that.$content);
+                        var $columns = $(that.sortingSelector, that.$content);
                         $columns.each(function () {
                             var model = $(this).data('model'),
                                 index = $(this).index();
@@ -201,7 +204,8 @@
             }).join('_');
           }
           this.$el.find('> .controls .vc_active').removeClass('vc_active');
-          var $button = this.$el.find('> .controls [data-cells-mask=' + vc_get_column_mask(column_layout) + '][data-cells='+column_layout+']');
+          var $button = this.$el.find('> .controls [data-cells-mask=' + vc_get_column_mask(column_layout) + '] [data-cells='+column_layout+']'
+		  					+ ', > .vc_controls [data-cells-mask=' + vc_get_column_mask(column_layout) + '][data-cells='+column_layout+']');
           if($button.length) {
             $button.addClass('vc_active');
           } else {
@@ -285,13 +289,12 @@
           }
         }
     });
-
     window.VcColumnView = vc.shortcode_view.extend({
         events:{
-            'click > .controls .column_delete':'deleteShortcode',
-            'click > .controls .column_add':'addElement',
-            'click > .controls .column_edit':'editElement',
-            'click > .controls .column_clone':'clone',
+            'click > .vc_controls [data-vc-control="delete"]':'deleteShortcode',
+            'click > .vc_controls [data-vc-control="add"]':'addElement',
+            'click > .vc_controls [data-vc-control="edit"]':'editElement',
+            'click > .vc_controls [data-vc-control="clone"]':'clone',
             'click > .wpb_element_wrapper > .vc_empty-container':'addToEmpty'
         },
         current_column_width: false,
@@ -316,9 +319,10 @@
           this.setColumnClasses();
           this.buildDesignHelpers();
         },
+        designHelpersSelector: '> .vc_controls .column_add',
         buildDesignHelpers: function() {
             var css = this.model.getParam('css'),
-                $column_toggle = this.$el.find('> .vc_controls .column_add').get(0),
+                $column_toggle = this.$el.find(this.designHelpersSelector).get(0),
                 image, color, $image, $color;
             this.$el.find('> .vc_controls .vc_column_color').remove();
             this.$el.find('> .vc_controls .vc_column_image').remove();
@@ -506,10 +510,10 @@
 
     window.VcAccordionTabView = window.VcColumnView.extend({
         events:{
-            'click > .vc_controls .column_delete,.wpb_vc_accordion_tab > .vc_controls .vc_control-btn-delete':'deleteShortcode',
-            'click > .vc_controls .column_add,.wpb_vc_accordion_tab >  .vc_controls .vc_control-btn-prepend':'addElement',
-            'click > .vc_controls .column_edit,.wpb_vc_accordion_tab >  .vc_controls .vc_control-btn-edit':'editElement',
-            'click > .vc_controls .column_clone,.wpb_vc_accordion_tab > .vc_controls .vc_control-btn-clone':'clone',
+            'click > [data-element_type] > .vc_controls .vc_control-btn-delete':'deleteShortcode',
+            'click > [data-element_type] >  .vc_controls .vc_control-btn-prepend':'addElement',
+            'click > [data-element_type] >  .vc_controls .vc_control-btn-edit':'editElement',
+            'click > [data-element_type] > .vc_controls .vc_control-btn-clone':'clone',
             'click > [data-element_type] > .wpb_element_wrapper > .vc_empty-container':'addToEmpty'
         },
         setContent:function () {
@@ -531,6 +535,9 @@
             this.$content.removeClass('vc_empty-container');
         }
     });
+    /**
+     * @deprecated use VcMessageView_Backend for it
+     */
     window.VcMessageView = vc.shortcode_view.extend({
         changeShortcodeParams:function (model) {
           var params = this.model.get('params'), $wrapper;
@@ -539,6 +546,81 @@
             if (_.isObject(params) && _.isString(params.color)) {
                 $wrapper.addClass(params.color);
             }
+        }
+    });
+    window.VcMessageView_Backend = vc.shortcode_view.extend({
+        changeShortcodeParams:function (model) {
+            var params = model.get('params');
+            var $wrapper = this.$el.find('> .wpb_element_wrapper');
+            var classes = ["vc_message_box"];
+            // set defaults
+            if(_.isUndefined(params.message_box_style)) {
+                params.message_box_style = 'classic';
+            }
+            if(_.isUndefined(params.message_box_color)) {
+                params.message_box_color = 'alert-info';
+            }
+
+            if ( params.style ) {
+                if ( params.style == '3d' ) {
+                    params.message_box_style = '3d';
+                    params.style = 'rounded';
+                } else if ( params.style == 'outlined' ) {
+                    params.message_box_style = 'outline';
+                    params.style = 'rounded';
+                } else if ( params.style == 'square_outlined' ) {
+                    params.message_box_style = 'outline';
+                    params.style = 'square';
+                }
+            } else {
+                params.style = 'rounded'; // default
+            }
+
+            classes.push("vc_message_box-" + params.style);
+
+            if(params.message_box_style) {
+                classes.push("vc_message_box-" + params.message_box_style);
+            }
+
+            $wrapper.attr('class', 'wpb_element_wrapper');
+            $wrapper.find('.vc_message_box-icon').remove();
+            var iconClass = !_.isUndefined(params['icon_'+params.icon_type]) ? params['icon_'+params.icon_type] : 'fa fa-info-circle';
+            var color = params.color;
+            switch ( params.color ) {
+                case 'info':
+                    iconClass = 'fa fa-info-circle';
+                    break;
+                case 'alert-info':
+                    iconClass = 'vc_pixel_icon vc_pixel_icon-info';
+                    break;
+                case 'success':
+                    iconClass = 'fa fa-check';
+                    break;
+                case 'alert-success':
+                    iconClass = 'vc_pixel_icon vc_pixel_icon-tick';
+                    break;
+                case 'warning':
+                    iconClass = 'fa fa-exclamation-triangle';
+                    break;
+                case 'alert-warning':
+                    iconClass = 'vc_pixel_icon vc_pixel_icon-alert';
+                    break;
+                case 'danger':
+                    iconClass = 'fa fa-times';
+                    break;
+                case 'alert-danger':
+                    iconClass = 'vc_pixel_icon vc_pixel_icon-explanation';
+                    break;
+                case 'alert-custom':
+                default:
+                    color = params.message_box_color;
+                    break;
+            }
+            classes.push("vc_color-" + color);
+
+            $wrapper.addClass(classes.join(' '));
+
+            $wrapper.prepend($('<div class="vc_message_box-icon"><i class="' + iconClass + '"></i></div>'));
         }
     });
     window.VcTextSeparatorView = vc.shortcode_view.extend({
@@ -561,19 +643,19 @@
     });
     window.VcToggleView = vc.shortcode_view.extend({
         events:function () {
-            return _.extend({'click .toggle_title':'toggle'
+            return _.extend({'click .vc_toggle_title':'toggle'
             }, window.VcToggleView.__super__.events);
         },
         toggle:function (e) {
-            e.preventDefault();
-            $(e.currentTarget).toggleClass('toggle_title_active');
-            $('.toggle_content', this.$el).toggle();
+            e && e.preventDefault();
+            $(e.currentTarget).toggleClass('vc_toggle_title_active');
+            $('.vc_toggle_content', this.$el).slideToggle(500);
         },
         changeShortcodeParams:function (model) {
             var params = model.get('params');
             window.VcToggleView.__super__.changeShortcodeParams.call(this, model);
             if (_.isObject(params) && _.isString(params.open) && params.open === 'true') {
-                $('.toggle_title', this.$el).addClass('toggle_title_active').next().show();
+                $('.vc_toggle_title', this.$el).addClass('vc_toggle_title_active').next().show();
             }
         }
     });
@@ -668,10 +750,7 @@
             if (!this.$tabs.hasClass('ui-tabs')) {
                 this.$tabs.tabs({
                     select:function (event, ui) {
-                        if ($(ui.tab).hasClass('add_tab')) {
-                            return false;
-                        }
-                        return true;
+                        return !$(ui.tab).hasClass('add_tab');
                     }
                 });
                 this.$tabs.find(".ui-tabs-nav").prependTo(this.$tabs);
@@ -702,7 +781,7 @@
                 model_clone,
                 new_params = _.extend({}, model.get('params'));
             if (model.get('shortcode') === 'vc_tab') _.extend(new_params, {tab_id:+new Date() + '-' + this.$tabs.find('[data-element-type=vc_tab]').length + '-' + Math.floor(Math.random() * 11)});
-            model_clone = Shortcodes.create({shortcode:model.get('shortcode'), id:vc_guid(), parent_id:parent_id, order:new_order, cloned:(model.get('shortcode') === 'vc_tab' ? false : true), cloned_from:model.toJSON(), params:new_params});
+            model_clone = Shortcodes.create({shortcode:model.get('shortcode'), id:vc_guid(), parent_id:parent_id, order:new_order, cloned:(model.get('shortcode') !== 'vc_tab'), cloned_from:model.toJSON(), params:new_params});
             _.each(Shortcodes.where({parent_id:model.id}), function (shortcode) {
                 this.cloneModel(shortcode, model_clone.get('id'), true);
             }, this);
@@ -721,7 +800,7 @@
         render:function () {
             var params = this.model.get('params');
             window.VcTabView.__super__.render.call(this);
-            if(!params.tab_id) {
+            if(!params.tab_id || params.tab_id.indexOf('def') != -1) {
               params.tab_id = (+new Date() + '-' + Math.floor(Math.random() * 11));
               this.model.save('params', params);
             }
@@ -834,10 +913,7 @@
             if (!this.$tabs.hasClass('ui-tabs')) {
                 this.$tabs.tabs({
                     select:function (event, ui) {
-                        if ($(ui.tab).hasClass('add_tab')) {
-                            return false;
-                        }
-                        return true;
+                        return !$(ui.tab).hasClass('add_tab');
                     }
                 });
                 this.$tabs.find(".ui-tabs-nav").prependTo(this.$tabs);
@@ -865,7 +941,7 @@
                 model_clone,
                 new_params = _.extend({}, model.get('params'));
             if (model.get('shortcode') === 'vc_tab') _.extend(new_params, {tab_id:+new Date() + '-' + this.$tabs.tabs('length') + '-' + Math.floor(Math.random() * 11)});
-            model_clone = Shortcodes.create({shortcode:model.get('shortcode'), id:vc_guid(), parent_id:parent_id, order:new_order, cloned:(model.get('shortcode') === 'vc_tab' ? false : true), cloned_from:model.toJSON(), params:new_params});
+            model_clone = Shortcodes.create({shortcode:model.get('shortcode'), id:vc_guid(), parent_id:parent_id, order:new_order, cloned:(model.get('shortcode') !== 'vc_tab'), cloned_from:model.toJSON(), params:new_params});
             _.each(Shortcodes.where({parent_id:model.id}), function (shortcode) {
                 this.cloneModel(shortcode, model_clone.get('id'), true);
             }, this);
@@ -918,10 +994,51 @@
             return model_clone;
         }
     });
+
+    /**
+     * Shortcode vc_icon
+     * Need to make admin label for to show icon "preview"
+     * @since 4.4
+     */
+    window.VcIconElementView_Backend = vc.shortcode_view.extend({
+        changeShortcodeParams: function (model) {
+            var params = model.get('params'),
+                settings = vc.map[model.get('shortcode')],
+                inverted_value;
+            if (_.isArray(settings.params)) {
+                _.each(settings.params, function (p) {
+                    if (!_.isUndefined(p.admin_label) && p.admin_label) {
+                        var name = p.param_name,
+                            value = params[name],
+                            $wrapper = this.$el.find('> .wpb_element_wrapper'),
+                            $admin_label = $wrapper.children('.admin_label_' + name);
+
+                        if ($admin_label.length) {
+                            if (value === '' || _.isUndefined(value)) {
+                                $admin_label.hide().addClass('hidden-label');
+                            } else {
+                                if (name == 'type') {
+                                    // Get icon class to display
+                                    if (!_.isUndefined(params["icon_" + value])) {
+                                        value = vc_toTitleCase(value) + ' - ' + "<i class='" + params["icon_" + value] + "'></i>";
+                                    }
+                                }
+                                $admin_label.html('<label>' + $admin_label.find('label').text() + '</label>: ' + value);
+                                $admin_label.show().removeClass('hidden-label');
+                            }
+                        }
+                    }
+                }, this);
+            }
+            var view = vc.app.views[this.model.get('parent_id')];
+            if (this.model.get('parent_id') !== false && _.isObject(view)) {
+                view.checkIsEmpty();
+            }
+        }
+    });
     /**
      * Append tab_id tempalate filters
      */
-
     vc.addTemplateFilter(function (string) {
         var random_id = VCS4() + '-' + VCS4();
         return string.replace(/tab\_id\=\"([^\"]+)\"/g, 'tab_id="$1' + random_id + '"');

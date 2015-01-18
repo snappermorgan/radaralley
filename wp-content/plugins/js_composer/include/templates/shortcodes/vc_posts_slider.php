@@ -60,15 +60,17 @@ if ( $link == 'link_image' ) {
 	wp_enqueue_style( 'prettyphoto' );
 }
 
-$query_args = array();
+$query_args = array(
+	'post_status' => 'publish'
+);
 
 //exclude current post/page from query
-if ( $posts_in == '' ) {
-	global $post;
-	$query_args['post__not_in'] = array( $post->ID );
-} else if ( $posts_in != '' ) {
+if ( $posts_in != '' ) {
 	$query_args['post__in'] = explode( ",", $posts_in );
 }
+global $vc_posts_grid_exclude_id;
+$vc_posts_grid_exclude_id[] = get_the_ID();
+$query_args['post__not_in'] = array( get_the_ID() );
 
 // Post teasers count
 if ( $count != '' && ! is_numeric( $count ) ) $count = - 1;
@@ -117,7 +119,7 @@ $query_args['order'] = $order;
 // Run query
 $my_query = new WP_Query( $query_args );
 
-$pretty_rel_random = 'rel-' . rand();
+$pretty_rel_random = ' rel="prettyPhoto[rel-' . get_the_ID() . '-' . rand() . ']"';
 if ( $link == 'custom_link' ) {
 	$custom_links = explode( ',', $custom_links );
 }
@@ -129,6 +131,9 @@ while ( $my_query->have_posts() ) {
 	$my_query->the_post();
 	$post_title = the_title( "", "", false );
 	$post_id = $my_query->post->ID;
+	if ( in_array( get_the_ID(), $vc_posts_grid_exclude_id ) ) {
+		continue;
+	}
 	//$teaser_post_type = 'posts_slider_teaser_'.$my_query->post->post_type . ' ';
 	if ( $slides_content == 'teaser' ) {
 		$content = apply_filters( 'the_excerpt', get_the_excerpt() ); //get_the_excerpt();
@@ -158,7 +163,7 @@ while ( $my_query->have_posts() ) {
 			} else {
 				$p_link = $p_img_large[0]; // TODO!!!
 			}
-			$link_image_start = '<a class="link_image prettyphoto" href="' . $p_link . '" title="' . the_title_attribute( 'echo=0' ) . '" >';
+			$link_image_start = '<a class="link_image prettyphoto" href="' . $p_link . '" ' . $pretty_rel_random . ' title="' . the_title_attribute( 'echo=0' ) . '" >';
 		} else if ( $link == 'custom_link' ) {
 			if ( isset( $custom_links[$i] ) ) {
 				$slide_custom_link = $custom_links[$i];

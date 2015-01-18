@@ -18,7 +18,7 @@ class WPBakeryShortCode_VC_Raw_js extends WPBakeryShortCode_VC_Raw_html {
 		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'wpb_raw_code' . $el_class, $this->settings['base'], $atts );
 		$output .= "\n\t".'<div class="'.$css_class.'">';
 		$output .= "\n\t\t".'<div class="wpb_wrapper">';
-		$output .= "\n\t\t\t".'<input type="hidden" class="vc_js_inline_holder" value="'.esc_attr($content).'">';
+		$output .= "\n\t\t\t".'<textarea style="display:none" class="vc_js_inline_holder">' . esc_attr( $content ) . '</textarea>';
 		$output .= "\n\t\t".'</div> '.$this->endBlockComment('.wpb_wrapper');
 		$output .= "\n\t".'</div> '.$this->endBlockComment('.wpb_raw_code');
 

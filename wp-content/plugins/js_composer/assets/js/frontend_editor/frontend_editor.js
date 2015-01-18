@@ -20,6 +20,7 @@ function VCS4() {
 }
 if(_.isUndefined(vc)) var vc = {};
 _.extend(vc, {
+  no_title_placeholder: '(no title)',
   responsive_disabled: false,
   template_options:{
     evaluate:    /<#([\s\S]+?)#>/g,
@@ -62,9 +63,10 @@ _.extend(vc, {
   "use strict";
   vc.map = {};
   vc.setFrameSize = function(size) {
-    var height = $(window).height() - $('#vc_navbar').height();
+    var $vc_navbar = $('#vc_navbar');
+    var height = $(window).height() - $vc_navbar.height();
     vc.$frame.width(size);
-    vc.$frame_wrapper.css({top: $('#vc_navbar').height()});
+    vc.$frame_wrapper.css({top: $vc_navbar.height()});
     vc.$frame.height(height);
     // vc.$frame.height(vc.$frame.contents() ? vc.$frame.contents().height() : 1000);
   };
@@ -76,15 +78,15 @@ _.extend(vc, {
         if(!_.isUndefined(param.std)) {
           defaults[param.param_name] = param.std;
         } else if (!_.isUndefined(param.value)) {
-          if (_.isObject(param.value) && param.type != 'checkbox') {
-            defaults[param.param_name] = _.values(param.value)[0];
-          } else if (_.isArray(param.value)) {
-            defaults[param.param_name] = param.value[0];
-          } else if (!_.isObject(param.value)) {
-            defaults[param.param_name] = param.value;
-          } else {
-            defaults[param.param_name] = '';
-          }
+			if( vc.atts[param.type] && vc.atts[param.type].defaults ) {
+				defaults[param.param_name] = vc.atts[param.type].defaults(param);
+			} else if (_.isObject(param.value) && !_.isArray(param.value) && !_.isString(param.value) ) {
+				defaults[param.param_name] = _.values(param.value)[0];
+			} else if ( _.isArray(param.value) ) {
+				defaults[param.param_name] = param.value[0];
+			} else {
+				defaults[param.param_name] = param.value;
+			}
         }
       }
     });
@@ -195,6 +197,7 @@ _.extend(vc, {
     out_timeout: false,
     hold_active: true,
     builder: false,
+    default_controls_template: false,
     initialize: function() {
       // _.bindAll(this, 'setControlPosition', 'unsetControlPosition');
       this.listenTo(this.model, 'destroy', this.removeView);
@@ -242,7 +245,8 @@ _.extend(vc, {
     },
     rendered: function() {},
     addControls: function() {
-      var template = $('#vc_controls-template-' + this.model.get('shortcode')).length ? $('#vc_controls-template-' + this.model.get('shortcode')).html() : this._getDefaultTemplate(),
+      var $controls_el = $('#vc_controls-template-' + this.model.get('shortcode'));
+      var template = $controls_el.length ? $controls_el.html() : this._getDefaultTemplate(),
         parent = vc.shortcodes.get(this.model.get('parent_id')),
         data = {
           name: vc.getMapped(this.model.get('shortcode')).name,
@@ -270,17 +274,31 @@ _.extend(vc, {
       this.parentChanged();
     },
     _getDefaultTemplate: function() {
-      if(_.isUndefined(vc.default_controls_template)) vc.default_controls_template = $('#vc_controls-template-default').html();
-      return vc.default_controls_template;
+      if(_.isUndefined(this.default_controls_template) || ! this.default_controls_template ) {
+        this.default_controls_template = $('<div><div>').html($('#vc_controls-template-default').html());
+        //Filter controls due to '$control_list' data
+        var controls = this.$el.data('shortcode-controls');
+        if( !_.isUndefined(controls) ) {
+          $('.vc_control-btn[data-control]', this.default_controls_template).each(function(){
+            if( $.inArray($(this).data('control'),controls) == -1 ) {
+              $(this).remove();
+            }
+          });
+        }
+      }
+
+      return this.default_controls_template.html();
     },
     changed: function(){
-      this.$el.removeClass('vc_empty-shortcode-element')
+      this.$el.removeClass('vc_empty-shortcode-element');
       this.$el.height()===0 && this.$el.addClass('vc_empty-shortcode-element');
     },
     edit: function(e) {
       _.isObject(e) && e.preventDefault() && e.stopPropagation();
-      vc.closeActivePanel();
-      vc.edit_element_block_view.render(this.model);
+      if ( !vc.active_panel || vc.active_panel.model.get('id') != this.model.get('id') ) {
+        vc.closeActivePanel();
+        vc.edit_element_block_view.render(this.model);
+      }
     },
     destroy: function(e) {
       _.isObject(e) && e.preventDefault() && e.stopPropagation();
@@ -330,8 +348,12 @@ _.extend(vc, {
       // 'keypress .entry-title': 'updateKeyPress',
       'click .vc_add-element-action': 'addElement',
       'click #vc_no-content-add-text-block': 'addTextBlock',
-      'click [data-template_name]':'loadDefaultTemplate'
+      'click #vc_templates-more-layouts': 'openTemplatesWindow',
+      'click .vc_template[data-template_unique_id] > .wpb_wrapper':'loadDefaultTemplate'
 
+    },
+	  openTemplatesWindow: function(e) {
+      vc.app.openTemplatesWindow.call(this,e);
     },
     updateKeyPress: function(e) {
       if(e.which===13) {
@@ -343,15 +365,15 @@ _.extend(vc, {
     },
     loadDefaultTemplate: function(e) {
       e && e.preventDefault();
-      vc.templates_editor_view.loadDefaultTemplate(e);
+      vc.templates_panel_view.loadTemplate(e);
       $("#vc_no-content-helper").remove();
     },
     setTitle: function(title) {
       if(vc.$title.length) {
-        vc.$title.text(title);
-        vc.title = title;
-        vc.update_title = true;
+        vc.$title.text(title || vc.no_title_placeholder);
       }
+      vc.title = title;
+      vc.update_title = true;
     },
     initialize: function() {
       vc.frame_window = vc.$frame.get(0).contentWindow;
@@ -368,7 +390,7 @@ _.extend(vc, {
       vc.frame_window.vc_iframe.setSortable(vc.app);
     },
     render: function() {
-      vc.$title = $(vc.$frame.get(0).contentWindow.document).find('h1:contains(' + vc.title + ')');
+      vc.$title = $(vc.$frame.get(0).contentWindow.document).find('h1:contains(' + ( vc.title || vc.no_title_placeholder ) + ')');
       vc.$title.click(function(e){
         e.preventDefault();
         vc.post_settings_view.render().show();
@@ -410,7 +432,8 @@ _.extend(vc, {
       'click #vc_add-new-element':'addElement',
       'click #vc_post-settings-button': 'editSettings',
       // 'click .vc_mode-control': 'switchMode',
-      'click #vc_templates-editor-button': 'openTemplatesEditor',
+      //'click #vc_templates-editor-button': 'openTemplatesEditor', // @deprecated use openTemplatesModal
+      'click #vc_templates-editor-button': 'openTemplatesWindow',
       'click #vc_guides-toggle-button': 'toggleMode',
       'click #vc_button-cancel': 'cancel',
       'click #vc_button-edit-admin': 'cancel',
@@ -556,9 +579,17 @@ _.extend(vc, {
       e && e.preventDefault();
       vc.post_settings_view.render().show();
     },
+    /**
+     * @deprecated Since 4.4 use openTemplatesWindow
+     * @param e
+     */
     openTemplatesEditor: function(e) {
       e && e.preventDefault && e.preventDefault();
       vc.templates_editor_view.render().show();
+    },
+    openTemplatesWindow: function(e) {
+      e && e.preventDefault && e.preventDefault();
+      vc.templates_panel_view.render().show();
     },
     setFrameSize: function() {
       vc.setFrameSize();

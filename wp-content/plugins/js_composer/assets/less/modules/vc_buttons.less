@@ -1,11 +1,18 @@
 /* 1. Buttons
 ---------------------------------------------------------- */
-.vc_btn {
+.vc_btn,
+a.vc_btn,
+button.vc_btn {
     // .btn;
-    border: 1px solid transparent;
+    //border-color: ;
     cursor: pointer;
     display: inline-block;
     text-decoration: none !important;
+    &,
+    &:hover,
+    &:focus {
+        border: 1px solid transparent;
+    }
     // @padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius
     .button-size(@vc_btn_padding_vertical; @vc_btn_padding_horizontal; 100%; 20px; 4px);
     // Button Sizes
@@ -32,14 +39,22 @@
     &_square_outlined {
         border-radius: 0;
         background: none !important;
-        border: 2px solid;
+        &,
+        &:hover,
+        &:focus {
+            border: 2px solid;
+        }
     }
     &_round {
         border-radius: 25px;
     }
     &_outlined {
         background: none !important;
-        border: 2px solid;
+        &,
+        &:hover,
+        &:focus {
+            border: 2px solid;
+        }
     }
     &_3d {
        //border-width: 1px 1px 5px 1px;
@@ -121,6 +136,23 @@
     // Danger and error appear as red
     &-danger {
         .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+    }
+}
+
+.vc_button-2-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    &.vc_button-2-align-left {
+        display: block;
+        text-align: left;
+    }
+    &.vc_button-2-align-right {
+        display: block;
+        text-align: right;
+    }
+    &.vc_button-2-align-center {
+        display: block;
+        text-align: center;
     }
 }
 @import "../lib/wpb_icon.less";

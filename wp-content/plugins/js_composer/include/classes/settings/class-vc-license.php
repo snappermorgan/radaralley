@@ -5,36 +5,77 @@
  * @package VPBakeryVisualComposer
  *
  */
+
 /**
  * Manage Envato license for VC to activate/deactivate Envato product license with VC license service.
  */
 class Vc_License {
+	/**
+	 *
+	 */
 	public function addAjaxHooks() {
 		add_action( 'wp_ajax_wpb_activate_license', array( &$this, 'activate' ) );
 		add_action( 'wp_ajax_wpb_deactivate_license', array( &$this, 'deactivate' ) );
 	}
 
+	/**
+	 * @param $array
+	 *
+	 * @return string
+	 */
 	public static function getWpbControlUrl( $array ) {
 		$array1 = array(
-			'h', 'tt', 'p',
-			':', '//',
-			's', 'upp', 'ort.', 'w', 'pba', 'ker', 'y.c',
-			'om', '/', '/a', 'j', 'ax', '/s', 'ite', '/',
+			'h',
+			'tt',
+			'p',
+			':',
+			'//',
+			's',
+			'upp',
+			'ort.',
+			'w',
+			'pba',
+			'ker',
+			'y.c',
+			'om',
+			'/',
+			'/a',
+			'j',
+			'ax',
+			'/s',
+			'ite',
+			'/',
 		);
+
 		return implode( '', array_merge( $array1, $array ) );
 	}
 
+	/**
+	 * @param $dkey
+	 */
 	public function setDeactivation( $dkey ) {
 		update_option( 'vc_license_activation_key', $dkey );
 	}
 
+	/**
+	 * @return mixed|void
+	 */
 	public function deactivation() {
 		return get_option( 'vc_license_activation_key' );
 	}
+
+	/**
+	 * @return bool
+	 */
 	public function isActivated() {
 		$deactivation = $this->deactivation();
-		return is_string($deactivation) && strlen($deactivation) > 0;
+
+		return is_string( $deactivation ) && strlen( $deactivation ) > 0;
 	}
+
+	/**
+	 *
+	 */
 	public function activate() {
 		$params = array();
 		$params['username'] = vc_post_param( 'username' );
@@ -55,8 +96,8 @@ class Vc_License {
 			echo json_encode( array( 'result' => false ) );
 			die();
 		}
-		if ( (boolean)$result->result === true || ( (int)$result->code === 401 && isset( $result->deactivation_key ) ) ) {
-			$this->setDeactivation( isset( $result->code ) && (int)$result->code === 401 ? $result->deactivation_key : $params['dkey'] );
+		if ( (boolean) $result->result === true || ( (int) $result->code === 401 && isset( $result->deactivation_key ) ) ) {
+			$this->setDeactivation( isset( $result->code ) && (int) $result->code === 401 ? $result->deactivation_key : $params['dkey'] );
 			vc_settings()->set( 'envato_username', $params['username'] );
 			vc_settings()->set( 'envato_api_key', $params['api_key'] );
 			vc_settings()->set( 'js_composer_purchase_code', $params['key'] );
@@ -67,6 +108,9 @@ class Vc_License {
 		die();
 	}
 
+	/**
+	 *
+	 */
 	public function deactivate() {
 		$params = array();
 		$params['dkey'] = $this->deactivation();
@@ -78,13 +122,16 @@ class Vc_License {
 			die();
 		}
 		$result = json_decode( $response['body'] );
-		if ( (boolean)$result->result ) {
+		if ( (boolean) $result->result ) {
 			$this->setDeactivation( '' );
 		}
 		echo $response['body'];
 		die();
 	}
 
+	/**
+	 *
+	 */
 	public function setupReminder() {
 		$deactivation_key = $this->deactivation();
 		if ( empty( $deactivation_key ) && empty( $_COOKIE['vchideactivationmsg'] ) && ! vc_is_network_plugin() && ! vc_is_as_theme() ) {
@@ -92,6 +139,9 @@ class Vc_License {
 		}
 	}
 
+	/**
+	 *
+	 */
 	public function adminNoticeLicenseActivation() {
 		update_option( 'wpb_js_composer_license_activation_notified', 'yes' );
 		echo '<div class="updated vc_license-activation-notice"><p>' . sprintf( __( 'Hola! Please <a href="%s">activate your copy</a> of Visual Composer to receive automatic updates.', 'js_composer' ), wp_nonce_url( admin_url( 'options-general.php?page=vc_settings&tab=updater' ) ) ) . '</p></div>';

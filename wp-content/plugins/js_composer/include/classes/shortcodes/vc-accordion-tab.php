@@ -89,7 +89,7 @@ class WPBakeryShortCode_VC_Accordion_tab extends WPBakeryShortCode_VC_Tab {
 			$output .= '<div class="wpb_element_wrapper">';
 			$output .= '<div class="vc_row-fluid wpb_row_container">';
 			$output .= '<h3><a href="#">' . $title . '</a></h3>';
-			$output .= '<div ' . $this->customAdminBockParams() . ' data-element_type="' . $this->settings["base"] . '" class=" wpb_' . $this->settings['base'] . ' wpb_sortable">';
+			$output .= '<div data-element_type="' . $this->settings["base"] . '" class=" wpb_' . $this->settings['base'] . ' wpb_sortable">';
 			$output .= '<div class="wpb_element_wrapper">';
 			$output .= '<div class="vc_row-fluid wpb_row_container">';
 			$output .= do_shortcode( shortcode_unautop( $content ) );

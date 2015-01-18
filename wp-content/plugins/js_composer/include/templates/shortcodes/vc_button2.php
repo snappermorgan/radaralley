@@ -1,4 +1,5 @@
 <?php
+$wrapper_start = $wrapper_end = '';
 extract( shortcode_atts( array(
 	'link' => '',
 	'title' => __( 'Text on the button', "js_composer" ),
@@ -6,7 +7,8 @@ extract( shortcode_atts( array(
 	'icon' => '',
 	'size' => '',
 	'style' => '',
-	'el_class' => ''
+	'el_class' => '',
+	'align' => ''
 ), $atts ) );
 
 $class = 'vc_btn';
@@ -23,9 +25,8 @@ $class .= ( $style != '' ) ? ' vc_btn_' . $style : '';
 
 $el_class = $this->getExtraClass( $el_class );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, ' ' . $class . $el_class, $this->settings['base'], $atts );
-?>
-<a class="<?php echo esc_attr( trim( $css_class ) ); ?>" href="<?php echo $a_href; ?>"
-   title="<?php echo esc_attr( $a_title ); ?>" target="<?php echo $a_target; ?>">
-	<?php echo $title; ?>
-</a>
-<?php echo $this->endBlockComment( 'vc_button' ) . "\n";
+$wrapper_css_class = 'vc_button-2-wrapper';
+if ( $align ) {
+	$wrapper_css_class .= ' vc_button-2-align-'.$align;
+}
+?><div class="<?php echo esc_attr($wrapper_css_class) ?>"><a class="<?php echo esc_attr( trim( $css_class ) ); ?>" href="<?php echo esc_attr( $a_href ); ?>" title="<?php echo esc_attr( $a_title ); ?>" target="<?php echo esc_attr( $a_target ); ?>"><?php echo $title; ?></a></div><?php echo $this->endBlockComment( 'vc_button' ) . "\n";

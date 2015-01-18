@@ -170,18 +170,28 @@
                 if(!_.isUndefined(param.std)) {
                     defaults[param.param_name] = param.std;
                 } else if (!_.isUndefined(param.value)) {
-                    if (_.isObject(param.value) && param.type != 'checkbox') {
-                        defaults[param.param_name] = _.values(param.value)[0];
-                    } else if (_.isArray(param.value)) {
-                        defaults[param.param_name] = param.value[0];
-                    } else if (!_.isObject(param.value)) {
-                        defaults[param.param_name] = param.value;
-                    } else {
-                        defaults[param.param_name] = '';
+                    if( vc.atts[param.type] && vc.atts[param.type].defaults ) {
+						defaults[param.param_name] = vc.atts[param.type].defaults(param);
+                    } else if (_.isObject(param.value)) {
+						defaults[param.param_name] = _.values(param.value)[0];
+					} else if (_.isArray(param.value)) {
+						defaults[param.param_name] = param.value[0];
+					} else {
+						defaults[param.param_name] = param.value;
                     }
                 }
             }
         });
         return defaults;
     };
+	vc.getParamSettings = _.memoize(function(tag, paramName) {
+		var params = _.isObject(vc.map[tag]) && _.isArray(vc.map[tag].params) ? vc.map[tag].params : [],
+			paramSettings;
+		paramSettings = _.find(params, function(settings){
+			return _.isObject(settings) && settings.param_name === paramName;
+		}, this);
+		return paramSettings;
+	}, function(){
+        return arguments[0]+','+arguments[1];
+    });
 })(window.jQuery);

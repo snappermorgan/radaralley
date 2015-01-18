@@ -1,16 +1,11 @@
 <?php
+/**
+ * @deprecated since 4.4 due to autoload logic
+ */
+
 // Here comes the list of vendors
 
-$vendors_list = array(
-	'jwplayer',
-	'contact-form7',
-	'revslider',
-	'layerslider',
-	'qtranslate',
-	'mqtranslate',
-	'advanced-custom-fields',
-);
-//$vendors_list = array();
+$vendors_list = array();
 
 // default prefix for auto loaded class
 $vendor_class_prefix = 'plugins/class-vc-vendor-';

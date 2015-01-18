@@ -4,10 +4,10 @@
     function vc_jwplayer_resize(target) {
         jwplayer(target).onReady(function () {
             $(this.container).css('min-height', minHeight);
-            this.resize("inherit", "inherit");
+         //  this.resize("inherit", "inherit");
         });
         $(jwplayer(target).container).css('min-height', minHeight);
-        jwplayer(target).resize("inherit", "inherit");
+       // jwplayer(target).resize("inherit", "inherit");
     }
 
     $(document).on('ready', function () {

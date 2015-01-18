@@ -38,7 +38,7 @@
             // Inner gutter via padding
             padding-left:  (@grid-gutter-width / 2);
             padding-right: (@grid-gutter-width / 2);
-            box-sizing: border-box;
+            .box-sizing(border-box);
         }
     }
     .vc_col(1); // kickstart it
@@ -108,6 +108,12 @@
 
 .vc_row {
     .make-row();
+    &.vc_row-no-padding {
+        .wpb_column {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
 
 .vc_make-grid-columns();
@@ -137,18 +143,17 @@
 @media (min-width: @screen-lg-min) {
     .vc_make-grid(lg);
 }
-/*
+
 //Grid
-.vc_container-block {
-    .container-fixed();
-    @media (min-width: @screen-sm) {
-        width: @container-sm;
-    }
-    @media (min-width: @screen-md) {
-        width: @container-md;
-    }
-    @media (min-width: @screen-lg-min) {
-        width: @container-lg;
-    }
-}
-*/
+//.vc_container-block {
+//    .container-fixed();
+//    @media (min-width: @screen-sm) {
+//        width: @container-sm;
+//    }
+//    @media (min-width: @screen-md) {
+//        width: @container-md;
+//    }
+//    @media (min-width: @screen-lg-min) {
+//        width: @container-lg;
+//    }
+//}

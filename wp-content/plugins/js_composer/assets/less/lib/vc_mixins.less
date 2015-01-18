@@ -64,6 +64,11 @@
         margin-top: 2px;
         float: right;
         display: block;
+        &:focus {
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
         .vc_icon {
             background: transparent url(../vc/fe/close_panel.png) center center;
         }
@@ -176,11 +181,6 @@
         display: none !important;
     }
 }
-.wpb_box_sizing(@box-sizing: border-box) {
-    -webkit-box-sizing:@box-sizing;
-    -moz-box-sizing:@box-sizing;
-    box-sizing:@box-sizing;
-}
 //Transition
 .wpb_transition(@param: all, @time: 0.2s, @easing: linear) {
     transition: @param @time @easing;
@@ -275,6 +275,11 @@
     background: transparent url('../vc/empty_row.png') no-repeat center center;
     min-height: 50px;
     cursor: pointer;
-    box-sizing: border-box;
+    .box-sizing(border-box);
+}
+.vc_bg_color_variants(@color) {
+    .vc_bg-@{color} {
+      background-color:  @@color;
+    }
 }
 // End Mixins
